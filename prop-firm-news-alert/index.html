@@ -4,58 +4,238 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <title>Prop Firm News Alert — Official App Information</title>
-  <meta name="description" content="Official information and support for the Prop Firm News Alert app.">
+  <title>Prop Firm News Alert — App Information</title>
+  <meta name="description" content="Learn how Prop Firm News Alert helps users follow scheduled economic events, understand impact levels, set reminders, and prepare around their own prop-firm rules.">
   <style>
-    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #041321; color: #f6f9ff; }
+    :root {
+      color-scheme: dark;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #041321;
+      color: #f6f9ff;
+      --bg: #041321;
+      --panel: rgba(8, 30, 49, .94);
+      --panel-soft: #0b2236;
+      --line: #203d58;
+      --muted: #aabccc;
+      --blue: #2d82ff;
+      --green: #43dc8b;
+    }
     * { box-sizing: border-box; }
-    body { margin: 0; background: radial-gradient(circle at 12% 0%, #12365c 0, transparent 31rem), #041321; }
-    main { width: min(900px, calc(100% - 32px)); margin: 0 auto; padding: 56px 0 80px; }
-    .hero, .card { border: 1px solid #203d58; background: rgba(8, 30, 49, .94); box-shadow: 0 24px 70px #0007; }
-    .hero { padding: clamp(28px, 7vw, 58px); border-radius: 30px; }
-    .badge { display: inline-flex; gap: 8px; align-items: center; padding: 8px 12px; border: 1px solid #246849; border-radius: 999px; color: #48dc8b; background: #0b3224; font-weight: 700; font-size: 13px; }
-    h1 { margin: 22px 0 12px; max-width: 720px; font-size: clamp(38px, 9vw, 66px); line-height: .98; letter-spacing: -2.4px; }
-    .lead { max-width: 680px; color: #b7c5d3; font-size: 18px; line-height: 1.7; }
-    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
-    .button { display: inline-block; padding: 13px 18px; border-radius: 13px; color: #fff; background: #267bff; font-weight: 800; text-decoration: none; }
-    .button.secondary { border: 1px solid #31526e; background: #0d263b; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 16px; margin-top: 18px; }
-    .card { padding: 24px; border-radius: 22px; box-shadow: none; }
-    .card h2 { margin: 0 0 10px; font-size: 20px; }
-    .card p { margin: 0; color: #aabccc; line-height: 1.65; }
-    footer { margin-top: 32px; color: #7e93a6; text-align: center; font-size: 14px; }
-    a { color: #86b8ff; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 8% 0%, #123b67 0, transparent 33rem),
+        radial-gradient(circle at 92% 28%, #102c55 0, transparent 28rem),
+        var(--bg);
+    }
+    a { color: #8fc0ff; }
+    .wrap { width: min(1080px, calc(100% - 32px)); margin: 0 auto; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; gap: 18px; padding: 22px 0; }
+    .brand { color: #fff; font-weight: 850; text-decoration: none; letter-spacing: -.3px; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    nav a { color: #b9c9d7; font-size: 14px; font-weight: 700; text-decoration: none; }
+    nav a:hover { color: #fff; }
+    main { padding: 14px 0 76px; }
+    .hero, .panel, .card, .step, .notice { border: 1px solid var(--line); background: var(--panel); }
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding: clamp(30px, 7vw, 68px);
+      border-radius: 32px;
+      box-shadow: 0 28px 90px #0008;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      right: -70px;
+      top: -80px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #2d82ff55, transparent 68%);
+      pointer-events: none;
+    }
+    .badge, .pill { display: inline-flex; align-items: center; gap: 8px; border-radius: 999px; font-weight: 800; }
+    .badge { padding: 8px 13px; border: 1px solid #26734f; color: var(--green); background: #0b3224; font-size: 13px; }
+    h1 { margin: 24px 0 14px; max-width: 780px; font-size: clamp(42px, 9vw, 72px); line-height: .98; letter-spacing: -3px; }
+    .lead { max-width: 760px; margin: 0; color: #bdcad6; font-size: clamp(17px, 2.2vw, 20px); line-height: 1.7; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+    .button {
+      display: inline-block;
+      padding: 14px 19px;
+      border-radius: 14px;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 850;
+      text-decoration: none;
+    }
+    .button.secondary { border: 1px solid #365875; background: #0c263c; }
+    .hero-pills { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 30px; }
+    .pill { padding: 8px 11px; color: #c9d7e3; background: #0b2439; border: 1px solid #294863; font-size: 12px; }
+    section.content { padding-top: 64px; }
+    .eyebrow { margin: 0 0 10px; color: #63a4ff; font-size: 13px; font-weight: 850; letter-spacing: 1.8px; text-transform: uppercase; }
+    .section-title { margin: 0; max-width: 780px; font-size: clamp(29px, 5vw, 44px); line-height: 1.08; letter-spacing: -1.4px; }
+    .section-copy { max-width: 760px; margin: 14px 0 0; color: var(--muted); font-size: 17px; line-height: 1.75; }
+    .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+    .card { padding: 25px; border-radius: 22px; }
+    .icon { display: grid; place-items: center; width: 45px; height: 45px; margin-bottom: 18px; border-radius: 14px; background: #123b63; font-size: 21px; }
+    .card h3 { margin: 0 0 9px; font-size: 19px; }
+    .card p { margin: 0; color: var(--muted); line-height: 1.65; }
+    .impact-row { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px; }
+    .impact { padding: 7px 10px; border-radius: 9px; font-size: 12px; font-weight: 850; letter-spacing: .4px; }
+    .impact.high { color: #ff8589; background: #3b1f2a; border: 1px solid #8f3c45; }
+    .impact.medium { color: #ffc76f; background: #3a2d19; border: 1px solid #846128; }
+    .impact.low { color: #75aeff; background: #112d4e; border: 1px solid #275d9d; }
+    .panel { margin-top: 24px; padding: clamp(25px, 5vw, 42px); border-radius: 26px; }
+    .benefits { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; margin: 24px 0 0; padding: 0; list-style: none; }
+    .benefits li { position: relative; padding: 0 0 0 30px; color: #c8d4df; line-height: 1.65; }
+    .benefits li::before { content: "✓"; position: absolute; left: 0; color: var(--green); font-weight: 900; }
+    .steps { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 24px; }
+    .step { padding: 23px; border-radius: 20px; }
+    .number { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; color: #fff; background: var(--blue); font-weight: 900; }
+    .step h3 { margin: 17px 0 8px; font-size: 17px; }
+    .step p { margin: 0; color: var(--muted); line-height: 1.6; }
+    .notice { margin-top: 24px; padding: clamp(24px, 5vw, 40px); border-color: #765c29; border-radius: 25px; background: linear-gradient(145deg, #251e12, #0b2236 68%); }
+    .notice h2 { margin: 0 0 13px; font-size: clamp(25px, 4vw, 34px); }
+    .notice p { margin: 9px 0 0; color: #c8d0d6; line-height: 1.72; }
+    .notice strong { color: #ffd17a; }
+    .cta { display: flex; justify-content: space-between; align-items: center; gap: 28px; }
+    .cta h2 { margin: 0 0 9px; font-size: clamp(26px, 4vw, 38px); }
+    .cta p { margin: 0; color: var(--muted); line-height: 1.65; }
+    footer { padding: 30px 0 42px; color: #7f95a8; text-align: center; font-size: 14px; line-height: 1.7; }
+    footer a { text-decoration: none; }
+    @media (max-width: 820px) {
+      .grid, .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .topbar { align-items: flex-start; }
+      nav { justify-content: flex-end; gap: 12px; }
+    }
+    @media (max-width: 590px) {
+      .wrap { width: min(100% - 22px, 1080px); }
+      .topbar { display: block; }
+      nav { justify-content: flex-start; margin-top: 14px; }
+      main { padding-top: 4px; }
+      .hero { border-radius: 24px; }
+      h1 { letter-spacing: -2px; }
+      .grid, .steps, .benefits { grid-template-columns: 1fr; }
+      section.content { padding-top: 52px; }
+      .cta { display: block; }
+      .cta .actions { margin-top: 22px; }
+      .button { width: 100%; text-align: center; }
+    }
   </style>
 </head>
 <body>
-  <main>
+  <header class="wrap topbar">
+    <a class="brand" href="/prop-firm-news-alert/">Prop Firm News Alert</a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#how-to-use">How to use</a>
+      <a href="/prop-firm-news-alert/support/">Support</a>
+      <a href="/prop-firm-news-alert/privacy/">Privacy</a>
+    </nav>
+  </header>
+
+  <main class="wrap">
     <section class="hero">
-      <span class="badge">Official app information</span>
-      <h1>Prop Firm News Alert</h1>
-      <p class="lead">Follow scheduled economic events with impact filters, exact event times, live countdowns, reminders, and a configurable news window. Event information is provided for awareness and may change.</p>
+      <span class="badge">● Official app information</span>
+      <h1>Know the event before it happens.</h1>
+      <p class="lead">Prop Firm News Alert is an economic-calendar awareness app for iPhone and iPad. It brings scheduled events, impact levels, local times, live countdowns and reminders into one focused place so you can prepare around your own prop-firm rules.</p>
       <div class="actions">
-        <a class="button" href="/prop-firm-news-alert/support/">Get Support</a>
+        <a class="button" href="#how-to-use">See how it works</a>
+        <a class="button secondary" href="/prop-firm-news-alert/support/">Get Support</a>
         <a class="button secondary" href="/prop-firm-news-alert/privacy/">Privacy Policy</a>
-        <a class="button secondary" href="https://github.com/prxem-stack/prxem-stack.github.io/issues/new?title=Prop%20Firm%20News%20Alert%20Support%20Request">Open a Support Request</a>
+      </div>
+      <div class="hero-pills" aria-label="Key app capabilities">
+        <span class="pill">Today · Tomorrow · Full Week</span>
+        <span class="pill">Local event time</span>
+        <span class="pill">High · Medium · Low impact</span>
+        <span class="pill">Local reminders</span>
       </div>
     </section>
 
-    <section class="grid" aria-label="App features">
-      <article class="card">
-        <h2>Economic calendar</h2>
-        <p>Browse scheduled high-, medium-, and low-impact events in your selected timezone.</p>
-      </article>
-      <article class="card">
-        <h2>Event alerts</h2>
-        <p>Enable local reminders for important events and review notification settings inside the app.</p>
-      </article>
-      <article class="card">
-        <h2>News window</h2>
-        <p>Use the configurable event window as an awareness tool and always verify the rules of your own firm.</p>
-      </article>
+    <section class="content" id="features">
+      <p class="eyebrow">What the app does</p>
+      <h2 class="section-title">A clear view of the economic calendar</h2>
+      <p class="section-copy">Instead of checking multiple screens, you can browse relevant scheduled events, see when they occur in your selected timezone, and create local reminders for the events you care about.</p>
+
+      <div class="grid">
+        <article class="card"><div class="icon" aria-hidden="true">▦</div><h3>Today, tomorrow &amp; full week</h3><p>Switch quickly between the current day, the next day and the full weekly calendar.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◷</div><h3>Exact local timing</h3><p>Event date, time and countdown are presented using your chosen timezone for easier planning.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◉</div><h3>Impact filters</h3><p>View all events or focus on a specific impact level.</p><div class="impact-row"><span class="impact high">HIGH</span><span class="impact medium">MEDIUM</span><span class="impact low">LOW</span></div></article>
+        <article class="card"><div class="icon" aria-hidden="true">$</div><h3>Currency preferences</h3><p>Focus the calendar on currencies such as USD, EUR, GBP, JPY, AUD and CAD.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◇</div><h3>Event intelligence</h3><p>Open an event to review its impact, scheduled time and actual, forecast or previous values when available.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">♢</div><h3>Notification reminders</h3><p>Enable local alerts for selected events and test notification permission from your profile settings.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◎</div><h3>Configurable news window</h3><p>Choose a time window around important events as a personal awareness aid before checking your firm's rules.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">↻</div><h3>Calendar refresh</h3><p>Refresh the app to receive available schedule changes and updated event information over the internet.</p></article>
+        <article class="card"><div class="icon" aria-hidden="true">◈</div><h3>Privacy controls</h3><p>Review notification, advertising consent, privacy-policy and support options from inside the app.</p></article>
+      </div>
     </section>
 
-    <footer><a href="/">Prxem Apps</a> · <a href="/prop-firm-news-alert/privacy/">Privacy Policy</a> · Prop Firm News Alert</footer>
+    <section class="content">
+      <p class="eyebrow">How it helps</p>
+      <h2 class="section-title">Built for preparation, not guesswork</h2>
+      <div class="panel">
+        <ul class="benefits">
+          <li>See upcoming scheduled events before their release time.</li>
+          <li>Reduce the chance of overlooking an important calendar event.</li>
+          <li>Understand whether an event is marked high, medium or low impact.</li>
+          <li>Use a live countdown instead of manually calculating the remaining time.</li>
+          <li>Keep event timing aligned with your preferred timezone.</li>
+          <li>Set local reminders for events you want to review later.</li>
+          <li>Focus on currencies relevant to your account or evaluation.</li>
+          <li>Prepare a personal checklist before reviewing the rules of your firm.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content" id="how-to-use">
+      <p class="eyebrow">How to use it</p>
+      <h2 class="section-title">From calendar to reminder in six steps</h2>
+      <div class="steps">
+        <article class="step"><span class="number">1</span><h3>Choose a date range</h3><p>Open Today, Tomorrow or Full Week from the calendar screen.</p></article>
+        <article class="step"><span class="number">2</span><h3>Apply filters</h3><p>Select all, high, medium or low impact and choose your preferred currencies.</p></article>
+        <article class="step"><span class="number">3</span><h3>Check the time</h3><p>Review the exact local date, event time and live countdown.</p></article>
+        <article class="step"><span class="number">4</span><h3>Open event details</h3><p>Review the available actual, forecast and previous values for context.</p></article>
+        <article class="step"><span class="number">5</span><h3>Set an alert</h3><p>Enable a local reminder if you want the app to notify you near the event.</p></article>
+        <article class="step"><span class="number">6</span><h3>Verify your rules</h3><p>Before taking any action, check the current news-trading rules of your own prop firm.</p></article>
+      </div>
+    </section>
+
+    <section class="content">
+      <p class="eyebrow">Who it is for</p>
+      <h2 class="section-title">Useful for anyone tracking scheduled market events</h2>
+      <p class="section-copy">The app is designed for users following prop-firm evaluations, funded accounts, forex markets or economic releases who want a simple calendar and reminder tool. No brokerage account is required, and the app does not execute trades.</p>
+    </section>
+
+    <section class="notice" aria-labelledby="important-note">
+      <h2 id="important-note">Important accuracy &amp; compliance note</h2>
+      <p><strong>Prop Firm News Alert is an independent informational tool.</strong> It is not affiliated with, endorsed by or an official product of any prop firm, broker or economic-calendar provider.</p>
+      <p>Event schedules, impact labels and values can be updated, delayed or revised. A displayed event window or status is only a user-configured awareness aid—it does not guarantee that trading is safe, permitted or compliant.</p>
+      <p>Every firm can apply different restrictions by account type, instrument, order type or event. Always verify the latest official rules of your own firm. The app does not provide financial advice, investment advice, trade signals or trade execution.</p>
+    </section>
+
+    <section class="content">
+      <div class="panel cta">
+        <div>
+          <p class="eyebrow">Help &amp; transparency</p>
+          <h2>Need help or want to know how data is handled?</h2>
+          <p>Visit Support for troubleshooting and contact details, or read the Privacy Policy for information about notifications, ads, diagnostics and your choices.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="/prop-firm-news-alert/support/">Open Support</a>
+          <a class="button secondary" href="/prop-firm-news-alert/privacy/">Read Privacy Policy</a>
+          <a class="button secondary" href="https://github.com/prxem-stack/prxem-stack.github.io/issues/new?title=Prop%20Firm%20News%20Alert%20Support%20Request&amp;body=Device%3A%20%0AOS%20version%3A%20%0AApp%20version%3A%20%0AProblem%3A%20">Create Support Request</a>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="wrap">
+    <a href="/">Prxem Apps</a> ·
+    <a href="/prop-firm-news-alert/support/">Support</a> ·
+    <a href="/prop-firm-news-alert/privacy/">Privacy Policy</a><br>
+    © 2026 Prop Firm News Alert. Information is provided for awareness only.
+  </footer>
 </body>
 </html>
