@@ -17,8 +17,9 @@ const observer = new IntersectionObserver(
   { threshold: 0.12 },
 );
 document
-  .querySelectorAll(".section, .product-section, .app-card")
-  .forEach((element) => {
+  .querySelectorAll(".section, .product-section, .app-card, .workflow article, .feature-grid article")
+  .forEach((element, index) => {
     element.classList.add("reveal");
+    element.dataset.revealDelay = String(index % 4);
     observer.observe(element);
   });
