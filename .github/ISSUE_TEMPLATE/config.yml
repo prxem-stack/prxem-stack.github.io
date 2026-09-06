@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: PremHarsh Utilities support guide
+    url: https://prxem-stack.github.io/premharsh-utilities/support/
+    about: Local data, exports, deletion, ad choices and safe reporting.
+  - name: PremHarsh Utilities privacy policies
+    url: https://prxem-stack.github.io/premharsh-utilities/privacy/
+    about: Read the policy for your app before asking a general question.

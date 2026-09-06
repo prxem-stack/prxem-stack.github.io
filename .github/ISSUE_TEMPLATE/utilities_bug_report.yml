@@ -1,0 +1,56 @@
+name: Utilities — Report a problem
+description: Tell us about something that is not working.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **This report will be public.** Please use fictional examples. Do not upload app exports, customer or contact details, records, photos, signatures, passwords, advertising IDs or other personal information. This is not a private channel for identity documents or sensitive rights requests.
+  - type: dropdown
+    id: app
+    attributes:
+      label: Which app?
+      options:
+        - Photo Size & Signature
+        - Doodh Diary
+        - Shift & Overtime
+        - College Attendance
+        - Fuel & Mileage
+        - Tailor Orders
+        - Recipe Quantity
+        - Trip Packing
+        - Bunai Counter
+        - Paint & Tile
+        - Website or general question
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iPhone or iPad
+        - Website
+        - Not applicable
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: App and operating-system version (optional)
+      description: Version numbers only. No serial numbers or device identifiers.
+      placeholder: App 1.0.0; Android 16
+  - type: textarea
+    id: details
+    attributes:
+      label: What happened, and what did you expect?
+      description: Give a general description. Use fictional values for any example.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public-confirmation
+    attributes:
+      label: Public-post check
+      options:
+        - label: I understand this is public and have removed private information and data exports.
+          required: true
