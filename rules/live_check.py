@@ -114,6 +114,14 @@ def run():
         pages = dict(zip(urls, pool.map(fetch, urls)))
     now = datetime.now(timezone.utc)
     feed, review = build(manifest, pages, now)
+    # Independently researched announcements, not inferred from a changed hash.
+    path = ROOT / 'reviewed-announcements.json'
+    feed['announcements'] = []
+    if path.exists():
+        approved = json.loads(path.read_text())
+        checked = datetime.fromisoformat(approved['checkedAt'].replace('Z', '+00:00'))
+        if timedelta(0) <= now - checked <= timedelta(hours=48):
+            feed['announcements'] = approved.get('announcements', [])
     (ROOT / 'live.json').write_text(json.dumps(feed, indent=2) + '\n')
     (ROOT / 'review.json').write_text(json.dumps({'checkedAt': now.isoformat(), 'items': review}, indent=2) + '\n')
     print(json.dumps(feed['summary']))
