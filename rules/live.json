@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T20:19:01.023103+00:00",
-  "validUntil": "2026-10-06T14:19:01.023103+00:00",
+  "checkedAt": "2026-10-05T20:27:30.437878+00:00",
+  "validUntil": "2026-10-06T14:27:30.437878+00:00",
   "offers": [
     {
       "id": "fundingpips-0",
@@ -147,41 +147,41 @@
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundingpips.pro": {
-      "status": "unavailable",
+      "status": "review_pending",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundingpips.std": {
-      "status": "unavailable",
+      "status": "review_pending",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundingpips.one": {
-      "status": "unavailable",
+      "status": "review_pending",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundingpips.flex": {
       "status": "review_pending",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "ftmo.one": {
       "status": "review_pending",
@@ -189,7 +189,7 @@
         "https://ftmo.com/en/trading-objectives/",
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "ftmo.two": {
       "status": "review_pending",
@@ -197,7 +197,7 @@
         "https://ftmo.com/en/trading-objectives/",
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundednext.stellar2": {
       "status": "review_pending",
@@ -205,7 +205,7 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundednext.lite": {
       "status": "review_pending",
@@ -213,7 +213,7 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundednext.stellar1": {
       "status": "review_pending",
@@ -221,35 +221,35 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundednext.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "the5ers.highclassic": {
       "status": "review_pending",
       "sources": [
         "https://www.the5ers.com/high-stakes/"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "the5ers.highnew": {
       "status": "review_pending",
       "sources": [
         "https://www.the5ers.com/high-stakes/"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "the5ers.hyper": {
       "status": "review_pending",
       "sources": [
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "e8.pro": {
       "status": "review_pending",
@@ -258,56 +258,56 @@
         "https://help.e8markets.com/en/articles/15274219-e8-pro",
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.pro6": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.pro8": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.pro10": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.one6": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.one10": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "alpha.one12": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "goat.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "maven.instant": {
       "status": "review_pending",
@@ -316,35 +316,35 @@
         "https://maventrading.com/terms-and-conditions",
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "maven.one": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "maven.two": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "maven.three": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "maven.omo": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-05T20:19:01.023103+00:00"
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     }
   },
   "rulePatches": [],
@@ -388,21 +388,282 @@
       "sources": [
         "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"
       ]
+    },
+    {
+      "kind": "removed",
+      "title": "6 Oct 2026: own-account copying restriction lifted",
+      "details": "Copying between your own accounts is permitted, including evaluation/funded accounts. Other traders, signals and third-party copying remain prohibited; hedging restrictions remain.",
+      "appliesTo": "All GOAT accounts, including earlier purchases. Effective from 6 Oct 2026.",
+      "modelId": "goat.instant",
+      "sources": [
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
+      ]
+    },
+    {
+      "kind": "removed",
+      "title": "90-day KYC renewal temporarily paused",
+      "details": "Routine renewal is suspended until further notice, not permanently abolished. Initial KYC and individually requested verification still apply.",
+      "appliesTo": "Approved KYC profiles for this model; effective date not stated.",
+      "modelId": "fundednext.instant",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
+      ]
+    },
+    {
+      "kind": "removed",
+      "title": "90-day KYC renewal temporarily paused",
+      "details": "Routine renewal is suspended until further notice, not permanently abolished. Initial KYC and individually requested verification still apply.",
+      "appliesTo": "Approved KYC profiles for this model; effective date not stated.",
+      "modelId": "fundednext.lite",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.pro6",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.pro8",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.pro10",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.one6",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.one10",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "21 Jul 2026: Max Risk rule announcement",
+      "details": "Per-asset losing exposure: 3% for $5K\u2013$25K, 2% for $50K\u2013$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+      "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation.",
+      "modelId": "alpha.one12",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "1-Step launch: Best Day rule",
+      "details": "Introduced with the 1-Step product: your largest profitable day must not exceed 50% of Positive Days\u2019 Profit. Exceeding it is not an account breach; continue until the objective is met.",
+      "appliesTo": "FTMO CFD 1-Step only, not 2-Step or Futures. Historical launch announcement; exact launch date not confirmed.",
+      "modelId": "ftmo.one",
+      "sources": [
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "28 Sep 2026: rulebook transition",
+      "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+      "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm.",
+      "modelId": "fundingpips.zero",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "28 Sep 2026: rulebook transition",
+      "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+      "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm.",
+      "modelId": "fundingpips.pro",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "28 Sep 2026: rulebook transition",
+      "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+      "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm.",
+      "modelId": "fundingpips.std",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ]
+    },
+    {
+      "kind": "new",
+      "title": "28 Sep 2026: rulebook transition",
+      "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+      "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm.",
+      "modelId": "fundingpips.one",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ]
     }
   ],
   "changeChecks": {
     "fundednext.stellar1": {
-      "status": "verified"
+      "status": "verified",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     },
     "fundednext.stellar2": {
-      "status": "verified"
+      "status": "verified",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "goat.instant": {
+      "status": "verified",
+      "sources": [
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundednext.instant": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundednext.lite": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.pro6": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.pro8": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.pro10": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.one6": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.one10": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "alpha.one12": {
+      "status": "verified",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "ftmo.one": {
+      "status": "verified",
+      "sources": [
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundingpips.zero": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundingpips.pro": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundingpips.std": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
+    },
+    "fundingpips.one": {
+      "status": "verified",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "checkedAt": "2026-10-05T20:27:30.437878+00:00"
     }
   },
   "summary": {
     "publishedOffers": 13,
     "ruleModels": 27,
     "pendingReview": 28,
-    "unavailableSources": 2
+    "unavailableSources": 1,
+    "publishedRuleChanges": 18,
+    "modelsWithVerifiedChanges": 16,
+    "modelsWithoutVerifiedChanges": [
+      "e8.pro",
+      "ftmo.two",
+      "fundingpips.flex",
+      "maven.instant",
+      "maven.omo",
+      "maven.one",
+      "maven.three",
+      "maven.two",
+      "the5ers.highclassic",
+      "the5ers.highnew",
+      "the5ers.hyper"
+    ]
   },
   "announcements": [
     {
