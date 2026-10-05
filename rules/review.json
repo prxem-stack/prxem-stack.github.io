@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-05T21:57:39.569364+00:00",
+  "checkedAt": "2026-10-05T22:02:06.202909+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -8,7 +8,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -19,7 +21,9 @@
       "evidence": {
         "https://www.fundedtradingplus.com/": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -74,7 +78,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -85,7 +91,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -96,15 +104,21 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -115,15 +129,21 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -134,7 +154,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -423,7 +445,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -434,7 +458,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -445,7 +471,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     },
@@ -456,7 +484,9 @@
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
           "status": "unavailable",
-          "error": "HTTPError"
+          "error": "HTTPError",
+          "httpStatus": 403,
+          "reason": "access_denied"
         }
       }
     }
