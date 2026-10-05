@@ -11,20 +11,41 @@
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "26 Jul 2026 announcement: subjective rules removed; current account agreement still applies.",
-      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+      "text": "FundingPips announced removal of subjective rules. Historical announcement, not a waiver of current prohibited-trading policies.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
+      "modelIds": [
+        "fundingpips.pro",
+        "fundingpips.std",
+        "fundingpips.one",
+        "fundingpips.flex"
+      ],
+      "title": "26 Jul 2026: subjective rules removal announced",
+      "appliesTo": "FundingPips evaluation models; current account agreement still applies."
     },
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "26 Jul 2026 announcement: evaluation risk restrictions relaxed. This does NOT remove daily/max-loss limits.",
-      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+      "text": "Announcement concerns evaluation risk restrictions, not daily drawdown or maximum-loss limits. It is not a removal of all trading rules.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
+      "modelIds": [
+        "fundingpips.pro",
+        "fundingpips.std",
+        "fundingpips.one",
+        "fundingpips.flex"
+      ],
+      "title": "26 Jul 2026: evaluation risk restrictions removed",
+      "appliesTo": "Evaluation stage only; not Zero or Master-account risk controls."
     },
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "26 Jul 2026 announcement: per-trade hard-breach limits removed for specified models/sizes, including Standard 8%/5%; not a blanket removal of all risk controls.",
-      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+      "text": "The announcement explicitly includes Standard 8%/5% accounts. Legacy 10%-target accounts have size-dependent rules; do not treat all Standard accounts alike.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
+      "modelIds": [
+        "fundingpips.std"
+      ],
+      "title": "26 Jul 2026: per-trade hard-breach removal",
+      "appliesTo": "2-Step Standard 8%/5% model only; check purchase cohort and agreement."
     },
     {
       "firm": "FundingPips",
