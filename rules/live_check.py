@@ -102,6 +102,14 @@ def build(manifest, pages, now):
                         if change.get('kind') not in ('new', 'removed') or not change.get('title') or not change.get('details') or not change.get('appliesTo'):
                             continue
                         feed['ruleChanges'].append({**change, 'modelId': record['id'], 'sources': record['sources']})
+    feed['changeChecks'] = {}
+    for record in manifest.get('changeReviews', []):
+        status = state(record, pages, now)
+        feed['changeChecks'][record['id']] = {'status': status}
+        if status == 'verified':
+            for change in record.get('changes', []):
+                if change.get('kind') in ('new', 'removed') and all(change.get(k) for k in ('title', 'details', 'appliesTo')):
+                    feed['ruleChanges'].append({**change, 'modelId': record['id'], 'sources': record['sources']})
     feed['summary'] = {'publishedOffers': len(feed['offers']), 'ruleModels': len(feed['ruleChecks']),
                        'pendingReview': len(review), 'unavailableSources': sum(p['status'] == 'unavailable' for p in pages.values())}
     return feed, review
@@ -109,7 +117,7 @@ def build(manifest, pages, now):
 
 def run():
     manifest = json.loads((ROOT / 'live-manifest.json').read_text())
-    urls = sorted({u for group in ('offers', 'rules') for r in manifest[group] for u in r['sources']})
+    urls = sorted({u for group in ('offers', 'rules', 'changeReviews') for r in manifest.get(group, []) for u in r['sources']})
     with ThreadPoolExecutor(max_workers=4) as pool:
         pages = dict(zip(urls, pool.map(fetch, urls)))
     now = datetime.now(timezone.utc)
