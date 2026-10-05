@@ -1,9 +1,20 @@
 import unittest
 from datetime import datetime, timezone
 from live_check import build, normalize, state
+from live_check import fetch
+from unittest.mock import patch
+from urllib.error import HTTPError
 
 
 class Checks(unittest.TestCase):
+    def test_http_failure_diagnostics(self):
+        for code, reason in ((403, 'access_denied'), (429, 'rate_limited'), (404, 'not_found'), (503, 'http_error')):
+            with patch('live_check.urlopen', side_effect=HTTPError('https://official.example/', code, 'failure', {}, None)) as request:
+                result = fetch('https://official.example/')
+                self.assertEqual(result['httpStatus'], code)
+                self.assertEqual(result['reason'], reason)
+                self.assertEqual(request.call_count, 1)
+
     def setUp(self):
         self.now = datetime(2026, 10, 6, tzinfo=timezone.utc)
         self.record = {'id': 'test', 'sources': ['https://official.example/'], 'approvedHashes': {'https://official.example/': 'same'}}

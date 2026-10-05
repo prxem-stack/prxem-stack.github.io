@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent
@@ -61,6 +62,12 @@ def fetch(url):
         if len(text) < 300 or any(x in text.lower() for x in ('verify you are human', 'just a moment...', 'access denied', 'enable javascript and cookies to continue')):
             raise ValueError('Source unavailable')
         return {'status': 'fetched', 'sha256': hashlib.sha256(text.encode()).hexdigest(), 'text': text}
+    except HTTPError as exc:
+        # Keep the HTTP status for diagnosis; never publish response bodies or cookies.
+        return {'status': 'unavailable', 'error': 'HTTPError', 'httpStatus': exc.code,
+                'reason': 'access_denied' if exc.code in (401, 403) else
+                          'rate_limited' if exc.code == 429 else
+                          'not_found' if exc.code == 404 else 'http_error'}
     except Exception as exc:
         return {'status': 'unavailable', 'error': type(exc).__name__}
 
