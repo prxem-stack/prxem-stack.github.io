@@ -33,6 +33,15 @@ class Checks(unittest.TestCase):
     def test_strip_scripts(self):
         self.assertEqual(normalize('<p>Hello</p><script>wrong()</script><p>world &amp; you</p>'), 'Hello world & you')
 
+    def test_scoped_changes_require_review(self):
+        self.record['id'] = 'ftmo.two'
+        self.record['changes'] = [{'kind': 'removed', 'title': 'Example', 'details': 'Test only', 'appliesTo': 'Example cohort'}]
+        feed, _ = build({'offers': [], 'rules': [self.record]}, self.pages, self.now)
+        self.assertEqual(feed['ruleChanges'][0]['modelId'], 'ftmo.two')
+        self.pages['https://official.example/']['sha256'] = 'changed'
+        feed, _ = build({'offers': [], 'rules': [self.record]}, self.pages, self.now)
+        self.assertEqual(feed['ruleChanges'], [])
+
 
 if __name__ == '__main__':
     unittest.main()
