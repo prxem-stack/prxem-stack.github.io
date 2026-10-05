@@ -33,6 +33,23 @@ class Checks(unittest.TestCase):
     def test_strip_scripts(self):
         self.assertEqual(normalize('<p>Hello</p><script>wrong()</script><p>world &amp; you</p>'), 'Hello world & you')
 
+    def test_independent_change_review_is_not_numeric_approval(self):
+        change = {**self.record, 'id': 'ftmo.one', 'changes': [{'kind': 'new', 'title': 'Test', 'details': 'Details', 'appliesTo': '1-Step only'}]}
+        model = {**self.record, 'id': 'ftmo.one', 'approvedHashes': {}}
+        manifest = {'offers': [], 'rules': [model], 'changeReviews': [change]}
+        feed, _ = build(manifest, self.pages, self.now)
+        self.assertEqual(feed['ruleChecks']['ftmo.one']['status'], 'review_pending')
+        self.assertEqual(len(feed['ruleChanges']), 1)
+        self.assertEqual(feed['rulePatches'], [])
+        self.pages['https://official.example/']['sha256'] = 'changed'
+        feed, review = build(manifest, self.pages, self.now)
+        self.assertEqual(feed['ruleChanges'], [])
+        self.assertTrue(any(r['kind'] == 'changeReviews' for r in review))
+
+    def test_unknown_change_model_fails(self):
+        with self.assertRaises(ValueError):
+            build({'offers': [], 'rules': [], 'changeReviews': [self.record]}, self.pages, self.now)
+
     def test_scoped_changes_require_review(self):
         self.record['id'] = 'ftmo.two'
         self.record['changes'] = [{'kind': 'removed', 'title': 'Example', 'details': 'Test only', 'appliesTo': 'Example cohort'}]
