@@ -81,7 +81,7 @@ def state(record, pages, now):
 def build(manifest, pages, now):
     feed = {'schemaVersion': 1, 'checkedAt': now.isoformat(),
             'validUntil': (now + timedelta(hours=18)).isoformat(),
-            'offers': [], 'ruleChecks': {}, 'rulePatches': []}
+            'offers': [], 'ruleChecks': {}, 'rulePatches': [], 'ruleChanges': []}
     review = []
     for kind in ('offers', 'rules'):
         for record in manifest[kind]:
@@ -97,6 +97,11 @@ def build(manifest, pages, now):
                 feed['ruleChecks'][record['id']] = {'status': status, 'sources': record['sources'], 'checkedAt': now.isoformat()}
                 if status == 'verified' and record.get('patch'):
                     feed['rulePatches'].append({'id': record['id'], 'values': record['patch'], 'sources': record['sources']})
+                if status == 'verified':
+                    for change in record.get('changes', []):
+                        if change.get('kind') not in ('new', 'removed') or not change.get('title') or not change.get('details') or not change.get('appliesTo'):
+                            continue
+                        feed['ruleChanges'].append({**change, 'modelId': record['id'], 'sources': record['sources']})
     feed['summary'] = {'publishedOffers': len(feed['offers']), 'ruleModels': len(feed['ruleChecks']),
                        'pendingReview': len(review), 'unavailableSources': sum(p['status'] == 'unavailable' for p in pages.values())}
     return feed, review
