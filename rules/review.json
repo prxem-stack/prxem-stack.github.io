@@ -1,17 +1,6 @@
 {
-  "checkedAt": "2026-10-05T19:54:12.359835+00:00",
+  "checkedAt": "2026-10-05T21:55:55.826188+00:00",
   "items": [
-    {
-      "id": "fundingpips-0",
-      "kind": "offers",
-      "status": "unavailable",
-      "evidence": {
-        "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started": {
-          "status": "unavailable",
-          "error": "HTTPError"
-        }
-      }
-    },
     {
       "id": "funded-trading-plus-0",
       "kind": "offers",
@@ -24,81 +13,106 @@
       }
     },
     {
-      "id": "fundingpips.zero",
-      "kind": "rules",
-      "status": "unavailable",
+      "id": "e8-current-0",
+      "kind": "offers",
+      "status": "review_pending",
       "evidence": {
-        "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero": {
-          "status": "unavailable",
-          "error": "HTTPError"
+        "https://e8markets.com/e8-markets-discount-code": {
+          "status": "fetched",
+          "sha256": "5ec713ee3690c47dc89db349649042caa1f2a09e1def74f71a75f29498769e64"
         }
       }
     },
     {
-      "id": "fundingpips.pro",
-      "kind": "rules",
-      "status": "unavailable",
+      "id": "e8-current-1",
+      "kind": "offers",
+      "status": "review_pending",
       "evidence": {
-        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
-          "status": "unavailable",
-          "error": "HTTPError"
-        },
-        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
-          "status": "unavailable",
-          "error": "HTTPError"
-        },
-        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
-          "status": "unavailable",
-          "error": "HTTPError"
+        "https://e8markets.com/e8-markets-discount-code": {
+          "status": "fetched",
+          "sha256": "5ec713ee3690c47dc89db349649042caa1f2a09e1def74f71a75f29498769e64"
+        }
+      }
+    },
+    {
+      "id": "e8-current-2",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://e8markets.com/e8-markets-discount-code": {
+          "status": "fetched",
+          "sha256": "5ec713ee3690c47dc89db349649042caa1f2a09e1def74f71a75f29498769e64"
+        }
+      }
+    },
+    {
+      "id": "e8-current-3",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://e8markets.com/e8-markets-discount-code": {
+          "status": "fetched",
+          "sha256": "5ec713ee3690c47dc89db349649042caa1f2a09e1def74f71a75f29498769e64"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.zero",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero": {
+          "status": "fetched",
+          "sha256": "55046bc313558dcd33c7284921d170f28f1dfcccfac5fbbd45327198c27606de"
         }
       }
     },
     {
       "id": "fundingpips.std",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "04bc921105d28c4258161280e2e9881e4932397c3f6f424fe086f9768f520935"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "9449b63c59f1098c34588e805ca00402d9ed9523c81518f835bc24f1d1ef2109"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "bbac8bad5107bbaf0487c4f8c84505d16d1653b627184f25a332257756dbaf49"
         }
       }
     },
     {
       "id": "fundingpips.one",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "04bc921105d28c4258161280e2e9881e4932397c3f6f424fe086f9768f520935"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "9449b63c59f1098c34588e805ca00402d9ed9523c81518f835bc24f1d1ef2109"
         },
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "bbac8bad5107bbaf0487c4f8c84505d16d1653b627184f25a332257756dbaf49"
         }
       }
     },
     {
       "id": "fundingpips.flex",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
-          "status": "unavailable",
-          "error": "HTTPError"
+          "status": "fetched",
+          "sha256": "2299c5eba15f6fdd431dc40e5a7d54634bcd51510e135e20943dc1e88f810f61"
         }
       }
     },

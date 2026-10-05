@@ -12,6 +12,16 @@ class Checks(unittest.TestCase):
     def test_verified(self):
         self.assertEqual(state(self.record, self.pages, self.now), 'verified')
 
+    def test_explanations_retract_when_source_changes(self):
+        self.record['id'] = 'fundingpips.pro'
+        self.record['hiddenRules'] = [{'title': 'Drawdown', 'details': 'Reviewed explanation'}]
+        manifest = {'offers': [], 'rules': [self.record]}
+        feed, _ = build(manifest, self.pages, self.now)
+        self.assertEqual(feed['hiddenRules'][0]['id'], 'fundingpips.pro')
+        self.pages['https://official.example/']['sha256'] = 'changed'
+        feed, _ = build(manifest, self.pages, self.now)
+        self.assertEqual(feed['hiddenRules'], [])
+
     def test_changed(self):
         self.pages['https://official.example/']['sha256'] = 'changed'
         self.assertEqual(state(self.record, self.pages, self.now), 'review_pending')

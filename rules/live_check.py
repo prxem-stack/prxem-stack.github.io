@@ -81,7 +81,7 @@ def state(record, pages, now):
 def build(manifest, pages, now):
     feed = {'schemaVersion': 1, 'checkedAt': now.isoformat(),
             'validUntil': (now + timedelta(hours=18)).isoformat(),
-            'offers': [], 'ruleChecks': {}, 'rulePatches': [], 'ruleChanges': []}
+            'offers': [], 'ruleChecks': {}, 'rulePatches': [], 'ruleChanges': [], 'hiddenRules': []}
     review = []
     for kind in ('offers', 'rules'):
         for record in manifest[kind]:
@@ -97,6 +97,13 @@ def build(manifest, pages, now):
                 feed['ruleChecks'][record['id']] = {'status': status, 'sources': record['sources'], 'checkedAt': now.isoformat()}
                 if status == 'verified' and record.get('patch'):
                     feed['rulePatches'].append({'id': record['id'], 'values': record['patch'], 'sources': record['sources']})
+                if status == 'verified' and record.get('hiddenRules'):
+                    items = record['hiddenRules']
+                    if not isinstance(items, list) or not 1 <= len(items) <= 20 or any(
+                        not isinstance(x, dict) or any(not isinstance(x.get(k), str) or not 0 < len(x[k]) < 3000
+                                                      for k in ('title', 'details')) for x in items):
+                        raise ValueError('Invalid reviewed explanations')
+                    feed['hiddenRules'].append({'id': record['id'], 'items': items, 'sources': record['sources']})
                 if status == 'verified':
                     for change in record.get('changes', []):
                         if change.get('kind') not in ('new', 'removed') or not change.get('title') or not change.get('details') or not change.get('appliesTo'):

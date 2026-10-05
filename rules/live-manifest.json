@@ -493,12 +493,36 @@
     {
       "id": "fundingpips.pro",
       "sources": [
-        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
-        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
-        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model"
       ],
-      "approvedHashes": {},
-      "reviewNote": "purchase date and reward cycle are absent from this profile; weekly/monthly/on-demand rules differ"
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": "04bc921105d28c4258161280e2e9881e4932397c3f6f424fe086f9768f520935"
+      },
+      "patch": {
+        "daily": 0.03,
+        "maxl": 0.06,
+        "t1": 0.06,
+        "t2": 0.06
+      },
+      "hiddenRules": [
+        {
+          "title": "Drawdown calculation",
+          "details": "Static floor: 6% below starting balance. Touching the floor with balance or equity breaches the account; floating losses count."
+        },
+        {
+          "title": "Daily-loss reset",
+          "details": "3% of the higher opening balance or equity. Closed and floating losses count. Reset: 00:00 platform time (UTC+3)."
+        },
+        {
+          "title": "Weekend & overnight",
+          "details": "Evaluation permits holding. Master positions are automatically closed unless the Swing add-on applies."
+        },
+        {
+          "title": "Minimum trading days — clarification needed",
+          "details": "The official page currently conflicts: its summary says zero days, while purchase/reset cohort notes say one or two. Confirm your dashboard requirement; no automatic minimum-day override is applied."
+        }
+      ],
+      "reviewNote": "Reviewed 6 October 2026: only base loss limits, targets and listed explanations approved. Minimum days conflict within source; reward-cycle and cohort-specific fields remain unchanged."
     },
     {
       "id": "fundingpips.std",
