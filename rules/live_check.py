@@ -104,14 +104,24 @@ def build(manifest, pages, now):
                         feed['ruleChanges'].append({**change, 'modelId': record['id'], 'sources': record['sources']})
     feed['changeChecks'] = {}
     for record in manifest.get('changeReviews', []):
+        if record['id'] not in feed['ruleChecks']:
+            raise ValueError('Change review references an unknown model')
+        if record['id'] in feed['changeChecks']:
+            raise ValueError('Duplicate change review model')
         status = state(record, pages, now)
-        feed['changeChecks'][record['id']] = {'status': status}
+        feed['changeChecks'][record['id']] = {'status': status, 'sources': record['sources'], 'checkedAt': now.isoformat()}
+        if status != 'verified':
+            review.append({'id': record['id'], 'kind': 'changeReviews', 'status': status,
+                           'evidence': {u: {k: v for k, v in pages[u].items() if k != 'text'} for u in record['sources']}})
         if status == 'verified':
             for change in record.get('changes', []):
                 if change.get('kind') in ('new', 'removed') and all(change.get(k) for k in ('title', 'details', 'appliesTo')):
                     feed['ruleChanges'].append({**change, 'modelId': record['id'], 'sources': record['sources']})
     feed['summary'] = {'publishedOffers': len(feed['offers']), 'ruleModels': len(feed['ruleChecks']),
-                       'pendingReview': len(review), 'unavailableSources': sum(p['status'] == 'unavailable' for p in pages.values())}
+                       'pendingReview': len(review), 'unavailableSources': sum(p['status'] == 'unavailable' for p in pages.values()),
+                       'publishedRuleChanges': len(feed['ruleChanges']),
+                       'modelsWithVerifiedChanges': len({c['modelId'] for c in feed['ruleChanges']}),
+                       'modelsWithoutVerifiedChanges': sorted(set(feed['ruleChecks']) - {c['modelId'] for c in feed['ruleChanges']})}
     return feed, review
 
 
