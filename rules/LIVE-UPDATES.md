@@ -18,8 +18,11 @@ not mean that every source was reachable or every rule was verified.
 3. Put the reviewed page's sha256 from review.json into approvedHashes for its URL.
 4. For rule records, check EVERY source and account applicability before adding
    a patch. Missing cohort/stage/cycle means leave pending. No automatic numeric
-   rule extraction is enabled. The client currently surfaces checks only; rule
-   value deployment needs an explicit reviewed-model integration.
+   rule extraction is enabled. Android accepts reviewed patches only for daily,
+   maxl, t1 and t2 (fractions, not percent integers). Other fields require a client
+   update. Custom profiles are never patched. A retracted patch restores bundled
+   values on the next refresh. No numeric model patch is approved in this initial
+   manifest: all 27 model records still require account-specific rule review.
 5. Commit the manifest. The push triggers a fresh check before publication.
 
 New promotions require review/manifest additions; this is a source-change and
