@@ -1,0 +1,384 @@
+{
+  "checkedAt": "2026-10-05T19:31:03.315170+00:00",
+  "items": [
+    {
+      "id": "fundingpips-0",
+      "kind": "offers",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "funded-trading-plus-0",
+      "kind": "offers",
+      "status": "unavailable",
+      "evidence": {
+        "https://www.fundedtradingplus.com/": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.zero",
+      "kind": "rules",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.pro",
+      "kind": "rules",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.std",
+      "kind": "rules",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.one",
+      "kind": "rules",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        },
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "fundingpips.flex",
+      "kind": "rules",
+      "status": "unavailable",
+      "evidence": {
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": {
+          "status": "unavailable",
+          "error": "HTTPError"
+        }
+      }
+    },
+    {
+      "id": "ftmo.one",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://ftmo.com/en/trading-objectives/": {
+          "status": "fetched",
+          "sha256": "7040948317d43f533dd5f5bdbc8798776fe5e884f6088427d64a142ded99c372"
+        },
+        "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
+          "status": "fetched",
+          "sha256": "1f4b6e099ac7074690048e39508d212334332d5c20b24d4c49da81f947660421"
+        }
+      }
+    },
+    {
+      "id": "ftmo.two",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://ftmo.com/en/trading-objectives/": {
+          "status": "fetched",
+          "sha256": "7040948317d43f533dd5f5bdbc8798776fe5e884f6088427d64a142ded99c372"
+        },
+        "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
+          "status": "fetched",
+          "sha256": "1f4b6e099ac7074690048e39508d212334332d5c20b24d4c49da81f947660421"
+        }
+      }
+    },
+    {
+      "id": "fundednext.stellar2",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
+          "status": "fetched",
+          "sha256": "7d413d05cac4544fe4bfa976a8bcbb0eb2847c67330978c5effa5a09f9784c05"
+        },
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+        }
+      }
+    },
+    {
+      "id": "fundednext.lite",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
+          "status": "fetched",
+          "sha256": "7d413d05cac4544fe4bfa976a8bcbb0eb2847c67330978c5effa5a09f9784c05"
+        },
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+        }
+      }
+    },
+    {
+      "id": "fundednext.stellar1",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
+          "status": "fetched",
+          "sha256": "7d413d05cac4544fe4bfa976a8bcbb0eb2847c67330978c5effa5a09f9784c05"
+        },
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+        }
+      }
+    },
+    {
+      "id": "fundednext.instant",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
+          "status": "fetched",
+          "sha256": "4f19d9541bbfa70e87bae89403064f5b51e04568f355d01d197db3c350f5fdab"
+        }
+      }
+    },
+    {
+      "id": "the5ers.highclassic",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://www.the5ers.com/high-stakes/": {
+          "status": "fetched",
+          "sha256": "36fcb540ea1ac2c1ab4c7021af142243a4beb6c247e19824038a5446a85134d7"
+        }
+      }
+    },
+    {
+      "id": "the5ers.highnew",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://www.the5ers.com/high-stakes/": {
+          "status": "fetched",
+          "sha256": "36fcb540ea1ac2c1ab4c7021af142243a4beb6c247e19824038a5446a85134d7"
+        }
+      }
+    },
+    {
+      "id": "the5ers.hyper",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
+          "status": "fetched",
+          "sha256": "bc4ab8dc0baa4a2d8613b1425d063b36e319f4628f6cb7a9707aab1ffcc87677"
+        }
+      }
+    },
+    {
+      "id": "e8.pro",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.e8markets.com/en/articles/13653464-payout-request-from-e8-pro": {
+          "status": "fetched",
+          "sha256": "05d4e382b21dd1c9c9eacbefadd3b510a2ceff8cce975d7db8058d35a325c7a1"
+        },
+        "https://help.e8markets.com/en/articles/15274219-e8-pro": {
+          "status": "fetched",
+          "sha256": "e3a9c9c69141a44c015385275f8bcb34671f2916dfb5a09f4ecd07164f3ef558"
+        },
+        "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
+          "status": "fetched",
+          "sha256": "7bb21016c43711b876c0b68c6212423912812ac4a7482ea98ddea20ddf405bb0"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro6",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro8",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro10",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "alpha.one6",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "alpha.one10",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "alpha.one12",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
+          "status": "fetched",
+          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+        }
+      }
+    },
+    {
+      "id": "goat.instant",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model": {
+          "status": "fetched",
+          "sha256": "9721b8955e815caf9cc7df61243ab2b0efa6a99e7fbce527d3596821077a84eb"
+        }
+      }
+    },
+    {
+      "id": "maven.instant",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://maventrading.com/faqs": {
+          "status": "fetched",
+          "sha256": "bd81b73d4144a543f76314d3f0a0a9b858a2360c011841bd156e79d118cf557b"
+        },
+        "https://maventrading.com/terms-and-conditions": {
+          "status": "fetched",
+          "sha256": "01ffeac8a20c42f14dd8d825ef0fb29c17601fabd9c2624bc3bf544810f7cc63"
+        },
+        "https://maventrading.com/pricing": {
+          "status": "fetched",
+          "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    },
+    {
+      "id": "maven.one",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://maventrading.com/pricing": {
+          "status": "fetched",
+          "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    },
+    {
+      "id": "maven.two",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://maventrading.com/pricing": {
+          "status": "fetched",
+          "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    },
+    {
+      "id": "maven.three",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://maventrading.com/pricing": {
+          "status": "fetched",
+          "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    },
+    {
+      "id": "maven.omo",
+      "kind": "rules",
+      "status": "review_pending",
+      "evidence": {
+        "https://maventrading.com/pricing": {
+          "status": "fetched",
+          "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    }
+  ]
+}
