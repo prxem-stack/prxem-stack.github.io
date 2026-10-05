@@ -1,0 +1,39 @@
+name: Check official prop firm sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'rules/live_check.py'
+      - 'rules/test_live_check.py'
+      - 'rules/live-manifest.json'
+      - '.github/workflows/check-rules.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '23 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: official-rule-check
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s rules -p 'test_live_check.py'
+      - run: python rules/live_check.py
+      - run: python rules/check_sources.py
+      - name: Save source status
+        run: |
+          git config user.name 'Rules monitor'
+          git config user.email 'rules-monitor@users.noreply.github.com'
+          git add rules/status.json rules/live.json rules/review.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update official rules source status'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
