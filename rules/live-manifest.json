@@ -3,20 +3,286 @@
   "changeReviews": [
     {
       "id": "fundednext.stellar1",
-      "sources": ["https://help.fundednext.com/en/articles/17252927-stellar-1-step-account"],
-      "approvedHashes": {"https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": "98e67640573a6a036381c9a3208d4d4f8fed6f24fdef6ca7bdb885161b61ce8e"},
+      "sources": [
+        "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account"
+      ],
+      "approvedHashes": {
+        "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": "98e67640573a6a036381c9a3208d4d4f8fed6f24fdef6ca7bdb885161b61ce8e"
+      },
       "changes": [
-        {"kind":"new","title":"12 Jan 2026 account cohort","details":"Base funded reward share changes from 90% to 80%; fee refund moves from the first reward to the third. Lifetime 95% add-on overrides the base share.","appliesTo":"Stellar 1-Step purchased/reset on or after 12 Jan 2026; earlier accounts retain previous terms."},
-        {"kind":"removed","title":"90-day KYC renewal temporarily paused","details":"Routine document resubmission is temporarily suspended, not permanently abolished. Initial KYC and any individually requested verification still apply.","appliesTo":"Stellar 1-Step approved KYC profiles; effective date not stated."}
+        {
+          "kind": "new",
+          "title": "12 Jan 2026 account cohort",
+          "details": "Base funded reward share changes from 90% to 80%; fee refund moves from the first reward to the third. Lifetime 95% add-on overrides the base share.",
+          "appliesTo": "Stellar 1-Step purchased/reset on or after 12 Jan 2026; earlier accounts retain previous terms."
+        },
+        {
+          "kind": "removed",
+          "title": "90-day KYC renewal temporarily paused",
+          "details": "Routine document resubmission is temporarily suspended, not permanently abolished. Initial KYC and any individually requested verification still apply.",
+          "appliesTo": "Stellar 1-Step approved KYC profiles; effective date not stated."
+        }
       ]
     },
     {
       "id": "fundednext.stellar2",
-      "sources": ["https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"],
-      "approvedHashes": {"https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge": "bdcff0f58be81f88b860b676d8b916628b2c7fcc022a8b0d2c3a848aaba1c4b3"},
+      "sources": [
+        "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"
+      ],
+      "approvedHashes": {
+        "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge": "bdcff0f58be81f88b860b676d8b916628b2c7fcc022a8b0d2c3a848aaba1c4b3"
+      },
       "changes": [
-        {"kind":"new","title":"12 Jan 2026 Pro scale-up cohort","details":"Eligible new-cohort accounts use Pro scale-up with 25% balance growth per qualification. Earlier accounts use the previous scale-up criteria; daily and maximum loss rules are not removed.","appliesTo":"Stellar 2-Step purchased/reset on or after 12 Jan 2026; merged accounts cannot scale up."},
-        {"kind":"removed","title":"90-day KYC renewal temporarily paused","details":"Routine document resubmission is temporarily suspended. Initial KYC remains required and the firm may request further verification.","appliesTo":"Stellar 2-Step approved KYC profiles; effective date not stated."}
+        {
+          "kind": "new",
+          "title": "12 Jan 2026 Pro scale-up cohort",
+          "details": "Eligible new-cohort accounts use Pro scale-up with 25% balance growth per qualification. Earlier accounts use the previous scale-up criteria; daily and maximum loss rules are not removed.",
+          "appliesTo": "Stellar 2-Step purchased/reset on or after 12 Jan 2026; merged accounts cannot scale up."
+        },
+        {
+          "kind": "removed",
+          "title": "90-day KYC renewal temporarily paused",
+          "details": "Routine document resubmission is temporarily suspended. Initial KYC remains required and the firm may request further verification.",
+          "appliesTo": "Stellar 2-Step approved KYC profiles; effective date not stated."
+        }
+      ]
+    },
+    {
+      "id": "goat.instant",
+      "sources": [
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
+      ],
+      "approvedHashes": {
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": "e4e92aff93fb3574bf9428e6f826751ca15339863803005fc3dc3ee897793dcd"
+      },
+      "changes": [
+        {
+          "kind": "removed",
+          "title": "6 Oct 2026: own-account copying restriction lifted",
+          "details": "Copying between your own accounts is permitted, including evaluation/funded accounts. Other traders, signals and third-party copying remain prohibited; hedging restrictions remain.",
+          "appliesTo": "All GOAT accounts, including earlier purchases. Effective from 6 Oct 2026."
+        }
+      ]
+    },
+    {
+      "id": "fundednext.instant",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
+      ],
+      "approvedHashes": {
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": "4f19d9541bbfa70e87bae89403064f5b51e04568f355d01d197db3c350f5fdab"
+      },
+      "changes": [
+        {
+          "kind": "removed",
+          "title": "90-day KYC renewal temporarily paused",
+          "details": "Routine renewal is suspended until further notice, not permanently abolished. Initial KYC and individually requested verification still apply.",
+          "appliesTo": "Approved KYC profiles for this model; effective date not stated."
+        }
+      ]
+    },
+    {
+      "id": "fundednext.lite",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account"
+      ],
+      "approvedHashes": {
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": "151b2e955c0ee9fa5be3fdf83d2627dfbdb3af1e3619da1d96de6084659ef51b"
+      },
+      "changes": [
+        {
+          "kind": "removed",
+          "title": "90-day KYC renewal temporarily paused",
+          "details": "Routine renewal is suspended until further notice, not permanently abolished. Initial KYC and individually requested verification still apply.",
+          "appliesTo": "Approved KYC profiles for this model; effective date not stated."
+        }
+      ]
+    },
+    {
+      "id": "alpha.pro6",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "alpha.pro8",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "alpha.pro10",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "alpha.one6",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "alpha.one10",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "alpha.one12",
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
+      ],
+      "approvedHashes": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": "5fa322c6e50b0376f7a692c9e779b741369c7a279aca27cf7a036bee7ce1068c"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "21 Jul 2026: Max Risk rule announcement",
+          "details": "Per-asset losing exposure: 3% for $5K–$25K, 2% for $50K–$200K. Winners do not offset losses; same-direction re-entry within 10 minutes combines losses. Reaching the limit closes the account; daily/maximum drawdown still apply.",
+          "appliesTo": "Qualified Pro/One accounts purchased after 21 Jul 2026; not earlier purchases or evaluation."
+        }
+      ]
+    },
+    {
+      "id": "ftmo.one",
+      "sources": [
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/"
+      ],
+      "approvedHashes": {
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": "04d7b1752cbc3d88866bb8dbd22d86949830c1b2f66103f683e1befbd0b86a0f"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "1-Step launch: Best Day rule",
+          "details": "Introduced with the 1-Step product: your largest profitable day must not exceed 50% of Positive Days’ Profit. Exceeding it is not an account breach; continue until the objective is met.",
+          "appliesTo": "FTMO CFD 1-Step only, not 2-Step or Futures. Historical launch announcement; exact launch date not confirmed."
+        }
+      ]
+    },
+    {
+      "id": "fundingpips.zero",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": "2299c5eba15f6fdd431dc40e5a7d54634bcd51510e135e20943dc1e88f810f61"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "28 Sep 2026: rulebook transition",
+          "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+          "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm."
+        }
+      ]
+    },
+    {
+      "id": "fundingpips.pro",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": "2299c5eba15f6fdd431dc40e5a7d54634bcd51510e135e20943dc1e88f810f61"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "28 Sep 2026: rulebook transition",
+          "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+          "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm."
+        }
+      ]
+    },
+    {
+      "id": "fundingpips.std",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": "2299c5eba15f6fdd431dc40e5a7d54634bcd51510e135e20943dc1e88f810f61"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "28 Sep 2026: rulebook transition",
+          "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+          "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm."
+        }
+      ]
+    },
+    {
+      "id": "fundingpips.one",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules": "2299c5eba15f6fdd431dc40e5a7d54634bcd51510e135e20943dc1e88f810f61"
+      },
+      "changes": [
+        {
+          "kind": "new",
+          "title": "28 Sep 2026: rulebook transition",
+          "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
+          "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm."
+        }
       ]
     }
   ],
