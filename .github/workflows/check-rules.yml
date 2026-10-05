@@ -6,6 +6,7 @@ on:
       - 'rules/live_check.py'
       - 'rules/test_live_check.py'
       - 'rules/live-manifest.json'
+      - 'rules/reviewed-announcements.json'
       - '.github/workflows/check-rules.yml'
   workflow_dispatch:
   schedule:
