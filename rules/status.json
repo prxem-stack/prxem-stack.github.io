@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-05T16:20:28.319066+00:00",
+  "firms": {
+    "fundingpips": {
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
+        "https://fundingpips.com/legal/terms-and-conditions"
+      ],
+      "status": "unavailable",
+      "reviewRequired": true,
+      "error": "HTTPError"
+    },
+    "ftmo": {
+      "sources": [
+        "https://ftmo.com/en/trading-objectives/"
+      ],
+      "digest": "79b24677518fdd61fd0b49e1395544820a385c97046a79fcb785f88209638ac7",
+      "lastSuccessfulCheck": "2026-10-05T16:20:28.319066+00:00",
+      "status": "review_pending",
+      "reviewRequired": true,
+      "changedAt": null
+    },
+    "fundednext": {
+      "sources": [
+        "https://help.fundednext.com/en/collections/11026230-trading-rules-guidelines"
+      ],
+      "digest": "37f1ad330a2958b3be8e0355505be35c1842dd726044afd1e96346fd8fdb2633",
+      "lastSuccessfulCheck": "2026-10-05T16:20:28.319066+00:00",
+      "status": "review_pending",
+      "reviewRequired": true,
+      "changedAt": null
+    },
+    "e8": {
+      "sources": [
+        "https://help.e8markets.com/en/articles/6929927-trading-policies-and-prohibited-trading-strategies"
+      ],
+      "digest": "084bd9dee2136545cf66b9f244fc0fa934174af7b8351a4554e97d704f8e3ca6",
+      "lastSuccessfulCheck": "2026-10-05T16:20:28.319066+00:00",
+      "status": "review_pending",
+      "reviewRequired": true,
+      "changedAt": null
+    },
+    "alpha": {
+      "sources": [
+        "https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules"
+      ],
+      "digest": "ee1012b2403899ddb715170d4f80dcec850fc67d2dd02e35ab7e3e1d2636d3ff",
+      "lastSuccessfulCheck": "2026-10-05T16:20:28.319066+00:00",
+      "status": "review_pending",
+      "reviewRequired": true,
+      "changedAt": null
+    },
+    "goat": {
+      "sources": [
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
+      ],
+      "digest": "d5cd392bfef2d6c0f2de9a3d3b3fd00baed5654bb7bfd5d1c49c8eef510eaa12",
+      "lastSuccessfulCheck": "2026-10-05T16:20:28.319066+00:00",
+      "status": "review_pending",
+      "reviewRequired": true,
+      "changedAt": null
+    }
+  }
+}
