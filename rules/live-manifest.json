@@ -248,6 +248,12 @@
           "title": "28 Sep 2026: rulebook transition",
           "details": "Earlier purchases follow the legacy rulebook; new purchases and resets after the cutoff follow the current rules. This does not remove daily/max-loss limits.",
           "appliesTo": "Check purchase/reset date and account agreement. Exact cutoff-day treatment should be confirmed with the firm."
+        },
+        {
+          "kind": "removed",
+          "title": "Per-trade hard-breach limit removed",
+          "details": "The official legacy rulebook explicitly removes Risk Per Trade Idea for 2-Step Pro. Daily/max-loss limits remain. Monthly rewards still carry a separate 1% striking system.",
+          "appliesTo": "2-Step Pro legacy accounts; confirm current purchase/reset cohort. Removal date not stated on the rulebook."
         }
       ]
     },
