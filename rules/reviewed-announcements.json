@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-05T20:03:32.182Z",
+  "announcements": [
+    {
+      "firm": "GOAT Funded Trader",
+      "kind": "new",
+      "text": "6 Oct 2026, 00:00 UTC: funded trade minimum hold changes from 120s to 60s for challenges purchased from this date. Older purchases/resets remain 120s; evaluation is excluded.",
+      "source": "https://help.goatfundedtrader.com/en/articles/12849041-what-is-the-minimum-holding-time-for-trades"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "removed",
+      "text": "26 Jul 2026 announcement: subjective rules removed; current account agreement still applies.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "removed",
+      "text": "26 Jul 2026 announcement: evaluation risk restrictions relaxed. This does NOT remove daily/max-loss limits.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "removed",
+      "text": "26 Jul 2026 announcement: per-trade hard-breach limits removed for specified models/sizes, including Standard 8%/5%; not a blanket removal of all risk controls.",
+      "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "new",
+      "text": "28 Sep 2026 rulebook change: purchases before this date use legacy rules; new purchases/resets use the new rulebook. Check your account cohort.",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+    },
+    {
+      "firm": "FundedNext",
+      "kind": "new",
+      "text": "Stellar scale-up update: purchases/resets before 12 Jan 2026 retain the previous plan; those after the date follow the new plan.",
+      "source": "https://help.fundednext.com/en/articles/8019659-does-fundednext-offer-a-scale-up-plan"
+    },
+    {
+      "firm": "Funded Trading Plus",
+      "kind": "new",
+      "text": "From Feb 2026: Express 1-Step, Classic 2-Step and Instant start swap-free automatically; older legacy programs are excluded.",
+      "source": "https://help.fundedtradingplus.com/do-we-offer-an-islamic-swap-free-account/"
+    }
+  ]
+}
