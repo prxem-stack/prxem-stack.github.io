@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "offers": [
+    {
+      "id": "fundingpips-0",
+      "firm": "FundingPips",
+      "title": "20% OFF",
+      "code": "HELLO",
+      "terms": "First purchase only; excludes $100K. Apply before payment.",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started"
+      ],
+      "approvedHashes": {
+        "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started": "fed3d5098f55badec6b51567b7c6d73ac9f461bdad76c06ad7da0d6eb2d9bb44"
+      }
+    },
+    {
+      "id": "ftmo-0",
+      "firm": "FTMO",
+      "title": "20% OFF",
+      "code": null,
+      "terms": "$100K 1-Step Challenge special offer. Follow the official offer link; no coupon published.",
+      "sources": [
+        "https://ftmo.com/en/"
+      ],
+      "approvedHashes": {
+        "https://ftmo.com/en/": "d94736d1ec616688f78eae04cbe1c702b47cb25d42ca9257534b38a7f50b090c"
+      }
+    },
+    {
+      "id": "fundednext-0",
+      "firm": "FundedNext",
+      "title": "STOCT offer",
+      "code": "STOCT",
+      "terms": "October starter offer: Stellar 2-Step 6K, 1-Step 6K, Lite 5K and Instant 2K only. Region-dependent pricing; headline up to 40% global / 30% USA. New and existing users; maximum 5 uses; resets excluded. Starts 1 Oct 2026, 14:00 GMT+6; no set closing date.",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17277162-what-is-the-fundednext-stellar-october-starter-offer"
+      ],
+      "approvedHashes": {
+        "https://help.fundednext.com/en/articles/17277162-what-is-the-fundednext-stellar-october-starter-offer": "cba57deda9bc8a12b8d11a6863c4a0eec7cbe49d432b0389f5d7e1b965c46c65"
+      }
+    },
+    {
+      "id": "alpha-capital-0",
+      "firm": "Alpha Capital",
+      "title": "40% Direct",
+      "code": "FUNDED40",
+      "terms": "Alpha Direct only, not evaluations. Valid 1–31 Oct 2026.",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "approvedHashes": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+      },
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "alpha-capital-1",
+      "firm": "Alpha Capital",
+      "title": "20% OFF",
+      "code": "ALPHA20",
+      "terms": "All accounts. Valid 1–31 Oct 2026.",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "approvedHashes": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+      },
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "alpha-capital-2",
+      "firm": "Alpha Capital",
+      "title": "$10K / $40",
+      "code": "10KFOR40",
+      "terms": "Qualifying $10K evaluation plans. Valid 1–31 Oct 2026.",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "approvedHashes": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+      },
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "goat-funded-trader-0",
+      "firm": "GOAT Funded Trader",
+      "title": "Up to 50%",
+      "code": "FIRSTGFT",
+      "terms": "New-customer welcome offer; discount depends on plan. Confirm final price at checkout.",
+      "sources": [
+        "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes"
+      ],
+      "approvedHashes": {
+        "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": "a914e13bea4abacfd7d40741c4508c92867658e3c201ece15f5c69227faeac22"
+      }
+    },
+    {
+      "id": "maven-trading-0",
+      "firm": "Maven Trading",
+      "title": "40% Omo",
+      "code": "OMO",
+      "terms": "Omo challenges only.",
+      "sources": [
+        "https://maventrading.com/"
+      ],
+      "approvedHashes": {
+        "https://maventrading.com/": "6d21bd6d452bde3d9042490e5a337a19bd4df868c410cae5d5235c19120dbb11"
+      }
+    },
+    {
+      "id": "maven-trading-1",
+      "firm": "Maven Trading",
+      "title": "10% Eternal",
+      "code": "ETERNAL",
+      "terms": "Gold Eternal only.",
+      "sources": [
+        "https://maventrading.com/"
+      ],
+      "approvedHashes": {
+        "https://maventrading.com/": "6d21bd6d452bde3d9042490e5a337a19bd4df868c410cae5d5235c19120dbb11"
+      }
+    },
+    {
+      "id": "funded-trading-plus-0",
+      "firm": "Funded Trading Plus",
+      "title": "30% OFF",
+      "code": "FUNDED30",
+      "terms": "Official homepage promotion. Eligible plan restrictions and dates are not published in the banner; confirm at checkout.",
+      "sources": [
+        "https://www.fundedtradingplus.com/"
+      ],
+      "approvedHashes": {}
+    },
+    {
+      "id": "e8-current-0",
+      "firm": "E8 Markets",
+      "title": "35% OFF",
+      "code": "REB8",
+      "terms": "All purchases: Futures E8 Zero MAX and Zero Starter.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ],
+      "approvedHashes": {
+        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+      }
+    },
+    {
+      "id": "e8-current-1",
+      "firm": "E8 Markets",
+      "title": "30% OFF",
+      "code": "E8ARC",
+      "terms": "All purchases: Classic Markets E8 One, Pro and Signature. Free-account-after-payout promotion is subject to firm conditions.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ],
+      "approvedHashes": {
+        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+      }
+    },
+    {
+      "id": "e8-current-2",
+      "firm": "E8 Markets",
+      "title": "50% OFF",
+      "code": "E8ARC",
+      "terms": "All purchases: Perpetual E8 Pro and One. Free-account-after-payout promotion is subject to firm conditions.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ],
+      "approvedHashes": {
+        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+      }
+    },
+    {
+      "id": "e8-current-3",
+      "firm": "E8 Markets",
+      "title": "25% OFF",
+      "code": "E8",
+      "terms": "All purchases: Futures E8 Signature.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ],
+      "approvedHashes": {
+        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+      }
+    }
+  ],
+  "rules": [
+    {
+      "id": "fundingpips.zero",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "fundingpips.pro",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "purchase date and reward cycle are absent from this profile; weekly/monthly/on-demand rules differ"
+    },
+    {
+      "id": "fundingpips.std",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "purchase date and reward cycle are absent from this profile; weekly/monthly/on-demand rules differ"
+    },
+    {
+      "id": "fundingpips.one",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
+        "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
+        "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "purchase date and reward cycle are absent from this profile; weekly/monthly/on-demand rules differ"
+    },
+    {
+      "id": "fundingpips.flex",
+      "sources": [
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "the stored 2 Step Flex model has not been matched to a current official reward specification"
+    },
+    {
+      "id": "ftmo.one",
+      "sources": [
+        "https://ftmo.com/en/trading-objectives/",
+        "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "ftmo.two",
+      "sources": [
+        "https://ftmo.com/en/trading-objectives/",
+        "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "fundednext.stellar2",
+      "sources": [
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "reward add-on and cycle are not stored; standard and on-demand accounts use different rules"
+    },
+    {
+      "id": "fundednext.lite",
+      "sources": [
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "reward add-on and cycle are not stored; standard and on-demand accounts use different rules"
+    },
+    {
+      "id": "fundednext.stellar1",
+      "sources": [
+        "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
+        "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "reward add-on and cycle are not stored; standard and on-demand accounts use different rules"
+    },
+    {
+      "id": "fundednext.instant",
+      "sources": [
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "current tier and carried-forward trailing-loss floor are missing; withdrawing all planned profit could breach the account"
+    },
+    {
+      "id": "the5ers.highclassic",
+      "sources": [
+        "https://www.the5ers.com/high-stakes/"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "current scaling tier and payout eligibility have not been fully verified for this profile"
+    },
+    {
+      "id": "the5ers.highnew",
+      "sources": [
+        "https://www.the5ers.com/high-stakes/"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "current scaling tier and payout eligibility have not been fully verified for this profile"
+    },
+    {
+      "id": "the5ers.hyper",
+      "sources": [
+        "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "evaluation/funded stage and scaling tier are not stored"
+    },
+    {
+      "id": "e8.pro",
+      "sources": [
+        "https://help.e8markets.com/en/articles/13653464-payout-request-from-e8-pro",
+        "https://help.e8markets.com/en/articles/15274219-e8-pro",
+        "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "alpha.pro6",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "bi-weekly versus on-demand selection is missing from the profile"
+    },
+    {
+      "id": "alpha.pro8",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "bi-weekly versus on-demand selection is missing from the profile"
+    },
+    {
+      "id": "alpha.pro10",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "bi-weekly versus on-demand selection is missing from the profile"
+    },
+    {
+      "id": "alpha.one6",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "alpha.one10",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "alpha.one12",
+      "sources": [
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "goat.instant",
+      "sources": [
+        "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "maven.instant",
+      "sources": [
+        "https://maventrading.com/faqs",
+        "https://maventrading.com/terms-and-conditions",
+        "https://maventrading.com/pricing"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "maven.one",
+      "sources": [
+        "https://maventrading.com/pricing"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "maven.two",
+      "sources": [
+        "https://maventrading.com/pricing"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "maven.three",
+      "sources": [
+        "https://maventrading.com/pricing"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    },
+    {
+      "id": "maven.omo",
+      "sources": [
+        "https://maventrading.com/pricing"
+      ],
+      "approvedHashes": {},
+      "reviewNote": "Requires exact agreement/model applicability review before numeric patch"
+    }
+  ]
+}
