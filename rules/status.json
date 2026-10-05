@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T19:31:03.396983+00:00",
+  "checkedAt": "2026-10-05T19:54:12.441771+00:00",
   "firms": {
     "fundingpips": {
       "sources": [
@@ -16,7 +16,7 @@
         "https://ftmo.com/en/trading-objectives/"
       ],
       "digest": "79b24677518fdd61fd0b49e1395544820a385c97046a79fcb785f88209638ac7",
-      "lastSuccessfulCheck": "2026-10-05T19:31:03.396983+00:00",
+      "lastSuccessfulCheck": "2026-10-05T19:54:12.441771+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -26,7 +26,7 @@
         "https://help.fundednext.com/en/collections/11026230-trading-rules-guidelines"
       ],
       "digest": "37f1ad330a2958b3be8e0355505be35c1842dd726044afd1e96346fd8fdb2633",
-      "lastSuccessfulCheck": "2026-10-05T19:31:03.396983+00:00",
+      "lastSuccessfulCheck": "2026-10-05T19:54:12.441771+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -36,7 +36,7 @@
         "https://help.e8markets.com/en/articles/6929927-trading-policies-and-prohibited-trading-strategies"
       ],
       "digest": "084bd9dee2136545cf66b9f244fc0fa934174af7b8351a4554e97d704f8e3ca6",
-      "lastSuccessfulCheck": "2026-10-05T19:31:03.396983+00:00",
+      "lastSuccessfulCheck": "2026-10-05T19:54:12.441771+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -46,7 +46,7 @@
         "https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules"
       ],
       "digest": "ee1012b2403899ddb715170d4f80dcec850fc67d2dd02e35ab7e3e1d2636d3ff",
-      "lastSuccessfulCheck": "2026-10-05T19:31:03.396983+00:00",
+      "lastSuccessfulCheck": "2026-10-05T19:54:12.441771+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -56,7 +56,7 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
       ],
       "digest": "d31401acf3037f92cbd4ace6e14027fcec771b032618023cfca5a9d9048f09c2",
-      "lastSuccessfulCheck": "2026-10-05T19:31:03.396983+00:00",
+      "lastSuccessfulCheck": "2026-10-05T19:54:12.441771+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-05T19:31:03.396983+00:00"
