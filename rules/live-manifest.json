@@ -1,5 +1,25 @@
 {
   "schemaVersion": 1,
+  "changeReviews": [
+    {
+      "id": "fundednext.stellar1",
+      "sources": ["https://help.fundednext.com/en/articles/17252927-stellar-1-step-account"],
+      "approvedHashes": {"https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": "98e67640573a6a036381c9a3208d4d4f8fed6f24fdef6ca7bdb885161b61ce8e"},
+      "changes": [
+        {"kind":"new","title":"12 Jan 2026 account cohort","details":"Base funded reward share changes from 90% to 80%; fee refund moves from the first reward to the third. Lifetime 95% add-on overrides the base share.","appliesTo":"Stellar 1-Step purchased/reset on or after 12 Jan 2026; earlier accounts retain previous terms."},
+        {"kind":"removed","title":"90-day KYC renewal temporarily paused","details":"Routine document resubmission is temporarily suspended, not permanently abolished. Initial KYC and any individually requested verification still apply.","appliesTo":"Stellar 1-Step approved KYC profiles; effective date not stated."}
+      ]
+    },
+    {
+      "id": "fundednext.stellar2",
+      "sources": ["https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"],
+      "approvedHashes": {"https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge": "bdcff0f58be81f88b860b676d8b916628b2c7fcc022a8b0d2c3a848aaba1c4b3"},
+      "changes": [
+        {"kind":"new","title":"12 Jan 2026 Pro scale-up cohort","details":"Eligible new-cohort accounts use Pro scale-up with 25% balance growth per qualification. Earlier accounts use the previous scale-up criteria; daily and maximum loss rules are not removed.","appliesTo":"Stellar 2-Step purchased/reset on or after 12 Jan 2026; merged accounts cannot scale up."},
+        {"kind":"removed","title":"90-day KYC renewal temporarily paused","details":"Routine document resubmission is temporarily suspended. Initial KYC remains required and the firm may request further verification.","appliesTo":"Stellar 2-Step approved KYC profiles; effective date not stated."}
+      ]
+    }
+  ],
   "offers": [
     {
       "id": "fundingpips-0",
