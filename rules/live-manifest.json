@@ -32,7 +32,8 @@
       "firm": "FundedNext",
       "title": "STOCT offer",
       "code": "STOCT",
-      "terms": "October starter offer: Stellar 2-Step 6K, 1-Step 6K, Lite 5K and Instant 2K only. Region-dependent pricing; headline up to 40% global / 30% USA. New and existing users; maximum 5 uses; resets excluded. Starts 1 Oct 2026, 14:00 GMT+6; no set closing date.",
+      "terms": "October starter offer: Stellar 2-Step 6K, 1-Step 6K, Lite 5K and Instant 2K only. Region-dependent pricing; headline up to 40% global / 30% USA. New and existing users; maximum 5 uses; resets excluded.",
+      "launchDate": "2026-10-01",
       "sources": [
         "https://help.fundednext.com/en/articles/17277162-what-is-the-fundednext-stellar-october-starter-offer"
       ],
@@ -45,7 +46,8 @@
       "firm": "Alpha Capital",
       "title": "40% Direct",
       "code": "FUNDED40",
-      "terms": "Alpha Direct only, not evaluations. Valid 1–31 Oct 2026.",
+      "terms": "Alpha Direct only, not evaluations.",
+      "launchDate": "2026-10-01",
       "sources": [
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
@@ -59,7 +61,8 @@
       "firm": "Alpha Capital",
       "title": "20% OFF",
       "code": "ALPHA20",
-      "terms": "All accounts. Valid 1–31 Oct 2026.",
+      "terms": "All accounts.",
+      "launchDate": "2026-10-01",
       "sources": [
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
@@ -73,7 +76,8 @@
       "firm": "Alpha Capital",
       "title": "$10K / $40",
       "code": "10KFOR40",
-      "terms": "Qualifying $10K evaluation plans. Valid 1–31 Oct 2026.",
+      "terms": "Qualifying $10K evaluation plans.",
+      "launchDate": "2026-10-01",
       "sources": [
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
