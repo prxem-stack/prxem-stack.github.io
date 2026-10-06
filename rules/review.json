@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-06T06:28:48.996795+00:00",
+  "checkedAt": "2026-10-06T18:26:57.303799+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -11,6 +11,28 @@
           "error": "HTTPError",
           "httpStatus": 403,
           "reason": "access_denied"
+        }
+      }
+    },
+    {
+      "id": "ftmo-0",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://ftmo.com/en/": {
+          "status": "fetched",
+          "sha256": "93cd614d6821142b0257e7b62abaa37d201744377634e0ad0047fca787945697"
+        }
+      }
+    },
+    {
+      "id": "goat-funded-trader-0",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
+          "status": "fetched",
+          "sha256": "d73f30e593cf5af05946ce7dc1f961cadc8704bc2fdfe59f4f46e655c1af61dd"
         }
       }
     },
@@ -34,7 +56,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "3c35988134b906e77bc7cb033f3104a5a9627c4c3839cbf5229ee74ef757f5da"
+          "sha256": "fbec99ac4dddb22bcd5422aba11e878271574ee4f4789eb29d074dd64757a59f"
         }
       }
     },
@@ -45,7 +67,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "3c35988134b906e77bc7cb033f3104a5a9627c4c3839cbf5229ee74ef757f5da"
+          "sha256": "fbec99ac4dddb22bcd5422aba11e878271574ee4f4789eb29d074dd64757a59f"
         }
       }
     },
@@ -56,7 +78,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "3c35988134b906e77bc7cb033f3104a5a9627c4c3839cbf5229ee74ef757f5da"
+          "sha256": "fbec99ac4dddb22bcd5422aba11e878271574ee4f4789eb29d074dd64757a59f"
         }
       }
     },
@@ -67,7 +89,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "3c35988134b906e77bc7cb033f3104a5a9627c4c3839cbf5229ee74ef757f5da"
+          "sha256": "fbec99ac4dddb22bcd5422aba11e878271574ee4f4789eb29d074dd64757a59f"
         }
       }
     },
@@ -167,11 +189,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "7040948317d43f533dd5f5bdbc8798776fe5e884f6088427d64a142ded99c372"
+          "sha256": "c42ec95813d7afacc44d70830494a4eced3e6cfafe18d6f8e5d88504bb24b97a"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "1f4b6e099ac7074690048e39508d212334332d5c20b24d4c49da81f947660421"
+          "sha256": "0f0db3fa149a87627a35c18fe27e439098623c87cf2f8cf620c2044bae8b9bc3"
         }
       }
     },
@@ -182,11 +204,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "7040948317d43f533dd5f5bdbc8798776fe5e884f6088427d64a142ded99c372"
+          "sha256": "c42ec95813d7afacc44d70830494a4eced3e6cfafe18d6f8e5d88504bb24b97a"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "1f4b6e099ac7074690048e39508d212334332d5c20b24d4c49da81f947660421"
+          "sha256": "0f0db3fa149a87627a35c18fe27e439098623c87cf2f8cf620c2044bae8b9bc3"
         }
       }
     },
@@ -371,7 +393,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model": {
           "status": "fetched",
-          "sha256": "9721b8955e815caf9cc7df61243ab2b0efa6a99e7fbce527d3596821077a84eb"
+          "sha256": "eb2bb8a73f0788cb7c135dc5af792a2768fb0fe4a59231d1d605821bac2eefa5"
         }
       }
     },
@@ -435,6 +457,28 @@
         "https://maventrading.com/pricing": {
           "status": "fetched",
           "sha256": "de7e68385e5d22867f97601c4b443266b0acc864ee2ef1e88b7d69a88a6e3f48"
+        }
+      }
+    },
+    {
+      "id": "goat.instant",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
+          "status": "fetched",
+          "sha256": "4289a8ccb6eed5d335fa4030cf589c5b30832e3d790a08ecda768df61b3aad9e"
+        }
+      }
+    },
+    {
+      "id": "ftmo.one",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
+          "status": "fetched",
+          "sha256": "1273da938d94f637adbc6ee17e1f1345fda2c88f486c6e587bc40e1d161d2b11"
         }
       }
     },
