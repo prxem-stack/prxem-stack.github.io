@@ -1,8 +1,38 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-07T16:16:22Z",
-  "coverage": "Partial official US economic releases; not a complete global calendar or firm restriction feed.",
+  "publishedAt": "2026-10-07T16:26:31Z",
+  "coverage": "Partial BLS and Federal Reserve US releases only. Other currencies and other US publishers are not fully covered. Not an official firm restriction feed.",
   "events": [
+    {
+      "id": "fed-minutes-2026-09",
+      "title": "FOMC Minutes • September meeting",
+      "date": "2026-10-07T18:00:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
+    },
+    {
+      "id": "fed-credit-2026-10",
+      "title": "US Consumer Credit",
+      "date": "2026-10-07T19:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
+    },
+    {
+      "id": "fed-waller-2026-10-08",
+      "title": "Waller Speech • Economic Outlook",
+      "date": "2026-10-08T08:30:00Z",
+      "country": "USD",
+      "impact": "medium",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
+    },
     {
       "id": "bls-cpi-2026-09",
       "title": "Consumer Price Index • September 2026",
@@ -12,6 +42,16 @@
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
       "reviewedAt": "2026-10-07T16:16:22Z"
+    },
+    {
+      "id": "fed-beige-2026-10",
+      "title": "Federal Reserve Beige Book",
+      "date": "2026-10-14T18:00:00Z",
+      "country": "USD",
+      "impact": "medium",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
     },
     {
       "id": "bls-ppi-2026-09",
@@ -32,6 +72,36 @@
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
       "reviewedAt": "2026-10-07T16:16:22Z"
+    },
+    {
+      "id": "fed-production-2026-10",
+      "title": "US Industrial Production and Capacity Utilization",
+      "date": "2026-10-16T13:15:00Z",
+      "country": "USD",
+      "impact": "medium",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
+    },
+    {
+      "id": "fed-meeting-2026-10",
+      "title": "FOMC Policy Decision",
+      "date": "2026-10-28T18:00:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
+    },
+    {
+      "id": "fed-press-2026-10",
+      "title": "FOMC Press Conference",
+      "date": "2026-10-28T18:30:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:26:31Z"
     },
     {
       "id": "bls-eci-2026-q3",
