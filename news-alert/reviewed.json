@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "publishedAt": "2026-10-07T16:16:22Z",
+  "coverage": "Partial official US economic releases; not a complete global calendar or firm restriction feed.",
+  "events": [
+    {
+      "id": "bls-cpi-2026-09",
+      "title": "Consumer Price Index • September 2026",
+      "date": "2026-10-14T12:30:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:16:22Z"
+    },
+    {
+      "id": "bls-ppi-2026-09",
+      "title": "Producer Price Index • September 2026",
+      "date": "2026-10-15T12:30:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:16:22Z"
+    },
+    {
+      "id": "bls-import-export-2026-09",
+      "title": "US Import and Export Prices • September 2026",
+      "date": "2026-10-16T12:30:00Z",
+      "country": "USD",
+      "impact": "medium",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:16:22Z"
+    },
+    {
+      "id": "bls-eci-2026-q3",
+      "title": "Employment Cost Index • Q3 2026",
+      "date": "2026-10-30T12:30:00Z",
+      "country": "USD",
+      "impact": "high",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-07T16:16:22Z"
+    }
+  ],
+  "headlines": []
+}
