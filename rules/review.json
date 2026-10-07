@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T13:33:05.603618+00:00",
+  "checkedAt": "2026-10-07T23:09:31.904789+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -56,7 +56,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "cc6a1893c1ed88ffdf2aa1e3842ae12ee80b2b50f9f8c7747fe05654f1ca6982"
+          "sha256": "22997fcb4a76b5d03393ba092487d232f750e99a634d636d1d1e232b04a1c864"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "cc6a1893c1ed88ffdf2aa1e3842ae12ee80b2b50f9f8c7747fe05654f1ca6982"
+          "sha256": "22997fcb4a76b5d03393ba092487d232f750e99a634d636d1d1e232b04a1c864"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "cc6a1893c1ed88ffdf2aa1e3842ae12ee80b2b50f9f8c7747fe05654f1ca6982"
+          "sha256": "22997fcb4a76b5d03393ba092487d232f750e99a634d636d1d1e232b04a1c864"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "cc6a1893c1ed88ffdf2aa1e3842ae12ee80b2b50f9f8c7747fe05654f1ca6982"
+          "sha256": "22997fcb4a76b5d03393ba092487d232f750e99a634d636d1d1e232b04a1c864"
         }
       }
     },
@@ -219,7 +219,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
+          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -234,7 +234,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
+          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -249,7 +249,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
+          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -393,7 +393,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model": {
           "status": "fetched",
-          "sha256": "eb2bb8a73f0788cb7c135dc5af792a2768fb0fe4a59231d1d605821bac2eefa5"
+          "sha256": "0e4c55fd2cd0fc709f3b4ac5f4f3a29ba758ae2015fe29b5f24b851515bce4f7"
         }
       }
     },
@@ -461,13 +461,24 @@
       }
     },
     {
+      "id": "fundednext.stellar1",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": {
+          "status": "fetched",
+          "sha256": "cea941bf4d7f117497e314847966db661d16befe698cab02ea948e706c60b550"
+        }
+      }
+    },
+    {
       "id": "goat.instant",
       "kind": "changeReviews",
       "status": "review_pending",
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "4289a8ccb6eed5d335fa4030cf589c5b30832e3d790a08ecda768df61b3aad9e"
+          "sha256": "cdb99c67103703da5ce64f28f2f960689c55a3bc26b222f7eb283f9124a25619"
         }
       }
     },
