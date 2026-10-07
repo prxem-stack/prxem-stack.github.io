@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-07T06:07:58.969247+00:00",
+  "checkedAt": "2026-10-07T13:33:05.603618+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -219,7 +219,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -234,7 +234,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -249,7 +249,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "a364cdf139a5552ba7b533401845f80d57a6dfc18dfb9b33fad5171d42743313"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -264,7 +264,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "42e4f811caa600f7308c6538b60805fc61c1340d51f4b6d99a8a02a4d63ee7e6"
+          "sha256": "4f19d9541bbfa70e87bae89403064f5b51e04568f355d01d197db3c350f5fdab"
         }
       }
     },
@@ -468,17 +468,6 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
           "sha256": "4289a8ccb6eed5d335fa4030cf589c5b30832e3d790a08ecda768df61b3aad9e"
-        }
-      }
-    },
-    {
-      "id": "fundednext.instant",
-      "kind": "changeReviews",
-      "status": "review_pending",
-      "evidence": {
-        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
-          "status": "fetched",
-          "sha256": "42e4f811caa600f7308c6538b60805fc61c1340d51f4b6d99a8a02a4d63ee7e6"
         }
       }
     },
