@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T06:13:35.351244+00:00",
+  "checkedAt": "2026-10-08T13:38:36.763275+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -22,6 +22,17 @@
         "https://ftmo.com/en/": {
           "status": "fetched",
           "sha256": "93cd614d6821142b0257e7b62abaa37d201744377634e0ad0047fca787945697"
+        }
+      }
+    },
+    {
+      "id": "fundednext-0",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17277162-what-is-the-fundednext-stellar-october-starter-offer": {
+          "status": "fetched",
+          "sha256": "d5d3015e753146cde4456b5e6a22f6016981a79d7f5bc5fe43cb851619093016"
         }
       }
     },
@@ -275,7 +286,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "36fcb540ea1ac2c1ab4c7021af142243a4beb6c247e19824038a5446a85134d7"
+          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
         }
       }
     },
@@ -286,7 +297,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "36fcb540ea1ac2c1ab4c7021af142243a4beb6c247e19824038a5446a85134d7"
+          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
         }
       }
     },
@@ -479,6 +490,17 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
           "sha256": "cdb99c67103703da5ce64f28f2f960689c55a3bc26b222f7eb283f9124a25619"
+        }
+      }
+    },
+    {
+      "id": "fundednext.lite",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
+          "status": "fetched",
+          "sha256": "43c0209eecc213e7387f95add93093ecad24a747256926f00879785d1c9d9923"
         }
       }
     },
