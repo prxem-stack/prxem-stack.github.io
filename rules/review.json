@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T13:38:36.763275+00:00",
+  "checkedAt": "2026-10-08T23:25:10.819900+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "93cd614d6821142b0257e7b62abaa37d201744377634e0ad0047fca787945697"
+          "sha256": "21dc5fd5598afad151bc15a6f6a8666e3fe86a8c5c572dc6859b4cc77ab5167a"
         }
       }
     },
@@ -43,7 +43,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "d73f30e593cf5af05946ce7dc1f961cadc8704bc2fdfe59f4f46e655c1af61dd"
+          "sha256": "203f37cd634b3bac7a84dc18ef32b7dcf60724c73b73ce4d76497de9328bea24"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "8217e60127474a64a6b360f58bd53d03563368e13c7f630915b72ddbe350c465"
+          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "8217e60127474a64a6b360f58bd53d03563368e13c7f630915b72ddbe350c465"
+          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "8217e60127474a64a6b360f58bd53d03563368e13c7f630915b72ddbe350c465"
+          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "8217e60127474a64a6b360f58bd53d03563368e13c7f630915b72ddbe350c465"
+          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
         }
       }
     },
@@ -200,11 +200,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "c42ec95813d7afacc44d70830494a4eced3e6cfafe18d6f8e5d88504bb24b97a"
+          "sha256": "aff77b6bd7843ffb2e5db9a61bea1ee83caec6dd4155d737d7a45ef083751848"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "3a821e4cbc5c4dde21173b4fc2968a199ae33a45d1e9bd6b6263a6268b69c6bf"
+          "sha256": "13c0b48b36a4ca584f53105dedde3a237b7872a8faf361fa302a1a2ee94e8562"
         }
       }
     },
@@ -215,11 +215,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "c42ec95813d7afacc44d70830494a4eced3e6cfafe18d6f8e5d88504bb24b97a"
+          "sha256": "aff77b6bd7843ffb2e5db9a61bea1ee83caec6dd4155d737d7a45ef083751848"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "3a821e4cbc5c4dde21173b4fc2968a199ae33a45d1e9bd6b6263a6268b69c6bf"
+          "sha256": "13c0b48b36a4ca584f53105dedde3a237b7872a8faf361fa302a1a2ee94e8562"
         }
       }
     },
@@ -511,7 +511,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "1273da938d94f637adbc6ee17e1f1345fda2c88f486c6e587bc40e1d161d2b11"
+          "sha256": "a7e35d96b6a6b88a799ac823bd0924c0ae4d7d1a23d4175b72b529a3aa9e5bb7"
         }
       }
     },
