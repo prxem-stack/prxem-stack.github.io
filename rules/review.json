@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T06:16:55.018482+00:00",
+  "checkedAt": "2026-10-09T13:24:43.978197+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -204,7 +204,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "13c0b48b36a4ca584f53105dedde3a237b7872a8faf361fa302a1a2ee94e8562"
+          "sha256": "21501a2f87686d231a94c1b7f4768bc52b00af1809057542616376883020bb84"
         }
       }
     },
@@ -219,7 +219,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "13c0b48b36a4ca584f53105dedde3a237b7872a8faf361fa302a1a2ee94e8562"
+          "sha256": "21501a2f87686d231a94c1b7f4768bc52b00af1809057542616376883020bb84"
         }
       }
     },
@@ -230,7 +230,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "df1e107f1d3605c9e92ba7562253f1325116a551a49e56c0c89f32ff3c93395f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -245,7 +245,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "df1e107f1d3605c9e92ba7562253f1325116a551a49e56c0c89f32ff3c93395f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -260,7 +260,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "2071b86c232f67d1f2820ef124f7564320de37f9aef8e2f55186dfef32706afc"
+          "sha256": "df1e107f1d3605c9e92ba7562253f1325116a551a49e56c0c89f32ff3c93395f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
