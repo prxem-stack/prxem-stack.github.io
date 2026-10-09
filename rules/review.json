@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T23:25:10.819900+00:00",
+  "checkedAt": "2026-10-09T06:16:55.018482+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -67,7 +67,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
+          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
+          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
+          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "feb97c9cc9e58ad5a1db6189a4d59b9a32ece6eb133d449f27fe75d1a0edcb9a"
+          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
         }
       }
     },
@@ -275,7 +275,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "4f19d9541bbfa70e87bae89403064f5b51e04568f355d01d197db3c350f5fdab"
+          "sha256": "4d18b084eba46b5df8b1685db34604ae3e2fd7f01f754352d2279faedffd8b47"
         }
       }
     },
@@ -319,7 +319,7 @@
       "evidence": {
         "https://help.e8markets.com/en/articles/13653464-payout-request-from-e8-pro": {
           "status": "fetched",
-          "sha256": "05d4e382b21dd1c9c9eacbefadd3b510a2ceff8cce975d7db8058d35a325c7a1"
+          "sha256": "8935a277601106747e548a80d0e69382af9ab4ecaa0cfcd8d7b14386ca92bec9"
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
@@ -483,6 +483,17 @@
       }
     },
     {
+      "id": "fundednext.stellar2",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge": {
+          "status": "fetched",
+          "sha256": "0ef30e3ada41c87c97493ad83f4ef07b81a6df2c45a287cb7afaeae52fd5851f"
+        }
+      }
+    },
+    {
       "id": "goat.instant",
       "kind": "changeReviews",
       "status": "review_pending",
@@ -490,6 +501,17 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
           "sha256": "cdb99c67103703da5ce64f28f2f960689c55a3bc26b222f7eb283f9124a25619"
+        }
+      }
+    },
+    {
+      "id": "fundednext.instant",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
+          "status": "fetched",
+          "sha256": "4d18b084eba46b5df8b1685db34604ae3e2fd7f01f754352d2279faedffd8b47"
         }
       }
     },
