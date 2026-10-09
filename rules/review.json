@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-09T13:24:43.978197+00:00",
+  "checkedAt": "2026-10-09T22:43:10.781568+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -67,7 +67,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
+          "sha256": "2995c49cf4c7b35b9f08a48096573f00a72ae0e531501a70d6930cf8db911948"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
+          "sha256": "2995c49cf4c7b35b9f08a48096573f00a72ae0e531501a70d6930cf8db911948"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
+          "sha256": "2995c49cf4c7b35b9f08a48096573f00a72ae0e531501a70d6930cf8db911948"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "bd9ee2f45f557c7d750e4f6670def024a250df3f92a9a16f75721df3ccb227f4"
+          "sha256": "2995c49cf4c7b35b9f08a48096573f00a72ae0e531501a70d6930cf8db911948"
         }
       }
     },
@@ -204,7 +204,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "21501a2f87686d231a94c1b7f4768bc52b00af1809057542616376883020bb84"
+          "sha256": "1d2ebc981bb86996528816567713ace12dfb11cae83802f7377b244bc6593044"
         }
       }
     },
@@ -219,7 +219,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "21501a2f87686d231a94c1b7f4768bc52b00af1809057542616376883020bb84"
+          "sha256": "1d2ebc981bb86996528816567713ace12dfb11cae83802f7377b244bc6593044"
         }
       }
     },

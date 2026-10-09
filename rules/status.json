@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-09T13:24:44.063575+00:00",
+  "checkedAt": "2026-10-09T22:43:10.844195+00:00",
   "firms": {
     "fundingpips": {
       "sources": [
@@ -16,7 +16,7 @@
         "https://ftmo.com/en/trading-objectives/"
       ],
       "digest": "5a7ff4121eacf02a9ec5b32678f6c2ead5df0b1645eed440277c21a347c1046e",
-      "lastSuccessfulCheck": "2026-10-09T13:24:44.063575+00:00",
+      "lastSuccessfulCheck": "2026-10-09T22:43:10.844195+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-08T23:25:10.908376+00:00"
@@ -26,7 +26,7 @@
         "https://help.fundednext.com/en/collections/11026230-trading-rules-guidelines"
       ],
       "digest": "37f1ad330a2958b3be8e0355505be35c1842dd726044afd1e96346fd8fdb2633",
-      "lastSuccessfulCheck": "2026-10-09T13:24:44.063575+00:00",
+      "lastSuccessfulCheck": "2026-10-09T22:43:10.844195+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -36,7 +36,7 @@
         "https://help.e8markets.com/en/articles/6929927-trading-policies-and-prohibited-trading-strategies"
       ],
       "digest": "b2a164658def63abf68e650e1fb902545ae5b41549beb71339b4f8b4c0295c60",
-      "lastSuccessfulCheck": "2026-10-09T13:24:44.063575+00:00",
+      "lastSuccessfulCheck": "2026-10-09T22:43:10.844195+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-07T06:07:59.026068+00:00"
@@ -46,7 +46,7 @@
         "https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules"
       ],
       "digest": "ee1012b2403899ddb715170d4f80dcec850fc67d2dd02e35ab7e3e1d2636d3ff",
-      "lastSuccessfulCheck": "2026-10-09T13:24:44.063575+00:00",
+      "lastSuccessfulCheck": "2026-10-09T22:43:10.844195+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -56,7 +56,7 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
       ],
       "digest": "ab41b0ed52a0767d23c42f954d48f4ac6c5195068994e3908cf294d8ff8e62cc",
-      "lastSuccessfulCheck": "2026-10-09T13:24:44.063575+00:00",
+      "lastSuccessfulCheck": "2026-10-09T22:43:10.844195+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-07T23:09:31.968998+00:00"
