@@ -1,7 +1,16 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T20:03:32.182Z",
+  "checkedAt": "2026-10-10T23:18:07Z",
   "announcements": [
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "text": "Announced 8 Oct 2026: from 12 Oct 2026, 09:00 GMT+3, new 1-Step Challenge orders use Consistency (all-day net profit), replacing Best Day (positive-day profit). 1-Step FTMO Accounts merged from 12 Oct also switch. Earlier orders retain Best Day through passing, rewards and successor accounts.",
+      "source": "https://ftmo.com/en/blog/trading-updates/trading-update-8-oct-2026/",
+      "modelIds": [
+        "ftmo.one"
+      ]
+    },
     {
       "firm": "GOAT Funded Trader",
       "kind": "new",
