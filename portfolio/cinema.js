@@ -84,8 +84,8 @@
     motionButton.title = !enabled && preference.matches ? 'Your device prefers reduced motion. Select to enable animation.' : 'Toggle decorative motion';
     if (!enabled) {
       document.querySelectorAll('.motion-pending').forEach(element => element.classList.remove('motion-pending'));
-      photo.style.removeProperty('--photo-tilt-x');
-      photo.style.removeProperty('--photo-tilt-y');
+      photo.style.removeProperty('--photo-pan-x');
+      photo.style.removeProperty('--photo-pan-y');
     }
     measure();
   }
@@ -115,15 +115,15 @@
       window.scrollTo({ top: target, behavior: 'auto' });
     }
   }));
-  photo.addEventListener('pointermove', event => {
+  hero.addEventListener('pointermove', event => {
     if (!enabled || !finePointer.matches) return;
     const rect = photo.getBoundingClientRect();
-    photo.style.setProperty('--photo-tilt-x', `${((event.clientX - rect.left) / rect.width - .5) * 12}deg`);
-    photo.style.setProperty('--photo-tilt-y', `${-((event.clientY - rect.top) / rect.height - .5) * 9}deg`);
+    photo.style.setProperty('--photo-pan-x', `${((event.clientX - rect.left) / rect.width - .5) * 10}px`);
+    photo.style.setProperty('--photo-pan-y', `${((event.clientY - rect.top) / rect.height - .5) * 7}px`);
   });
-  photo.addEventListener('pointerleave', () => {
-    photo.style.setProperty('--photo-tilt-x', '0deg');
-    photo.style.setProperty('--photo-tilt-y', '0deg');
+  hero.addEventListener('pointerleave', () => {
+    photo.style.setProperty('--photo-pan-x', '0px');
+    photo.style.setProperty('--photo-pan-y', '0px');
   });
   if ('IntersectionObserver' in window) {
     const timelineObserver = new IntersectionObserver(entries => entries.forEach(entry => entry.target.classList.toggle('is-in-view', entry.isIntersecting)), { threshold: .6 });
