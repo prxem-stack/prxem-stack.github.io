@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T13:00:10.920045+00:00",
+  "checkedAt": "2026-10-11T22:04:22.788541+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "21dc5fd5598afad151bc15a6f6a8666e3fe86a8c5c572dc6859b4cc77ab5167a"
+          "sha256": "6b82382196033f047fd1d2debd5f470e8553d14db849bff4e7b2763130f57f24"
         }
       }
     },
@@ -204,7 +204,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "a6651afc93193272723c09387579633d5b14999d2e8c315c7506630061c5d1d5"
+          "sha256": "966e593590fd5a79da31bb13caf16fefa3b82502415101ce1f636168cd161980"
         }
       }
     },
@@ -219,7 +219,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "a6651afc93193272723c09387579633d5b14999d2e8c315c7506630061c5d1d5"
+          "sha256": "966e593590fd5a79da31bb13caf16fefa3b82502415101ce1f636168cd161980"
         }
       }
     },
@@ -319,7 +319,7 @@
       "evidence": {
         "https://help.e8markets.com/en/articles/13653464-payout-request-from-e8-pro": {
           "status": "fetched",
-          "sha256": "8935a277601106747e548a80d0e69382af9ab4ecaa0cfcd8d7b14386ca92bec9"
+          "sha256": "32c04374f32a0d08f852d670925a615b249c03dae3cae6fbbeec927ac442383f"
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
