@@ -1,75 +1,33 @@
 const products = [
   {
-    id: "monsoon-box-tee",
-    name: "Monsoon Box Tee",
-    type: "tee",
-    fit: "oversized",
-    price: 1890,
-    tag: "Heavy GSM",
-    detail: "240 GSM cotton jersey, drop shoulder, rib neck, street fit.",
-    image: "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&w=900&q=80",
-    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    colors: ["Ink", "Chilli", "Ivory"]
-  },
-  {
-    id: "bandra-camp-shirt",
-    name: "Bandra Camp Shirt",
+    id: "storm-overshirt",
+    name: "Storm Overshirt",
     type: "shirt",
-    fit: "relaxed",
-    price: 3290,
-    tag: "Resort collar",
-    detail: "Open collar cotton shirt with coconut buttons and relaxed sleeves.",
+    price: 3490,
+    detail: "Relaxed black overshirt, red stitch language, cotton twill feel.",
     image: "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80",
     sizes: ["S", "M", "L", "XL", "XXL"],
-    colors: ["Palm", "Sand", "Black"]
+    colors: ["Black/Red", "Graphite", "Ivory"]
   },
   {
-    id: "metro-oxford-shirt",
-    name: "Metro Oxford Shirt",
+    id: "match-tee",
+    name: "Match Graphic Tee",
+    type: "tee",
+    price: 1990,
+    detail: "Heavy cotton tee with oversized fit and original stripe graphic.",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
+    colors: ["Black", "Chilli", "White"]
+  },
+  {
+    id: "tempo-shirt",
+    name: "Tempo Poplin Shirt",
     type: "shirt",
-    fit: "regular",
-    price: 2790,
-    tag: "Office to evening",
-    detail: "Crisp oxford weave, button-down collar, clean everyday shape.",
+    price: 2890,
+    detail: "Crisp city shirt with curved hem, made for day-to-night wear.",
     image: "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80",
     sizes: ["S", "M", "L", "XL", "XXL"],
-    colors: ["White", "Sky", "Graphite"]
-  },
-  {
-    id: "raasta-graphic-tee",
-    name: "Raasta Graphic Tee",
-    type: "tee",
-    fit: "oversized",
-    price: 2190,
-    tag: "Limited demo",
-    detail: "Soft cotton tee with original abstract placement print language.",
-    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
-    sizes: ["XS", "S", "M", "L", "XL"],
-    colors: ["Black", "Cobalt", "Milk"]
-  },
-  {
-    id: "linen-stand-shirt",
-    name: "Linen Stand Shirt",
-    type: "shirt",
-    fit: "relaxed",
-    price: 3690,
-    tag: "Warm weather",
-    detail: "Breathable cotton-linen blend with stand collar and curved hem.",
-    image: "https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=900&q=80",
-    sizes: ["S", "M", "L", "XL"],
-    colors: ["Ecru", "Olive", "Indigo"]
-  },
-  {
-    id: "training-rib-tee",
-    name: "Training Rib Tee",
-    type: "tee",
-    fit: "regular",
-    price: 1490,
-    tag: "Everyday base",
-    detail: "Ribbed neck, compact cotton, made for layering under shirts.",
-    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=900&q=80",
-    sizes: ["XS", "S", "M", "L", "XL", "XXL"],
-    colors: ["White", "Charcoal", "Red"]
+    colors: ["White", "Sky", "Black"]
   }
 ];
 
@@ -80,73 +38,65 @@ const rupee = new Intl.NumberFormat("en-IN", {
 });
 
 const state = {
+  active: products[0].id,
   filter: "all",
+  cart: [],
   selections: Object.fromEntries(products.map((product) => [
     product.id,
     { size: product.sizes[1] || product.sizes[0], color: product.colors[0] }
-  ])),
-  cart: []
+  ]))
 };
 
-const grid = document.querySelector(".product-grid");
+const root = document.documentElement;
+const title = document.querySelector("#product-title");
+const price = document.querySelector(".price");
+const productSelector = document.querySelector(".products");
+const sizeSelector = document.querySelector(".sizes");
+const colorSelector = document.querySelector(".colors");
+const grid = document.querySelector(".catalog-grid");
 const cartPanel = document.querySelector(".cart-panel");
 const cartItems = document.querySelector(".cart-items");
-const cartEmpty = document.querySelector(".cart-empty");
-const scrim = document.querySelector(".scrim");
 const toast = document.querySelector(".toast");
-const cartToggle = document.querySelector(".cart-toggle");
-const soundToggle = document.querySelector(".sound-toggle");
 let audioContext;
 let musicTimer;
 
-function renderProducts() {
-  const filtered = products.filter((product) => {
-    if (state.filter === "all") return true;
-    if (state.filter === "oversized") return product.fit === "oversized";
-    return product.type === state.filter;
-  });
-
-  grid.innerHTML = filtered.map((product) => {
-    const selection = state.selections[product.id];
-    return `
-      <article class="product-card" data-product="${product.id}">
-        <div class="product-media">
-          <img src="${product.image}" alt="${product.name}">
-          <span class="product-tag">${product.tag}</span>
-        </div>
-        <div class="product-body">
-          <div class="product-topline">
-            <h3 class="product-title">${product.name}</h3>
-            <span class="price">${rupee.format(product.price)}</span>
-          </div>
-          <p class="product-details">${product.detail}</p>
-          ${variantGroup(product, "size", product.sizes, selection.size)}
-          ${variantGroup(product, "color", product.colors, selection.color)}
-          <button class="add-button" type="button" data-add="${product.id}">Add to cart</button>
-        </div>
-      </article>
-    `;
-  }).join("");
+function activeProduct() {
+  return products.find((product) => product.id === state.active);
 }
 
-function variantGroup(product, key, values, active) {
-  return `
-    <div class="variant-group">
-      <span class="variant-label">${key}</span>
-      <div class="variant-row">
-        ${values.map((value) => `
-          <button class="variant-button ${value === active ? "active" : ""}" type="button" data-product="${product.id}" data-variant="${key}" data-value="${value}" aria-pressed="${value === active}">
-            ${value}
-          </button>
-        `).join("")}
+function renderSelectors() {
+  const product = activeProduct();
+  const selection = state.selections[product.id];
+  title.textContent = product.name;
+  price.textContent = rupee.format(product.price);
+  productSelector.innerHTML = products.map((item) => button(item.name, item.id, "product", item.id === product.id)).join("");
+  sizeSelector.innerHTML = product.sizes.map((size) => button(size, size, "size", selection.size === size)).join("");
+  colorSelector.innerHTML = product.colors.map((color) => button(color, color, "color", selection.color === color)).join("");
+  document.querySelectorAll(".hero-product").forEach((image) => image.classList.toggle("active", image.dataset.productImage === product.id));
+}
+
+function button(label, value, kind, active) {
+  return `<button class="${active ? "active" : ""}" type="button" data-kind="${kind}" data-value="${value}" aria-pressed="${active}">${label}</button>`;
+}
+
+function renderCatalog() {
+  const visible = products.filter((product) => state.filter === "all" || product.type === state.filter);
+  grid.innerHTML = visible.map((product) => `
+    <article class="card">
+      <img src="${product.image}" alt="${product.name}">
+      <div class="card-body">
+        <h3>${product.name}</h3>
+        <p>${product.detail}</p>
+        <p><strong>${rupee.format(product.price)}</strong></p>
+        <button class="add-button" type="button" data-pick="${product.id}">Select drop</button>
       </div>
-    </div>
-  `;
+    </article>
+  `).join("");
 }
 
 function renderCart() {
   cartItems.innerHTML = state.cart.map((item, index) => `
-    <article class="cart-item">
+    <article class="cart-row">
       <img src="${item.image}" alt="${item.name}">
       <div>
         <h3>${item.name}</h3>
@@ -154,137 +104,148 @@ function renderCart() {
         <p>${rupee.format(item.price)}</p>
       </div>
       <div class="qty">
-        <button type="button" data-qty="${index}" data-delta="-1" aria-label="Decrease ${item.name} quantity">-</button>
+        <button type="button" data-qty="${index}" data-delta="-1" aria-label="Decrease quantity">-</button>
         <span>${item.qty}</span>
-        <button type="button" data-qty="${index}" data-delta="1" aria-label="Increase ${item.name} quantity">+</button>
+        <button type="button" data-qty="${index}" data-delta="1" aria-label="Increase quantity">+</button>
       </div>
     </article>
   `).join("");
-
   const count = state.cart.reduce((sum, item) => sum + item.qty, 0);
-  const subtotal = state.cart.reduce((sum, item) => sum + item.price * item.qty, 0);
-  document.querySelector(".cart-count").textContent = count;
+  const subtotal = state.cart.reduce((sum, item) => sum + item.qty * item.price, 0);
+  document.querySelectorAll(".cart-count").forEach((el) => { el.textContent = count; });
   document.querySelector(".subtotal").textContent = rupee.format(subtotal);
-  cartEmpty.classList.toggle("visible", count === 0);
+  document.querySelector(".cart-empty").hidden = count !== 0;
 }
 
-function addToCart(productId) {
+function addToCart(productId = state.active) {
   const product = products.find((item) => item.id === productId);
-  const selection = state.selections[productId];
-  const existing = state.cart.find((item) => item.id === productId && item.size === selection.size && item.color === selection.color);
-  if (existing) {
-    existing.qty += 1;
-  } else {
-    state.cart.push({ ...product, ...selection, qty: 1 });
-  }
+  const selection = state.selections[product.id];
+  const existing = state.cart.find((item) => item.id === product.id && item.size === selection.size && item.color === selection.color);
+  if (existing) existing.qty += 1;
+  else state.cart.push({ ...product, ...selection, qty: 1 });
   renderCart();
   openCart();
-  showToast(`${product.name} added in ${selection.size}, ${selection.color}.`);
+  showToast(`${product.name} added: ${selection.size}, ${selection.color}.`);
 }
 
 function openCart() {
   cartPanel.classList.add("open");
-  cartPanel.setAttribute("aria-hidden", "false");
-  cartToggle.setAttribute("aria-expanded", "true");
-  scrim.hidden = false;
 }
 
 function closeCart() {
   cartPanel.classList.remove("open");
-  cartPanel.setAttribute("aria-hidden", "true");
-  cartToggle.setAttribute("aria-expanded", "false");
-  scrim.hidden = true;
 }
 
 function showToast(message) {
   toast.textContent = message;
   toast.classList.add("show");
-  window.clearTimeout(showToast.timer);
-  showToast.timer = window.setTimeout(() => toast.classList.remove("show"), 2600);
+  clearTimeout(showToast.timer);
+  showToast.timer = setTimeout(() => toast.classList.remove("show"), 2600);
+}
+
+function updateScrollScene() {
+  const max = document.querySelector(".scroll-stage").offsetHeight - innerHeight;
+  const progress = Math.min(1, Math.max(0, scrollY / max));
+  root.style.setProperty("--zoom", (1 + progress * 1.95).toFixed(3));
+  root.style.setProperty("--deck-x", `${Math.max(0, 120 - progress * 220)}%`);
+  document.querySelector(".copy-one").style.setProperty("--copy-opacity", progress > 0.15 && progress < 0.52 ? 1 : 0);
+  document.querySelector(".copy-one").style.setProperty("--copy-x", `${Math.round(progress * -160)}`);
+  document.querySelector(".copy-two").style.setProperty("--copy-opacity", progress > 0.42 && progress < 0.78 ? 1 : 0);
+  document.querySelector(".copy-two").style.setProperty("--copy-y", `${Math.round((progress - 0.42) * -220)}`);
+  document.querySelector(".copy-three").style.setProperty("--copy-opacity", progress > 0.72 ? 1 : 0);
 }
 
 function startMusic() {
   audioContext = audioContext || new AudioContext();
-  const notes = [110, 146.83, 164.81, 220, 246.94, 293.66];
+  const notes = [55, 82.41, 110, 123.47, 146.83, 164.81];
   let step = 0;
-  musicTimer = window.setInterval(() => {
+  musicTimer = setInterval(() => {
     const now = audioContext.currentTime;
     const osc = audioContext.createOscillator();
     const gain = audioContext.createGain();
-    osc.type = step % 4 === 0 ? "triangle" : "sine";
+    osc.type = step % 3 === 0 ? "sawtooth" : "triangle";
     osc.frequency.value = notes[step % notes.length];
     gain.gain.setValueAtTime(0.0001, now);
-    gain.gain.exponentialRampToValueAtTime(0.045, now + 0.03);
-    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.22);
+    gain.gain.exponentialRampToValueAtTime(0.035, now + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, now + 0.18);
     osc.connect(gain).connect(audioContext.destination);
     osc.start(now);
-    osc.stop(now + 0.24);
+    osc.stop(now + 0.2);
     step += 1;
-  }, 220);
+  }, 185);
 }
 
 function stopMusic() {
-  window.clearInterval(musicTimer);
+  clearInterval(musicTimer);
   musicTimer = undefined;
 }
 
-document.querySelector(".filters").addEventListener("click", (event) => {
-  const button = event.target.closest(".filter");
-  if (!button) return;
-  state.filter = button.dataset.filter;
-  document.querySelectorAll(".filter").forEach((filter) => filter.classList.toggle("active", filter === button));
-  renderProducts();
-});
-
-grid.addEventListener("click", (event) => {
-  const variant = event.target.closest("[data-variant]");
-  if (variant) {
-    state.selections[variant.dataset.product][variant.dataset.variant] = variant.dataset.value;
-    renderProducts();
+document.addEventListener("click", async (event) => {
+  const selectorButton = event.target.closest("[data-kind]");
+  if (selectorButton) {
+    const kind = selectorButton.dataset.kind;
+    const value = selectorButton.dataset.value;
+    if (kind === "product") state.active = value;
+    if (kind === "size") state.selections[state.active].size = value;
+    if (kind === "color") state.selections[state.active].color = value;
+    renderSelectors();
     return;
   }
-  const add = event.target.closest("[data-add]");
-  if (add) addToCart(add.dataset.add);
-});
 
-cartItems.addEventListener("click", (event) => {
-  const button = event.target.closest("[data-qty]");
-  if (!button) return;
-  const item = state.cart[Number(button.dataset.qty)];
-  item.qty += Number(button.dataset.delta);
-  state.cart = state.cart.filter((cartItem) => cartItem.qty > 0);
-  renderCart();
-});
-
-cartToggle.addEventListener("click", openCart);
-document.querySelector(".close-cart").addEventListener("click", closeCart);
-scrim.addEventListener("click", closeCart);
-
-document.querySelector(".checkout-button").addEventListener("click", () => {
-  if (state.cart.length === 0) {
-    showToast("Add a shirt or T-shirt before simulating checkout.");
+  const pick = event.target.closest("[data-pick]");
+  if (pick) {
+    state.active = pick.dataset.pick;
+    renderSelectors();
+    scrollTo({ top: 0, behavior: "smooth" });
     return;
   }
-  showToast("Simulated checkout only: no payment, UPI, card, or address details collected.");
-});
 
-soundToggle.addEventListener("click", async () => {
-  const enabled = soundToggle.getAttribute("aria-pressed") === "true";
-  if (enabled) {
-    stopMusic();
-    soundToggle.setAttribute("aria-pressed", "false");
-    document.querySelector(".sound-label").textContent = "Sound off";
-  } else {
-    startMusic();
-    if (audioContext.state === "suspended") await audioContext.resume();
-    soundToggle.setAttribute("aria-pressed", "true");
-    document.querySelector(".sound-label").textContent = "Sound on";
+  if (event.target.closest(".add-button") && event.target.closest(".buy-deck")) addToCart();
+  if (event.target.closest(".cart-fab") || event.target.closest('.bottom-hud a[href="#cart-panel"]')) openCart();
+  if (event.target.closest(".close-cart")) closeCart();
+
+  const filter = event.target.closest(".filter");
+  if (filter) {
+    state.filter = filter.dataset.filter;
+    document.querySelectorAll(".filter").forEach((button) => button.classList.toggle("active", button === filter));
+    renderCatalog();
+  }
+
+  const qty = event.target.closest("[data-qty]");
+  if (qty) {
+    const item = state.cart[Number(qty.dataset.qty)];
+    item.qty += Number(qty.dataset.delta);
+    state.cart = state.cart.filter((cartItem) => cartItem.qty > 0);
+    renderCart();
+  }
+
+  if (event.target.closest(".checkout-button")) {
+    showToast(state.cart.length ? "Simulated checkout only. No payment, UPI, card, or address details collected." : "Add a shirt or T-shirt before simulating checkout.");
+  }
+
+  const sound = event.target.closest(".sound-toggle");
+  if (sound) {
+    const on = sound.getAttribute("aria-pressed") === "true";
+    if (on) {
+      stopMusic();
+      sound.setAttribute("aria-pressed", "false");
+      sound.textContent = "CLICK TO ENABLE SOUND";
+    } else {
+      startMusic();
+      if (audioContext.state === "suspended") await audioContext.resume();
+      sound.setAttribute("aria-pressed", "true");
+      sound.textContent = "SOUND ON / MUTE";
+    }
   }
 });
 
-window.addEventListener("keydown", (event) => {
+addEventListener("scroll", updateScrollScene, { passive: true });
+addEventListener("resize", updateScrollScene);
+addEventListener("keydown", (event) => {
   if (event.key === "Escape") closeCart();
 });
 
-renderProducts();
+renderSelectors();
+renderCatalog();
 renderCart();
+updateScrollScene();

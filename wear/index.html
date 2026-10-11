@@ -3,128 +3,105 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Studio Raasta Wear Demo | Shirts & T-Shirts</title>
-  <meta name="description" content="Temporary premium clothing storefront demo for an Indian shirts and T-shirts brand.">
+  <title>STRIPE LAB Demo | Shirts & T-Shirts</title>
+  <meta name="description" content="Immersive Adidas-inspired clothing storefront demo for Indian shirts and T-shirts.">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#products">Skip to products</a>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Studio Raasta Wear home">
-      <span class="brand-mark" aria-hidden="true">SR</span>
-      <span>Studio Raasta</span>
-      <small>temporary demo brand</small>
-    </a>
-    <nav class="nav-links" aria-label="Primary">
-      <a href="#products">Shop</a>
-      <a href="#thread">Story</a>
-      <a href="#cart">Cart</a>
-    </nav>
-    <div class="header-actions">
-      <button class="sound-toggle" type="button" aria-pressed="false">
-        <span class="sound-icon" aria-hidden="true"></span>
-        <span class="sound-label">Sound off</span>
-      </button>
-      <button class="cart-toggle" type="button" aria-controls="cart-panel" aria-expanded="false">
-        Cart <span class="cart-count">0</span>
-      </button>
-    </div>
-  </header>
+  <main class="experience" id="top">
+    <section class="scroll-stage" aria-label="Immersive shirt storefront">
+      <div class="sticky-scene">
+        <header class="hud top-hud">
+          <a class="mark" href="#top" aria-label="Stripe Lab home">
+            <span class="leaf-mark" aria-hidden="true"></span>
+            <span>STRIPE<br>LAB</span>
+          </a>
+          <span class="partner-mark">INDIA<br>DEMO</span>
+          <button class="menu-button" type="button" aria-controls="catalog" aria-label="Jump to catalog">•••</button>
+        </header>
 
-  <main id="top">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-copy">
-        <p class="eyebrow">India-ready storefront demo / Shirts and T-shirts only</p>
-        <h1 id="hero-title">Cut loud. Worn easy.</h1>
-        <p class="hero-text">A premium motion-led storefront concept for an Indian apparel client, using INR pricing, familiar size choices, color variants, product detail panels, and a simulated checkout flow.</p>
-        <div class="hero-actions">
-          <a class="primary-link" href="#products">Shop the demo</a>
-          <a class="secondary-link" href="#thread">Watch the thread</a>
+        <div class="scene-bg" aria-hidden="true">
+          <span class="ramp ramp-left"></span>
+          <span class="ramp ramp-right"></span>
+          <span class="light-bar bar-one"></span>
+          <span class="light-bar bar-two"></span>
+          <span class="light-bar bar-three"></span>
+        </div>
+
+        <article class="product-frame" aria-labelledby="product-title">
+          <div class="shirt-shell">
+            <img class="hero-product active" data-product-image="storm-overshirt" src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=900&q=80" alt="Black overshirt with dramatic red light">
+            <img class="hero-product" data-product-image="match-tee" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Black graphic T-shirt">
+            <img class="hero-product" data-product-image="tempo-shirt" src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80" alt="Crisp white shirt">
+          </div>
+          <div class="copy-layer copy-one">
+            <p>Push through heat, night, traffic, monsoon.</p>
+          </div>
+          <div class="copy-layer copy-two">
+            <p>Street shirts with match-day energy.</p>
+          </div>
+          <div class="copy-layer copy-three">
+            <p>Built as a demo. No real checkout.</p>
+          </div>
+        </article>
+
+        <section class="buy-deck" aria-labelledby="product-title">
+          <p class="eyebrow">Temporary demo brand</p>
+          <h1 id="product-title">Storm Overshirt</h1>
+          <p class="price">₹3,490</p>
+          <div class="selector products" role="group" aria-label="Choose product"></div>
+          <div class="selector sizes" role="group" aria-label="Choose size"></div>
+          <div class="selector colors" role="group" aria-label="Choose color"></div>
+          <button class="add-button" type="button">Add to bag</button>
+        </section>
+
+        <footer class="hud bottom-hud">
+          <span>© 2026 STRIPE LAB DEMO</span>
+          <button class="sound-toggle" type="button" aria-pressed="false">CLICK TO ENABLE SOUND</button>
+          <a href="#catalog">CATALOG</a>
+          <a href="#cart-panel">BAG <span class="cart-count">0</span></a>
+        </footer>
+
+        <div class="scroll-cue" aria-hidden="true">
+          <span></span>
+          <strong>SCROLL TO EXPLORE</strong>
         </div>
       </div>
-      <div class="hero-stage" aria-label="Featured shirts and T-shirts">
-        <div class="stripe stripe-one"></div>
-        <img class="hero-shirt hero-shirt-one" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80" alt="Black premium T-shirt on a hanger">
-        <img class="hero-shirt hero-shirt-two" src="https://images.unsplash.com/photo-1598033129183-c4f50c736f10?auto=format&fit=crop&w=900&q=80" alt="Folded white shirt fabric detail">
-        <div class="orbit-badge" aria-hidden="true">SS / 26</div>
-      </div>
     </section>
 
-    <section class="ticker" aria-label="Demo scope">
-      <span>No real checkout</span>
-      <span>INR pricing</span>
-      <span>Shirts and T-shirts only</span>
-      <span>Temporary brand</span>
-    </section>
-
-    <section class="thread-section" id="thread" aria-labelledby="thread-title">
-      <div class="thread-pin">
-        <p class="eyebrow">In every thread, intention</p>
-        <h2 id="thread-title">From cotton weight to collar roll, every choice should feel deliberate.</h2>
-        <p>This scroll story is original to the demo: fabric notes, fit language, and motion cues designed to feel premium without borrowing a reference brand or song.</p>
+    <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <p class="eyebrow">Shirts and T-shirts only</p>
+        <h2 id="catalog-title">Pick your drop</h2>
+        <p>Original demo products, INR presentation, Indian apparel sizes, and a simulated checkout. No payment, UPI, card, or address details are collected.</p>
       </div>
-      <div class="thread-steps" aria-label="Product intent details">
-        <article>
-          <span>01</span>
-          <h3>Street sharpness</h3>
-          <p>Oversized silhouettes, strong contrast, and high-impact product panels give the collection visual punch.</p>
-        </article>
-        <article>
-          <span>02</span>
-          <h3>Indian retail ready</h3>
-          <p>Prices are shown in INR, sizes follow XS-XXL apparel buying patterns, and checkout is clearly marked as simulated.</p>
-        </article>
-        <article>
-          <span>03</span>
-          <h3>Quiet commerce</h3>
-          <p>Filters, variants, cart controls, and keyboard-friendly focus states keep the drama usable.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="shop-section" id="products" aria-labelledby="products-title">
-      <div class="section-heading">
-        <p class="eyebrow">The shop</p>
-        <h2 id="products-title">Shirts & tees</h2>
-        <p>Filter by garment type or fit. Choose size and color before adding to cart.</p>
-      </div>
-      <div class="filters" role="group" aria-label="Filter products">
+      <div class="filter-row" role="group" aria-label="Filter catalog">
         <button class="filter active" type="button" data-filter="all">All</button>
         <button class="filter" type="button" data-filter="shirt">Shirts</button>
         <button class="filter" type="button" data-filter="tee">T-shirts</button>
-        <button class="filter" type="button" data-filter="oversized">Oversized</button>
       </div>
-      <div class="product-grid" aria-live="polite"></div>
-    </section>
-
-    <section class="checkout-note" aria-labelledby="checkout-note-title">
-      <div>
-        <p class="eyebrow">Payment presentation</p>
-        <h2 id="checkout-note-title">Demo checkout only</h2>
-      </div>
-      <p>This static GitHub Pages demo never collects card, UPI, or address details and cannot charge anyone. A production store would need the client's merchant account, payment gateway approval, and a backend or commerce platform.</p>
+      <div class="catalog-grid" aria-live="polite"></div>
     </section>
   </main>
 
-  <aside class="cart-panel" id="cart-panel" aria-labelledby="cart-title" aria-hidden="true">
+  <aside class="cart-panel" id="cart-panel" aria-labelledby="cart-title">
     <div class="cart-head">
       <div>
-        <p class="eyebrow">Bag</p>
-        <h2 id="cart-title">Demo cart</h2>
+        <p class="eyebrow">Demo bag</p>
+        <h2 id="cart-title">Simulated checkout</h2>
       </div>
-      <button class="close-cart" type="button" aria-label="Close cart">Close</button>
+      <button class="close-cart" type="button">Close</button>
     </div>
     <div class="cart-items"></div>
-    <div class="cart-empty">Your cart is empty.</div>
-    <div class="cart-summary">
-      <div><span>Subtotal</span><strong class="subtotal">₹0</strong></div>
-      <div><span>Estimated GST display</span><strong class="tax">Included</strong></div>
+    <p class="cart-empty">Bag is empty.</p>
+    <div class="summary">
+      <p><span>Subtotal</span><strong class="subtotal">₹0</strong></p>
+      <p><span>Payment</span><strong>Demo only</strong></p>
       <button class="checkout-button" type="button">Simulate checkout</button>
-      <p class="microcopy">No payment details are collected. This is a storefront demo.</p>
+      <small>Production payment needs the client's merchant account, gateway approval, and backend or commerce platform. GitHub Pages alone is static.</small>
     </div>
   </aside>
-  <div class="scrim" hidden></div>
-
+  <button class="cart-fab" type="button" aria-controls="cart-panel">Bag <span class="cart-count">0</span></button>
   <div class="toast" role="status" aria-live="polite"></div>
   <script src="./script.js"></script>
 </body>
