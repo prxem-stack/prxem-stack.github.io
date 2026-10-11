@@ -517,11 +517,35 @@ h1 {
   }
 
   .buy-deck {
-    left: 18px;
-    right: 18px;
+    left: 16px;
+    right: 16px;
     top: auto;
-    bottom: 92px;
+    bottom: 86px;
     width: auto;
+    max-height: calc(100vh - 164px);
+    padding: 14px;
+    overflow: auto;
+  }
+
+  .buy-deck h1 {
+    font-size: 27px;
+    line-height: 0.96;
+  }
+
+  .selector {
+    gap: 6px;
+    margin: 9px 0;
+  }
+
+  .selector button {
+    flex-basis: calc(50% - 6px);
+    min-height: 39px;
+    padding: 9px 10px;
+    white-space: normal;
+  }
+
+  .add-button {
+    width: 100%;
   }
 
   .bottom-hud {
@@ -530,7 +554,11 @@ h1 {
     flex-wrap: wrap;
   }
 
-  .scroll-cue { bottom: 70px; }
+  .bottom-hud .sound-toggle {
+    margin-left: 0;
+  }
+
+  .scroll-cue { display: none; }
 
   .catalog-heading,
   .catalog-grid {
