@@ -3,9 +3,18 @@
   "checkedAt": "2026-10-12T09:43:00.481Z",
   "announcements": [
     {
+      "firm": "FundedNext",
+      "kind": "new",
+      "text": "From 12 Oct 2026: Stellar Lite Challenges purchased or reset on/after this date require 2 trading days per evaluation phase instead of 5. Earlier purchases/resets retain 5 per phase. FundedNext Accounts have no minimum trading days; this change does not apply to Stellar 2-Step.",
+      "source": "https://help.fundednext.com/en/articles/8019803-what-are-the-minimum-trading-days-in-fundednext-challenges",
+      "modelIds": [
+        "fundednext.lite"
+      ]
+    },
+    {
       "firm": "GOAT Funded Trader",
       "kind": "new",
-      "text": "Effective 6 Oct 2026: all models and purchase cohorts, evaluation and funded, prohibit VPN/VPS/proxy/hosted routing during trading. Violation causes breach and affected payouts are ineligible. VPN is allowed only for initial login/server connection; disconnect before trading.",
+      "text": "Effective 6 Oct 2026: all models and purchase cohorts, evaluation and funded, prohibit VPN/VPS/proxy/hosted routing during trading; breach and affected payout ineligibility apply. VPN is permitted for initial login only, disconnected before trading. Clarified 12 Oct: GOAT's dashboard Trade Copier is exempt; other VPS/hosted copiers remain prohibited.",
       "source": "https://help.goatfundedtrader.com/en/articles/17362726-can-i-use-a-vpn-vps-proxy-or-any-other-hosting-service-while-trading"
     },
     {
