@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-11T22:04:22.788541+00:00",
+  "checkedAt": "2026-10-12T06:06:47.141833+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -28,11 +28,13 @@
     {
       "id": "fundednext-0",
       "kind": "offers",
-      "status": "review_pending",
+      "status": "unavailable",
       "evidence": {
         "https://help.fundednext.com/en/articles/17277162-what-is-the-fundednext-stellar-october-starter-offer": {
-          "status": "fetched",
-          "sha256": "70f1b2ee117b3225b16e94af8d8d5d345ab18bfa042102ebc6254f68850fd4a8"
+          "status": "unavailable",
+          "error": "HTTPError",
+          "httpStatus": 404,
+          "reason": "not_found"
         }
       }
     },
@@ -204,7 +206,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "966e593590fd5a79da31bb13caf16fefa3b82502415101ce1f636168cd161980"
+          "sha256": "3af04a2850eea81027d1649d907702a7b249da063e61e430ac7e15dfc8f9cf68"
         }
       }
     },
@@ -219,7 +221,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "966e593590fd5a79da31bb13caf16fefa3b82502415101ce1f636168cd161980"
+          "sha256": "3af04a2850eea81027d1649d907702a7b249da063e61e430ac7e15dfc8f9cf68"
         }
       }
     },
