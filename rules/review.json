@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-12T15:38:06.795923+00:00",
+  "checkedAt": "2026-10-12T18:04:31.950663+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -69,7 +69,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2d77803b3544b02333f2aafd6ede85caa91229922e24937736856837bc6e2f6"
+          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
         }
       }
     },
@@ -80,7 +80,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2d77803b3544b02333f2aafd6ede85caa91229922e24937736856837bc6e2f6"
+          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
         }
       }
     },
@@ -91,7 +91,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2d77803b3544b02333f2aafd6ede85caa91229922e24937736856837bc6e2f6"
+          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
         }
       }
     },
@@ -102,7 +102,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2d77803b3544b02333f2aafd6ede85caa91229922e24937736856837bc6e2f6"
+          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "ffd8dc3ccc02b6d0457ce0426308177cc2c224e44a1960fb3288f1fc286a5ce9"
+          "sha256": "714424973987e86a89d14dd8d38147032bdd75de1c39518a12d5a407f5b60c6d"
         }
       }
     },
