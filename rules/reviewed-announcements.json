@@ -1,7 +1,13 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-10T23:18:07Z",
+  "checkedAt": "2026-10-12T09:43:00.481Z",
   "announcements": [
+    {
+      "firm": "GOAT Funded Trader",
+      "kind": "new",
+      "text": "Effective 6 Oct 2026: all models and purchase cohorts, evaluation and funded, prohibit VPN/VPS/proxy/hosted routing during trading. Violation causes breach and affected payouts are ineligible. VPN is allowed only for initial login/server connection; disconnect before trading.",
+      "source": "https://help.goatfundedtrader.com/en/articles/17362726-can-i-use-a-vpn-vps-proxy-or-any-other-hosting-service-while-trading"
+    },
     {
       "firm": "FTMO",
       "kind": "new",
