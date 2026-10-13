@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T14:19:47.817333+00:00",
+  "checkedAt": "2026-10-13T22:51:12.702184+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -35,6 +35,39 @@
           "error": "HTTPError",
           "httpStatus": 404,
           "reason": "not_found"
+        }
+      }
+    },
+    {
+      "id": "alpha-capital-0",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
+          "status": "fetched",
+          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
+        }
+      }
+    },
+    {
+      "id": "alpha-capital-1",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
+          "status": "fetched",
+          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
+        }
+      }
+    },
+    {
+      "id": "alpha-capital-2",
+      "kind": "offers",
+      "status": "review_pending",
+      "evidence": {
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
+          "status": "fetched",
+          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
         }
       }
     },
@@ -406,7 +439,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model": {
           "status": "fetched",
-          "sha256": "0e4c55fd2cd0fc709f3b4ac5f4f3a29ba758ae2015fe29b5f24b851515bce4f7"
+          "sha256": "3375d3e51d349543944b5656ce813c4496e4fba2db87ef2f2cad6a3e4389078d"
         }
       }
     },
