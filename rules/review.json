@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-13T00:47:27.642440+00:00",
+  "checkedAt": "2026-10-13T14:19:47.817333+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "96c7717d969ff576b380080985dfa56b1843757e31fde22ee30fdb6f8a2683c6"
+          "sha256": "19fde8fa61ebe8b2d01fb645f22a9314544f883580430204d90a4840a312206a"
         }
       }
     },
@@ -69,7 +69,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
+          "sha256": "84e1c7ccc33410e4bbb2959a17f9d9ef242969d60c9620e322ee06e6b663a546"
         }
       }
     },
@@ -80,7 +80,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
+          "sha256": "84e1c7ccc33410e4bbb2959a17f9d9ef242969d60c9620e322ee06e6b663a546"
         }
       }
     },
@@ -91,7 +91,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
+          "sha256": "84e1c7ccc33410e4bbb2959a17f9d9ef242969d60c9620e322ee06e6b663a546"
         }
       }
     },
@@ -102,7 +102,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "33ecaa34b9f2ced9635c23f124d86f72a3eeb14c11b093a3112c962e99f3a5a6"
+          "sha256": "84e1c7ccc33410e4bbb2959a17f9d9ef242969d60c9620e322ee06e6b663a546"
         }
       }
     },
@@ -202,11 +202,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "d43f915fe6c196173bfc2ad6d27a443ecf3fc1a1089bfc2a505730340508b945"
+          "sha256": "5c30a012694a02fb32d8014b1b5004dcf7c50ffa108261fb464aae6be5a47c85"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "fbf5a8a7cf650d49ae84213a66057ad2aa3239e911f6e8f59103eb5014c19b68"
+          "sha256": "c9847c835f8e5cdbbab57af3cde5109595251cdaa092d7236b829b53639bd9b8"
         }
       }
     },
@@ -217,11 +217,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "d43f915fe6c196173bfc2ad6d27a443ecf3fc1a1089bfc2a505730340508b945"
+          "sha256": "5c30a012694a02fb32d8014b1b5004dcf7c50ffa108261fb464aae6be5a47c85"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "fbf5a8a7cf650d49ae84213a66057ad2aa3239e911f6e8f59103eb5014c19b68"
+          "sha256": "c9847c835f8e5cdbbab57af3cde5109595251cdaa092d7236b829b53639bd9b8"
         }
       }
     },
@@ -232,7 +232,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "9861f15dcae4cf065df41a9b9eb3376eab94f0840f004ff016e676b561c977a6"
+          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -247,7 +247,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "9861f15dcae4cf065df41a9b9eb3376eab94f0840f004ff016e676b561c977a6"
+          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -262,7 +262,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "9861f15dcae4cf065df41a9b9eb3376eab94f0840f004ff016e676b561c977a6"
+          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -524,20 +524,18 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "2247217ac15030afdb8e7b0031a3ddbea11b5728d2fabcab6572ac0802b8d60b"
+          "sha256": "f17fa46a5fd612d7706c4f0fa4c7f20933439ae5a6bee70e1d60b5ea743248c1"
         }
       }
     },
     {
       "id": "ftmo.one",
       "kind": "changeReviews",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
-          "status": "unavailable",
-          "error": "HTTPError",
-          "httpStatus": 404,
-          "reason": "not_found"
+          "status": "fetched",
+          "sha256": "72a010a4b631991eacda0c1bd2b9d829c1ec5647da869084b3085109b3bbb4dc"
         }
       }
     },
