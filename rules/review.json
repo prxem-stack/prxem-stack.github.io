@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T12:01:36.594835+00:00",
+  "checkedAt": "2026-10-14T17:18:13.760834+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
+          "sha256": "ec9cdd7ede3cd4e66a8d325554516ad3f0193e1ef15f6aae8f5a1bcaf529bde4"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
+          "sha256": "ec9cdd7ede3cd4e66a8d325554516ad3f0193e1ef15f6aae8f5a1bcaf529bde4"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
+          "sha256": "ec9cdd7ede3cd4e66a8d325554516ad3f0193e1ef15f6aae8f5a1bcaf529bde4"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
+          "sha256": "ec9cdd7ede3cd4e66a8d325554516ad3f0193e1ef15f6aae8f5a1bcaf529bde4"
         }
       }
     },
@@ -472,7 +472,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "bd81b73d4144a543f76314d3f0a0a9b858a2360c011841bd156e79d118cf557b"
+          "sha256": "dc547dd1c4d6d40c4fc3dcce6127ddec8a3d90369eb25af135a934e8a0710e8f"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
@@ -557,7 +557,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
+          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
         }
       }
     },
