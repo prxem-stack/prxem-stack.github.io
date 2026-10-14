@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-14T05:00:40.761071+00:00",
+  "checkedAt": "2026-10-14T12:01:36.594835+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
+          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
+          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "9e6427362a5e68442c97cb6d7de4876d6dded7c5cf1645e18a6a5d33276321d6"
+          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "08e533c6eaafaa38db1cfa8c9d0fffcd6bca0a0a7847856b960c72e2a0d990ef"
+          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "08e533c6eaafaa38db1cfa8c9d0fffcd6bca0a0a7847856b960c72e2a0d990ef"
+          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "08e533c6eaafaa38db1cfa8c9d0fffcd6bca0a0a7847856b960c72e2a0d990ef"
+          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "08e533c6eaafaa38db1cfa8c9d0fffcd6bca0a0a7847856b960c72e2a0d990ef"
+          "sha256": "23e701196c6f7049cc437439716e516cd7644f610378ce4f61ccbbc042108c52"
         }
       }
     },
@@ -287,7 +287,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
+          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -302,7 +302,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
+          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -317,7 +317,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "a77bb35ae7dd0653e8cb7f409b4c3caf09165725877466d66b0a558b4029e88b"
+          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -332,7 +332,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "4d18b084eba46b5df8b1685db34604ae3e2fd7f01f754352d2279faedffd8b47"
+          "sha256": "60599593bec2a8bfa5faeedcaf362e95f236fdc7a7e3eb8ec5878b5d1856c13e"
         }
       }
     },
@@ -557,7 +557,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "714424973987e86a89d14dd8d38147032bdd75de1c39518a12d5a407f5b60c6d"
+          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
         }
       }
     },
@@ -568,7 +568,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "4d18b084eba46b5df8b1685db34604ae3e2fd7f01f754352d2279faedffd8b47"
+          "sha256": "60599593bec2a8bfa5faeedcaf362e95f236fdc7a7e3eb8ec5878b5d1856c13e"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "f17fa46a5fd612d7706c4f0fa4c7f20933439ae5a6bee70e1d60b5ea743248c1"
+          "sha256": "f79104eb62f0382542e94030f39bae705f6213c039fccb352e5f409b8429a47b"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "72a010a4b631991eacda0c1bd2b9d829c1ec5647da869084b3085109b3bbb4dc"
+          "sha256": "8c888b02408957ce0ec134610b5680505868e0c74ea0df861bbaaec5e6520999"
         }
       }
     },
