@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T17:07:28.412882+00:00",
+  "checkedAt": "2026-10-15T21:29:29.880731+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -472,7 +472,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "dc547dd1c4d6d40c4fc3dcce6127ddec8a3d90369eb25af135a934e8a0710e8f"
+          "sha256": "1282a41b9748b6df876330fbc53ef3deac8ff226a4e32d65d8659ea3b0218324"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
