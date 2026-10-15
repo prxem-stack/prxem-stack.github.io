@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T04:49:23.999239+00:00",
+  "checkedAt": "2026-10-15T11:38:38.831826+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -283,45 +283,45 @@
     {
       "id": "fundednext.stellar2",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
+          "sha256": "d73d5d2ec7664ea3c9e2713fea8afa001c84f3ff662c9c66479672e5403b19ef"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
-          "status": "unavailable",
-          "error": "TimeoutError"
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
         }
       }
     },
     {
       "id": "fundednext.lite",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
+          "sha256": "d73d5d2ec7664ea3c9e2713fea8afa001c84f3ff662c9c66479672e5403b19ef"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
-          "status": "unavailable",
-          "error": "TimeoutError"
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
         }
       }
     },
     {
       "id": "fundednext.stellar1",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "bcb19c33537eabeee09ad0f4dc5dc5aa2d6bb8a92ef006c7a7173a6e8c326da9"
+          "sha256": "d73d5d2ec7664ea3c9e2713fea8afa001c84f3ff662c9c66479672e5403b19ef"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
-          "status": "unavailable",
-          "error": "TimeoutError"
+          "status": "fetched",
+          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "f79104eb62f0382542e94030f39bae705f6213c039fccb352e5f409b8429a47b"
+          "sha256": "a133097687c23e993baaba5c6006989a54020300991794355933eefb8c1fe9d4"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "8c888b02408957ce0ec134610b5680505868e0c74ea0df861bbaaec5e6520999"
+          "sha256": "603497f3eab4162b3d6b175c87b6d9f9af46ad9f9c76fbb4f572450001808b8b"
         }
       }
     },
