@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-15T11:38:38.831826+00:00",
+  "checkedAt": "2026-10-15T17:07:28.412882+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "19fde8fa61ebe8b2d01fb645f22a9314544f883580430204d90a4840a312206a"
+          "sha256": "062ab0b38dc34f5003e79f0d758123e9a798983d2480159540aa37920f20eeac"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7dd3503ddd0594f544a69d4d5b57ae4c419d23656795a2f76ddc92fe0c4b0c38"
+          "sha256": "1e9aa3ca96fe0f8a17ca70b0d8d747ba77198ff02cbfefae4ad2c1a137d27e12"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7dd3503ddd0594f544a69d4d5b57ae4c419d23656795a2f76ddc92fe0c4b0c38"
+          "sha256": "1e9aa3ca96fe0f8a17ca70b0d8d747ba77198ff02cbfefae4ad2c1a137d27e12"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7dd3503ddd0594f544a69d4d5b57ae4c419d23656795a2f76ddc92fe0c4b0c38"
+          "sha256": "1e9aa3ca96fe0f8a17ca70b0d8d747ba77198ff02cbfefae4ad2c1a137d27e12"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7dd3503ddd0594f544a69d4d5b57ae4c419d23656795a2f76ddc92fe0c4b0c38"
+          "sha256": "1e9aa3ca96fe0f8a17ca70b0d8d747ba77198ff02cbfefae4ad2c1a137d27e12"
         }
       }
     },
