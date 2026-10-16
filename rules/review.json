@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T16:44:42.011597+00:00",
+  "checkedAt": "2026-10-16T21:17:56.150120+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -291,7 +291,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
+          "sha256": "b54974cda2ebcd08802ce128157350b09a59fb19fd22e487055fd6a64fa33246"
         }
       }
     },
@@ -306,7 +306,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
+          "sha256": "b54974cda2ebcd08802ce128157350b09a59fb19fd22e487055fd6a64fa33246"
         }
       }
     },
@@ -321,7 +321,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
+          "sha256": "b54974cda2ebcd08802ce128157350b09a59fb19fd22e487055fd6a64fa33246"
         }
       }
     },
