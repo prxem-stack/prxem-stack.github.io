@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-16T11:32:28.363096+00:00",
+  "checkedAt": "2026-10-16T16:44:42.011597+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b2941f47de29c1ea240c54c9d49f206b34963a355db94d6b03ea713583417bd9"
+          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b2941f47de29c1ea240c54c9d49f206b34963a355db94d6b03ea713583417bd9"
+          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b2941f47de29c1ea240c54c9d49f206b34963a355db94d6b03ea713583417bd9"
+          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b2941f47de29c1ea240c54c9d49f206b34963a355db94d6b03ea713583417bd9"
+          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
         }
       }
     },
@@ -291,7 +291,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
         }
       }
     },
@@ -306,7 +306,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
         }
       }
     },
@@ -321,7 +321,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "0dc19a166394c5000ab5b1bef5042605a6110844e6c6945d0236a030e7623dc4"
+          "sha256": "79e96df1454206f455f3bdfc09c86ae4a20389e69669c0d8e810a9448d07f373"
         }
       }
     },
@@ -472,7 +472,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "1282a41b9748b6df876330fbc53ef3deac8ff226a4e32d65d8659ea3b0218324"
+          "sha256": "1d49c0ee065e226a26db6521e4ed9aa7320a1d8d866ac12b34f0aeaeb582f668"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
