@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T10:52:13.375841+00:00",
+  "checkedAt": "2026-10-17T11:25:23.135238+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -39,39 +39,6 @@
       }
     },
     {
-      "id": "alpha-capital-0",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
-          "status": "fetched",
-          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
-        }
-      }
-    },
-    {
-      "id": "alpha-capital-1",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
-          "status": "fetched",
-          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
-        }
-      }
-    },
-    {
-      "id": "alpha-capital-2",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
-          "status": "fetched",
-          "sha256": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
-        }
-      }
-    },
-    {
       "id": "goat-funded-trader-0",
       "kind": "offers",
       "status": "review_pending",
@@ -79,28 +46,6 @@
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
           "sha256": "203f37cd634b3bac7a84dc18ef32b7dcf60724c73b73ce4d76497de9328bea24"
-        }
-      }
-    },
-    {
-      "id": "maven-trading-0",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://maventrading.com/": {
-          "status": "fetched",
-          "sha256": "a03fa5cea33ab57245471e20841ab07c2b35eba6bdfd3b61f3c33733c1f7a9b5"
-        }
-      }
-    },
-    {
-      "id": "maven-trading-1",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://maventrading.com/": {
-          "status": "fetched",
-          "sha256": "a03fa5cea33ab57245471e20841ab07c2b35eba6bdfd3b61f3c33733c1f7a9b5"
         }
       }
     },
@@ -114,50 +59,6 @@
           "error": "HTTPError",
           "httpStatus": 403,
           "reason": "access_denied"
-        }
-      }
-    },
-    {
-      "id": "e8-current-0",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://e8markets.com/e8-markets-discount-code": {
-          "status": "fetched",
-          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
-        }
-      }
-    },
-    {
-      "id": "e8-current-1",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://e8markets.com/e8-markets-discount-code": {
-          "status": "fetched",
-          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
-        }
-      }
-    },
-    {
-      "id": "e8-current-2",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://e8markets.com/e8-markets-discount-code": {
-          "status": "fetched",
-          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
-        }
-      }
-    },
-    {
-      "id": "e8-current-3",
-      "kind": "offers",
-      "status": "review_pending",
-      "evidence": {
-        "https://e8markets.com/e8-markets-discount-code": {
-          "status": "fetched",
-          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
         }
       }
     },
@@ -361,11 +262,13 @@
     {
       "id": "the5ers.hyper",
       "kind": "rules",
-      "status": "review_pending",
+      "status": "unavailable",
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
-          "status": "fetched",
-          "sha256": "bc4ab8dc0baa4a2d8613b1425d063b36e319f4628f6cb7a9707aab1ffcc87677"
+          "status": "unavailable",
+          "error": "HTTPError",
+          "httpStatus": 404,
+          "reason": "not_found"
         }
       }
     },

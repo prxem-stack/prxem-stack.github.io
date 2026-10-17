@@ -1,22 +1,130 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-17T10:52:13.375841+00:00",
-  "validUntil": "2026-10-18T04:52:13.375841+00:00",
-  "offers": [],
+  "checkedAt": "2026-10-17T11:25:23.135238+00:00",
+  "validUntil": "2026-10-18T05:25:23.135238+00:00",
+  "offers": [
+    {
+      "id": "alpha-capital-0",
+      "firm": "Alpha Capital",
+      "title": "40% Direct",
+      "code": "FUNDED40",
+      "terms": "Alpha Direct only, not evaluations.",
+      "launchDate": "2026-10-01",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "alpha-capital-1",
+      "firm": "Alpha Capital",
+      "title": "20% OFF",
+      "code": "ALPHA20",
+      "terms": "All accounts.",
+      "launchDate": "2026-10-01",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "alpha-capital-2",
+      "firm": "Alpha Capital",
+      "title": "$10K / $40",
+      "code": "10KFOR40",
+      "terms": "Qualifying $10K evaluation plans.",
+      "launchDate": "2026-10-01",
+      "sources": [
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
+      ],
+      "endsAt": "2026-10-31T00:00:00Z"
+    },
+    {
+      "id": "maven-trading-0",
+      "firm": "Maven Trading",
+      "title": "40% Omo",
+      "code": "OMO",
+      "terms": "Omo challenges only.",
+      "sources": [
+        "https://maventrading.com/"
+      ]
+    },
+    {
+      "id": "maven-trading-1",
+      "firm": "Maven Trading",
+      "title": "10% Eternal",
+      "code": "ETERNAL",
+      "terms": "Gold Eternal only.",
+      "sources": [
+        "https://maventrading.com/"
+      ]
+    },
+    {
+      "id": "e8-current-0",
+      "firm": "E8 Markets",
+      "title": "35% OFF",
+      "code": "REB8",
+      "terms": "All purchases: Futures E8 Zero MAX and Zero Starter.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ]
+    },
+    {
+      "id": "e8-current-1",
+      "firm": "E8 Markets",
+      "title": "30% OFF",
+      "code": "E8ARC",
+      "terms": "All purchases: Classic Markets E8 One and Pro only. Free account after payout is subject to firm conditions; confirm at checkout.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ]
+    },
+    {
+      "id": "e8-current-2",
+      "firm": "E8 Markets",
+      "title": "50% OFF",
+      "code": "E8ARC",
+      "terms": "All purchases: Perpetual E8 Pro and One. Free-account-after-payout promotion is subject to firm conditions.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ]
+    },
+    {
+      "id": "e8-current-3",
+      "firm": "E8 Markets",
+      "title": "25% OFF",
+      "code": "E8",
+      "terms": "All purchases: Futures E8 Signature.",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ]
+    },
+    {
+      "id": "e8-signature-farewell-202610",
+      "firm": "E8 Markets",
+      "title": "50% OFF",
+      "code": "FAREWELL",
+      "terms": "Classic Markets E8 Signature only; all purchases. Official expiry date 20 Oct 2026; timezone unspecified, confirm at checkout.",
+      "endsAt": "2026-10-19T10:00:00Z",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ]
+    }
+  ],
   "ruleChecks": {
     "fundingpips.zero": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.pro": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.std": {
       "status": "unavailable",
@@ -25,7 +133,7 @@
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.one": {
       "status": "unavailable",
@@ -34,14 +142,14 @@
         "https://help.fundingpips.com/hc/en-us/articles/34501809112081-2-Step-Standard",
         "https://help.fundingpips.com/hc/en-us/articles/34501697434385-1-Step-Flex"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.flex": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "ftmo.one": {
       "status": "review_pending",
@@ -49,7 +157,7 @@
         "https://ftmo.com/en/trading-objectives/",
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "ftmo.two": {
       "status": "review_pending",
@@ -57,7 +165,7 @@
         "https://ftmo.com/en/trading-objectives/",
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.stellar2": {
       "status": "review_pending",
@@ -65,7 +173,7 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.lite": {
       "status": "review_pending",
@@ -73,7 +181,7 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.stellar1": {
       "status": "review_pending",
@@ -81,35 +189,35 @@
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward",
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "the5ers.highclassic": {
       "status": "review_pending",
       "sources": [
         "https://www.the5ers.com/high-stakes/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "the5ers.highnew": {
       "status": "review_pending",
       "sources": [
         "https://www.the5ers.com/high-stakes/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "the5ers.hyper": {
-      "status": "review_pending",
+      "status": "unavailable",
       "sources": [
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "e8.pro": {
       "status": "review_pending",
@@ -118,56 +226,56 @@
         "https://help.e8markets.com/en/articles/15274219-e8-pro",
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro6": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro8": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro10": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one6": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one10": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one12": {
       "status": "review_pending",
       "sources": [
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "goat.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "maven.instant": {
       "status": "review_pending",
@@ -176,35 +284,35 @@
         "https://maventrading.com/terms-and-conditions",
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "maven.one": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "maven.two": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "maven.three": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "maven.omo": {
       "status": "review_pending",
       "sources": [
         "https://maventrading.com/pricing"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     }
   },
   "rulePatches": [],
@@ -277,119 +385,119 @@
       "sources": [
         "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.stellar2": {
       "status": "review_pending",
       "sources": [
         "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "goat.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.instant": {
       "status": "review_pending",
       "sources": [
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundednext.lite": {
       "status": "review_pending",
       "sources": [
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro6": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro8": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.pro10": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one6": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one10": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "alpha.one12": {
       "status": "verified",
       "sources": [
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "ftmo.one": {
       "status": "review_pending",
       "sources": [
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.zero": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.pro": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.std": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     },
     "fundingpips.one": {
       "status": "unavailable",
       "sources": [
         "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
       ],
-      "checkedAt": "2026-10-17T10:52:13.375841+00:00"
+      "checkedAt": "2026-10-17T11:25:23.135238+00:00"
     }
   },
   "summary": {
-    "publishedOffers": 0,
+    "publishedOffers": 10,
     "ruleModels": 27,
-    "pendingReview": 51,
-    "unavailableSources": 8,
+    "pendingReview": 42,
+    "unavailableSources": 9,
     "publishedRuleChanges": 6,
     "modelsWithVerifiedChanges": 6,
     "modelsWithoutVerifiedChanges": [
