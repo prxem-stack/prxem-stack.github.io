@@ -344,7 +344,7 @@
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
       "approvedHashes": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
       },
       "endsAt": "2026-10-31T00:00:00Z"
     },
@@ -359,7 +359,7 @@
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
       "approvedHashes": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
       },
       "endsAt": "2026-10-31T00:00:00Z"
     },
@@ -374,7 +374,7 @@
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes"
       ],
       "approvedHashes": {
-        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "12b2401757075db833f9621610fffda2f959c700338482fbbfa5a6098d92ee3c"
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes": "10595495ee1dc1f67142aa913680bbb1d2eff519b00a433fbab05585d31ddec8"
       },
       "endsAt": "2026-10-31T00:00:00Z"
     },
@@ -401,7 +401,7 @@
         "https://maventrading.com/"
       ],
       "approvedHashes": {
-        "https://maventrading.com/": "6d21bd6d452bde3d9042490e5a337a19bd4df868c410cae5d5235c19120dbb11"
+        "https://maventrading.com/": "a03fa5cea33ab57245471e20841ab07c2b35eba6bdfd3b61f3c33733c1f7a9b5"
       }
     },
     {
@@ -414,7 +414,7 @@
         "https://maventrading.com/"
       ],
       "approvedHashes": {
-        "https://maventrading.com/": "6d21bd6d452bde3d9042490e5a337a19bd4df868c410cae5d5235c19120dbb11"
+        "https://maventrading.com/": "a03fa5cea33ab57245471e20841ab07c2b35eba6bdfd3b61f3c33733c1f7a9b5"
       }
     },
     {
@@ -438,7 +438,7 @@
         "https://e8markets.com/e8-markets-discount-code"
       ],
       "approvedHashes": {
-        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+        "https://e8markets.com/e8-markets-discount-code": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
       }
     },
     {
@@ -446,12 +446,12 @@
       "firm": "E8 Markets",
       "title": "30% OFF",
       "code": "E8ARC",
-      "terms": "All purchases: Classic Markets E8 One, Pro and Signature. Free-account-after-payout promotion is subject to firm conditions.",
+      "terms": "All purchases: Classic Markets E8 One and Pro only. Free account after payout is subject to firm conditions; confirm at checkout.",
       "sources": [
         "https://e8markets.com/e8-markets-discount-code"
       ],
       "approvedHashes": {
-        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+        "https://e8markets.com/e8-markets-discount-code": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
       }
     },
     {
@@ -464,7 +464,7 @@
         "https://e8markets.com/e8-markets-discount-code"
       ],
       "approvedHashes": {
-        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+        "https://e8markets.com/e8-markets-discount-code": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
       }
     },
     {
@@ -477,7 +477,21 @@
         "https://e8markets.com/e8-markets-discount-code"
       ],
       "approvedHashes": {
-        "https://e8markets.com/e8-markets-discount-code": "143f6c84d94c22f120d78bca23f42353a9ae9b8da0978666b23e69bba0684b37"
+        "https://e8markets.com/e8-markets-discount-code": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
+      }
+    },
+    {
+      "id": "e8-signature-farewell-202610",
+      "firm": "E8 Markets",
+      "title": "50% OFF",
+      "code": "FAREWELL",
+      "terms": "Classic Markets E8 Signature only; all purchases. Official expiry date 20 Oct 2026; timezone unspecified, confirm at checkout.",
+      "endsAt": "2026-10-19T10:00:00Z",
+      "sources": [
+        "https://e8markets.com/e8-markets-discount-code"
+      ],
+      "approvedHashes": {
+        "https://e8markets.com/e8-markets-discount-code": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
       }
     }
   ],
