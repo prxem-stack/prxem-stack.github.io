@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-10-07T16:26:31Z",
-  "coverage": "Partial BLS and Federal Reserve US releases only. Other currencies and other US publishers are not fully covered. Not an official firm restriction feed.",
+  "publishedAt": "2026-10-17T11:25:23Z",
+  "coverage": "Partial coverage: selected BLS and Federal Reserve USD releases plus ONS UK CPI. EUR, CAD, AUD, NZD, JPY and CHF are not covered. Not an official firm restriction feed; missing events never mean safe to trade.",
   "events": [
     {
       "id": "fed-minutes-2026-09",
@@ -11,7 +11,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-credit-2026-10",
@@ -21,7 +21,7 @@
       "impact": "low",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-waller-2026-10-08",
@@ -31,7 +31,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "bls-cpi-2026-09",
@@ -41,7 +41,7 @@
       "impact": "high",
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:16:22Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-beige-2026-10",
@@ -51,7 +51,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "bls-ppi-2026-09",
@@ -61,7 +61,7 @@
       "impact": "high",
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:16:22Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "bls-import-export-2026-09",
@@ -71,7 +71,7 @@
       "impact": "medium",
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:16:22Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-production-2026-10",
@@ -81,7 +81,57 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "bls-state-employment-2026-09",
+      "title": "US State Employment and Unemployment • September 2026",
+      "date": "2026-10-20T14:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "ons-cpi-2026-09",
+      "title": "UK Consumer Price Inflation • September 2026",
+      "date": "2026-10-21T06:00:00Z",
+      "country": "GBP",
+      "impact": "high",
+      "source": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2026",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "bls-weekly-earnings-2026-q3",
+      "title": "US Weekly Earnings • Q3 2026",
+      "date": "2026-10-21T14:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "bls-metro-employment-2026-09",
+      "title": "US Metropolitan Employment • September 2026",
+      "date": "2026-10-28T14:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "bls-business-employment-2026-q1",
+      "title": "US Business Employment Dynamics • Q1 2026",
+      "date": "2026-10-28T14:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-meeting-2026-10",
@@ -91,7 +141,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "fed-press-2026-10",
@@ -101,7 +151,17 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-october.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:26:31Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
+    },
+    {
+      "id": "bls-consumer-expenditure-2025",
+      "title": "US Consumer Expenditures • 2025",
+      "date": "2026-10-29T14:00:00Z",
+      "country": "USD",
+      "impact": "low",
+      "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
+      "status": "published",
+      "reviewedAt": "2026-10-17T11:25:23Z"
     },
     {
       "id": "bls-eci-2026-q3",
@@ -111,7 +171,7 @@
       "impact": "high",
       "source": "https://www.bls.gov/schedule/2026/10_sched.htm",
       "status": "published",
-      "reviewedAt": "2026-10-07T16:16:22Z"
+      "reviewedAt": "2026-10-17T11:25:23Z"
     }
   ],
   "headlines": []
