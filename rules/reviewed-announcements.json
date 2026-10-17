@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-17T13:50:07Z",
+  "checkedAt": "2026-10-17T19:52:56Z",
   "announcements": [
     {
       "firm": "FTMO",
@@ -98,6 +98,12 @@
       "kind": "new",
       "text": "From Feb 2026: Express 1-Step, Classic 2-Step and Instant start swap-free automatically; older legacy programs are excluded.",
       "source": "https://help.fundedtradingplus.com/do-we-offer-an-islamic-swap-free-account/"
+    },
+    {
+      "firm": "GOAT Funded Trader",
+      "kind": "new",
+      "text": "Historical purchase-cohort change effective 21 Sep 2026: Instant Premium immediate-funded accounts purchased from this date use a 14-day reward cycle instead of 10 days; earlier purchases retain the 10-day cycle. This is specific to Instant Premium, not other GOAT models or an evaluation phase. The official article does not specify reset treatment.",
+      "source": "https://help.goatfundedtrader.com/instant-premium.html"
     }
   ]
 }
