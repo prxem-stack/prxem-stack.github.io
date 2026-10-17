@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T04:36:30.429329+00:00",
+  "checkedAt": "2026-10-17T10:52:13.375841+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
+          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
+          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
+          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c2b99a25250147fee594aa8fdd2572205241b50cad836dfd9248ad05d670b3a0"
+          "sha256": "7c4c09f0304fc472869c67adcd0777e49ed9f409401ccd973dcdb3e2bae30fff"
         }
       }
     },
@@ -287,7 +287,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "53cffef779467a32b3eaf3629f6cb5d98919ae605b812f39946afa1ff3deda5a"
+          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -302,7 +302,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "53cffef779467a32b3eaf3629f6cb5d98919ae605b812f39946afa1ff3deda5a"
+          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -317,7 +317,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "53cffef779467a32b3eaf3629f6cb5d98919ae605b812f39946afa1ff3deda5a"
+          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "891f8cc7105c463efc4cd76b2b86629f7920bfec6068b47f18aee3fa961e7c53"
+          "sha256": "10481a7763757d0e4fb0f052aadc08669ed9bbef6e90af3bb2fb4eff1f3e9ff2"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "646b279ca0d863206ceacefc214f9d89b1128f9c617bb7f4c7e7f3f3b3cc8d5e"
+          "sha256": "94d57b8f2626775d1d1677bb00eec1e1a3dac36ff2901fe506dfd49043763d4d"
         }
       }
     },
