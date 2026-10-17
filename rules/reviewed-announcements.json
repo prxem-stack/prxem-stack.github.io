@@ -1,11 +1,21 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-12T09:43:00.481Z",
+  "checkedAt": "2026-10-17T13:50:07Z",
   "announcements": [
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "text": "Announced 15 Oct 2026: during 26 Oct–1 Nov 2026, CFD European equities and specified European indices/commodities shift one hour later in MT4/MT5; original hours return 2 Nov. Applies to affected symbols across CFD Challenge and FTMO Account cohorts; cTrader displays the selected timezone. Max Daily Loss still resets at Prague midnight, with a 2-hour MetaTrader offset that week. Check the official symbol list and Account MetriX countdown.",
+      "source": "https://ftmo.com/en/blog/trading-updates/trading-update-15-oct-2026/",
+      "modelIds": [
+        "ftmo.one",
+        "ftmo.two"
+      ]
+    },
     {
       "firm": "FundedNext",
       "kind": "new",
-      "text": "From 12 Oct 2026: Stellar Lite Challenges purchased or reset on/after this date require 2 trading days per evaluation phase instead of 5. Earlier purchases/resets retain 5 per phase. FundedNext Accounts have no minimum trading days; this change does not apply to Stellar 2-Step.",
+      "text": "From 12 Oct 2026: Stellar Lite Challenges purchased/reset on or after this date require 2 trading days per evaluation phase; earlier cohorts retain 5. Stellar 2-Step still requires 5 per phase. Lite/1-Step/2-Step FundedNext Accounts have no minimum trading days. The separate 3-Day/On-Demand reward requirements remain unchanged at 5 minimum trading days.",
       "source": "https://help.fundednext.com/en/articles/8019803-what-are-the-minimum-trading-days-in-fundednext-challenges",
       "modelIds": [
         "fundednext.lite"
@@ -29,13 +39,13 @@
     {
       "firm": "GOAT Funded Trader",
       "kind": "new",
-      "text": "6 Oct 2026, 00:00 UTC: funded trade minimum hold changes from 120s to 60s for challenges purchased from this date. Older purchases/resets remain 120s; evaluation is excluded.",
+      "text": "6 Oct 2026, 00:00 UTC: funded trade minimum hold changes from 120s to 60s for challenges purchased from this date. Earlier purchases, including later resets, retain 120s; evaluation is excluded. Shorter-trade profits are removed at payout, losses still count; this is not an account breach.",
       "source": "https://help.goatfundedtrader.com/en/articles/12849041-what-is-the-minimum-holding-time-for-trades"
     },
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "FundingPips announced removal of subjective rules. Historical announcement, not a waiver of current prohibited-trading policies.",
+      "text": "26 Jul 2026 historical announcement: FundingPips announced removal of subjective rules. Historical announcement, not a waiver of current prohibited-trading policies.",
       "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
       "modelIds": [
         "fundingpips.pro",
@@ -49,7 +59,7 @@
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "Announcement concerns evaluation risk restrictions, not daily drawdown or maximum-loss limits. It is not a removal of all trading rules.",
+      "text": "26 Jul 2026 historical announcement: Announcement concerns evaluation risk restrictions, not daily drawdown or maximum-loss limits. It is not a removal of all trading rules.",
       "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
       "modelIds": [
         "fundingpips.pro",
@@ -63,7 +73,7 @@
     {
       "firm": "FundingPips",
       "kind": "removed",
-      "text": "The announcement explicitly includes Standard 8%/5% accounts. Legacy 10%-target accounts have size-dependent rules; do not treat all Standard accounts alike.",
+      "text": "26 Jul 2026 historical announcement: The announcement explicitly includes Standard 8%/5% accounts. Legacy 10%-target accounts have size-dependent rules; do not treat all Standard accounts alike.",
       "source": "https://propfirmmatch.com/prop-firms/funding-pips/announcements",
       "modelIds": [
         "fundingpips.std"
@@ -74,7 +84,7 @@
     {
       "firm": "FundingPips",
       "kind": "new",
-      "text": "28 Sep 2026 rulebook change: purchases before this date use legacy rules; new purchases/resets use the new rulebook. Check your account cohort.",
+      "text": "28 Sep 2026 rulebook cutoff: purchases before this date follow legacy rules; new purchases and account resets after this date follow the current rulebook. Applies by account purchase/reset cohort across FundingPips models. Exact cutoff-day treatment is not stated; confirm it with the firm.",
       "source": "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
     },
     {
