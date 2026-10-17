@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T11:25:23.135238+00:00",
+  "checkedAt": "2026-10-17T13:50:39.497410+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -262,13 +262,11 @@
     {
       "id": "the5ers.hyper",
       "kind": "rules",
-      "status": "unavailable",
+      "status": "review_pending",
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
-          "status": "unavailable",
-          "error": "HTTPError",
-          "httpStatus": 404,
-          "reason": "not_found"
+          "status": "fetched",
+          "sha256": "bc4ab8dc0baa4a2d8613b1425d063b36e319f4628f6cb7a9707aab1ffcc87677"
         }
       }
     },
