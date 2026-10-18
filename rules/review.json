@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-18T04:41:43.014285+00:00",
+  "checkedAt": "2026-10-18T11:17:00.633557+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -188,7 +188,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
+          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -203,7 +203,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
+          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -218,7 +218,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e37576ff3f4636a5f163e982af1d0ab2cc11eda566d9a6bdb3346b7e71701388"
+          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -491,7 +491,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "94d57b8f2626775d1d1677bb00eec1e1a3dac36ff2901fe506dfd49043763d4d"
+          "sha256": "29f1dd2ef59556c70cf182cb459e57ce4c850a1387dd6c5313c438143da7b7ba"
         }
       }
     },
