@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-18T15:56:42.572063+00:00",
+  "checkedAt": "2026-10-18T20:51:14.347112+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -458,7 +458,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
+          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
         }
       }
     },
