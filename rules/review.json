@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19T13:29:46.547790+00:00",
+  "checkedAt": "2026-10-19T22:25:51.226193+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -102,7 +102,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b02c776bf94de3350ad5020703c4e508faa6685aa39636e70ddcf61952367350"
+          "sha256": "663c3d42d88d5b1e1e9bae8c1c95db755243db6ee5bee2d641368aacd5275c8b"
         }
       }
     },
@@ -113,7 +113,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b02c776bf94de3350ad5020703c4e508faa6685aa39636e70ddcf61952367350"
+          "sha256": "663c3d42d88d5b1e1e9bae8c1c95db755243db6ee5bee2d641368aacd5275c8b"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b02c776bf94de3350ad5020703c4e508faa6685aa39636e70ddcf61952367350"
+          "sha256": "663c3d42d88d5b1e1e9bae8c1c95db755243db6ee5bee2d641368aacd5275c8b"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b02c776bf94de3350ad5020703c4e508faa6685aa39636e70ddcf61952367350"
+          "sha256": "663c3d42d88d5b1e1e9bae8c1c95db755243db6ee5bee2d641368aacd5275c8b"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b02c776bf94de3350ad5020703c4e508faa6685aa39636e70ddcf61952367350"
+          "sha256": "663c3d42d88d5b1e1e9bae8c1c95db755243db6ee5bee2d641368aacd5275c8b"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "1d49c0ee065e226a26db6521e4ed9aa7320a1d8d866ac12b34f0aeaeb582f668"
+          "sha256": "38e44b5ed345f125f9ebe551e8e11d2332a5300cc7b938a3130e720fbc7b74be"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
