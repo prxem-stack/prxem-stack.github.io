@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T04:58:07.801293+00:00",
+  "checkedAt": "2026-10-20T11:47:06.773172+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -246,7 +246,7 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "95d5c1a57e78e1143c9f6f4fc5664800eb8485753c9fe6b07032c443cd7396da"
+          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
@@ -261,7 +261,7 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "95d5c1a57e78e1143c9f6f4fc5664800eb8485753c9fe6b07032c443cd7396da"
+          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
