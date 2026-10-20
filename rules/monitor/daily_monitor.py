@@ -102,7 +102,7 @@ def make_notice(firm,url,before,after,now,kind='page_changed'):
     added=[h for h in after['headings'] if h not in before.get('headings',[])][:3]
     removed=[h for h in before.get('headings',[]) if h not in after['headings']][:3]
     return {'id':identity,'firmId':firm['id'],'firm':firm['name'],'source':url,'detectedAt':now,'kind':kind,'status':'review_pending',
-            'title':after['title'] or 'Official page updated','summary':'A change was detected on this official page. Its meaning and account applicability have not been verified.',
+            'comparisonChannel':after.get('channel','html'),'title':after['title'] or 'Official page updated','summary':'A change was detected on this official page. Its meaning and account applicability have not been verified.',
             'addedHeadings':added,'removedHeadings':removed,'beforeHash':before.get('hash'), 'afterHash':after['hash']}
 
 
@@ -135,9 +135,10 @@ def scan(firm, previous, now, day):
                     if article.get('draft') or not isinstance(article.get('body'),str):continue
                     url=safe_url(article['html_url'],hosts)
                     snapshot,_=parse('<title>'+html.escape(article.get('title',''))+'</title><h1>'+html.escape(article.get('title',''))+'</h1>'+article['body'],min_chars=1)
+                    snapshot['channel']='article_api'
                     snapshot['sourceEditedAt']=article.get('edited_at') or article.get('updated_at')
                     before=current.get(url)
-                    if before and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,url,before,snapshot,now))
+                    if before and before.get('channel')=='article_api' and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,url,before,snapshot,now))
                     elif not before and previous.get('apiCheckedAt') and article.get('created_at','')>previous['apiCheckedAt']:
                         notices.append(make_notice(firm,url,{},snapshot,now,'page_added'))
                     current[url]={**snapshot,'checkedAt':now};checked.append(url);discovered.add(url)
@@ -156,7 +157,7 @@ def scan(firm, previous, now, day):
                 rawsm,_=get(urljoin(home,sm));discovered.update(sitemap_urls(rawsm,hosts))
             except Exception:pass
         before=current.get(home)
-        if before and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,home,before,snapshot,now))
+        if before and before.get('channel','html')=='html' and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,home,before,snapshot,now))
         current[home]={**snapshot,'checkedAt':now};checked.append(home)
     except Exception as e:errors.append({'source':home,'error':type(e).__name__+': '+str(e)[:160]})
     inventory.update(discovered);inventory.update(firm['seeds']);inventory=sorted(inventory)[:400]
@@ -164,11 +165,11 @@ def scan(firm, previous, now, day):
     seeds=firm['seeds'][1:3];candidates=[u for u in inventory if u not in seeds and u!=home]
     offset=(day*max(1,PAGES_PER_FIRM-1-len(seeds)))%max(1,len(candidates))
     candidates=candidates[offset:]+candidates[:offset]
-    queue=list(dict.fromkeys(seeds+candidates))[:PAGES_PER_FIRM-1]
+    queue=[u for u in dict.fromkeys(seeds+candidates) if u not in checked][:PAGES_PER_FIRM-1]
     for url in queue:
         try:
             raw,final=get(url);snapshot,_=parse(raw);before=current.get(url)
-            if before and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,url,before,snapshot,now))
+            if before and before.get('channel','html')=='html' and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,url,before,snapshot,now))
             # First capture establishes a baseline; never invent a new feature/date.
             current[url]={**snapshot,'checkedAt':now};checked.append(url)
         except Exception as e:errors.append({'source':url,'error':type(e).__name__+': '+str(e)[:160]})

@@ -38,5 +38,5 @@
  const launch=node('button',undefined,'daily-source-notice');launch.type='button';const launchTitle=node('span','Firm Updates'),launchStatus=node('small');launch.append(launchTitle,launchStatus);launch.onclick=open;document.getElementById('modelRuleChanges')?.after(launch);
  function updateLabel(){launchStatus.textContent=feed?(Date.parse(feed.validUntil)<=Date.now()?'Saved check is out of date':'Last checked '+new Date(feed.checkedAt).toLocaleDateString())+' · View coverage & changes':'Daily official-source checks · View status'}
  const explore=node('button');explore.type='button';explore.append(node('span','Firm Updates'));explore.onclick=open;document.getElementById('exploreMenu')?.append(explore);
- window.PfcFirmMonitor=Object.freeze({refresh:refreshFeed,open,get:()=>feed});updateLabel();refreshFeed();let last=Date.now();document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-last>300000){last=Date.now();refreshFeed()}});
+ window.PfcFirmMonitor=Object.freeze({refresh:refreshFeed,open,get:()=>feed});updateLabel();refreshFeed();let last=Date.now();document.addEventListener('visibilitychange',()=>{if(!document.hidden&&Date.now()-last>300000){last=Date.now();refreshFeed()}});setInterval(()=>{if(!document.hidden&&Date.now()-last>=900000){last=Date.now();refreshFeed()}},60000);
 })();

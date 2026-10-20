@@ -1,1 +1,14 @@
-{}
+{
+  "d14d0088a0f2853d2e618d4a": {
+    "status": "dismissed",
+    "summary": "Collector migration: full HTML and official article API representations are not comparable. Establish a fresh API baseline; this record does not establish a business rule change."
+  },
+  "c9ff7c273ee9c11fc01b88c6": {
+    "status": "dismissed",
+    "summary": "Collector migration: full HTML and official article API representations are not comparable. Establish a fresh API baseline; this record does not establish a business rule change."
+  },
+  "098560b047685f76adb03ea5": {
+    "status": "dismissed",
+    "summary": "Collector migration: full HTML and official article API representations are not comparable. Establish a fresh API baseline; this record does not establish a business rule change."
+  }
+}

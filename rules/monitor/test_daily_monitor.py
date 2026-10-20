@@ -56,4 +56,14 @@ class MonitorTests(unittest.TestCase):
    _,state,coverage,notices=m.scan(firm,{},'2026-10-21',1)
   self.assertEqual(coverage['pagesChecked'],0);self.assertEqual(notices,[])
 
+ def test_html_to_api_migration_is_not_a_rule_change(self):
+  firm={'id':'firm','name':'Firm','hosts':['firm.com'],'seeds':['https://firm.com/'],'articleApi':'https://firm.com/api/articles'}
+  old={'pages':{'https://firm.com/rules':{'hash':'html-with-navigation','headings':['Related articles'],'checkedAt':'2026-10-20'}}}
+  def get(url,hosts):
+   if '/api/' in url:return m.json.dumps({'articles':[{'html_url':'https://firm.com/rules','title':'Rule','body':'<p>Rule content</p>','draft':False}]}),url
+   raise ValueError('Unavailable')
+  with patch.object(m,'download',side_effect=get):
+   _,state,coverage,notices=m.scan(firm,old,'2026-10-21',1)
+  self.assertEqual(notices,[]);self.assertEqual(state['pages']['https://firm.com/rules']['channel'],'article_api')
+
 if __name__=='__main__':unittest.main()
