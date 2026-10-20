@@ -1,0 +1,41 @@
+name: Daily official prop firm monitor
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'rules/monitor/daily_monitor.py'
+      - 'rules/monitor/test_daily_monitor.py'
+      - 'rules/monitor/firms.json'
+      - 'rules/monitor/reviews.json'
+      - '.github/workflows/daily-firm-monitor.yml'
+  schedule:
+    - cron: '10 1 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: daily-firm-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test monitor
+        run: python -m unittest discover -s rules/monitor -p 'test_daily_monitor.py'
+      - name: Check official pages
+        run: python rules/monitor/daily_monitor.py
+      - name: Publish observations
+        run: |
+          git config user.name 'Prop firm daily monitor'
+          git config user.email 'firm-monitor@users.noreply.github.com'
+          git add rules/monitor/state.json rules/monitor/updates.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish daily official firm observations'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

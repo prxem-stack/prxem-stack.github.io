@@ -1,0 +1,595 @@
+{
+  "schemaVersion": 1,
+  "firms": [
+    {
+      "id": "fundingpips",
+      "name": "FundingPips",
+      "domain": "fundingpips.com",
+      "seeds": [
+        "https://fundingpips.com/",
+        "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules",
+        "https://help.fundingpips.com/hc/en-us/articles/44390730743825-Get-Started",
+        "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero",
+        "https://help.fundingpips.com/hc/en-us/articles/34502027344017-2-Step-Pro-Model",
+        "https://fundingpips.com/legal/terms-and-conditions"
+      ],
+      "hosts": [
+        "fundingpips.com",
+        "help.fundingpips.com",
+        "www.fundingpips.com"
+      ]
+    },
+    {
+      "id": "ftmo",
+      "name": "FTMO",
+      "domain": "ftmo.com",
+      "seeds": [
+        "https://ftmo.com/",
+        "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/",
+        "https://ftmo.com/en/",
+        "https://ftmo.com/en/trading-objectives/",
+        "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/"
+      ],
+      "hosts": [
+        "ftmo.com",
+        "www.ftmo.com"
+      ]
+    },
+    {
+      "id": "fundednext",
+      "name": "FundedNext",
+      "domain": "fundednext.com",
+      "seeds": [
+        "https://fundednext.com/",
+        "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account",
+        "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge",
+        "https://help.fundednext.com/en/articles/17253243-stellar-instant-account",
+        "https://help.fundednext.com/en/articles/17253939-stellar-lite-account",
+        "https://help.fundednext.com/en/collections/11026230-trading-rules-guidelines"
+      ],
+      "hosts": [
+        "fundednext.com",
+        "help.fundednext.com",
+        "www.fundednext.com"
+      ]
+    },
+    {
+      "id": "the5ers",
+      "name": "The5ers",
+      "domain": "the5ers.com",
+      "seeds": [
+        "https://the5ers.com/",
+        "https://www.the5ers.com/high-stakes/",
+        "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/"
+      ],
+      "hosts": [
+        "the5ers.com",
+        "www.the5ers.com"
+      ]
+    },
+    {
+      "id": "e8markets",
+      "name": "E8 Markets",
+      "domain": "e8markets.com",
+      "seeds": [
+        "https://e8markets.com/",
+        "https://e8markets.com/e8-markets-discount-code",
+        "https://help.e8markets.com/en/articles/13653464-payout-request-from-e8-pro",
+        "https://help.e8markets.com/en/articles/15274219-e8-pro",
+        "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast",
+        "https://help.e8markets.com/en/articles/6929927-trading-policies-and-prohibited-trading-strategies"
+      ],
+      "hosts": [
+        "e8markets.com",
+        "help.e8markets.com",
+        "www.e8markets.com"
+      ]
+    },
+    {
+      "id": "alphacapitalgroup",
+      "name": "Alpha Capital Group",
+      "domain": "alphacapitalgroup.uk",
+      "seeds": [
+        "https://alphacapitalgroup.uk/",
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work",
+        "https://alphacapitalgroup.uk/alpha-capital-discount-codes",
+        "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026",
+        "https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules"
+      ],
+      "hosts": [
+        "alphacapitalgroup.uk",
+        "help.alphacapitalgroup.uk",
+        "www.alphacapitalgroup.uk"
+      ]
+    },
+    {
+      "id": "goatfundedtrader",
+      "name": "Goat Funded Trader",
+      "domain": "goatfundedtrader.com",
+      "seeds": [
+        "https://goatfundedtrader.com/",
+        "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices",
+        "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes",
+        "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model"
+      ],
+      "hosts": [
+        "goatfundedtrader.com",
+        "help.goatfundedtrader.com",
+        "www.goatfundedtrader.com"
+      ]
+    },
+    {
+      "id": "maventrading",
+      "name": "Maven Trading",
+      "domain": "maventrading.com",
+      "seeds": [
+        "https://maventrading.com/",
+        "https://maventrading.com/",
+        "https://maventrading.com/faqs",
+        "https://maventrading.com/terms-and-conditions",
+        "https://maventrading.com/pricing"
+      ],
+      "hosts": [
+        "maventrading.com",
+        "www.maventrading.com"
+      ]
+    },
+    {
+      "id": "fortraders",
+      "name": "For Traders",
+      "domain": "fortraders.com",
+      "seeds": [
+        "https://fortraders.com/"
+      ],
+      "hosts": [
+        "fortraders.com",
+        "www.fortraders.com"
+      ]
+    },
+    {
+      "id": "aquafunded",
+      "name": "AquaFunded",
+      "domain": "aquafunded.com",
+      "seeds": [
+        "https://aquafunded.com/"
+      ],
+      "hosts": [
+        "aquafunded.com",
+        "www.aquafunded.com"
+      ]
+    },
+    {
+      "id": "blueguardian",
+      "name": "Blue Guardian",
+      "domain": "blueguardian.com",
+      "seeds": [
+        "https://blueguardian.com/"
+      ],
+      "hosts": [
+        "blueguardian.com",
+        "www.blueguardian.com"
+      ]
+    },
+    {
+      "id": "brightfunded",
+      "name": "BrightFunded",
+      "domain": "brightfunded.com",
+      "seeds": [
+        "https://brightfunded.com/"
+      ],
+      "hosts": [
+        "brightfunded.com",
+        "www.brightfunded.com"
+      ]
+    },
+    {
+      "id": "cryptofundtrader",
+      "name": "Crypto Fund Trader",
+      "domain": "cryptofundtrader.com",
+      "seeds": [
+        "https://cryptofundtrader.com/"
+      ],
+      "hosts": [
+        "cryptofundtrader.com",
+        "www.cryptofundtrader.com"
+      ]
+    },
+    {
+      "id": "tradethepool",
+      "name": "Trade The Pool",
+      "domain": "tradethepool.com",
+      "seeds": [
+        "https://tradethepool.com/"
+      ],
+      "hosts": [
+        "tradethepool.com",
+        "www.tradethepool.com"
+      ]
+    },
+    {
+      "id": "holaprime",
+      "name": "Hola Prime",
+      "domain": "holaprime.com",
+      "seeds": [
+        "https://holaprime.com/"
+      ],
+      "hosts": [
+        "holaprime.com",
+        "www.holaprime.com"
+      ]
+    },
+    {
+      "id": "finotivefunding",
+      "name": "Finotive Funding",
+      "domain": "finotivefunding.com",
+      "seeds": [
+        "https://finotivefunding.com/"
+      ],
+      "hosts": [
+        "finotivefunding.com",
+        "www.finotivefunding.com"
+      ]
+    },
+    {
+      "id": "fundedtradingplus",
+      "name": "Funded Trading Plus",
+      "domain": "fundedtradingplus.com",
+      "seeds": [
+        "https://fundedtradingplus.com/",
+        "https://www.fundedtradingplus.com/"
+      ],
+      "hosts": [
+        "fundedtradingplus.com",
+        "www.fundedtradingplus.com"
+      ]
+    },
+    {
+      "id": "monetafunded",
+      "name": "Moneta Funded",
+      "domain": "monetafunded.com",
+      "seeds": [
+        "https://monetafunded.com/"
+      ],
+      "hosts": [
+        "monetafunded.com",
+        "www.monetafunded.com"
+      ]
+    },
+    {
+      "id": "fundedelite",
+      "name": "FundedElite",
+      "domain": "fundedelite.com",
+      "seeds": [
+        "https://fundedelite.com/"
+      ],
+      "hosts": [
+        "fundedelite.com",
+        "www.fundedelite.com"
+      ]
+    },
+    {
+      "id": "wsfunded",
+      "name": "WSFunded",
+      "domain": "wsfunded.com",
+      "seeds": [
+        "https://wsfunded.com/"
+      ],
+      "hosts": [
+        "wsfunded.com",
+        "www.wsfunded.com"
+      ]
+    },
+    {
+      "id": "atmosfunded",
+      "name": "Atmos Funded",
+      "domain": "atmosfunded.com",
+      "seeds": [
+        "https://atmosfunded.com/"
+      ],
+      "hosts": [
+        "atmosfunded.com",
+        "www.atmosfunded.com"
+      ]
+    },
+    {
+      "id": "leveraged",
+      "name": "Leveraged",
+      "domain": "getleveraged.com",
+      "seeds": [
+        "https://getleveraged.com/"
+      ],
+      "hosts": [
+        "getleveraged.com",
+        "www.getleveraged.com"
+      ]
+    },
+    {
+      "id": "audacitycapital",
+      "name": "Audacity Capital",
+      "domain": "audacitycapital.com",
+      "seeds": [
+        "https://audacitycapital.com/"
+      ],
+      "hosts": [
+        "audacitycapital.com",
+        "www.audacitycapital.com"
+      ]
+    },
+    {
+      "id": "instantfunding",
+      "name": "Instant Funding",
+      "domain": "instantfunding.com",
+      "seeds": [
+        "https://instantfunding.com/"
+      ],
+      "hosts": [
+        "instantfunding.com",
+        "www.instantfunding.com"
+      ]
+    },
+    {
+      "id": "fintokei",
+      "name": "Fintokei",
+      "domain": "fintokei.com",
+      "seeds": [
+        "https://fintokei.com/"
+      ],
+      "hosts": [
+        "fintokei.com",
+        "www.fintokei.com"
+      ]
+    },
+    {
+      "id": "orionfunded",
+      "name": "Orion Funded",
+      "domain": "orionfunded.com",
+      "seeds": [
+        "https://orionfunded.com/"
+      ],
+      "hosts": [
+        "orionfunded.com",
+        "www.orionfunded.com"
+      ]
+    },
+    {
+      "id": "thinkcapital",
+      "name": "ThinkCapital",
+      "domain": "thinkcapital.com",
+      "seeds": [
+        "https://thinkcapital.com/"
+      ],
+      "hosts": [
+        "thinkcapital.com",
+        "www.thinkcapital.com"
+      ]
+    },
+    {
+      "id": "bemfunding",
+      "name": "BEM Funding",
+      "domain": "bemfunding.com",
+      "seeds": [
+        "https://bemfunding.com/"
+      ],
+      "hosts": [
+        "bemfunding.com",
+        "www.bemfunding.com"
+      ]
+    },
+    {
+      "id": "toponetrader",
+      "name": "Top One Trader",
+      "domain": "toponetrader.com",
+      "seeds": [
+        "https://toponetrader.com/"
+      ],
+      "hosts": [
+        "toponetrader.com",
+        "www.toponetrader.com"
+      ]
+    },
+    {
+      "id": "thetradingpit",
+      "name": "The Trading Pit",
+      "domain": "thetradingpit.com",
+      "seeds": [
+        "https://thetradingpit.com/"
+      ],
+      "hosts": [
+        "thetradingpit.com",
+        "www.thetradingpit.com"
+      ]
+    },
+    {
+      "id": "citytradersimperium",
+      "name": "City Traders Imperium",
+      "domain": "citytradersimperium.com",
+      "seeds": [
+        "https://citytradersimperium.com/"
+      ],
+      "hosts": [
+        "citytradersimperium.com",
+        "www.citytradersimperium.com"
+      ]
+    },
+    {
+      "id": "hantectrader",
+      "name": "Hantec Trader",
+      "domain": "hantectrader.com",
+      "seeds": [
+        "https://hantectrader.com/"
+      ],
+      "hosts": [
+        "hantectrader.com",
+        "www.hantectrader.com"
+      ]
+    },
+    {
+      "id": "larkfunding",
+      "name": "Lark Funding",
+      "domain": "larkfunding.com",
+      "seeds": [
+        "https://larkfunding.com/"
+      ],
+      "hosts": [
+        "larkfunding.com",
+        "www.larkfunding.com"
+      ]
+    },
+    {
+      "id": "blueberryfunded",
+      "name": "Blueberry Funded",
+      "domain": "blueberryfunded.com",
+      "seeds": [
+        "https://blueberryfunded.com/"
+      ],
+      "hosts": [
+        "blueberryfunded.com",
+        "www.blueberryfunded.com"
+      ]
+    },
+    {
+      "id": "lucidtrading",
+      "name": "Lucid Trading",
+      "domain": "lucidtrading.com",
+      "seeds": [
+        "https://lucidtrading.com/"
+      ],
+      "hosts": [
+        "lucidtrading.com",
+        "www.lucidtrading.com"
+      ]
+    },
+    {
+      "id": "tradeify",
+      "name": "Tradeify",
+      "domain": "tradeify.co",
+      "seeds": [
+        "https://tradeify.co/"
+      ],
+      "hosts": [
+        "tradeify.co",
+        "www.tradeify.co"
+      ]
+    },
+    {
+      "id": "myfundedfutures",
+      "name": "My Funded Futures",
+      "domain": "myfundedfutures.com",
+      "seeds": [
+        "https://myfundedfutures.com/"
+      ],
+      "hosts": [
+        "myfundedfutures.com",
+        "www.myfundedfutures.com"
+      ]
+    },
+    {
+      "id": "apextraderfunding",
+      "name": "Apex Trader Funding",
+      "domain": "apextraderfunding.com",
+      "seeds": [
+        "https://apextraderfunding.com/"
+      ],
+      "hosts": [
+        "apextraderfunding.com",
+        "www.apextraderfunding.com"
+      ]
+    },
+    {
+      "id": "topstep",
+      "name": "Topstep",
+      "domain": "topstep.com",
+      "seeds": [
+        "https://topstep.com/"
+      ],
+      "hosts": [
+        "topstep.com",
+        "www.topstep.com"
+      ]
+    },
+    {
+      "id": "takeprofittrader",
+      "name": "Take Profit Trader",
+      "domain": "takeprofittrader.com",
+      "seeds": [
+        "https://takeprofittrader.com/"
+      ],
+      "hosts": [
+        "takeprofittrader.com",
+        "www.takeprofittrader.com"
+      ]
+    },
+    {
+      "id": "tradeday",
+      "name": "TradeDay",
+      "domain": "tradeday.com",
+      "seeds": [
+        "https://tradeday.com/"
+      ],
+      "hosts": [
+        "tradeday.com",
+        "www.tradeday.com"
+      ]
+    },
+    {
+      "id": "earn2trade",
+      "name": "Earn2Trade",
+      "domain": "earn2trade.com",
+      "seeds": [
+        "https://earn2trade.com/"
+      ],
+      "hosts": [
+        "earn2trade.com",
+        "www.earn2trade.com"
+      ]
+    },
+    {
+      "id": "uprofit",
+      "name": "UProfit",
+      "domain": "uprofit.com",
+      "seeds": [
+        "https://uprofit.com/"
+      ],
+      "hosts": [
+        "uprofit.com",
+        "www.uprofit.com"
+      ]
+    },
+    {
+      "id": "tickticktrader",
+      "name": "TickTickTrader",
+      "domain": "tickticktrader.com",
+      "seeds": [
+        "https://tickticktrader.com/"
+      ],
+      "hosts": [
+        "tickticktrader.com",
+        "www.tickticktrader.com"
+      ]
+    },
+    {
+      "id": "leelootrading",
+      "name": "Leeloo Trading",
+      "domain": "leelootrading.com",
+      "seeds": [
+        "https://leelootrading.com/"
+      ],
+      "hosts": [
+        "leelootrading.com",
+        "www.leelootrading.com"
+      ]
+    },
+    {
+      "id": "oneuptrader",
+      "name": "OneUp Trader",
+      "domain": "oneuptrader.com",
+      "seeds": [
+        "https://oneuptrader.com/"
+      ],
+      "hosts": [
+        "oneuptrader.com",
+        "www.oneuptrader.com"
+      ]
+    }
+  ]
+}

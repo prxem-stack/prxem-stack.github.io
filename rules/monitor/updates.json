@@ -1,0 +1,574 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+  "validUntil": "2026-10-22T20:31:09.373661+00:00",
+  "coverage": [
+    {
+      "id": "alphacapitalgroup",
+      "name": "Alpha Capital Group",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 11,
+      "errors": []
+    },
+    {
+      "id": "apextraderfunding",
+      "name": "Apex Trader Funding",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://apextraderfunding.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "aquafunded",
+      "name": "AquaFunded",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 400,
+      "errors": []
+    },
+    {
+      "id": "atmosfunded",
+      "name": "Atmos Funded",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://atmosfunded.com/",
+          "error": "ValueError: Source exceeds size limit"
+        }
+      ]
+    },
+    {
+      "id": "audacitycapital",
+      "name": "Audacity Capital",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://audacitycapital.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "bemfunding",
+      "name": "BEM Funding",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://bemfunding.com/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "blueguardian",
+      "name": "Blue Guardian",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 5,
+      "knownPages": 158,
+      "errors": [
+        {
+          "source": "https://blueguardian.com/payouts",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "blueberryfunded",
+      "name": "Blueberry Funded",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://blueberryfunded.com/",
+          "error": "ValueError: Insufficient official page content"
+        }
+      ]
+    },
+    {
+      "id": "brightfunded",
+      "name": "BrightFunded",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://brightfunded.com/",
+          "error": "ValueError: Source exceeds size limit"
+        }
+      ]
+    },
+    {
+      "id": "citytradersimperium",
+      "name": "City Traders Imperium",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://citytradersimperium.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "cryptofundtrader",
+      "name": "Crypto Fund Trader",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 2,
+      "knownPages": 3,
+      "errors": [
+        {
+          "source": "https://cryptofundtrader.com/wp-sitemap-posts-product-1.xml",
+          "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ]
+    },
+    {
+      "id": "e8markets",
+      "name": "E8 Markets",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 7,
+      "errors": []
+    },
+    {
+      "id": "earn2trade",
+      "name": "Earn2Trade",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 1,
+      "knownPages": 1,
+      "errors": []
+    },
+    {
+      "id": "ftmo",
+      "name": "FTMO",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 23,
+      "errors": []
+    },
+    {
+      "id": "finotivefunding",
+      "name": "Finotive Funding",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 10,
+      "errors": []
+    },
+    {
+      "id": "fintokei",
+      "name": "Fintokei",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 5,
+      "knownPages": 400,
+      "errors": [
+        {
+          "source": "https://www.fintokei.com/blog/best-markets-instruments-swing-trading/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "fortraders",
+      "name": "For Traders",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 400,
+      "errors": []
+    },
+    {
+      "id": "fundedtradingplus",
+      "name": "Funded Trading Plus",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 2,
+      "errors": [
+        {
+          "source": "https://fundedtradingplus.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "https://www.fundedtradingplus.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "fundedelite",
+      "name": "FundedElite",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 6,
+      "errors": []
+    },
+    {
+      "id": "fundednext",
+      "name": "FundedNext",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 12,
+      "errors": []
+    },
+    {
+      "id": "fundingpips",
+      "name": "FundingPips",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 3,
+      "knownPages": 6,
+      "errors": [
+        {
+          "source": "https://fundingpips.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://fundingpips.com/legal/terms-and-conditions",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "goatfundedtrader",
+      "name": "Goat Funded Trader",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 400,
+      "errors": []
+    },
+    {
+      "id": "hantectrader",
+      "name": "Hantec Trader",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://hantectrader.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "holaprime",
+      "name": "Hola Prime",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 200,
+      "errors": []
+    },
+    {
+      "id": "instantfunding",
+      "name": "Instant Funding",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://instantfunding.com/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "larkfunding",
+      "name": "Lark Funding",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 14,
+      "errors": []
+    },
+    {
+      "id": "leelootrading",
+      "name": "Leeloo Trading",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 8,
+      "errors": []
+    },
+    {
+      "id": "leveraged",
+      "name": "Leveraged",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://getleveraged.com/",
+          "error": "URLError: <urlopen error _ssl.c:993: The handshake operation timed out>"
+        }
+      ]
+    },
+    {
+      "id": "lucidtrading",
+      "name": "Lucid Trading",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://lucidtrading.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "maventrading",
+      "name": "Maven Trading",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 10,
+      "errors": []
+    },
+    {
+      "id": "monetafunded",
+      "name": "Moneta Funded",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://monetafunded.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "myfundedfutures",
+      "name": "My Funded Futures",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 1,
+      "knownPages": 53,
+      "errors": [
+        {
+          "source": "https://myfundedfutures.com/blog/best-futures-trading-platforms-2025",
+          "error": "ValueError: Source exceeds size limit"
+        },
+        {
+          "source": "https://myfundedfutures.com/blog/best-futures-trading-simulators-2026",
+          "error": "ValueError: Source exceeds size limit"
+        },
+        {
+          "source": "https://myfundedfutures.com/blog/best-prop-firms-for-ninjatrader-integration",
+          "error": "ValueError: Source exceeds size limit"
+        },
+        {
+          "source": "https://myfundedfutures.com/blog/best-prop-firms-tradingview-integration",
+          "error": "ValueError: Source exceeds size limit"
+        },
+        {
+          "source": "https://myfundedfutures.com/blog/choose-right-prop-firm-account-size",
+          "error": "ValueError: Source exceeds size limit"
+        }
+      ]
+    },
+    {
+      "id": "oneuptrader",
+      "name": "OneUp Trader",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 1,
+      "knownPages": 1,
+      "errors": []
+    },
+    {
+      "id": "orionfunded",
+      "name": "Orion Funded",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://orionfunded.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "takeprofittrader",
+      "name": "Take Profit Trader",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://takeprofittrader.com/",
+          "error": "ValueError: Official source blocked automated access"
+        }
+      ]
+    },
+    {
+      "id": "thetradingpit",
+      "name": "The Trading Pit",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://thetradingpit.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
+    },
+    {
+      "id": "the5ers",
+      "name": "The5ers",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 8,
+      "errors": []
+    },
+    {
+      "id": "thinkcapital",
+      "name": "ThinkCapital",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://thinkcapital.com/",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "tickticktrader",
+      "name": "TickTickTrader",
+      "status": "unavailable",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 0,
+      "knownPages": 1,
+      "errors": [
+        {
+          "source": "https://tickticktrader.com/",
+          "error": "HTTPError: HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "id": "toponetrader",
+      "name": "Top One Trader",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 3,
+      "knownPages": 3,
+      "errors": []
+    },
+    {
+      "id": "topstep",
+      "name": "Topstep",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 168,
+      "errors": []
+    },
+    {
+      "id": "tradethepool",
+      "name": "Trade The Pool",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 3,
+      "knownPages": 3,
+      "errors": []
+    },
+    {
+      "id": "tradeday",
+      "name": "TradeDay",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 3,
+      "knownPages": 3,
+      "errors": []
+    },
+    {
+      "id": "tradeify",
+      "name": "Tradeify",
+      "status": "partial",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 5,
+      "knownPages": 22,
+      "errors": [
+        {
+          "source": "https://tradeify.co/post/sebi-fo-new-rules-2026-us-futures-alternative",
+          "error": "TimeoutError: The read operation timed out"
+        }
+      ]
+    },
+    {
+      "id": "uprofit",
+      "name": "UProfit",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 4,
+      "knownPages": 4,
+      "errors": []
+    },
+    {
+      "id": "wsfunded",
+      "name": "WSFunded",
+      "status": "ok",
+      "checkedAt": "2026-10-20T20:31:09.373661+00:00",
+      "pagesChecked": 6,
+      "knownPages": 7,
+      "errors": []
+    }
+  ],
+  "updates": [],
+  "limits": {
+    "pagesPerFirmPerRun": 6,
+    "coverage": "Official allowlisted pages only; discovery rotates daily. Blocked sources are reported, not bypassed. First run establishes baselines."
+  }
+}
