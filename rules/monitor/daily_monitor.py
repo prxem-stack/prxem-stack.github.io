@@ -40,8 +40,9 @@ def download(url, hosts):
         safe_url(r.url,hosts)
         if not any(x in r.headers.get('Content-Type','').lower() for x in ('html','xml','text/plain','application/json')):
             raise ValueError('Unsupported source type')
-        data=r.read(LIMIT+1)
-        if len(data)>LIMIT: raise ValueError('Source exceeds size limit')
+        limit=8*1024*1024 if 'application/json' in r.headers.get('Content-Type','').lower() else LIMIT
+        data=r.read(limit+1)
+        if len(data)>limit: raise ValueError('Source exceeds size limit')
         return data.decode('utf-8','replace'),r.url
 
 
@@ -205,7 +206,7 @@ def main():
             updates[key].update({k:review[k] for k in ('status','summary','appliesTo','reviewedAt') if k in review})
     records=sorted(updates.values(),key=lambda x:x['detectedAt'],reverse=True)[:600]
     feed={'schemaVersion':1,'checkedAt':now,'validUntil':(nowdt+timedelta(hours=48)).isoformat(),'coverage':sorted(coverage,key=lambda c:c['name']),
-          'updates':[u for u in records if u['status']!='dismissed'],'limits':{'pagesPerFirmPerRun':PAGES_PER_FIRM,'apiArticlesPerFirmPerRun':100,'coverage':'Official allowlisted pages only; discovery rotates daily. Blocked sources are reported, not bypassed. First run establishes baselines.'}}
+          'updates':[u for u in records if u['status']!='dismissed'],'limits':{'pagesPerFirmPerRun':PAGES_PER_FIRM,'apiArticlesPerFirmPerRun':50,'coverage':'Official allowlisted pages only; discovery rotates daily. Blocked sources are reported, not bypassed. First run establishes baselines.'}}
     write_json(ROOT/'state.json',state);write_json(ROOT/'updates.json',feed)
     print(json.dumps({'firms':len(firms),'reachable':sum(c['pagesChecked']>0 for c in coverage),'checkedPages':sum(c['pagesChecked'] for c in coverage),'newChangeNotices':len(new)}))
 

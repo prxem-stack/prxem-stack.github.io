@@ -15,4 +15,4 @@ This monitor never writes calculator percentages. Numeric rules continue through
 Local checks: `python -m unittest discover -s rules/monitor -p test_daily_monitor.py`.
 Run once: `python rules/monitor/daily_monitor.py`.
 
-FundingPips additionally uses its documented anonymous Zendesk Help Center API, up to five pages of 20 recently edited public articles per run. Draft/private articles are excluded; no credentials or access-control bypass is used. API observations retain article URLs and edited timestamps. Marketing pages outside that API remain separately reported if unavailable. API documentation: https://developer.zendesk.com/api-reference/help_center/help-center-api/articles/
+FundingPips additionally uses its documented anonymous Zendesk Help Center API, up to five pages of 10 recently edited public articles (50 total) per run. Draft/private articles are excluded; no credentials or access-control bypass is used. API observations retain article URLs and edited timestamps. Marketing pages outside that API remain separately reported if unavailable. API documentation: https://developer.zendesk.com/api-reference/help_center/help-center-api/articles/
