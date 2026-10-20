@@ -17,7 +17,8 @@
         "fundingpips.com",
         "help.fundingpips.com",
         "www.fundingpips.com"
-      ]
+      ],
+      "articleApi": "https://help.fundingpips.com/api/v2/help_center/en-us/articles.json?sort_by=edited_at&sort_order=desc&per_page=20"
     },
     {
       "id": "ftmo",

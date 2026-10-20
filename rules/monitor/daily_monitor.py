@@ -38,7 +38,7 @@ def download(url, hosts):
     url=safe_url(url,hosts)
     with build_opener(Redirects(hosts)).open(Request(url,headers={'User-Agent':UA,'Accept':'text/html,application/xml,text/xml,text/plain'}),timeout=12) as r:
         safe_url(r.url,hosts)
-        if not any(x in r.headers.get('Content-Type','').lower() for x in ('html','xml','text/plain')):
+        if not any(x in r.headers.get('Content-Type','').lower() for x in ('html','xml','text/plain','application/json')):
             raise ValueError('Unsupported source type')
         data=r.read(LIMIT+1)
         if len(data)>LIMIT: raise ValueError('Source exceeds size limit')
@@ -71,12 +71,12 @@ class Page(HTMLParser):
         if self.heading and self.headings:self.headings[-1]+=' '+value
 
 
-def parse(raw):
+def parse(raw, min_chars=150):
     if re.search(r'vercel security checkpoint|just a moment\.\.\.|verify you are human|access denied|cf-chl-',raw,re.I):
         raise ValueError('Official source blocked automated access')
     p=Page();p.feed(raw)
     text=' '.join(p.parts)
-    if len(text)<150:raise ValueError('Insufficient official page content')
+    if len(text)<min_chars:raise ValueError('Insufficient official page content')
     # Hash the full normalized page, but retain at most 70 words of headings.
     headings=[];remaining=70
     for h in p.headings:
@@ -121,6 +121,29 @@ def scan(firm, previous, now, day):
         if not robots[origin].can_fetch(UA,url):raise ValueError('Disallowed by robots.txt')
     def get(url):allowed(url);return download(url,hosts)
     inventory=set(previous.get('inventory',[]));discovered=set();home=firm['seeds'][0]
+    api_checked=False
+    if firm.get('articleApi'):
+        # Documented anonymous Help Center API; no login, proxy or bot-challenge bypass.
+        api=firm['articleApi']
+        try:
+            for _ in range(5):
+                raw,_=download(api,hosts);batch=json.loads(raw)
+                articles=batch.get('articles')
+                if not isinstance(articles,list) or len(articles)>100:raise ValueError('Invalid official API response')
+                for article in articles:
+                    if article.get('draft') or not isinstance(article.get('body'),str):continue
+                    url=safe_url(article['html_url'],hosts)
+                    snapshot,_=parse('<title>'+html.escape(article.get('title',''))+'</title><h1>'+html.escape(article.get('title',''))+'</h1>'+article['body'],min_chars=1)
+                    snapshot['sourceEditedAt']=article.get('edited_at') or article.get('updated_at')
+                    before=current.get(url)
+                    if before and before['hash']!=snapshot['hash']:notices.append(make_notice(firm,url,before,snapshot,now))
+                    elif not before and previous.get('apiCheckedAt') and article.get('created_at','')>previous['apiCheckedAt']:
+                        notices.append(make_notice(firm,url,{},snapshot,now,'page_added'))
+                    current[url]={**snapshot,'checkedAt':now};checked.append(url);discovered.add(url)
+                api_checked=True
+                if not batch.get('next_page'):break
+                api=safe_url(batch['next_page'],hosts)
+        except Exception as e:errors.append({'source':firm['articleApi'],'error':type(e).__name__+': '+str(e)[:160]})
     try:
         raw,final=get(home);snapshot,links=parse(raw)
         for href in links:
@@ -149,9 +172,10 @@ def scan(firm, previous, now, day):
             current[url]={**snapshot,'checkedAt':now};checked.append(url)
         except Exception as e:errors.append({'source':url,'error':type(e).__name__+': '+str(e)[:160]})
     # Cap retained observations; prune oldest unvisited pages.
-    current=dict(sorted(current.items(),key=lambda x:x[1].get('checkedAt',''),reverse=True)[:100])
+    current=dict(sorted(current.items(),key=lambda x:x[1].get('checkedAt',''),reverse=True)[:150])
+    checked=list(dict.fromkeys(checked))
     status='ok' if checked and not errors else 'partial' if checked else 'unavailable'
-    return firm['id'],{'pages':current,'inventory':inventory},{'id':firm['id'],'name':firm['name'],'status':status,'checkedAt':now,'pagesChecked':len(checked),'knownPages':len(inventory),'errors':errors},notices
+    return firm['id'],{'pages':current,'inventory':inventory,'apiCheckedAt':now if api_checked else previous.get('apiCheckedAt')},{'id':firm['id'],'name':firm['name'],'status':status,'checkedAt':now,'pagesChecked':len(checked),'knownPages':len(inventory),'errors':errors},notices
 
 
 def write_json(path,data):
@@ -181,7 +205,7 @@ def main():
             updates[key].update({k:review[k] for k in ('status','summary','appliesTo','reviewedAt') if k in review})
     records=sorted(updates.values(),key=lambda x:x['detectedAt'],reverse=True)[:600]
     feed={'schemaVersion':1,'checkedAt':now,'validUntil':(nowdt+timedelta(hours=48)).isoformat(),'coverage':sorted(coverage,key=lambda c:c['name']),
-          'updates':[u for u in records if u['status']!='dismissed'],'limits':{'pagesPerFirmPerRun':PAGES_PER_FIRM,'coverage':'Official allowlisted pages only; discovery rotates daily. Blocked sources are reported, not bypassed. First run establishes baselines.'}}
+          'updates':[u for u in records if u['status']!='dismissed'],'limits':{'pagesPerFirmPerRun':PAGES_PER_FIRM,'apiArticlesPerFirmPerRun':100,'coverage':'Official allowlisted pages only; discovery rotates daily. Blocked sources are reported, not bypassed. First run establishes baselines.'}}
     write_json(ROOT/'state.json',state);write_json(ROOT/'updates.json',feed)
     print(json.dumps({'firms':len(firms),'reachable':sum(c['pagesChecked']>0 for c in coverage),'checkedPages':sum(c['pagesChecked'] for c in coverage),'newChangeNotices':len(new)}))
 

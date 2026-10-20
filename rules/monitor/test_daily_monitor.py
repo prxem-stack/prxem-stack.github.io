@@ -35,4 +35,25 @@ class MonitorTests(unittest.TestCase):
    _,state,coverage,notices=m.scan(firm,old,'2026-10-21',1)
   self.assertEqual(coverage['status'],'unavailable');self.assertEqual(state['pages']['https://firm.com/']['hash'],'previous');self.assertEqual(notices,[])
 
+ def test_public_api_baseline_and_edit(self):
+  firm={'id':'firm','name':'Firm','hosts':['firm.com'],'seeds':['https://firm.com/'],'articleApi':'https://firm.com/api/articles'}
+  article={'html_url':'https://firm.com/rules','title':'Account rule','body':'<p>Original rule.</p>','draft':False,'edited_at':'2026-10-20T00:00:00Z'}
+  def get(url,hosts):
+   if '/api/' in url:return m.json.dumps({'articles':[article],'next_page':None}),url
+   raise ValueError('Website unavailable')
+  with patch.object(m,'download',side_effect=get):
+   _,state,coverage,notices=m.scan(firm,{},'2026-10-21T00:00:00Z',1)
+   self.assertEqual(coverage['pagesChecked'],1);self.assertEqual(notices,[])
+   article['body']='<p>Changed rule.</p>'
+   _,_,coverage,notices=m.scan(firm,state,'2026-10-22T00:00:00Z',2)
+   self.assertEqual(len(notices),1);self.assertEqual(notices[0]['status'],'review_pending')
+ def test_private_draft_api_article_excluded(self):
+  firm={'id':'firm','name':'Firm','hosts':['firm.com'],'seeds':['https://firm.com/'],'articleApi':'https://firm.com/api/articles'}
+  def get(url,hosts):
+   if '/api/' in url:return m.json.dumps({'articles':[{'draft':True,'body':'Secret'}]}),url
+   raise ValueError('Unavailable')
+  with patch.object(m,'download',side_effect=get):
+   _,state,coverage,notices=m.scan(firm,{},'2026-10-21',1)
+  self.assertEqual(coverage['pagesChecked'],0);self.assertEqual(notices,[])
+
 if __name__=='__main__':unittest.main()
