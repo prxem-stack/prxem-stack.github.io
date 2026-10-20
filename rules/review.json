@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-19T22:25:51.226193+00:00",
+  "checkedAt": "2026-10-20T04:58:07.801293+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d572168e781c179033aa14eefc1b708aca5d59a4ee32694ee29869434d2e7f6a"
+          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d572168e781c179033aa14eefc1b708aca5d59a4ee32694ee29869434d2e7f6a"
+          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d572168e781c179033aa14eefc1b708aca5d59a4ee32694ee29869434d2e7f6a"
+          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
         }
       }
     },
@@ -384,7 +384,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
@@ -395,7 +395,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "35cc94e19ce4c928f8f6ffc7d371df96c87095085688e959a96097cac12b92d3"
+          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
         }
       }
     },
