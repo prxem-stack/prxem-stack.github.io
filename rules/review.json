@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-20T21:41:51.764279+00:00",
+  "checkedAt": "2026-10-21T04:57:35.148263+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
+          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
+          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1fa8464a110ca212c1e8818b6ab1a571bbed6a92fb7bab2a995f1823e9267c25"
+          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "65c01de7019b610c0bcaa6ff2268d0ec3428d5b4469bb675635f8b3d7072ad71"
+          "sha256": "f461efee7ccf4db12932f1534f979830742200bf87149c0775cacafd54ad02c8"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "65c01de7019b610c0bcaa6ff2268d0ec3428d5b4469bb675635f8b3d7072ad71"
+          "sha256": "f461efee7ccf4db12932f1534f979830742200bf87149c0775cacafd54ad02c8"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "65c01de7019b610c0bcaa6ff2268d0ec3428d5b4469bb675635f8b3d7072ad71"
+          "sha256": "f461efee7ccf4db12932f1534f979830742200bf87149c0775cacafd54ad02c8"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "65c01de7019b610c0bcaa6ff2268d0ec3428d5b4469bb675635f8b3d7072ad71"
+          "sha256": "f461efee7ccf4db12932f1534f979830742200bf87149c0775cacafd54ad02c8"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "65c01de7019b610c0bcaa6ff2268d0ec3428d5b4469bb675635f8b3d7072ad71"
+          "sha256": "f461efee7ccf4db12932f1534f979830742200bf87149c0775cacafd54ad02c8"
         }
       }
     },
@@ -391,11 +391,11 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "bce3c2fa13a98e10c84a74582126e602030a2e486b8c126dd1de5cecc498decb"
+          "sha256": "f62d471fdacd0c0d476499b1c19d01c3182aacc3c28d341131bd6d6f65bca736"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "6a297e62e28e52421b5f5c9dc17cb107cb9f26b5a138fa3d346b5d4d94c05d3d"
+          "sha256": "9d1c798b16461508c61b13145bdc1227480dcb399079c414b97995cf663f41c9"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -450,7 +450,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "88c6bcd90c2bca9c0c6c4d31dab42fdc56e8c5830da046b4645b278d609728a2"
+          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
         }
       }
     },
@@ -546,7 +546,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": {
           "status": "fetched",
-          "sha256": "00aa068ac0636b7c9b252c3b14995f4f79b94d51784c4ebdfacc73d157c7c7e0"
+          "sha256": "d8222b1834797e5da28111cdec27a4a73fdf2c2df55eec7cddcea32e7bfc89c0"
         }
       }
     },
