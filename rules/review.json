@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-21T04:57:35.148263+00:00",
+  "checkedAt": "2026-10-21T11:58:47.466343+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "203f37cd634b3bac7a84dc18ef32b7dcf60724c73b73ce4d76497de9328bea24"
+          "sha256": "980ef6252917fd5c0cb803183c866b4819fbb95f73aca8b0ae62e9d6076ac8ef"
         }
       }
     },
