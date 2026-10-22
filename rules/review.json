@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-22T04:58:11.521459+00:00",
+  "checkedAt": "2026-10-22T12:01:18.895003+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "7a984875e95c9227017cb4de9544a42f37e3d6dfa92025b67b8028da4741a414"
+          "sha256": "9f4997ca4de686a5bde777359b3d44c41abd33f1bd4fb0842eb8818ae4bbbc25"
         }
       }
     },
@@ -268,11 +268,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "ac19e5e730b01ba2b3df969cb1834d502debb96dafb1613479689c1f9d2778e8"
+          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "5681fe5c47afc336a6c1b1c249f90bdad2b8772c876ae31fe16715f50ed7f9bf"
+          "sha256": "c885fbe65dffadb03e5f2c02beb970946b4f4f141330384a4d1f3a8d352e4232"
         }
       }
     },
@@ -283,11 +283,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "ac19e5e730b01ba2b3df969cb1834d502debb96dafb1613479689c1f9d2778e8"
+          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "5681fe5c47afc336a6c1b1c249f90bdad2b8772c876ae31fe16715f50ed7f9bf"
+          "sha256": "c885fbe65dffadb03e5f2c02beb970946b4f4f141330384a4d1f3a8d352e4232"
         }
       }
     },
@@ -302,7 +302,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "88e69996f86b7a44ec96884b66daa63af075d970cc3e463ef6cd364fef249053"
+          "sha256": "af632d8ff59b6210acf4413f57bf4db0c7db2af16b752a99ffb20dc0565bcaab"
         }
       }
     },
@@ -317,7 +317,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "88e69996f86b7a44ec96884b66daa63af075d970cc3e463ef6cd364fef249053"
+          "sha256": "af632d8ff59b6210acf4413f57bf4db0c7db2af16b752a99ffb20dc0565bcaab"
         }
       }
     },
@@ -332,7 +332,7 @@
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
-          "sha256": "88e69996f86b7a44ec96884b66daa63af075d970cc3e463ef6cd364fef249053"
+          "sha256": "af632d8ff59b6210acf4413f57bf4db0c7db2af16b752a99ffb20dc0565bcaab"
         }
       }
     },
@@ -483,7 +483,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "5199907e6067a86dbc06e06cb113ba56896160b8ea977c339966b3207ed81eac"
+          "sha256": "2214cf84d2c2830ef88cf66c25fc3d3386b28d2b2a4c487013b168d7f3c685a8"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "10481a7763757d0e4fb0f052aadc08669ed9bbef6e90af3bb2fb4eff1f3e9ff2"
+          "sha256": "51483ca4e1d438d8866a9c08cfac97351e521b5bbe46bee58595f93e13ce51b0"
         }
       }
     },
@@ -601,7 +601,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "23dff24bc23f7cf50acc133b7abc997a03dfc2d6c45ea8e54e7888c6b6d9e72b"
+          "sha256": "13b544bca122262644c79e3c3aabf9d223614e43518b60c2472c5a3a8bff44c6"
         }
       }
     },
