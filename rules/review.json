@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T04:59:48.977675+00:00",
+  "checkedAt": "2026-10-23T11:46:48.643486+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "780d465285dd061c6f1385a6ae4220f9f8fdf021dbf4038b0ae8f75219bd624e"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
+          "sha256": "7ee28bea3e41c7a3769d46bc69b9d200ed923cb644ecf06bf742b4fde6ddac4b"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
+          "sha256": "7ee28bea3e41c7a3769d46bc69b9d200ed923cb644ecf06bf742b4fde6ddac4b"
         }
       }
     },
