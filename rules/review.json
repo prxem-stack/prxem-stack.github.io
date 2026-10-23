@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T17:14:23.279617+00:00",
+  "checkedAt": "2026-10-23T21:28:54.349318+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -395,7 +395,7 @@
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "9d1c798b16461508c61b13145bdc1227480dcb399079c414b97995cf663f41c9"
+          "sha256": "ec846c0de1f55d9fe464b1b1de628866522ca8b2a6384ce8b561cce30f59d485"
         }
       }
     },
