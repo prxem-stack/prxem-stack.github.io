@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T11:46:48.643486+00:00",
+  "checkedAt": "2026-10-23T17:14:23.279617+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "53e9e7268640f434011dcee83ebc0c77d7c8d18b82b698127855df74ec63829f"
+          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "53e9e7268640f434011dcee83ebc0c77d7c8d18b82b698127855df74ec63829f"
+          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "53e9e7268640f434011dcee83ebc0c77d7c8d18b82b698127855df74ec63829f"
+          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "53e9e7268640f434011dcee83ebc0c77d7c8d18b82b698127855df74ec63829f"
+          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "53e9e7268640f434011dcee83ebc0c77d7c8d18b82b698127855df74ec63829f"
+          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
         }
       }
     },
@@ -391,7 +391,7 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "f62d471fdacd0c0d476499b1c19d01c3182aacc3c28d341131bd6d6f65bca736"
+          "sha256": "0697003c77d749ff1fe71efd472d314581ab230f3977b4373fbf987b64c99c9c"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",

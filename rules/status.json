@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-23T11:46:48.729921+00:00",
+  "checkedAt": "2026-10-23T17:14:23.363288+00:00",
   "firms": {
     "fundingpips": {
       "sources": [
@@ -16,7 +16,7 @@
         "https://ftmo.com/en/trading-objectives/"
       ],
       "digest": "191bc933da9a98734f6e35c52399513c669a5325c37cb35b0c741b6c7ee549f4",
-      "lastSuccessfulCheck": "2026-10-23T11:46:48.729921+00:00",
+      "lastSuccessfulCheck": "2026-10-23T17:14:23.363288+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-22T12:01:18.962682+00:00"
@@ -26,7 +26,7 @@
         "https://help.fundednext.com/en/collections/11026230-trading-rules-guidelines"
       ],
       "digest": "37f1ad330a2958b3be8e0355505be35c1842dd726044afd1e96346fd8fdb2633",
-      "lastSuccessfulCheck": "2026-10-23T11:46:48.729921+00:00",
+      "lastSuccessfulCheck": "2026-10-23T17:14:23.363288+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -35,18 +35,18 @@
       "sources": [
         "https://help.e8markets.com/en/articles/6929927-trading-policies-and-prohibited-trading-strategies"
       ],
-      "digest": "2f6d038d395f3f99e0567a6fdb439d8e1cc9a131eb9e07368b69db1e4180bc34",
-      "lastSuccessfulCheck": "2026-10-23T11:46:48.729921+00:00",
+      "digest": "e1101418daafd03f3d7ddd62fe4a13ad42c94fc2a962c6d5b826204494d726b6",
+      "lastSuccessfulCheck": "2026-10-23T17:14:23.363288+00:00",
       "status": "review_pending",
       "reviewRequired": true,
-      "changedAt": "2026-10-21T04:57:35.230148+00:00"
+      "changedAt": "2026-10-23T17:14:23.363288+00:00"
     },
     "alpha": {
       "sources": [
         "https://help.alphacapitalgroup.uk/en/collections/19682652-trading-rules"
       ],
       "digest": "ee1012b2403899ddb715170d4f80dcec850fc67d2dd02e35ab7e3e1d2636d3ff",
-      "lastSuccessfulCheck": "2026-10-23T11:46:48.729921+00:00",
+      "lastSuccessfulCheck": "2026-10-23T17:14:23.363288+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": null
@@ -56,7 +56,7 @@
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices"
       ],
       "digest": "3a93b9e4020fb36a4bfd9bdfdba402fefb067118132f904cf45ed49eb6dabec2",
-      "lastSuccessfulCheck": "2026-10-23T11:46:48.729921+00:00",
+      "lastSuccessfulCheck": "2026-10-23T17:14:23.363288+00:00",
       "status": "review_pending",
       "reviewRequired": true,
       "changedAt": "2026-10-22T17:16:31.051348+00:00"
