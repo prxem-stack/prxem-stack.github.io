@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T11:11:23.052974+00:00",
+  "checkedAt": "2026-10-24T16:02:01.236677+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "1d50fc05478b4c88f5b5eda07a592706857e73bcb643329e343586898e8a4d70"
+          "sha256": "d6f87cbbd09c8f1b36a1518e4cf33394d64763ba583185526405032466d15180"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "1d50fc05478b4c88f5b5eda07a592706857e73bcb643329e343586898e8a4d70"
+          "sha256": "d6f87cbbd09c8f1b36a1518e4cf33394d64763ba583185526405032466d15180"
         }
       }
     },
@@ -491,7 +491,7 @@
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
+          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
+          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
+          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
+          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
+          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
         }
       }
     },
