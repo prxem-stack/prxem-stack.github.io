@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T21:28:54.349318+00:00",
+  "checkedAt": "2026-10-24T04:44:34.200708+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
+          "sha256": "2d8a7476ad400c5c3e611652e3a8510306dcb74cb9afe843362296bf786eaa22"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
+          "sha256": "2d8a7476ad400c5c3e611652e3a8510306dcb74cb9afe843362296bf786eaa22"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
+          "sha256": "2d8a7476ad400c5c3e611652e3a8510306dcb74cb9afe843362296bf786eaa22"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
+          "sha256": "2d8a7476ad400c5c3e611652e3a8510306dcb74cb9afe843362296bf786eaa22"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1391ce5de6d36b39fe47a7b56026e459070814ade2d8b628e9106c642d803655"
+          "sha256": "2d8a7476ad400c5c3e611652e3a8510306dcb74cb9afe843362296bf786eaa22"
         }
       }
     },
@@ -491,7 +491,7 @@
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "649e2ea12f5a27fc162165e86106e7b7e0e20274896359773c103973278271cc"
+          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "649e2ea12f5a27fc162165e86106e7b7e0e20274896359773c103973278271cc"
+          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "649e2ea12f5a27fc162165e86106e7b7e0e20274896359773c103973278271cc"
+          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "649e2ea12f5a27fc162165e86106e7b7e0e20274896359773c103973278271cc"
+          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "649e2ea12f5a27fc162165e86106e7b7e0e20274896359773c103973278271cc"
+          "sha256": "2414e5c0726583b4d005b88e657d2337948987f7b5556e4a50f49e6c91915114"
         }
       }
     },
