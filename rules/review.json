@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T20:55:34.917460+00:00",
+  "checkedAt": "2026-10-25T04:51:40.452946+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -350,33 +350,33 @@
     {
       "id": "the5ers.highclassic",
       "kind": "rules",
-      "status": "review_pending",
+      "status": "unavailable",
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
-          "status": "fetched",
-          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
+          "status": "unavailable",
+          "error": "ValueError"
         }
       }
     },
     {
       "id": "the5ers.highnew",
       "kind": "rules",
-      "status": "review_pending",
+      "status": "unavailable",
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
-          "status": "fetched",
-          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
+          "status": "unavailable",
+          "error": "ValueError"
         }
       }
     },
     {
       "id": "the5ers.hyper",
       "kind": "rules",
-      "status": "review_pending",
+      "status": "unavailable",
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
-          "status": "fetched",
-          "sha256": "bc4ab8dc0baa4a2d8613b1425d063b36e319f4628f6cb7a9707aab1ffcc87677"
+          "status": "unavailable",
+          "error": "ValueError"
         }
       }
     },
