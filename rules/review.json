@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26T13:13:35.153738+00:00",
+  "checkedAt": "2026-10-26T22:44:00.281131+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "376cc1f6af07ed8b84d4daec07986235d05910e83a305a8446bb50594d9c92a7"
+          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "376cc1f6af07ed8b84d4daec07986235d05910e83a305a8446bb50594d9c92a7"
+          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "376cc1f6af07ed8b84d4daec07986235d05910e83a305a8446bb50594d9c92a7"
+          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "376cc1f6af07ed8b84d4daec07986235d05910e83a305a8446bb50594d9c92a7"
+          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "376cc1f6af07ed8b84d4daec07986235d05910e83a305a8446bb50594d9c92a7"
+          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
@@ -450,7 +450,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "ddfe1841b64f6c92be0e7cbb21dcadc03adfd1baf30d57c204b11fee8d79f14d"
+          "sha256": "5a093c2211b798a447657b71cfbe100efa0d91a0924999244330246e19f76a95"
         }
       }
     },
