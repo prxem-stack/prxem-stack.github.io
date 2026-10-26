@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26T04:55:43.520646+00:00",
+  "checkedAt": "2026-10-26T13:13:35.153738+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
+          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
+          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "4aeb3227180523760582883bbf59c48f5b2f290c04bb4776a6b5e2df9909d145"
+          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "980ef6252917fd5c0cb803183c866b4819fbb95f73aca8b0ae62e9d6076ac8ef"
+          "sha256": "bf68db4eb8dc6aabd101d62f709bdb4011509fa2db2905e8122186c6a7c63768"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "d6f87cbbd09c8f1b36a1518e4cf33394d64763ba583185526405032466d15180"
+          "sha256": "d7ca0dffffb962d98197f1c6fc52e3af058278fe29bdd716924e673745ad70be"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "d6f87cbbd09c8f1b36a1518e4cf33394d64763ba583185526405032466d15180"
+          "sha256": "d7ca0dffffb962d98197f1c6fc52e3af058278fe29bdd716924e673745ad70be"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "409e0ee57fabb5891b35164e007e6b79ef7d7f92ac146dec2cb3203be22b78da"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "409e0ee57fabb5891b35164e007e6b79ef7d7f92ac146dec2cb3203be22b78da"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "409e0ee57fabb5891b35164e007e6b79ef7d7f92ac146dec2cb3203be22b78da"
+          "sha256": "a8e33f4808e2dadc95ed6d7290ac4a349bf8563a06c48465bc5172934e1f8cc5"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -354,7 +354,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
+          "sha256": "17a170df6df5961f91fac007db29cd49080d0e5bfa66242f4a5b96d43bc050f3"
         }
       }
     },
@@ -365,7 +365,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "5b6a22a80efe1de8eb1525049b580fecc0823de1c77d2a9ec5913879fefd4443"
+          "sha256": "17a170df6df5961f91fac007db29cd49080d0e5bfa66242f4a5b96d43bc050f3"
         }
       }
     },
@@ -376,7 +376,7 @@
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
           "status": "fetched",
-          "sha256": "bc4ab8dc0baa4a2d8613b1425d063b36e319f4628f6cb7a9707aab1ffcc87677"
+          "sha256": "efe946377834c74e6ef8ff3e6219c5338959e73b34ab3f9b736fc5dfdb05727a"
         }
       }
     },
@@ -483,15 +483,15 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "2214cf84d2c2830ef88cf66c25fc3d3386b28d2b2a4c487013b168d7f3c685a8"
+          "sha256": "70c5a97458c1249b9eb52696fdf5c9abf716836d216296a65e8aa7cf04f5874d"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
-          "sha256": "43ce5f78a846a27e26dcfe009fa3ade91924325a202f4cf7f13fc725eead7827"
+          "sha256": "a11e1852c02bd01cc7d56f65e33b5442989dc48f8324084d08be575be55355c9"
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
+          "sha256": "c1fc6f9174e3a9c895fed16eb713ea3b21212f0ca3d5156e08d950269f3c361d"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
+          "sha256": "c1fc6f9174e3a9c895fed16eb713ea3b21212f0ca3d5156e08d950269f3c361d"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
+          "sha256": "c1fc6f9174e3a9c895fed16eb713ea3b21212f0ca3d5156e08d950269f3c361d"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
+          "sha256": "c1fc6f9174e3a9c895fed16eb713ea3b21212f0ca3d5156e08d950269f3c361d"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "abd4eb68ce61eb41a29647f6d33908546a6ec28b6422754fd349a657ec8f77be"
+          "sha256": "c1fc6f9174e3a9c895fed16eb713ea3b21212f0ca3d5156e08d950269f3c361d"
         }
       }
     },
@@ -601,7 +601,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "b35215f6d68c13a6ff52955454e8397ccf20ce538efbb296b5332790ca1fab0e"
+          "sha256": "3e2f3daa7f6dc41750a1762fa0dda09e245bfeaf36b49ff2bfef69b3ab85c17e"
         }
       }
     },
