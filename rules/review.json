@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T12:21:11.066569+00:00",
+  "checkedAt": "2026-10-27T18:06:01.822568+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
+          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
+          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
+          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "bf68db4eb8dc6aabd101d62f709bdb4011509fa2db2905e8122186c6a7c63768"
+          "sha256": "84f831193e849d3ba7776692f7a3ed228b88b782895e0d340a64c21803c8ab9c"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
+          "sha256": "4f065e01bc9437c8582bd67f99f579e6209d659c237a9cba92f79e411f9f9ff1"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
+          "sha256": "4f065e01bc9437c8582bd67f99f579e6209d659c237a9cba92f79e411f9f9ff1"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
+          "sha256": "4f065e01bc9437c8582bd67f99f579e6209d659c237a9cba92f79e411f9f9ff1"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
+          "sha256": "4f065e01bc9437c8582bd67f99f579e6209d659c237a9cba92f79e411f9f9ff1"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "101e152cc8dc99d468545a52381b61a51ed559400ddd76c4840f656422c4109a"
+          "sha256": "4f065e01bc9437c8582bd67f99f579e6209d659c237a9cba92f79e411f9f9ff1"
         }
       }
     },
@@ -591,6 +591,72 @@
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
           "sha256": "51483ca4e1d438d8866a9c08cfac97351e521b5bbe46bee58595f93e13ce51b0"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro6",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro8",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
+        }
+      }
+    },
+    {
+      "id": "alpha.pro10",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
+        }
+      }
+    },
+    {
+      "id": "alpha.one6",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
+        }
+      }
+    },
+    {
+      "id": "alpha.one10",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
+        }
+      }
+    },
+    {
+      "id": "alpha.one12",
+      "kind": "changeReviews",
+      "status": "review_pending",
+      "evidence": {
+        "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
+          "status": "fetched",
+          "sha256": "c06238a868619bc32149a2fae24747bc0295d83d8fe66cdadca062d344763a90"
         }
       }
     },
