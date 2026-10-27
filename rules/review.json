@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-26T22:44:00.281131+00:00",
+  "checkedAt": "2026-10-27T05:13:20.824224+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
+          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
+          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "08b707bbd8db8aca54b58c0ef028a1822a820e6de510e471ba778a013d0c84c2"
+          "sha256": "0d59271b7355208c780004918bfb49a57a62582b8417d3f46b9b7c4968629517"
         }
       }
     },
