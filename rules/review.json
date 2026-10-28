@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-27T22:21:00.587558+00:00",
+  "checkedAt": "2026-10-28T05:51:30.945550+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -483,7 +483,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "70c5a97458c1249b9eb52696fdf5c9abf716836d216296a65e8aa7cf04f5874d"
+          "sha256": "3332b26ffa84515f860b1f9f7e523eda9c51f1bc906810daadb3d1913d91ebdb"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
@@ -546,7 +546,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": {
           "status": "fetched",
-          "sha256": "d8222b1834797e5da28111cdec27a4a73fdf2c2df55eec7cddcea32e7bfc89c0"
+          "sha256": "668d196e5a7414035cb94716c7e20be373fa6d24c7af0d4aadfcfe5f65c42bd5"
         }
       }
     },
