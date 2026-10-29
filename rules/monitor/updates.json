@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-  "validUntil": "2026-10-30T06:49:29.665911+00:00",
+  "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+  "validUntil": "2026-10-31T07:00:19.617890+00:00",
   "coverage": [
     {
       "id": "alphacapitalgroup",
       "name": "Alpha Capital Group",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 11,
       "errors": []
@@ -16,7 +16,7 @@
       "id": "apextraderfunding",
       "name": "Apex Trader Funding",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -30,7 +30,7 @@
       "id": "aquafunded",
       "name": "AquaFunded",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 400,
       "errors": []
@@ -39,7 +39,7 @@
       "id": "atmosfunded",
       "name": "Atmos Funded",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -53,7 +53,7 @@
       "id": "audacitycapital",
       "name": "Audacity Capital",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -66,31 +66,26 @@
     {
       "id": "bemfunding",
       "name": "BEM Funding",
-      "status": "partial",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 5,
+      "status": "ok",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 6,
       "knownPages": 174,
-      "errors": [
-        {
-          "source": "https://bemfunding.com/",
-          "error": "TimeoutError: The read operation timed out"
-        }
-      ]
+      "errors": []
     },
     {
       "id": "blueguardian",
       "name": "Blue Guardian",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
-      "knownPages": 161,
+      "knownPages": 163,
       "errors": []
     },
     {
       "id": "blueberryfunded",
       "name": "Blueberry Funded",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -104,7 +99,7 @@
       "id": "brightfunded",
       "name": "BrightFunded",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -118,7 +113,7 @@
       "id": "citytradersimperium",
       "name": "City Traders Imperium",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 9,
       "errors": []
@@ -127,16 +122,16 @@
       "id": "cryptofundtrader",
       "name": "Crypto Fund Trader",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 3,
-      "knownPages": 3,
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 6,
+      "knownPages": 7,
       "errors": []
     },
     {
       "id": "e8markets",
       "name": "E8 Markets",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 7,
       "errors": []
@@ -145,7 +140,7 @@
       "id": "earn2trade",
       "name": "Earn2Trade",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 1,
       "knownPages": 1,
       "errors": []
@@ -153,17 +148,26 @@
     {
       "id": "ftmo",
       "name": "FTMO",
-      "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 6,
+      "status": "partial",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 4,
       "knownPages": 23,
-      "errors": []
+      "errors": [
+        {
+          "source": "https://ftmo.com/",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        },
+        {
+          "source": "https://ftmo.com/en/",
+          "error": "HTTPError: HTTP Error 404: Not Found"
+        }
+      ]
     },
     {
       "id": "finotivefunding",
       "name": "Finotive Funding",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 10,
       "errors": []
@@ -172,7 +176,7 @@
       "id": "fintokei",
       "name": "Fintokei",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 400,
       "errors": []
@@ -181,7 +185,7 @@
       "id": "fortraders",
       "name": "For Traders",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 400,
       "errors": []
@@ -190,7 +194,7 @@
       "id": "fundedtradingplus",
       "name": "Funded Trading Plus",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 2,
       "errors": [
@@ -208,7 +212,7 @@
       "id": "fundedelite",
       "name": "FundedElite",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 6,
       "errors": []
@@ -216,24 +220,19 @@
     {
       "id": "fundednext",
       "name": "FundedNext",
-      "status": "partial",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 5,
+      "status": "ok",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 6,
       "knownPages": 12,
-      "errors": [
-        {
-          "source": "https://fundednext.com/blog",
-          "error": "ValueError: Source exceeds size limit"
-        }
-      ]
+      "errors": []
     },
     {
       "id": "fundingpips",
       "name": "FundingPips",
       "status": "partial",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 29,
-      "knownPages": 31,
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 30,
+      "knownPages": 32,
       "errors": [
         {
           "source": "https://fundingpips.com/",
@@ -249,7 +248,7 @@
       "id": "goatfundedtrader",
       "name": "Goat Funded Trader",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 400,
       "errors": []
@@ -258,7 +257,7 @@
       "id": "hantectrader",
       "name": "Hantec Trader",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -271,17 +270,42 @@
     {
       "id": "holaprime",
       "name": "Hola Prime",
-      "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 6,
+      "status": "unavailable",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 0,
       "knownPages": 200,
-      "errors": []
+      "errors": [
+        {
+          "source": "https://holaprime.com/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://holaprime.com/ur/futures/trading-platforms/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://holaprime.com/ur/news-media/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://holaprime.com/ur/payout-stories/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://holaprime.com/ur/payout-transparency-report/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://holaprime.com/vi/1-hour-payouts/",
+          "error": "ValueError: robots.txt unavailable; source skipped"
+        }
+      ]
     },
     {
       "id": "instantfunding",
       "name": "Instant Funding",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -295,7 +319,7 @@
       "id": "larkfunding",
       "name": "Lark Funding",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 14,
       "errors": []
@@ -304,7 +328,7 @@
       "id": "leelootrading",
       "name": "Leeloo Trading",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 8,
       "errors": []
@@ -313,7 +337,7 @@
       "id": "leveraged",
       "name": "Leveraged",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 5,
       "knownPages": 5,
       "errors": []
@@ -322,16 +346,12 @@
       "id": "lucidtrading",
       "name": "Lucid Trading",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 5,
       "errors": [
         {
           "source": "https://lucidtrading.com/",
-          "error": "ValueError: robots.txt unavailable; source skipped"
-        },
-        {
-          "source": "https://lucidtrading.com/product_brand-sitemap.xml",
           "error": "ValueError: robots.txt unavailable; source skipped"
         },
         {
@@ -345,6 +365,10 @@
         {
           "source": "https://lucidtrading.com/product-sitemap.xml",
           "error": "ValueError: robots.txt unavailable; source skipped"
+        },
+        {
+          "source": "https://lucidtrading.com/product_brand-sitemap.xml",
+          "error": "ValueError: robots.txt unavailable; source skipped"
         }
       ]
     },
@@ -352,7 +376,7 @@
       "id": "maventrading",
       "name": "Maven Trading",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 10,
       "errors": []
@@ -361,7 +385,7 @@
       "id": "monetafunded",
       "name": "Moneta Funded",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -375,24 +399,16 @@
       "id": "myfundedfutures",
       "name": "My Funded Futures",
       "status": "partial",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
-      "pagesChecked": 2,
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
+      "pagesChecked": 4,
       "knownPages": 56,
       "errors": [
         {
-          "source": "https://myfundedfutures.com/blog/choosing-the-best-futures-trading-platform-for-you-factors-to-consider",
+          "source": "https://myfundedfutures.com/blog/forex-spot-vs-futures-trading",
           "error": "ValueError: Source exceeds size limit"
         },
         {
-          "source": "https://myfundedfutures.com/blog/daily-loss-limits-explained-protect-your-account-and-sanity",
-          "error": "ValueError: Source exceeds size limit"
-        },
-        {
-          "source": "https://myfundedfutures.com/blog/daily-payouts-advantage",
-          "error": "ValueError: Source exceeds size limit"
-        },
-        {
-          "source": "https://myfundedfutures.com/blog/evaluation-or-instant-funding-futures",
+          "source": "https://myfundedfutures.com/blog/fundamental-technical-analysis-futures-trading",
           "error": "ValueError: Source exceeds size limit"
         }
       ]
@@ -401,7 +417,7 @@
       "id": "oneuptrader",
       "name": "OneUp Trader",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 1,
       "knownPages": 1,
       "errors": []
@@ -410,7 +426,7 @@
       "id": "orionfunded",
       "name": "Orion Funded",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 7,
       "errors": []
@@ -419,7 +435,7 @@
       "id": "takeprofittrader",
       "name": "Take Profit Trader",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -433,7 +449,7 @@
       "id": "thetradingpit",
       "name": "The Trading Pit",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 3,
       "knownPages": 3,
       "errors": []
@@ -442,7 +458,7 @@
       "id": "the5ers",
       "name": "The5ers",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 8,
       "errors": []
@@ -451,7 +467,7 @@
       "id": "thinkcapital",
       "name": "ThinkCapital",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 9,
       "errors": []
@@ -460,7 +476,7 @@
       "id": "tickticktrader",
       "name": "TickTickTrader",
       "status": "unavailable",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 0,
       "knownPages": 1,
       "errors": [
@@ -474,7 +490,7 @@
       "id": "toponetrader",
       "name": "Top One Trader",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 82,
       "errors": []
@@ -483,7 +499,7 @@
       "id": "topstep",
       "name": "Topstep",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 169,
       "errors": []
@@ -492,7 +508,7 @@
       "id": "tradethepool",
       "name": "Trade The Pool",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 3,
       "knownPages": 3,
       "errors": []
@@ -501,7 +517,7 @@
       "id": "tradeday",
       "name": "TradeDay",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 3,
       "knownPages": 3,
       "errors": []
@@ -510,7 +526,7 @@
       "id": "tradeify",
       "name": "Tradeify",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 22,
       "errors": []
@@ -519,7 +535,7 @@
       "id": "uprofit",
       "name": "UProfit",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 4,
       "knownPages": 4,
       "errors": []
@@ -528,13 +544,700 @@
       "id": "wsfunded",
       "name": "WSFunded",
       "status": "ok",
-      "checkedAt": "2026-10-28T06:49:29.665911+00:00",
+      "checkedAt": "2026-10-29T07:00:19.617890+00:00",
       "pagesChecked": 6,
       "knownPages": 7,
       "errors": []
     }
   ],
   "updates": [
+    {
+      "id": "3dbab45e416764aa3f289380",
+      "firmId": "ftmo",
+      "firm": "FTMO",
+      "source": "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Introducing the 1-Step FTMO Challenge | FTMO.com",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "f4a477ec8a45c4c7e5921553a7a823c77f8bde9c606e2f880f7c846dc4ca7e31",
+      "afterHash": "c56ec9eca94abf6755e127d26ec8ccfe8fb44cc315cfb15c2382a8d05780ca62"
+    },
+    {
+      "id": "388bb213a6d73732ab1568b7",
+      "firmId": "ftmo",
+      "firm": "FTMO",
+      "source": "https://ftmo.com/en/trading-objectives/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Trading Objectives | FTMO.com",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "f4bbda4ae91363f9acecb7cdcee2be67717e694029c963969ef5b2791ce3a7ed",
+      "afterHash": "5ee560fb1c328063a275f9d7a5d8833921069622cedfed33e14038e1e11942ca"
+    },
+    {
+      "id": "e7e2073b2a412135df9ae24f",
+      "firmId": "ftmo",
+      "firm": "FTMO",
+      "source": "https://ftmo.com/en/trading-platforms/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Trading Platforms | FTMO",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "8cddf1c4d4cd0fbbf0f198758a3f850ee7ad77c756caa76aa19f6b84b6b7a2fc",
+      "afterHash": "3054da070f34ba42dd8593ee04a043ad64bf8ebce31e2c964d98181c6e2897a5"
+    },
+    {
+      "id": "8bb1af2b59195aa7e8d3c23a",
+      "firmId": "ftmo",
+      "firm": "FTMO",
+      "source": "https://ftmo.com/faq-category-sitemap.xml",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Official page updated",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "6de2962aa94f3bc314079f1330ce7d4e585729432be73cdfc1f34511b6d9555f",
+      "afterHash": "c4b29d7a69c2db291e9208f00b1b0bdde527746355bfd9a5383a30b44c57d2d2"
+    },
+    {
+      "id": "072ed67afd7fa67036eb46df",
+      "firmId": "fundingpips",
+      "firm": "FundingPips",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/43468639481105-Account-Workspace",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "article_api",
+      "title": "Account Workspace",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "41f46457ad8858a9287071884a0d3bf2dd5f7d01be2e8f93632d3ca279b4e7fe",
+      "afterHash": "2f4d39cd97577c1ad3e04ca13b390374ad78bcb46dfed3b6b12eb86a96c539d7"
+    },
+    {
+      "id": "4cfde76d3f2a975eec3d0e7f",
+      "firmId": "fundingpips",
+      "firm": "FundingPips",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/34502157694865-FundingPips-Zero",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "article_api",
+      "title": "FundingPips Zero",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "398497e2abe3b5f66c9abbe5b4dbf1c7e29ac2449f13419db47267e487aa32c6",
+      "afterHash": "72bc4da88bce9d8dd8d92c5895cc5ad377f051adcd77e9c0f0af00c654221896"
+    },
+    {
+      "id": "44eeacd047f6dcb0f7b98268",
+      "firmId": "fundingpips",
+      "firm": "FundingPips",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/52395111530897-EXP-004",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_added",
+      "status": "review_pending",
+      "comparisonChannel": "article_api",
+      "title": "EXP 004",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "EXP 004",
+        "$25K. $199. $99. Unlimited daily rewards.",
+        "Everything about this edition."
+      ],
+      "removedHeadings": [],
+      "beforeHash": null,
+      "afterHash": "a64c1ff1def2e40c2b671d5322f7d8455c44f4ed79defe94f851dc37611fad87"
+    },
+    {
+      "id": "3ec67087765e9d24ea113d8e",
+      "firmId": "alphacapitalgroup",
+      "firm": "Alpha Capital Group",
+      "source": "https://alphacapitalgroup.uk/product",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Prop Firm Evaluations | Alpha One, Pro, Swing & Direct",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "c04ccc3fc281eea871bb136e2e383f26779cce63410d9b38fa5534f5209db7f0",
+      "afterHash": "b41676942f94a22afe936a32c31cf96b8eed1045feb8e325f27b85b8de34ac78"
+    },
+    {
+      "id": "0a347fe70e9ded0e95e40ec9",
+      "firmId": "fundednext",
+      "firm": "FundedNext",
+      "source": "https://help.fundednext.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Home | FundedNext Help Center",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "0675a9187401c7203c58f2d4fd834e9bccd2c7269f0dacf5e847a7af3f1237d1",
+      "afterHash": "b05db3fa18e319eac9887cfae67b4f519f4fb0e4a3cd3156096390756cca31a6"
+    },
+    {
+      "id": "fcb29f14f804e854f60e41fd",
+      "firmId": "e8markets",
+      "firm": "E8 Markets",
+      "source": "https://e8markets.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "SimFi™ Trading Platform — 150+ Markets, US-Based · E8Markets",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "391ae7bd61ac52daa985b9fe1c7d72bf121ec98e39d31fe40ada6fc67d808c43",
+      "afterHash": "833621775e3c7a17661123413fe49486b8b028a7821b5637e40d3fd44eead30d"
+    },
+    {
+      "id": "5035578de61fdc83a71b9e58",
+      "firmId": "e8markets",
+      "firm": "E8 Markets",
+      "source": "https://e8markets.com/e8-markets-discount-code",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Discount Codes & Promo Offers · E8Markets",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "129fddcaa5fa3ef53f3e44fcfaff61af0e70659ace3ba7231a06a85e7cd96549",
+      "afterHash": "4385a7f9f7466df7893f640f4029d330864bb82bdf7d48f026c1f4a1ffc4653f"
+    },
+    {
+      "id": "09f25a182dd0191110687bdc",
+      "firmId": "tradethepool",
+      "firm": "Trade The Pool",
+      "source": "https://tradethepool.com/blog/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Stock Trading Blog - Trade The Pool - Stock Trading Prop Firm",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "Amazon Stock Price Before Q3 Earnings: AWS Growth vs. a $220 Billion Capex Bill",
+        "Meta Stock Price After Q3 Earnings: Record Ad Revenue vs. the First Cash Burn",
+        "What Are Underwriters? How IPO Underwriters Shape a New Stock"
+      ],
+      "removedHeadings": [
+        "Tesla Stock Price Before Q3 Earnings: What Will Move It",
+        "Netflix Stock Price: Can Growth Return?",
+        "What Is a Stock Exchange? How It Works, Major US Exchanges, and 2026 Trading Hours"
+      ],
+      "beforeHash": "e3f8a8575d3c654b902877a926dcebf4344ca8efec1206c111359435b94da16a",
+      "afterHash": "b50ab0b833805ff3bb5b8f9a2fb03a13dd73d2a8027c51ef07c0ab63c1b0019a"
+    },
+    {
+      "id": "5d462da1f192d32ec8d939fa",
+      "firmId": "tradethepool",
+      "firm": "Trade The Pool",
+      "source": "https://tradethepool.com/fundamental/avoid-the-pdt-rule/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "5 Ways to Avoid the PDT Rule - Trade The Pool - Stock Trading Prop Firm",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "d62a23925f6f84f34e92dc88edec402e27086188722f7bf8ef7d88c9795e6f24",
+      "afterHash": "c0388fb0069981b09651075468e6c715239a96bc85034838b1cf5762149509d4"
+    },
+    {
+      "id": "1c90ea38c5c90f894b46ded4",
+      "firmId": "the5ers",
+      "firm": "The5ers",
+      "source": "https://the5ers.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "The5ers: The Top 5% of the Prop World | The5ers",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "6088a1f8bce8b1ee225d1a14b4c15968802ac5e37945f3af2caafd2ac84af4ff",
+      "afterHash": "f564faf352617571299572cc9c44266fadc0f7f369aeca1cb2478eab6d01fda9"
+    },
+    {
+      "id": "5862f196d8b2e53b95b30906",
+      "firmId": "blueguardian",
+      "firm": "Blue Guardian",
+      "source": "https://blueguardian.com/blogs/why-your-beliefs-about-funded-trading-determine-your-success",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Why Your Beliefs About Funded Trading Determine Your Success (The Psychology No One Explains)",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "9 Common Forex Trading Mistakes Every Beginner Must Avoid 2026",
+        "Blue Guardian Futures: Everything You Need to"
+      ],
+      "removedHeadings": [
+        "Blue Guardian $100K Funded Account: Rules, Plans, and Payouts",
+        "10 Best Prop Firms for Egyptian Traders in"
+      ],
+      "beforeHash": "8cdc9683fa6cbf4efc8e64443492d48f6035a9915e05692038c1cf6401373d7a",
+      "afterHash": "c67107a1bfc1a765422310ab0acb28da3f3b5208d537d986ba58d2363d85e69a"
+    },
+    {
+      "id": "3e5155a7e34ad7daca6b56ba",
+      "firmId": "blueguardian",
+      "firm": "Blue Guardian",
+      "source": "https://blueguardian.com/blogs/young-entrepreneur-sean-bainton-built-a-prop-firm-that-paid-25million-to-traders-worldwide",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Blue Guardian",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "9 Common Forex Trading Mistakes Every Beginner Must Avoid 2026",
+        "Blue Guardian Futures: Everything You Need to Know in 2026",
+        "Paper Trading vs. Live Trading: 7 Key Differences Every Trader Should"
+      ],
+      "removedHeadings": [
+        "Blue Guardian $100K Funded Account: Rules, Plans, and Payouts",
+        "10 Best Prop Firms for Egyptian Traders in 2026",
+        "11 Best Straight to Funded Prop Firms in 2026"
+      ],
+      "beforeHash": "122ca1289ded7ca26f55c9d4d68144483c524701e48332c19b79222b27779af1",
+      "afterHash": "1f6b11b831b9cff793dbc335f3005a0f5b3dbcbc95e51aa0bc6c575e0f94a810"
+    },
+    {
+      "id": "7515891c32239598aa391ba6",
+      "firmId": "blueguardian",
+      "firm": "Blue Guardian",
+      "source": "https://blueguardian.com/payouts",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Payouts | Blue Guardian — Fast, Reliable Payouts for Funded Traders",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "b4e310810b88b223d46a69a61cfb9ebd2d8b0963e60b892ca338c486c62896bf",
+      "afterHash": "d24d89f7c37b5e59a3951353abcf5c4347e7bb858a2551d6c06200397d98b7c2"
+    },
+    {
+      "id": "0b678ac229f92476f1c3b57b",
+      "firmId": "blueguardian",
+      "firm": "Blue Guardian",
+      "source": "https://blueguardian.com/blogs",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "The Intelligence Hub — Blue Guardian",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "9 Common Forex Trading Mistakes Every Beginner Must Avoid 2026",
+        "Blue Guardian Futures: Everything You Need to Know in 2026",
+        "Paper Trading vs. Live Trading: 7 Key Differences Every Trader Should Know"
+      ],
+      "removedHeadings": [
+        "10 Best Prop Firms for Egyptian Traders in 2026",
+        "11 Best Straight to Funded Prop Firms in 2026",
+        "Best Prop Firm Challenges 2026: Compare Top Firms"
+      ],
+      "beforeHash": "cd79a136727b8f848a02204c1f678fc369a743a692beafdb5ccc6590c415e72c",
+      "afterHash": "2e1fc390f24ce22bc3c80c00b3f08598be4c7d5def44adb445c80176c0200b98"
+    },
+    {
+      "id": "f99c1920e761bed0a3b71f88",
+      "firmId": "finotivefunding",
+      "firm": "Finotive Funding",
+      "source": "https://finotivefunding.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Finotive Funding | Get Funded Up to $200K | Prop Trading Firm",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "Trick or trade?",
+        "Are you a new Customer?",
+        "Multiple Payment Methods"
+      ],
+      "removedHeadings": [
+        "Your Prop Trading Journey Starts With Real Backing",
+        "Are you a new"
+      ],
+      "beforeHash": "0a79413191dfbe1a53481c305408a676a52f071ebc35dc89d7312fa3767caafa",
+      "afterHash": "09e53d75808ae23b4c713c830f2e29e0fe3d92e195680a64116d861cd98c1f2d"
+    },
+    {
+      "id": "e05bd23ce9d73a481eb268e6",
+      "firmId": "finotivefunding",
+      "firm": "Finotive Funding",
+      "source": "https://finotivefunding.com/es/payouts",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Pagos de Prop Firm | Semanales, Cripto y Revolut | Finotive Funding",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "8778bc18d124a57f819e009d5dc7147d71f8165a0e29577aa15b3c516f6db071",
+      "afterHash": "2dc688290bcb52497c120bd0276635c99e77479589be197943d4da6b3e998390"
+    },
+    {
+      "id": "ce01af6890d0d8f1c1507195",
+      "firmId": "finotivefunding",
+      "firm": "Finotive Funding",
+      "source": "https://finotivefunding.com/payouts",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Prop Firm Payouts | Weekly, Crypto & Revolut | Finotive Funding",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "163bccb5e37efbdbdacc9736955dfdd65a0f12db2b628524fcbac8551fa0130e",
+      "afterHash": "ec227c667d3aee3bd1f704e22f1ad5f638c0379afb7f49a67210bf87efbf240e"
+    },
+    {
+      "id": "a675936b57fb61ea9b7592e5",
+      "firmId": "wsfunded",
+      "firm": "WSFunded",
+      "source": "https://wsfunded.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Wall Street Funded | Best Prop Firm",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "2ba666d02c28ffec18f47856e0180166cbde58178059c08a42966409fc729a9c",
+      "afterHash": "3259557e7150a2c4275f12562a3de8c46ebfabe7db0c049290243d8aeda192d3"
+    },
+    {
+      "id": "a53e953ae717199c3fc27c1d",
+      "firmId": "wsfunded",
+      "firm": "WSFunded",
+      "source": "https://wsfunded.com/challenge-prime",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Challenge Prime",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "0345906d0ebcf5256dd6fb9cab2f254e8cdb8345c99549205149f340df4284fc",
+      "afterHash": "ad8142b4b0b87c212e4f7ebb88cb9da60da03ba0a25d765504401daead8bb7ce"
+    },
+    {
+      "id": "a59485db4fe475ee9eba9e8b",
+      "firmId": "toponetrader",
+      "firm": "Top One Trader",
+      "source": "https://toponetrader.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Top One Trader | Trade, Grow & Profit",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "Get a Treat With Every Purchase",
+        "“I requested a payout of $933 on Sunday. My payout came in after"
+      ],
+      "removedHeadings": [
+        "X-DAILY has launched",
+        "“I requested a payout of $933 on Sunday. My payout came in after 30 minutes! ”"
+      ],
+      "beforeHash": "e41bc65b8474fb08070b334db3b35444f5596a2ba67a49465fb2015558754b9a",
+      "afterHash": "5c6f7be2230ae3d18e779d9bf9e090b5c30fb4cf7030d7c229d8baebfe057d01"
+    },
+    {
+      "id": "988e02d79525ec93ac4f0f76",
+      "firmId": "toponetrader",
+      "firm": "Top One Trader",
+      "source": "https://www.toponetrader.com/coupon-code-pricing",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Mystery Coupon Pricing | Top One Trader",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "30d7a112d32d003a4b91b7a206a3d90054cf7be9d97e37ed789c35fbf050819a",
+      "afterHash": "dc45b10d71d75e71d33d735ef04dc9eab21ba410bf0b429373a2f95e79b2b547"
+    },
+    {
+      "id": "8d384faa694795819de1cbb0",
+      "firmId": "cryptofundtrader",
+      "firm": "Crypto Fund Trader",
+      "source": "https://cryptofundtrader.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Crypto Fund Trader - ﻿ Best Trading Prop Firm | Up to $300.000",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "You trade we boost",
+        "BREAK THE LIMITS, Lift your trading success to the moon.",
+        "Crypto Fund Trader"
+      ],
+      "removedHeadings": [],
+      "beforeHash": "44d2b7bcf5d5c6e006d29e24e6e5c0320a354d235f856bd8b1b71bf7537bdadb",
+      "afterHash": "1919009ab6ae924444c46e973c5b908a52605937d98d5df58e9649def8ad8f42"
+    },
+    {
+      "id": "501b9807f6feeacde8739a71",
+      "firmId": "thinkcapital",
+      "firm": "ThinkCapital",
+      "source": "https://www.thinkcapital.com/tc_faq-sitemap.xml",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Official page updated",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "7d7adbf16e7f4f85a5387c46e9d28a5613e0c9341d09d4b9c44eb95a06c725c5",
+      "afterHash": "563253d2fa4148005589136ef2abdae8eae2808430ee4e4bef6c90da6ad3fbe8"
+    },
+    {
+      "id": "9ff09c8c833de2701be51a11",
+      "firmId": "tradeify",
+      "firm": "Tradeify",
+      "source": "https://tradeify.co/blog",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Futures Trading Blog & Prop Firm Insights | Tradeify",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "Prop Firms With No Activation Fee and What Traders Actually Pay",
+        "Best Futures Prop Firms for Scalping and the Rules That Matter",
+        "What Happens If You Break the Rules in a Prop Firm Challenge?"
+      ],
+      "removedHeadings": [
+        "Free Resources to Learn Prop Trading",
+        "Entry and Exit Rules Guide for Planning Every Trade",
+        "VWAP Standard Deviation Bands Explained for Trending and Balanced Markets"
+      ],
+      "beforeHash": "00ccbd82ab5cb85b4e16b249035e8c197d2dfba767c152b8da19cfd52b87d7ac",
+      "afterHash": "cbab605e83da7e1352b1e32b5469954fb96c57016d157bc140f4a7ea3c8bcb25"
+    },
+    {
+      "id": "ba9ca95f2b2a9c4b0c526a5f",
+      "firmId": "tradeify",
+      "firm": "Tradeify",
+      "source": "https://tradeify.co/post/best-prop-firm-payout-structure-day-traders",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Best Prop Firm Payout Structure for Day Traders",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "0f95b583ab3f893758c87f2691f433e255050f571d0c4e50e89491bde0921cf4",
+      "afterHash": "549dbac8f3a12af264ad422c9cf838864e8a5aea10ee4c483205a85d67bacb22"
+    },
+    {
+      "id": "9825379585feb3b140666d0e",
+      "firmId": "tradeify",
+      "firm": "Tradeify",
+      "source": "https://tradeify.co/post/best-prop-firms-trader-payouts-2026",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Best Prop Firms by Trader Payouts in 2026",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "d11af39cee1e84cdd7cdf28f9e4dbf2b12302594d62f8f8c3492c2d18b107386",
+      "afterHash": "1e8454a1aef2e67ea5add88eb26b01606d65d0947b39f3a1fd47f2e5901ffe71"
+    },
+    {
+      "id": "403bf6e4fc0c36945fbe866f",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Leading Prop Firm | Funded Accounts Up To $4M | Funding Traders",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "b44747e947b40bf0f2c59871d110d63504b02da36c19213e9ad903a0436ddd87",
+      "afterHash": "ba487e60296708031deb75258cf4f26772e6ce2dd1dd3057cc48da2a6213f67c"
+    },
+    {
+      "id": "a78348038d80bcbb7aeb92be",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/forex-calculators/challenge-drawdown-calculator/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Challenge Drawdown Calculator | CTI",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "c8c488b5cba3a506ea45487e81cada45545bfc4da55184116582839a9b51bcfe",
+      "afterHash": "4326a95f99a25529b3dbffdcd9483ba706650bedd03d191936d275c379ab1651"
+    },
+    {
+      "id": "d7361d7df815374f4ba7e57a",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/match-trader-platform/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "Match Trader Platform | CTI",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [
+        "Pick A Program"
+      ],
+      "removedHeadings": [
+        "Pick A Programme"
+      ],
+      "beforeHash": "6e095f7e5cb9f558714e0f4e37a130baf1041bb9e92a9badbff7def07114311e",
+      "afterHash": "c8ab7cc1343437c84579f28ad5fdb4709a3a6f29420665971787ac29500ae95e"
+    },
+    {
+      "id": "732a04932f0675bd777f192a",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/1-step-challenge/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "1-Step Challenge Prop Firm: 8% Target, One Phase | CTI",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "7089ed0f2e6cc13a3c99ce08ccfd989e0706a9d56a7627e85a541df609bf45ee",
+      "afterHash": "7fce896952ccd8d3188c0005f01b4ade51f9039b4a2d6148fd99dc91eef3352f"
+    },
+    {
+      "id": "d34df2a74b94e71d9f43ea96",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/2-step-challenge/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "2-Step Challenge Prop Firm | Balance Based Drawdown | CTI",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "bf58169eccc313f62feef303d1191a94c01a6f227770ec7ef70af2bd97e3e1b6",
+      "afterHash": "24ccfc60a774f67a52b0ee2729800a4c1304c3b1631dacd2801f55f44264bd53"
+    },
+    {
+      "id": "5c139d82288e58cb7a2f745d",
+      "firmId": "citytradersimperium",
+      "firm": "City Traders Imperium",
+      "source": "https://citytradersimperium.com/blog/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "The Funded Trader Blog | CTI",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "900c846756f74c4c86f3db84eb127f31d5a0616abb0b454531e66abf4fd4063e",
+      "afterHash": "b1d61b06536116ac955c3841bf69939e2dbba11a84139f2447bdf438722015d4"
+    },
+    {
+      "id": "aba7eb617eb101c4794026bb",
+      "firmId": "thetradingpit",
+      "firm": "The Trading Pit",
+      "source": "https://www.thetradingpit.com/lp/all-rewards",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "All Rewards | TheTradingPit",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "6eda0ec2189b84429f429263487ac50f0385a0434070f86bf9dd3eaf220e0e21",
+      "afterHash": "9e1f36fde90b0316099fcd4dc0c18f591e96c2e65b65b157218dfbe26da654ab"
+    },
+    {
+      "id": "cf34845c85860c5daa336fb4",
+      "firmId": "bemfunding",
+      "firm": "BEM Funding",
+      "source": "https://bemfunding.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "BEM Funding | Prop Trading Firm — Funded Accounts up to $200K",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "6c0c73bd1316d35f6ea335943f3eadaadb283e796fd4e5b0af2fecbcfbe90bb8",
+      "afterHash": "4c4e3660d4ba635d964838a32dd324bde92a2b2a6ee386bcaed07f456bd70109"
+    },
+    {
+      "id": "44278dce6ecac950449fb082",
+      "firmId": "myfundedfutures",
+      "firm": "My Funded Futures",
+      "source": "https://myfundedfutures.com/",
+      "detectedAt": "2026-10-29T07:00:19.617890+00:00",
+      "kind": "page_changed",
+      "status": "review_pending",
+      "comparisonChannel": "html",
+      "title": "The Premier Futures Prop Firm - My Funded Futures",
+      "summary": "A change was detected on this official page. Its meaning and account applicability have not been verified.",
+      "addedHeadings": [],
+      "removedHeadings": [],
+      "beforeHash": "089fa1059b3b05b8e032c3995c8669410f056fc3b4a2b9004e9f5a7a04413c9d",
+      "afterHash": "517027f206be140605afa953383ba6e8a4abc239b27933b28ffe40ec95820e25"
+    },
     {
       "id": "6b6770b4d41df1893ece7be6",
       "firmId": "maventrading",
