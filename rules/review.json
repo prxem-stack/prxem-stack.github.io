@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T13:12:32.820974+00:00",
+  "checkedAt": "2026-10-29T22:49:19.787234+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "335ed8d55c0c7c7a449ed265015fdf15973df37a1dbb0a11c75badc90ce92416"
+          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "335ed8d55c0c7c7a449ed265015fdf15973df37a1dbb0a11c75badc90ce92416"
+          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "335ed8d55c0c7c7a449ed265015fdf15973df37a1dbb0a11c75badc90ce92416"
+          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "335ed8d55c0c7c7a449ed265015fdf15973df37a1dbb0a11c75badc90ce92416"
+          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "335ed8d55c0c7c7a449ed265015fdf15973df37a1dbb0a11c75badc90ce92416"
+          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "2318bdfa20427111f0c29587e3fea13df79743f1d008157eaae229d27a04fff3"
+          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "2318bdfa20427111f0c29587e3fea13df79743f1d008157eaae229d27a04fff3"
+          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
         }
       }
     },
