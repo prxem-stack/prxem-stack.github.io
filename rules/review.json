@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-29T05:55:23.042072+00:00",
+  "checkedAt": "2026-10-29T13:12:32.820974+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
+          "sha256": "2318bdfa20427111f0c29587e3fea13df79743f1d008157eaae229d27a04fff3"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ea18438801f4a439f17efa7c09b7876d38b7eac65455bea1573479c10c35aedf"
+          "sha256": "2318bdfa20427111f0c29587e3fea13df79743f1d008157eaae229d27a04fff3"
         }
       }
     },
