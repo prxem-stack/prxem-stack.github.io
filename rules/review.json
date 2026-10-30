@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T13:05:04.573194+00:00",
+  "checkedAt": "2026-10-30T22:26:34.629570+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
+          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
+          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
+          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
+          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "38563336966e436e57c107c2d42463c0e398d579b95dff7d8f75674b20c3e3e6"
+          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
         }
       }
     },
@@ -272,7 +272,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "c72f4bd22503125633d07cb38ae4c15e570a4000f198ae230884409096a5e35a"
+          "sha256": "7935b0a39f1c572cc959942de1b468a6ea5cc88850c7f3ada7f28948f670132a"
         }
       }
     },
@@ -287,7 +287,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "c72f4bd22503125633d07cb38ae4c15e570a4000f198ae230884409096a5e35a"
+          "sha256": "7935b0a39f1c572cc959942de1b468a6ea5cc88850c7f3ada7f28948f670132a"
         }
       }
     },
@@ -546,7 +546,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17252927-stellar-1-step-account": {
           "status": "fetched",
-          "sha256": "668d196e5a7414035cb94716c7e20be373fa6d24c7af0d4aadfcfe5f65c42bd5"
+          "sha256": "b9a6d43eaf767493886d5b19cdc604488565d31861bea5edacef060e86279b83"
         }
       }
     },
