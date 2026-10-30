@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T05:56:47.975862+00:00",
+  "checkedAt": "2026-10-30T13:05:04.573194+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
+          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
+          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "ddc86e935567fc2e25a10615263210421fd31ac82581d6c627e39c71d2dfa3b5"
+          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
         }
       }
     },
@@ -272,7 +272,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "c885fbe65dffadb03e5f2c02beb970946b4f4f141330384a4d1f3a8d352e4232"
+          "sha256": "c72f4bd22503125633d07cb38ae4c15e570a4000f198ae230884409096a5e35a"
         }
       }
     },
@@ -287,7 +287,7 @@
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "c885fbe65dffadb03e5f2c02beb970946b4f4f141330384a4d1f3a8d352e4232"
+          "sha256": "c72f4bd22503125633d07cb38ae4c15e570a4000f198ae230884409096a5e35a"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
@@ -450,7 +450,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "90a1e3a014bfcdb4c36ae272833c1098e115b23710d34ef55ee8caa8bc56f20e"
+          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
         }
       }
     },
