@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-30T22:26:34.629570+00:00",
+  "checkedAt": "2026-10-31T05:52:55.508028+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -41,7 +41,7 @@
     {
       "id": "alpha-capital-0",
       "kind": "offers",
-      "status": "review_pending",
+      "status": "expired",
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
@@ -52,7 +52,7 @@
     {
       "id": "alpha-capital-1",
       "kind": "offers",
-      "status": "review_pending",
+      "status": "expired",
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
@@ -63,7 +63,7 @@
     {
       "id": "alpha-capital-2",
       "kind": "offers",
-      "status": "review_pending",
+      "status": "expired",
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "d5d63a627e01d0882cda674c694aaca241db226080b0411e2bfd109246021432"
+          "sha256": "bc0bfd4d5e8f41ef7fb4f8569db9f4a514093bb0793eed98db5fdea0a6903f9e"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "d5d63a627e01d0882cda674c694aaca241db226080b0411e2bfd109246021432"
+          "sha256": "bc0bfd4d5e8f41ef7fb4f8569db9f4a514093bb0793eed98db5fdea0a6903f9e"
         }
       }
     },
