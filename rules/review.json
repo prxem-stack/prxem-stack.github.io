@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T21:41:40.091139+00:00",
+  "checkedAt": "2026-11-01T06:17:23.889021+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
+          "sha256": "8d99246bc8604b303360cb64a8b0bed79d9ccc744c13f82597b30bcf0de7522e"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
+          "sha256": "8d99246bc8604b303360cb64a8b0bed79d9ccc744c13f82597b30bcf0de7522e"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "d1c8ea21bee5f893f76d473aac5c48b8a0153773554d15e4f6032550ff6c4130"
+          "sha256": "8d99246bc8604b303360cb64a8b0bed79d9ccc744c13f82597b30bcf0de7522e"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "d5d63a627e01d0882cda674c694aaca241db226080b0411e2bfd109246021432"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -557,7 +557,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17255124-stellar-2-step-challenge": {
           "status": "fetched",
-          "sha256": "04579bbc674e4708832c0b7a5eb112397527d7e3b36a531b66678fcb64292dd5"
+          "sha256": "507ca237651de2a8794ed7402a32e401ef7f07c82296e23159f9264883a7e52c"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "d5d63a627e01d0882cda674c694aaca241db226080b0411e2bfd109246021432"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
