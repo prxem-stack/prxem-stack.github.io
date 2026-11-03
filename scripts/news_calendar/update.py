@@ -6,6 +6,7 @@ import re
 import time
 import urllib.request
 import urllib.error
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -150,6 +151,34 @@ def bls(now, get=fetch):
         result.append(event('bls', fields['SUMMARY'].replace('\\,', ','), dt, 'USD', url, now))
     return result
 
+def ons(now, get=fetch):
+    result = []
+    for offset in range(0, 2000, 200):
+        query = urllib.parse.urlencode({'fromDate': now.date().isoformat(),
+            'toDate': (now + timedelta(days=100)).date().isoformat(),
+            'limit': 200, 'offset': offset, 'release-type': 'type-upcoming'})
+        data = json.loads(get('https://api.beta.ons.gov.uk/v1/search/releases?' + query))
+        rows = data.get('releases')
+        if not isinstance(rows, list):
+            raise ValueError('ONS release list missing')
+        for row in rows:
+            description = row.get('description', {})
+            title = description.get('title', '')
+            if not description.get('finalised') or description.get('cancelled') or description.get('postponed'):
+                continue
+            if not re.match(r'(GDP |Consumer price inflation|Producer price inflation|UK Labour Market|Retail sales|Index of production|Index of services|UK trade|Public sector finances|Business investment)', title, re.I):
+                continue
+            if re.search(r'time ?series', title, re.I):
+                continue
+            uri, text = row.get('uri', ''), description.get('release_date', '')
+            if not uri.startswith('/releases/') or not re.search(r'(Z|[+-]\d{2}:\d{2})$', text):
+                continue
+            date = datetime.fromisoformat(text.replace('Z', '+00:00'))
+            result.append(event('ons', title, date, 'GBP', 'https://www.ons.gov.uk' + uri, now))
+        if offset + len(rows) >= data.get('breakdown', {}).get('total', 0):
+            return result
+    raise ValueError('ONS pagination exceeded safety limit')
+
 def headlines(now, get=fetch):
     url = 'https://www.federalreserve.gov/feeds/press_all.xml'
     root = ET.fromstring(get(url))
@@ -165,7 +194,7 @@ def headlines(now, get=fetch):
                            title=title, source=link, publishedAt=stamp(dt), status='published', provider='fed-news'))
     return result[:50]
 
-SOURCES = {'bea': bea, 'fed': fed, 'ecb': ecb, 'bls': bls, 'fed-news': headlines}
+SOURCES = {'bea': bea, 'fed': fed, 'ecb': ecb, 'ons': ons, 'bls': bls, 'fed-news': headlines}
 
 def synchronize(previous, now, sources=SOURCES):
     events, news, health = [], [], {}
@@ -176,7 +205,7 @@ def synchronize(previous, now, sources=SOURCES):
             rows = load(now)
             if not rows:
                 raise ValueError('Empty source response; retaining last successful data')
-            if key == 'events' and not any(datetime.fromisoformat(x['date'].replace('Z', '+00:00')) >= now for x in rows):
+            if key == 'events' and not any(datetime.fromisoformat(x['date'].replace('Z', '+00:00')) >= now and datetime.fromisoformat(x['date'].replace('Z', '+00:00')) <= now + timedelta(days=100) for x in rows):
                 raise ValueError('No future releases returned; retaining last successful data')
             target.extend(rows)
             health[name] = dict(status='ok', checkedAt=stamp(now), lastSuccessAt=stamp(now), records=len(rows))
@@ -192,7 +221,7 @@ def synchronize(previous, now, sources=SOURCES):
     # Never make an all-source outage look like a newly published healthy feed.
     successful = any(x['status'] == 'ok' for x in health.values())
     return dict(schemaVersion=1, publishedAt=stamp(now) if successful else previous.get('publishedAt', stamp(now)),
-                checkedAt=stamp(now), coverage='Partial official-source coverage: US BEA, Federal Reserve, BLS when available, and ECB statistics. Other calendars are not yet covered. Impact is an app classification.',
+                checkedAt=stamp(now), coverage='Partial official-source coverage: US BEA, Federal Reserve, BLS when available, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.',
                 sourceHealth=health, events=events, headlines=news)
 
 def atomic_json(path, value):

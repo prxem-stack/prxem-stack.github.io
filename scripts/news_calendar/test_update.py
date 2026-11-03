@@ -1,6 +1,8 @@
 import unittest
+import json
+import urllib.error
 from datetime import datetime, timezone
-from update import synchronize, event, bea, fed, ecb, bls
+from update import synchronize, event, bea, fed, ecb, bls, ons, headlines
 
 NOW = datetime(2026, 11, 3, tzinfo=timezone.utc)
 
@@ -40,6 +42,30 @@ class SyncTests(unittest.TestCase):
     def test_bls_no_guessed_timezone(self):
         html = 'BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART:20261106T083000\nSUMMARY:Employment\nEND:VEVENT'
         self.assertEqual(bls(NOW, lambda _: html), [])
+
+    def test_fed_unpublished_future_month_is_not_an_outage(self):
+        def get(url):
+            if 'november' not in url:
+                raise urllib.error.HTTPError(url,404,'Not published',{},None)
+            return '<div class="panel-body"><div class="row"><div class="col-xs-2"><p>2:00 p.m.</p></div><div class="col-xs-7"><p>FOMC Minutes</p></div><div class="col-xs-3"><p>18</p></div></div></div>'
+        rows = fed(NOW,get)
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['date'],'2026-11-18T19:00:00Z')
+
+    def test_ons_excludes_cancelled_provisional_and_duplicate_datasets(self):
+        rows=[]
+        for title, extra in [('GDP monthly estimate', {}), ('GDP quarterly', {'cancelled':True}), ('GDP provisional', {'finalised':False}), ('GDP monthly time series', {})]:
+            rows.append({'uri':'/releases/gdp', 'description':{'title':title,'release_date':'2026-11-12T07:00:00Z','finalised':True,**extra}})
+        result = ons(NOW,lambda _:json.dumps({'releases':rows,'breakdown':{'total':4}}))
+        self.assertEqual(len(result),1)
+        self.assertEqual(result[0]['country'],'GBP')
+
+    def test_headlines_never_become_scheduled_events(self):
+        xml='<rss><channel><item><title>Fed announcement</title><link>https://www.federalreserve.gov/newsevents/pressreleases/example.htm</link><pubDate>Mon, 02 Nov 2026 15:00:00 GMT</pubDate></item></channel></rss>'
+        result = headlines(NOW,lambda _:xml)
+        self.assertEqual(len(result),1)
+        self.assertNotIn('date',result[0])
+        self.assertNotIn('impact',result[0])
 
     def test_past_only_is_source_failure(self):
         old = self.row(date=datetime(2026,11,2,tzinfo=timezone.utc))
