@@ -1,53 +1,43 @@
 {
-  "checkedAt": "2026-11-03T08:49:55Z",
+  "checkedAt": "2026-11-03T16:14:29Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "checkedAt": "2026-11-03T16:14:29Z",
+      "lastSuccessAt": "2026-11-03T16:14:29Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "checkedAt": "2026-11-03T16:14:29Z",
+      "lastSuccessAt": "2026-11-03T16:14:29Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "checkedAt": "2026-11-03T16:14:29Z",
+      "lastSuccessAt": "2026-11-03T16:14:29Z",
       "records": 56
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "checkedAt": "2026-11-03T16:14:29Z",
+      "lastSuccessAt": "2026-11-03T16:14:29Z",
       "records": 32
     },
     "bls": {
-      "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
+      "status": "error",
+      "checkedAt": "2026-11-03T16:14:29Z",
       "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 16,
-      "delivery": "FRED fallback",
-      "coverage": [
-        "Consumer Price Index",
-        "Employment Situation",
-        "Job Openings and Labor Turnover Survey",
-        "Producer Price Index",
-        "Productivity and Costs",
-        "U.S. Import and Export Price Indexes",
-        "State Employment and Unemployment",
-        "Metropolitan Area Employment and Unemployment"
-      ]
+      "error": "BLS primary: HTTP Error 403: Forbidden; FRED fallback: unconverted data remains:  Updated"
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-03T08:49:55Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "checkedAt": "2026-11-03T16:14:29Z",
+      "lastSuccessAt": "2026-11-03T16:14:29Z",
       "records": 20
     }
   },
-  "futureEvents": 122
+  "futureEvents": 121
 }
