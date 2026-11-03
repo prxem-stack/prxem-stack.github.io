@@ -183,7 +183,9 @@ def fred_bls(now, get=fetch):
         for row in table.select('tbody tr'):
             cells = row.find_all('td', recursive=False)
             if len(cells) == 1 and cells[0].get('colspan') == '2':
-                day = datetime.strptime(cells[0].get_text(' ', strip=True), '%A %B %d, %Y').date()
+                heading = cells[0].find('span')
+                date_text = (heading or cells[0]).get_text(' ', strip=True)
+                day = datetime.strptime(date_text, '%A %B %d, %Y').date()
                 clock = None
                 continue
             if len(cells) != 2:
@@ -297,6 +299,26 @@ def synchronize(previous, now, sources=SOURCES):
                 checkedAt=stamp(now), coverage='Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.',
                 sourceHealth=health, events=events, headlines=news)
 
+def apply_editorial(feed, editorial, now):
+    if editorial.get('schemaVersion') != 1 or not isinstance(editorial.get('events'),list):
+        raise ValueError('Invalid editorial document')
+    events={x['id']:x for x in feed['events']}
+    for item in editorial['events']:
+        if not isinstance(item,dict) or not item.get('id'):
+            raise ValueError('Invalid editorial record')
+        if item.get('status')=='archived':
+            events.pop(item['id'],None)
+            continue
+        if item.get('status')!='published':
+            continue
+        if not item.get('title') or item.get('country') not in ['USD','EUR','GBP','JPY','CAD','AUD','NZD','CHF'] or item.get('impact') not in ['high','medium','low','holiday'] or not str(item.get('source','')).startswith('https://'):
+            raise ValueError('Invalid published editorial event')
+        if not re.search(r'(Z|[+-]\d{2}:\d{2})$',str(item.get('date',''))):
+            raise ValueError('Editorial time lacks timezone')
+        datetime.fromisoformat(item['date'].replace('Z','+00:00'))
+        events[item['id']]={**item,'provider':'editorial','reviewedAt':stamp(now)}
+    return {**feed,'events':sorted(events.values(),key=lambda x:(x['date'],x['id']))}
+
 def atomic_json(path, value):
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
@@ -306,7 +328,11 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / 'reviewed.json'
     previous = json.loads(path.read_text()) if path.exists() else {}
-    result = synchronize(previous, datetime.now(UTC))
+    now = datetime.now(UTC)
+    result = synchronize(previous, now)
+    editorial_path = OUT / 'editorial.json'
+    if editorial_path.exists():
+        result = apply_editorial(result, json.loads(editorial_path.read_text()), now)
     # Keep the existing publication intact if all sources failed.
     if any(x['status'] == 'ok' for x in result['sourceHealth'].values()):
         atomic_json(path, result)

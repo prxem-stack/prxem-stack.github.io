@@ -75,6 +75,12 @@ class SyncTests(unittest.TestCase):
         release_id = int(parse_qs(urlparse(url).query)['rid'][0])
         return self.fred_page(release_id, BLS_RELEASES[release_id])
 
+    def test_fred_updated_badge_does_not_corrupt_release_date(self):
+        def get(url):
+            page=self.fred_get(url)
+            return page.replace('Tuesday November 10, 2026</td>','<span>Tuesday November 10, 2026</span> <span>Updated</span></td>')
+        self.assertEqual(fred_bls(NOW,get)[0]['date'],'2026-11-10T13:30:00Z')
+
     def test_bls_403_uses_automatic_official_fallback(self):
         def get(url):
             if 'bls.gov' in url:

@@ -41,6 +41,25 @@ jobs:
             done
             exit 1
           fi
+      - name: Dispatch due news notifications
+        id: push
+        continue-on-error: true
+        env:
+          FCM_SERVICE_ACCOUNT_JSON: ${{ secrets.FCM_SERVICE_ACCOUNT_JSON }}
+          CI_PUSH_STATE_COMMIT: '1'
+        run: python scripts/news_calendar/push_updates.py
+      - name: Publish notification status
+        if: always()
+        run: |
+          git add news-alert/push-state.json news-alert/push-health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update news notification status'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+      - name: Report notification failures
+        if: steps.push.outcome == 'failure'
+        run: exit 1
       - name: Report source failures
         if: steps.sync.outcome == 'failure'
         run: |
