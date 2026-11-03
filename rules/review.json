@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T01:02:40.484447+00:00",
+  "checkedAt": "2026-11-03T14:25:33.872225+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
+          "sha256": "136942a24069b7a824309f10bd6e93e6248ceaec1c96461fca44bcefb822b132"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
+          "sha256": "136942a24069b7a824309f10bd6e93e6248ceaec1c96461fca44bcefb822b132"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
+          "sha256": "136942a24069b7a824309f10bd6e93e6248ceaec1c96461fca44bcefb822b132"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
+          "sha256": "136942a24069b7a824309f10bd6e93e6248ceaec1c96461fca44bcefb822b132"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
+          "sha256": "136942a24069b7a824309f10bd6e93e6248ceaec1c96461fca44bcefb822b132"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "dc6a2d600288ce556ec65a41010d9536e6782ebcbfea4c944f5de470f1fab2e8"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -354,7 +354,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "17a170df6df5961f91fac007db29cd49080d0e5bfa66242f4a5b96d43bc050f3"
+          "sha256": "d43660b7d1061d26d42b3d4523c64da3e8fdeb5a8c616766c6bd2eab12714c4f"
         }
       }
     },
@@ -365,7 +365,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "17a170df6df5961f91fac007db29cd49080d0e5bfa66242f4a5b96d43bc050f3"
+          "sha256": "d43660b7d1061d26d42b3d4523c64da3e8fdeb5a8c616766c6bd2eab12714c4f"
         }
       }
     },
@@ -376,7 +376,7 @@
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
           "status": "fetched",
-          "sha256": "af90b60692c779b5b3dd6accb5b4f5c6cdada1d8d867813769ee96fc81835097"
+          "sha256": "2af3b38d864535e65f97783e0fcc7a8f4f5775fa07788c5f511f8a59738be6ca"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -450,7 +450,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "799192959e20bb66a56b9409e727ed370fe238ac3ca6c228655de42f96fe3ea1"
+          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "dc6a2d600288ce556ec65a41010d9536e6782ebcbfea4c944f5de470f1fab2e8"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -667,7 +667,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "3f4b4447f0b634400dd2d029287a69805772e4a33ad7eff4792cf86b22efee44"
+          "sha256": "4f3688f2a6029db86d99c238c310aa4c708774d2d8fe0a79bcfa45998a1b3392"
         }
       }
     },
