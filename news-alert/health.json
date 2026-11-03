@@ -1,41 +1,51 @@
 {
-  "checkedAt": "2026-11-03T21:47:56Z",
+  "checkedAt": "2026-11-03T21:53:19Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T21:47:56Z",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T21:47:56Z",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T21:47:56Z",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 56
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T21:47:56Z",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 32
     },
     "bls": {
-      "status": "error",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "status": "ok",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 16,
-      "error": "BLS primary: HTTP Error 403: Forbidden; FRED fallback: unconverted data remains:  Updated"
+      "delivery": "FRED fallback",
+      "coverage": [
+        "Consumer Price Index",
+        "Employment Situation",
+        "Job Openings and Labor Turnover Survey",
+        "Producer Price Index",
+        "Productivity and Costs",
+        "U.S. Import and Export Price Indexes",
+        "State Employment and Unemployment",
+        "Metropolitan Area Employment and Unemployment"
+      ]
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-03T21:47:56Z",
-      "lastSuccessAt": "2026-11-03T21:47:56Z",
+      "checkedAt": "2026-11-03T21:53:19Z",
+      "lastSuccessAt": "2026-11-03T21:53:19Z",
       "records": 20
     }
   },
