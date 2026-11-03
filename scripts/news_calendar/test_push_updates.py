@@ -27,4 +27,14 @@ class PushTests(unittest.TestCase):
  def test_future_manual_waits(self):
   item=dict(id='manual-123',title='Update',body='News',audience='news_all',dueAt=(N+timedelta(hours=1)).isoformat())
   queue,_=plan({'events':[]},{'campaigns':[item]},{'events':{}},N);self.assertEqual(queue,[])
+ def test_high_impact_gets_automatic_heads_up_without_manual_campaign(self):
+  e=event();e['date']=(N+timedelta(minutes=10)).isoformat()
+  queue,_=plan({'events':[e]},{},{'events':{e['id']:signature(e)}},N)
+  self.assertEqual(len(queue),1);self.assertEqual(queue[0]['kind'],'release_alert')
+ def test_past_releases_and_repeated_heads_up_are_not_sent(self):
+  e=event();e['date']=(N-timedelta(minutes=1)).isoformat()
+  self.assertEqual(plan({'events':[e]},{},{'events':{e['id']:signature(e)}},N)[0],[])
+  e['date']=(N+timedelta(minutes=10)).isoformat();state={'events':{e['id']:signature(e)}}
+  out=dispatch({'events':[e]},{},state,N,lambda x:'id',lambda s:None)
+  self.assertEqual(plan({'events':[e]},{},out,N)[0],[])
 if __name__=='__main__':unittest.main()
