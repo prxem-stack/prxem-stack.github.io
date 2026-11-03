@@ -1,41 +1,41 @@
 {
-  "checkedAt": "2026-11-03T16:14:29Z",
+  "checkedAt": "2026-11-03T21:47:56Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-03T16:14:29Z",
-      "lastSuccessAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
+      "lastSuccessAt": "2026-11-03T21:47:56Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-03T16:14:29Z",
-      "lastSuccessAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
+      "lastSuccessAt": "2026-11-03T21:47:56Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-03T16:14:29Z",
-      "lastSuccessAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
+      "lastSuccessAt": "2026-11-03T21:47:56Z",
       "records": 56
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-03T16:14:29Z",
-      "lastSuccessAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
+      "lastSuccessAt": "2026-11-03T21:47:56Z",
       "records": 32
     },
     "bls": {
       "status": "error",
-      "checkedAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
       "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 16,
       "error": "BLS primary: HTTP Error 403: Forbidden; FRED fallback: unconverted data remains:  Updated"
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-03T16:14:29Z",
-      "lastSuccessAt": "2026-11-03T16:14:29Z",
+      "checkedAt": "2026-11-03T21:47:56Z",
+      "lastSuccessAt": "2026-11-03T21:47:56Z",
       "records": 20
     }
   },
