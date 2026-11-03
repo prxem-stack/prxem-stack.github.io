@@ -126,7 +126,7 @@ def ecb(now, get=fetch):
         result.append(event('ecb', name, dt, 'EUR', url, now))
     return result
 
-def bls(now, get=fetch):
+def bls_ical(now, get=fetch):
     url = 'https://www.bls.gov/schedule/news_release/bls.ics'
     text = re.sub(r'\r?\n[ \t]', '', get(url))
     if 'BEGIN:VCALENDAR' not in text:
@@ -150,6 +150,75 @@ def bls(now, get=fetch):
             continue  # Do not guess timezone or all-day times.
         result.append(event('bls', fields['SUMMARY'].replace('\\,', ','), dt, 'USD', url, now))
     return result
+
+# Release IDs and names are taken from FRED's public calendar filter, not guessed.
+BLS_RELEASES = {
+    10: 'Consumer Price Index',
+    50: 'Employment Situation',
+    192: 'Job Openings and Labor Turnover Survey',
+    46: 'Producer Price Index',
+    47: 'Productivity and Costs',
+    188: 'U.S. Import and Export Price Indexes',
+    112: 'State Employment and Unemployment',
+    113: 'Metropolitan Area Employment and Unemployment',
+}
+
+def fred_bls(now, get=fetch):
+    result = []
+    for release_id, expected in BLS_RELEASES.items():
+        query = urllib.parse.urlencode({'rid': release_id, 'vs': now.date().isoformat(),
+                                      've': (now + timedelta(days=100)).date().isoformat()})
+        url = 'https://fred.stlouisfed.org/releases/calendar?' + query
+        soup = BeautifulSoup(get(url), 'html.parser')
+        text = soup.get_text(' ', strip=True)
+        if 'All times are US Central Time' not in text:
+            raise ValueError(f'FRED {release_id}: timezone declaration missing')
+        table = soup.select_one('#release-dates-pager table')
+        if not table:
+            raise ValueError(f'FRED {release_id}: schedule table missing')
+        count = re.search(r'Releases\s+(\d+)\s*-\s*(\d+)\s+of\s+(\d+)', text)
+        if not count or int(count[1]) != 1 or int(count[2]) != int(count[3]):
+            raise ValueError(f'FRED {release_id}: empty or incomplete pagination')
+        day, clock, found = None, None, 0
+        for row in table.select('tbody tr'):
+            cells = row.find_all('td', recursive=False)
+            if len(cells) == 1 and cells[0].get('colspan') == '2':
+                day = datetime.strptime(cells[0].get_text(' ', strip=True), '%A %B %d, %Y').date()
+                clock = None
+                continue
+            if len(cells) != 2:
+                continue
+            link = cells[1].find('a', href=f'/release?rid={release_id}')
+            if not link or link.get_text(' ', strip=True) != expected:
+                raise ValueError(f'FRED {release_id}: unexpected release')
+            time_text = cells[0].get_text(' ', strip=True)
+            if time_text:
+                clock = time_text
+            if not day or not clock or not re.fullmatch(r'\d{1,2}:\d{2} [ap]m', clock):
+                raise ValueError(f'FRED {release_id}: release lacks confirmed time')
+            time_part = datetime.strptime(clock, '%I:%M %p').time()
+            dt = datetime.combine(day, time_part, tzinfo=ZoneInfo('America/Chicago'))
+            item = event('bls', expected, dt, 'USD', url, now)
+            item['verification'] = 'Automatically parsed from the St. Louis Fed FRED release calendar'
+            item['calendarSource'] = 'FRED'
+            item['originAgency'] = 'BLS'
+            result.append(item)
+            found += 1
+        if found != int(count[3]):
+            raise ValueError(f'FRED {release_id}: row count mismatch')
+    return result
+
+def bls(now, get=fetch):
+    try:
+        rows = bls_ical(now, get)
+        if not any(now <= datetime.fromisoformat(x['date'].replace('Z', '+00:00')) <= now + timedelta(days=100) for x in rows):
+            raise ValueError('BLS ICS contains no upcoming timed releases')
+        return rows
+    except Exception as primary_error:
+        try:
+            return fred_bls(now, get)
+        except Exception as fallback_error:
+            raise ValueError(f'BLS primary: {primary_error}; FRED fallback: {fallback_error}') from fallback_error
 
 def ons(now, get=fetch):
     result = []
@@ -209,6 +278,10 @@ def synchronize(previous, now, sources=SOURCES):
                 raise ValueError('No future releases returned; retaining last successful data')
             target.extend(rows)
             health[name] = dict(status='ok', checkedAt=stamp(now), lastSuccessAt=stamp(now), records=len(rows))
+            if name == 'bls':
+                health[name]['delivery'] = 'FRED fallback' if any(x.get('calendarSource') == 'FRED' for x in rows) else 'BLS direct ICS'
+                if health[name]['delivery'] == 'FRED fallback':
+                    health[name]['coverage'] = list(BLS_RELEASES.values())
         except Exception as error:
             saved = [x for x in previous.get(key, []) if x.get('provider') == name or x.get('id', '').startswith(name + '-')]
             target.extend(saved)
@@ -221,7 +294,7 @@ def synchronize(previous, now, sources=SOURCES):
     # Never make an all-source outage look like a newly published healthy feed.
     successful = any(x['status'] == 'ok' for x in health.values())
     return dict(schemaVersion=1, publishedAt=stamp(now) if successful else previous.get('publishedAt', stamp(now)),
-                checkedAt=stamp(now), coverage='Partial official-source coverage: US BEA, Federal Reserve, BLS when available, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.',
+                checkedAt=stamp(now), coverage='Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.',
                 sourceHealth=health, events=events, headlines=news)
 
 def atomic_json(path, value):

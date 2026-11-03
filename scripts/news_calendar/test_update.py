@@ -2,7 +2,7 @@ import unittest
 import json
 import urllib.error
 from datetime import datetime, timezone
-from update import synchronize, event, bea, fed, ecb, bls, ons, headlines
+from update import synchronize, event, bea, fed, ecb, bls, bls_ical, fred_bls, BLS_RELEASES, ons, headlines
 
 NOW = datetime(2026, 11, 3, tzinfo=timezone.utc)
 
@@ -41,7 +41,7 @@ class SyncTests(unittest.TestCase):
 
     def test_bls_no_guessed_timezone(self):
         html = 'BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART:20261106T083000\nSUMMARY:Employment\nEND:VEVENT'
-        self.assertEqual(bls(NOW, lambda _: html), [])
+        self.assertEqual(bls_ical(NOW, lambda _: html), [])
 
     def test_fed_unpublished_future_month_is_not_an_outage(self):
         def get(url):
@@ -66,6 +66,54 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(len(result),1)
         self.assertNotIn('date',result[0])
         self.assertNotIn('impact',result[0])
+
+    def fred_page(self, release_id, title, day='Tuesday November 10, 2026', clock='7:30 am'):
+        return f'<div id="release-dates-pager"><table><tbody><tr><td colspan="2">{day}</td></tr><tr><td>{clock}</td><td><a href="/release?rid={release_id}">{title}</a></td></tr></tbody></table>Releases 1 - 1 of 1</div>All times are US Central Time'
+
+    def fred_get(self, url):
+        from urllib.parse import urlparse, parse_qs
+        release_id = int(parse_qs(urlparse(url).query)['rid'][0])
+        return self.fred_page(release_id, BLS_RELEASES[release_id])
+
+    def test_bls_403_uses_automatic_official_fallback(self):
+        def get(url):
+            if 'bls.gov' in url:
+                raise urllib.error.HTTPError(url,403,'Forbidden',{},None)
+            return self.fred_get(url)
+        result = bls(NOW,get)
+        self.assertEqual(len(result),len(BLS_RELEASES))
+        self.assertTrue(all(x['calendarSource']=='FRED' for x in result))
+        self.assertEqual(result[0]['date'],'2026-11-10T13:30:00Z')
+
+    def test_bls_valid_primary_does_not_call_fallback(self):
+        calls=[]
+        def get(url):
+            calls.append(url)
+            return 'BEGIN:VCALENDAR\nBEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261106T083000\nSUMMARY:Employment Situation\nEND:VEVENT'
+        result=bls(NOW,get)
+        self.assertEqual(len(calls),1)
+        self.assertEqual(result[0]['date'],'2026-11-06T13:30:00Z')
+
+    def test_fred_central_dst_is_not_a_fixed_offset(self):
+        def get(url):
+            from urllib.parse import urlparse,parse_qs
+            rid=int(parse_qs(urlparse(url).query)['rid'][0])
+            return self.fred_page(rid,BLS_RELEASES[rid],day='Tuesday June 09, 2026')
+        result=fred_bls(NOW,get)
+        self.assertEqual(result[0]['date'],'2026-06-09T12:30:00Z')
+
+    def test_fred_rejects_unknown_timezone_missing_time_and_truncation(self):
+        for modify in [lambda x:x.replace('US Central Time','unknown time'),lambda x:x.replace('7:30 am','N/A'),lambda x:x.replace('of 1','of 2')]:
+            with self.subTest(modify=modify),self.assertRaises(ValueError):
+                fred_bls(NOW,lambda url:modify(self.fred_get(url)))
+
+    def test_both_bls_sources_fail_retains_last_working_events(self):
+        def fail(_):raise ValueError('network unavailable')
+        previous={'publishedAt':'2026-11-02T00:00:00Z','events':[self.row('bls')]}
+        result=synchronize(previous,NOW,{'bls':lambda now:bls(now,fail)})
+        self.assertEqual(result['events'],previous['events'])
+        self.assertEqual(result['sourceHealth']['bls']['status'],'error')
+        self.assertEqual(result['publishedAt'],previous['publishedAt'])
 
     def test_past_only_is_source_failure(self):
         old = self.row(date=datetime(2026,11,2,tzinfo=timezone.utc))
