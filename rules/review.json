@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-02T16:13:52.923795+00:00",
+  "checkedAt": "2026-11-03T01:02:40.484447+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
+          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
+          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
+          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
+          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "7f5dc3839b3b0af044493304e1f71094a0646f5f3b1ef078e57c15fc7a5e8c21"
+          "sha256": "099589d1955b9bf1e4e58201a5b485f0d71f8c2f9077f215a835554e01cc8f16"
         }
       }
     },
@@ -568,7 +568,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
+          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
         }
       }
     },
@@ -667,7 +667,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "3d636a7e5b6c3be65b8e0f28b6aff03a658ed639e7e04233f0aff0eeb117107d"
+          "sha256": "3f4b4447f0b634400dd2d029287a69805772e4a33ad7eff4792cf86b22efee44"
         }
       }
     },
