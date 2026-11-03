@@ -1,0 +1,48 @@
+name: Update official news calendar
+on:
+  schedule:
+    - cron: '17,47 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/news_calendar/**'
+      - '.github/workflows/update-news-calendar.yml'
+permissions:
+  contents: write
+concurrency:
+  group: official-news-calendar
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r scripts/news_calendar/requirements.txt
+      - run: python -m unittest discover -s scripts/news_calendar -p 'test_*.py' -v
+      - name: Fetch official sources
+        id: sync
+        continue-on-error: true
+        run: python scripts/news_calendar/update.py
+      - name: Publish calendar and source health
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news-alert/reviewed.json news-alert/health.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh official economic calendar and source health'
+            for attempt in 1 2 3; do
+              git pull --rebase origin main
+              if git push origin HEAD:main; then exit 0; fi
+              sleep 5
+            done
+            exit 1
+          fi
+      - name: Report source failures
+        if: steps.sync.outcome == 'failure'
+        run: |
+          echo 'One or more official sources failed. Healthy sources were published; failed sources retain last successful data. See news-alert/health.json.'
+          exit 1

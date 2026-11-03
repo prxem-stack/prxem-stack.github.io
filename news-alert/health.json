@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-11-03T07:51:35Z",
+  "sources": {
+    "bea": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T07:51:35Z",
+      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "records": 58
+    },
+    "fed": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T07:51:35Z",
+      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "records": 13
+    },
+    "ecb": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T07:51:35Z",
+      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "records": 56
+    },
+    "bls": {
+      "status": "error",
+      "checkedAt": "2026-11-03T07:51:35Z",
+      "lastSuccessAt": null,
+      "records": 4,
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "fed-news": {
+      "status": "ok",
+      "checkedAt": "2026-11-03T07:51:35Z",
+      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "records": 20
+    }
+  },
+  "futureEvents": 74
+}
