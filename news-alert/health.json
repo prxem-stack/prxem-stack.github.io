@@ -1,43 +1,53 @@
 {
-  "checkedAt": "2026-11-03T07:59:34Z",
+  "checkedAt": "2026-11-03T08:49:55Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": "2026-11-03T07:59:34Z",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": "2026-11-03T07:59:34Z",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": "2026-11-03T07:59:34Z",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 56
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": "2026-11-03T07:59:34Z",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 32
     },
     "bls": {
-      "status": "error",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": null,
-      "records": 9,
-      "error": "HTTP Error 403: Forbidden"
+      "status": "ok",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
+      "records": 16,
+      "delivery": "FRED fallback",
+      "coverage": [
+        "Consumer Price Index",
+        "Employment Situation",
+        "Job Openings and Labor Turnover Survey",
+        "Producer Price Index",
+        "Productivity and Costs",
+        "U.S. Import and Export Price Indexes",
+        "State Employment and Unemployment",
+        "Metropolitan Area Employment and Unemployment"
+      ]
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:59:34Z",
-      "lastSuccessAt": "2026-11-03T07:59:34Z",
+      "checkedAt": "2026-11-03T08:49:55Z",
+      "lastSuccessAt": "2026-11-03T08:49:55Z",
       "records": 20
     }
   },
-  "futureEvents": 115
+  "futureEvents": 122
 }
