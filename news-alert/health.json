@@ -1,37 +1,37 @@
 {
-  "checkedAt": "2026-11-03T07:51:35Z",
+  "checkedAt": "2026-11-03T07:54:29Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:51:35Z",
-      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "checkedAt": "2026-11-03T07:54:29Z",
+      "lastSuccessAt": "2026-11-03T07:54:29Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:51:35Z",
-      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "checkedAt": "2026-11-03T07:54:29Z",
+      "lastSuccessAt": "2026-11-03T07:54:29Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:51:35Z",
-      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "checkedAt": "2026-11-03T07:54:29Z",
+      "lastSuccessAt": "2026-11-03T07:54:29Z",
       "records": 56
     },
     "bls": {
       "status": "error",
-      "checkedAt": "2026-11-03T07:51:35Z",
+      "checkedAt": "2026-11-03T07:54:29Z",
       "lastSuccessAt": null,
-      "records": 4,
+      "records": 9,
       "error": "HTTP Error 403: Forbidden"
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-03T07:51:35Z",
-      "lastSuccessAt": "2026-11-03T07:51:35Z",
+      "checkedAt": "2026-11-03T07:54:29Z",
+      "lastSuccessAt": "2026-11-03T07:54:29Z",
       "records": 20
     }
   },
-  "futureEvents": 74
+  "futureEvents": 83
 }
