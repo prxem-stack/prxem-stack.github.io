@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-03T22:46:04.618808+00:00",
+  "checkedAt": "2026-11-04T02:19:41.155331+00:00",
   "status": "setup_required",
   "reason": "FCM_SERVICE_ACCOUNT_JSON is not configured",
   "accepted": 0
