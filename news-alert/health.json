@@ -1,34 +1,34 @@
 {
-  "checkedAt": "2026-11-04T09:51:41Z",
+  "checkedAt": "2026-11-04T17:58:46Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
-      "records": 58
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
+      "records": 57
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
       "records": 13
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
-      "records": 56
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
+      "records": 263
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
       "records": 37
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
       "records": 15,
       "delivery": "FRED fallback",
       "coverage": [
@@ -44,10 +44,10 @@
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-04T09:51:41Z",
-      "lastSuccessAt": "2026-11-04T09:51:41Z",
+      "checkedAt": "2026-11-04T17:58:46Z",
+      "lastSuccessAt": "2026-11-04T17:58:46Z",
       "records": 20
     }
   },
-  "futureEvents": 125
+  "futureEvents": 134
 }
