@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-04T06:36:15.858575+00:00",
+  "checkedAt": "2026-11-04T19:50:42.798974+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "232ba6be8d0e73a010653dc6538a0c980d698d44a72347d08e00661bd9371725"
+          "sha256": "05a6de80c952e9e9ca74cb3bf99c921c0e9473c7ba8dc7848d27b0c59dbd5a08"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "232ba6be8d0e73a010653dc6538a0c980d698d44a72347d08e00661bd9371725"
+          "sha256": "05a6de80c952e9e9ca74cb3bf99c921c0e9473c7ba8dc7848d27b0c59dbd5a08"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "232ba6be8d0e73a010653dc6538a0c980d698d44a72347d08e00661bd9371725"
+          "sha256": "05a6de80c952e9e9ca74cb3bf99c921c0e9473c7ba8dc7848d27b0c59dbd5a08"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c48cc7d82f7a16f083c4b9d6d6c7161abec8f5a755f1a3e8e71a9065dc22cebb"
+          "sha256": "54ab050887a2ce1efb6ab3c31e26de5036d0d6b91a3852093ee430b8c619c7e9"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c48cc7d82f7a16f083c4b9d6d6c7161abec8f5a755f1a3e8e71a9065dc22cebb"
+          "sha256": "54ab050887a2ce1efb6ab3c31e26de5036d0d6b91a3852093ee430b8c619c7e9"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c48cc7d82f7a16f083c4b9d6d6c7161abec8f5a755f1a3e8e71a9065dc22cebb"
+          "sha256": "54ab050887a2ce1efb6ab3c31e26de5036d0d6b91a3852093ee430b8c619c7e9"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c48cc7d82f7a16f083c4b9d6d6c7161abec8f5a755f1a3e8e71a9065dc22cebb"
+          "sha256": "54ab050887a2ce1efb6ab3c31e26de5036d0d6b91a3852093ee430b8c619c7e9"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "c48cc7d82f7a16f083c4b9d6d6c7161abec8f5a755f1a3e8e71a9065dc22cebb"
+          "sha256": "54ab050887a2ce1efb6ab3c31e26de5036d0d6b91a3852093ee430b8c619c7e9"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "061be2a95771203a72b4624fca1ae7a305193aae37e5656ee9f1db62e9216dda"
+          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -601,7 +601,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
@@ -612,7 +612,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
@@ -623,7 +623,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
@@ -634,7 +634,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
@@ -645,7 +645,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
@@ -656,7 +656,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "db1b8cfc08b89a2172024b7646a78a3e944a4afbbc25f5ef282d252487a95338"
+          "sha256": "0280100c883769880cc130e3ad675684218f76babf22be430053d1ecf27b182f"
         }
       }
     },
