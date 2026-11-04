@@ -127,9 +127,10 @@
   },
   "receipts": {
     "e899b497-905a-4e02-ae70-426a9ca36ee1": {
-      "state": "sending",
+      "state": "accepted",
       "at": "2026-11-04T06:31:56.086987+00:00",
-      "title": "News Alert setup test"
+      "title": "News Alert setup test",
+      "providerId": "projects/prop-firm-news-alert/messages/-7134069760350939494"
     }
   }
 }
