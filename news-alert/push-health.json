@@ -1,6 +1,7 @@
 {
-  "checkedAt": "2026-11-04T02:19:41.155331+00:00",
-  "status": "setup_required",
-  "reason": "FCM_SERVICE_ACCOUNT_JSON is not configured",
-  "accepted": 0
+  "checkedAt": "2026-11-04T06:22:01.780641+00:00",
+  "status": "ok",
+  "accepted": 0,
+  "receipts": {},
+  "note": "Accepted by FCM does not confirm delivery to a phone"
 }
