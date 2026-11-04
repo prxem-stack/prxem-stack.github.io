@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-04T06:31:27.359Z",
+  "automatic": true,
+  "releaseAlerts": true,
+  "beforeMinutes": 15,
+  "campaigns": [
+    {
+      "id": "e899b497-905a-4e02-ae70-426a9ca36ee1",
+      "title": "News Alert setup test",
+      "body": "Automatic news notification service is connected. This test is for opted-in test devices only.",
+      "audience": "news_test",
+      "dueAt": "2026-11-04T06:29:48.818Z",
+      "eventId": "",
+      "kind": "manual"
+    }
+  ]
+}

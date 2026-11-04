@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-04T02:19:26Z",
+  "publishedAt": "2026-11-04T06:31:27.359Z",
   "checkedAt": "2026-11-04T02:19:26Z",
   "coverage": "Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.",
   "sourceHealth": {
