@@ -125,5 +125,11 @@
     "ecb-17b00580d2108bae799d": "3fba8b41b37ccc9e90befb249f9893637e5aa3959e12bed0f9490f00ac8adf19",
     "bea-d28fc6f150867d6fd16c": "b60fa5a1c26e7359d7b63bcf32480ba128adb3ddd176c1caef9c9713c8bf7101"
   },
-  "receipts": {}
+  "receipts": {
+    "e899b497-905a-4e02-ae70-426a9ca36ee1": {
+      "state": "sending",
+      "at": "2026-11-04T06:31:56.086987+00:00",
+      "title": "News Alert setup test"
+    }
+  }
 }
