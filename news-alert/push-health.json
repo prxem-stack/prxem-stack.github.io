@@ -1,7 +1,14 @@
 {
-  "checkedAt": "2026-11-04T06:22:01.780641+00:00",
+  "checkedAt": "2026-11-04T06:31:56.086987+00:00",
   "status": "ok",
-  "accepted": 0,
-  "receipts": {},
+  "accepted": 1,
+  "receipts": {
+    "e899b497-905a-4e02-ae70-426a9ca36ee1": {
+      "state": "accepted",
+      "at": "2026-11-04T06:31:56.086987+00:00",
+      "title": "News Alert setup test",
+      "providerId": "projects/prop-firm-news-alert/messages/-7134069760350939494"
+    }
+  },
   "note": "Accepted by FCM does not confirm delivery to a phone"
 }
