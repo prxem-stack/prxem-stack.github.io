@@ -145,6 +145,11 @@
       "at": "2026-11-04T06:31:56.086987+00:00",
       "title": "News Alert setup test",
       "providerId": "projects/prop-firm-news-alert/messages/-7134069760350939494"
+    },
+    "auto-2cba1f87a851f4cb78a0bd06": {
+      "state": "sending",
+      "at": "2026-11-06T00:14:16.840331+00:00",
+      "title": "5 economic news updates"
     }
   }
 }
