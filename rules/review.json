@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-05T20:02:28.796384+00:00",
+  "checkedAt": "2026-11-06T06:56:36.677944+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1ffc287ea694e5577170e11a06be71c5803222c90312f0bc19f78bcbbde5a9f3"
+          "sha256": "5ca6258a03f707f7c39bc42323fc82e28134e6a393c3e88325ec4a0c058c7f31"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1ffc287ea694e5577170e11a06be71c5803222c90312f0bc19f78bcbbde5a9f3"
+          "sha256": "5ca6258a03f707f7c39bc42323fc82e28134e6a393c3e88325ec4a0c058c7f31"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1ffc287ea694e5577170e11a06be71c5803222c90312f0bc19f78bcbbde5a9f3"
+          "sha256": "5ca6258a03f707f7c39bc42323fc82e28134e6a393c3e88325ec4a0c058c7f31"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1ffc287ea694e5577170e11a06be71c5803222c90312f0bc19f78bcbbde5a9f3"
+          "sha256": "5ca6258a03f707f7c39bc42323fc82e28134e6a393c3e88325ec4a0c058c7f31"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1ffc287ea694e5577170e11a06be71c5803222c90312f0bc19f78bcbbde5a9f3"
+          "sha256": "5ca6258a03f707f7c39bc42323fc82e28134e6a393c3e88325ec4a0c058c7f31"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
+          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
+          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "65c8a5f530ec21eb1ed4b91613e994eed30bfd0dc8874efa94d97d2c52315a4f"
+          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
