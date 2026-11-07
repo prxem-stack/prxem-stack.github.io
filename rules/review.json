@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-06T19:29:19.128780+00:00",
+  "checkedAt": "2026-11-07T06:07:55.254275+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a2f0eceb011068b324c585078d3a880790f7950ab5086674b5b2755b05b84eaf"
+          "sha256": "a86513ab4395aad83c3cbec4ecae19a0e482d3f0af2aaefadd1d9e6008dd9e84"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a2f0eceb011068b324c585078d3a880790f7950ab5086674b5b2755b05b84eaf"
+          "sha256": "a86513ab4395aad83c3cbec4ecae19a0e482d3f0af2aaefadd1d9e6008dd9e84"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a2f0eceb011068b324c585078d3a880790f7950ab5086674b5b2755b05b84eaf"
+          "sha256": "a86513ab4395aad83c3cbec4ecae19a0e482d3f0af2aaefadd1d9e6008dd9e84"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a2f0eceb011068b324c585078d3a880790f7950ab5086674b5b2755b05b84eaf"
+          "sha256": "a86513ab4395aad83c3cbec4ecae19a0e482d3f0af2aaefadd1d9e6008dd9e84"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a2f0eceb011068b324c585078d3a880790f7950ab5086674b5b2755b05b84eaf"
+          "sha256": "a86513ab4395aad83c3cbec4ecae19a0e482d3f0af2aaefadd1d9e6008dd9e84"
         }
       }
     },
@@ -568,7 +568,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
+          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
         }
       }
     },
