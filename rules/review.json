@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T07:26:33.766601+00:00",
+  "checkedAt": "2026-11-10T19:49:07.062431+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "32b963534fa06d5d57438573522e8a1a5ea391cbf6b46ce6e71c8b58d46fcac8"
+          "sha256": "392482e29c98c7e81351988cdf0bbb5f24d60aec031c60c25fbdc69480e471a0"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "68f6f442248dab428c1da42a84a3ae8edf85f64f46622688ce2e38e47d572f94"
+          "sha256": "b9f0becab8657032bed4363ea84ceebaf2033e8fb470540115af412f80bd046a"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "68f6f442248dab428c1da42a84a3ae8edf85f64f46622688ce2e38e47d572f94"
+          "sha256": "b9f0becab8657032bed4363ea84ceebaf2033e8fb470540115af412f80bd046a"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
+          "sha256": "419e2a6792e61928be62df6fa02b859e5cdf07754448bdd51a91ac813ca33ee7"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
+          "sha256": "419e2a6792e61928be62df6fa02b859e5cdf07754448bdd51a91ac813ca33ee7"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "af593c07b52f79fb694393803f75c7baf27a920b16d19fe4b2cfe8e0e0c4cba0"
+          "sha256": "419e2a6792e61928be62df6fa02b859e5cdf07754448bdd51a91ac813ca33ee7"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
+          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
         }
       }
     },
@@ -354,7 +354,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "d43660b7d1061d26d42b3d4523c64da3e8fdeb5a8c616766c6bd2eab12714c4f"
+          "sha256": "2632c9179bf2458d7fe1ea295c47d3bbca3a05f1cab67521f38f7afc5e1cef86"
         }
       }
     },
@@ -365,7 +365,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "d43660b7d1061d26d42b3d4523c64da3e8fdeb5a8c616766c6bd2eab12714c4f"
+          "sha256": "2632c9179bf2458d7fe1ea295c47d3bbca3a05f1cab67521f38f7afc5e1cef86"
         }
       }
     },
@@ -376,7 +376,7 @@
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
           "status": "fetched",
-          "sha256": "2af3b38d864535e65f97783e0fcc7a8f4f5775fa07788c5f511f8a59738be6ca"
+          "sha256": "bc02268c065c8b4f028e231b8a06032b94c107066abf4b1b7fc1b2a0e6b752dd"
         }
       }
     },
@@ -391,11 +391,11 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "1ce0f9915b4e5d5891cbb67484de22dfa738a11af4a555cb2da35c5f0dbf5e92"
+          "sha256": "688a08f58fc9a4638289e034dbb41de1627ef67db2ef8d351056b7022aafea4d"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "ec846c0de1f55d9fe464b1b1de628866522ca8b2a6384ce8b561cce30f59d485"
+          "sha256": "75d4aebf0a3b53f13acea847710d5eac75d9a9dc02a48371c5289d88eb39f00e"
         }
       }
     },
@@ -483,15 +483,15 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "d975ed6b54f1049b7a96cc6e2961835d667016071441f22db5df15f72fe08ff8"
+          "sha256": "f5b1e9527fe2a95a92c3068d1f5629976c381a48442fc461acf2bfa18be99196"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
-          "sha256": "044b67ef8fa8805e386d4970569462b1015f5c1740dd1c746b2135a499586d21"
+          "sha256": "273f4b4c74880620a23510c3040a0fc8a60ec7b6c5724848f314b7ec1151a694"
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c34d0fb62aa7a9ca99c06fcc1099fae35fd233927d1e93ab13c8dc53bc9c7bb9"
+          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c34d0fb62aa7a9ca99c06fcc1099fae35fd233927d1e93ab13c8dc53bc9c7bb9"
+          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c34d0fb62aa7a9ca99c06fcc1099fae35fd233927d1e93ab13c8dc53bc9c7bb9"
+          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c34d0fb62aa7a9ca99c06fcc1099fae35fd233927d1e93ab13c8dc53bc9c7bb9"
+          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c34d0fb62aa7a9ca99c06fcc1099fae35fd233927d1e93ab13c8dc53bc9c7bb9"
+          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
+          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
         }
       }
     },
