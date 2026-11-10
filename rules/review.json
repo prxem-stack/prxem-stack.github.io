@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-09T22:28:05.089534+00:00",
+  "checkedAt": "2026-11-10T07:26:33.766601+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1bcf8dbd49fe80e5f35fc0e83754dad817d9292cc94bbce84cbc8bbec37ef6e0"
+          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1bcf8dbd49fe80e5f35fc0e83754dad817d9292cc94bbce84cbc8bbec37ef6e0"
+          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "1bcf8dbd49fe80e5f35fc0e83754dad817d9292cc94bbce84cbc8bbec37ef6e0"
+          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "e02969225323b8bf2cffcb2d238d749deed1a4d25d139d436b2c3dda37f3898b"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "12c7431489168448ec71502729c22316e2295aa467e786a8388fcda9f2832224"
+          "sha256": "3520c403d6375665682a17bd5485d95badf390e41e33989153abb4422e209ea3"
         }
       }
     },
