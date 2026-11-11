@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T06:37:44.797234+00:00",
+  "checkedAt": "2026-11-11T10:06:35.722842+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "47bb4a93b9b4d3d730cf1f45e819798a35365e6844f03dbe0ccff7425336bc4f"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "47bb4a93b9b4d3d730cf1f45e819798a35365e6844f03dbe0ccff7425336bc4f"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "3520c403d6375665682a17bd5485d95badf390e41e33989153abb4422e209ea3"
+          "sha256": "12c7431489168448ec71502729c22316e2295aa467e786a8388fcda9f2832224"
         }
       }
     },
