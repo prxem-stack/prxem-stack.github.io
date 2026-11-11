@@ -104,6 +104,12 @@
       "kind": "new",
       "text": "Historical purchase-cohort change effective 21 Sep 2026: Instant Premium immediate-funded accounts purchased from this date use a 14-day reward cycle instead of 10 days; earlier purchases retain the 10-day cycle. This is specific to Instant Premium, not other GOAT models or an evaluation phase. The official article does not specify reset treatment.",
       "source": "https://help.goatfundedtrader.com/instant-premium.html"
+    },
+    {
+      "firm": "The5ers",
+      "kind": "new",
+      "text": "Updated 8 Nov 2026; The5ers Futures: accounts purchased on or after 5 Nov 2026 are subject to a 3% payout cap at the Pro funded stage. $25K Futures Challenges purchased before 5 Nov retain the previous 5% cap if they reach Pro. The source states no other pre-cutoff exception.",
+      "source": "https://the5ers.com/futures-faqs/what-are-the-payout-caps/"
     }
   ]
 }
