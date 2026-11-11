@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T19:49:07.062431+00:00",
+  "checkedAt": "2026-11-11T06:37:44.797234+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e62c26339e8cfafa57ab702b1ebfd3d50f86ad29e6937592b631735f1cf6f3aa"
+          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e62c26339e8cfafa57ab702b1ebfd3d50f86ad29e6937592b631735f1cf6f3aa"
+          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e62c26339e8cfafa57ab702b1ebfd3d50f86ad29e6937592b631735f1cf6f3aa"
+          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e62c26339e8cfafa57ab702b1ebfd3d50f86ad29e6937592b631735f1cf6f3aa"
+          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e62c26339e8cfafa57ab702b1ebfd3d50f86ad29e6937592b631735f1cf6f3aa"
+          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
         }
       }
     },
