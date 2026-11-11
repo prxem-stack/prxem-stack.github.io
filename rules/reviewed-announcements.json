@@ -110,6 +110,24 @@
       "kind": "new",
       "text": "Updated 8 Nov 2026; The5ers Futures: accounts purchased on or after 5 Nov 2026 are subject to a 3% payout cap at the Pro funded stage. $25K Futures Challenges purchased before 5 Nov retain the previous 5% cap if they reach Pro. The source states no other pre-cutoff exception.",
       "source": "https://the5ers.com/futures-faqs/what-are-the-payout-caps/"
+    },
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "text": "Announced 5 Nov 2026 (effective 5 Nov at 4:30 a.m. ET): FTMO Futures Growth 100K/150K evaluations created from that cutoff use EOD trailing max drawdown of $3,000/$4,500 (previously $3,500/$5,000). Payout eligibility in Sim-Funded requires 4 qualifying days with at least $300/$450 daily P&L (previously $250/$300). New drawdown applies in Evaluation, Sim-Funded and Live; pre-cutoff evaluations and successor accounts retain prior terms.",
+      "source": "https://ftmo.com/en/futures/blog/trading-updates/futures-trading-update-5-nov-2026/"
+    },
+    {
+      "firm": "GOAT Funded Trader",
+      "kind": "new",
+      "text": "Updated 10 Nov 2026: GOAT high-impact news trades opened or closed within 5 minutes before/after a red-folder release are capped per trade at 3% of initial balance for accounts purchased on/after 10 Nov; earlier cohorts keep 1%. Applies in Challenge and funded stages; funded accounts and resets retain the challenge’s original purchase cohort. Excess profit is removed, not an account breach.",
+      "source": "https://help.goatfundedtrader.com/en/articles/10742084-is-news-trading-allowed"
+    },
+    {
+      "firm": "GOAT Funded Trader",
+      "kind": "new",
+      "text": "Official reward guidelines updated 9 Nov 2026: the first two funded reward requests are capped at the lower of 6% of initial balance or $10,000. A 4% cap applies to $5K 2-Step GOAT, 2-Step GOAT 1% Floating and 2-Step Standard challenges purchased from 25 Jul 2026, and $5K Instant HERO accounts purchased from 6 Oct 2026; the special 4% cap excludes Goat 1$ accounts. These caps end after the first two rewards.",
+      "source": "https://help.goatfundedtrader.com/en/articles/11472001-funded-account-reward-guidelines"
     }
   ]
 }
