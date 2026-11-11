@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T10:06:35.722842+00:00",
+  "checkedAt": "2026-11-11T19:24:16.680674+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "b9f0becab8657032bed4363ea84ceebaf2033e8fb470540115af412f80bd046a"
+          "sha256": "e269020df48191ed66e5e7e4973f12785af970577301b890e8abc0b5369a01e0"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "b9f0becab8657032bed4363ea84ceebaf2033e8fb470540115af412f80bd046a"
+          "sha256": "e269020df48191ed66e5e7e4973f12785af970577301b890e8abc0b5369a01e0"
         }
       }
     },
@@ -391,11 +391,11 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "688a08f58fc9a4638289e034dbb41de1627ef67db2ef8d351056b7022aafea4d"
+          "sha256": "a2521deab99cdb69888bfecbe77abfcf6eadc2f3b2e4fe7a24e4c68bba02515e"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "75d4aebf0a3b53f13acea847710d5eac75d9a9dc02a48371c5289d88eb39f00e"
+          "sha256": "539aa6029cf9a3f1da3c6553305b7d4588d816b4fa1373f127c0c6e8f9e11eb3"
         }
       }
     },
@@ -406,7 +406,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -417,7 +417,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -428,7 +428,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -439,7 +439,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -450,7 +450,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -461,7 +461,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/posts/bi-weekly-vs-on-demand-performance-fees-at-alpha-capital-2026": {
           "status": "fetched",
-          "sha256": "a0b9c5050bd0f7aba713667a9a92709f62a9be36257885316942f0ee1ca6803c"
+          "sha256": "5cf7283270e96a79e2b698c316dbc9ddde48fc8b39e84f9a79fad618d88f3260"
         }
       }
     },
@@ -491,7 +491,7 @@
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
+          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
+          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
+          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
+          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d3a711561dd917d08546021aa7f961943537a8212eb207ea3a3e75ff8ec1c377"
+          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
         }
       }
     },
@@ -601,7 +601,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -612,7 +612,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -623,7 +623,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -634,7 +634,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -645,7 +645,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -656,7 +656,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "710144867641c4cd7de352cec6268a10114a721978f6a7a2beb52bf90072f142"
+          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
         }
       }
     },
@@ -667,7 +667,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "109be2ae2526f83f614ccf0c40ece1ae010baa5b986e7ef63816c24460940d6b"
+          "sha256": "34d61e580486a5345e13fe9347bea55dbc105a219546b4a308907ddafa8c2128"
         }
       }
     },
