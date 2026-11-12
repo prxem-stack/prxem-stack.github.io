@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-12T07:20:11.744188+00:00",
+  "checkedAt": "2026-11-12T20:01:42.672663+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "3c3460857251d79a3f63ceeff08f8e70452d370bf0591b8ff920e72392be2aef"
+          "sha256": "83692dca1a9bcf1027ff0553a8314e422e89ed37c8b64f85cf42758c4b2d7f1a"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
+          "sha256": "2300a7f935a5836027910c1ee2574db7d149577e9cb42194cb3945c04199342e"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
+          "sha256": "2300a7f935a5836027910c1ee2574db7d149577e9cb42194cb3945c04199342e"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
+          "sha256": "2300a7f935a5836027910c1ee2574db7d149577e9cb42194cb3945c04199342e"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
+          "sha256": "2300a7f935a5836027910c1ee2574db7d149577e9cb42194cb3945c04199342e"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
+          "sha256": "2300a7f935a5836027910c1ee2574db7d149577e9cb42194cb3945c04199342e"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "47bb4a93b9b4d3d730cf1f45e819798a35365e6844f03dbe0ccff7425336bc4f"
+          "sha256": "3a37654e7e6b64375ae5c8095e782282017060bf8de11bbbb5092669e708910c"
         }
       }
     },
@@ -391,11 +391,11 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "a2521deab99cdb69888bfecbe77abfcf6eadc2f3b2e4fe7a24e4c68bba02515e"
+          "sha256": "32437a37e9a8c922c2e85c4dd8c079fc815e38baf2517e304fe77f25f8de1848"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "539aa6029cf9a3f1da3c6553305b7d4588d816b4fa1373f127c0c6e8f9e11eb3"
+          "sha256": "3af455dd64a0c1912613bf8bd5c16d46d7bcc6f2b76c65dd4b03a9a05a14adeb"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "47bb4a93b9b4d3d730cf1f45e819798a35365e6844f03dbe0ccff7425336bc4f"
+          "sha256": "3a37654e7e6b64375ae5c8095e782282017060bf8de11bbbb5092669e708910c"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "12c7431489168448ec71502729c22316e2295aa467e786a8388fcda9f2832224"
+          "sha256": "bfcade800db13d9f59e3cfa9805a8e1f524468396af3f73f6c2df896733f9891"
         }
       }
     },
