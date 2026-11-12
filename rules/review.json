@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-11T19:41:11.650146+00:00",
+  "checkedAt": "2026-11-12T07:20:11.744188+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "e269020df48191ed66e5e7e4973f12785af970577301b890e8abc0b5369a01e0"
+          "sha256": "7cf9b1099d0526fd88f34f621cfbc67e9c4b9fcdabad0a56a4b117d8a522de8c"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "e269020df48191ed66e5e7e4973f12785af970577301b890e8abc0b5369a01e0"
+          "sha256": "7cf9b1099d0526fd88f34f621cfbc67e9c4b9fcdabad0a56a4b117d8a522de8c"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
+          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
+          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
+          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
+          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "330c80b30d20b565051f651189e87d743552a3d3b0e99eaa759bc8c7eeca0791"
+          "sha256": "96a8f1570882cc72f79fbe392381528d1810cd578510e60176d231e0077f16ba"
         }
       }
     },
@@ -491,7 +491,7 @@
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
+          "sha256": "b9d9712fab56c900bcc7fc195baed9aafcc9f0981af580867eac6f1eb49f2c86"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
+          "sha256": "b9d9712fab56c900bcc7fc195baed9aafcc9f0981af580867eac6f1eb49f2c86"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
+          "sha256": "b9d9712fab56c900bcc7fc195baed9aafcc9f0981af580867eac6f1eb49f2c86"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
+          "sha256": "b9d9712fab56c900bcc7fc195baed9aafcc9f0981af580867eac6f1eb49f2c86"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "d14e2e7543e799814060a7717cce3509a10d1aedacbb442da7eeda2d51ee4577"
+          "sha256": "b9d9712fab56c900bcc7fc195baed9aafcc9f0981af580867eac6f1eb49f2c86"
         }
       }
     },
