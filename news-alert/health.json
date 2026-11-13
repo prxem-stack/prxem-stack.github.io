@@ -1,35 +1,35 @@
 {
-  "checkedAt": "2026-11-13T01:49:09Z",
+  "checkedAt": "2026-11-13T09:29:15Z",
   "sources": {
     "bea": {
       "status": "error",
-      "checkedAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
       "lastSuccessAt": "2026-11-12T20:47:44Z",
       "records": 15,
       "error": "BEA schedule table missing"
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-13T01:49:09Z",
-      "lastSuccessAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
+      "lastSuccessAt": "2026-11-13T09:29:15Z",
       "records": 27
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-13T01:49:09Z",
-      "lastSuccessAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
+      "lastSuccessAt": "2026-11-13T09:29:15Z",
       "records": 263
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-13T01:49:09Z",
-      "lastSuccessAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
+      "lastSuccessAt": "2026-11-13T09:29:15Z",
       "records": 35
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-13T01:49:09Z",
-      "lastSuccessAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
+      "lastSuccessAt": "2026-11-13T09:29:15Z",
       "records": 12,
       "delivery": "FRED fallback",
       "coverage": [
@@ -45,10 +45,10 @@
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-13T01:49:09Z",
-      "lastSuccessAt": "2026-11-13T01:49:09Z",
+      "checkedAt": "2026-11-13T09:29:15Z",
+      "lastSuccessAt": "2026-11-13T09:29:15Z",
       "records": 20
     }
   },
-  "futureEvents": 139
+  "futureEvents": 138
 }
