@@ -1,35 +1,35 @@
 {
-  "checkedAt": "2026-11-13T22:52:43Z",
+  "checkedAt": "2026-11-14T03:12:10Z",
   "sources": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
       "records": 58
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
       "records": 28
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
       "records": 263
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
       "records": 35
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
-      "records": 12,
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
+      "records": 11,
       "delivery": "FRED fallback",
       "coverage": [
         "Consumer Price Index",
@@ -44,10 +44,10 @@
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-13T22:52:43Z",
-      "lastSuccessAt": "2026-11-13T22:52:43Z",
+      "checkedAt": "2026-11-14T03:12:10Z",
+      "lastSuccessAt": "2026-11-14T03:12:10Z",
       "records": 20
     }
   },
-  "futureEvents": 137
+  "futureEvents": 136
 }
