@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-15T07:49:49Z",
-  "checkedAt": "2026-11-15T07:49:49Z",
-  "coverage": "Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.",
+  "publishedAt": "2026-11-14T10:41:18Z",
+  "checkedAt": "2026-11-14T10:41:18Z",
+  "coverage": "Partial official-source coverage: selected releases and events from US BEA, Federal Reserve and BLS/FRED, ECB statistics, UK ONS, Bank of Canada, Statistics Canada, Australian Bureau of Statistics, Reserve Bank of New Zealand, Bank of Japan, and Swiss National Bank. Coverage is not comprehensive; event impact is an app classification.",
   "sourceHealth": {
     "bea": {
       "status": "ok",
@@ -50,6 +50,56 @@
       "checkedAt": "2026-11-15T07:49:49Z",
       "lastSuccessAt": "2026-11-15T07:49:49Z",
       "records": 20
+    },
+    "statcan": {
+      "status": "ok",
+      "checkedAt": "2026-11-14T10:41:18Z",
+      "lastSuccessAt": "2026-11-14T10:41:18Z",
+      "records": 1,
+      "delivery": "Official release calendar",
+      "coverage": [
+        "Consumer Price Index"
+      ]
+    },
+    "abs": {
+      "status": "ok",
+      "checkedAt": "2026-11-14T10:41:18Z",
+      "lastSuccessAt": "2026-11-14T10:41:18Z",
+      "records": 1,
+      "delivery": "Official release calendar",
+      "coverage": [
+        "Consumer Price Index"
+      ]
+    },
+    "rbnz": {
+      "status": "ok",
+      "checkedAt": "2026-11-14T10:41:18Z",
+      "lastSuccessAt": "2026-11-14T10:41:18Z",
+      "records": 1,
+      "delivery": "Official schedule and event page",
+      "coverage": [
+        "Monetary Policy Statement and Official Cash Rate"
+      ]
+    },
+    "boj": {
+      "status": "ok",
+      "checkedAt": "2026-11-14T10:41:18Z",
+      "lastSuccessAt": "2026-11-14T10:41:18Z",
+      "records": 1,
+      "delivery": "Official release schedule",
+      "coverage": [
+        "Services Producer Price Index"
+      ]
+    },
+    "snb": {
+      "status": "ok",
+      "checkedAt": "2026-11-14T10:41:18Z",
+      "lastSuccessAt": "2026-11-14T10:41:18Z",
+      "records": 1,
+      "delivery": "Official event schedule",
+      "coverage": [
+        "Monetary Policy Assessment"
+      ]
     }
   },
   "events": [
@@ -1814,6 +1864,71 @@
       "reviewedAt": "2026-11-15T07:49:49Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
+    },
+    {
+      "id": "statcan-cpi-2026-10",
+      "title": "Consumer Price Index, October 2026",
+      "date": "2026-11-16T13:30:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www150.statcan.gc.ca/n1/en/release-diffusion/2026-eng.pdf",
+      "status": "published",
+      "reviewedAt": "2026-11-14T10:41:18Z",
+      "provider": "statcan",
+      "verification": "Official release calendar; 8:30 a.m. ET publication schedule",
+      "timezone": "America/Toronto"
+    },
+    {
+      "id": "abs-cpi-2026-10",
+      "title": "Consumer Price Index, Australia (October 2026)",
+      "date": "2026-11-25T00:30:00Z",
+      "country": "AUD",
+      "impact": "high",
+      "source": "https://www.abs.gov.au/release-calendar/future-releases/202611",
+      "status": "published",
+      "reviewedAt": "2026-11-14T10:41:18Z",
+      "provider": "abs",
+      "verification": "Official calendar; 11:30 a.m. AEDT",
+      "timezone": "Australia/Sydney"
+    },
+    {
+      "id": "rbnz-mps-ocr-2026-12",
+      "title": "Monetary Policy Statement and Official Cash Rate",
+      "date": "2026-12-09T01:00:00Z",
+      "country": "NZD",
+      "impact": "high",
+      "source": "https://www.rbnz.govt.nz/news-and-events/events/2026/december/monetary-policy-statement-and-ocr-december-2026",
+      "status": "published",
+      "reviewedAt": "2026-11-14T10:41:18Z",
+      "provider": "rbnz",
+      "verification": "Official event page; announcement at 2:00 p.m. NZT",
+      "timezone": "Pacific/Auckland"
+    },
+    {
+      "id": "boj-sppi-2026-10",
+      "title": "Services Producer Price Index (October 2026)",
+      "date": "2026-11-24T23:50:00Z",
+      "country": "JPY",
+      "impact": "medium",
+      "source": "https://www.boj.or.jp/en/about/calendar/",
+      "status": "published",
+      "reviewedAt": "2026-11-14T10:41:18Z",
+      "provider": "boj",
+      "verification": "Official release schedule; 8:50 a.m. Japan time",
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "id": "snb-policy-assessment-2026-12",
+      "title": "Monetary Policy Assessment (press release)",
+      "date": "2026-12-10T08:30:00Z",
+      "country": "CHF",
+      "impact": "high",
+      "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+      "status": "published",
+      "reviewedAt": "2026-11-14T10:41:18Z",
+      "provider": "snb",
+      "verification": "Official event schedule; 9:30 a.m. local Swiss time",
+      "timezone": "Europe/Zurich"
     }
   ],
   "headlines": [
