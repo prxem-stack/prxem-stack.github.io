@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-14T10:41:18Z",
-  "checkedAt": "2026-11-14T10:41:18Z",
+  "publishedAt": "2026-11-15T12:29:15Z",
+  "checkedAt": "2026-11-15T12:29:15Z",
   "coverage": "Partial official-source coverage: selected releases and events from US BEA, Federal Reserve and BLS/FRED, ECB statistics, UK ONS, Bank of Canada, Statistics Canada, Australian Bureau of Statistics, Reserve Bank of New Zealand, Bank of Japan, and Swiss National Bank. Coverage is not comprehensive; event impact is an app classification.",
   "sourceHealth": {
     "bea": {
@@ -99,6 +99,16 @@
       "delivery": "Official event schedule",
       "coverage": [
         "Monetary Policy Assessment"
+      ]
+    },
+    "bank-of-canada": {
+      "status": "ok",
+      "checkedAt": "2026-11-15T12:29:15Z",
+      "lastSuccessAt": "2026-11-15T12:29:15Z",
+      "records": 1,
+      "delivery": "Official upcoming event page",
+      "coverage": [
+        "Interest Rate Announcement"
       ]
     }
   },
@@ -1929,6 +1939,19 @@
       "provider": "snb",
       "verification": "Official event schedule; 9:30 a.m. local Swiss time",
       "timezone": "Europe/Zurich"
+    },
+    {
+      "id": "bankofcanada-policy-2026-12-09",
+      "title": "Bank of Canada Interest Rate Announcement",
+      "date": "2026-12-09T14:45:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www.bankofcanada.ca/2026/12/interest-rate-announcement-december-9-2026/",
+      "status": "published",
+      "reviewedAt": "2026-11-15T12:29:15Z",
+      "provider": "bank-of-canada",
+      "verification": "Official event page; 09:45 ET (America/Toronto)",
+      "timezone": "America/Toronto"
     }
   ],
   "headlines": [
