@@ -170,6 +170,11 @@
       "at": "2026-11-13T22:53:00.695841+00:00",
       "title": "1 economic news update",
       "providerId": "projects/prop-firm-news-alert/messages/-3906683865819548381"
+    },
+    "auto-c071274dc3a8717ef2c9c2aa": {
+      "state": "sending",
+      "at": "2026-11-16T17:27:23.280032+00:00",
+      "title": "2 economic news updates"
     }
   }
 }
