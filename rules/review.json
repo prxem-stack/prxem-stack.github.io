@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-16T06:42:48.583777+00:00",
+  "checkedAt": "2026-11-16T17:33:08.625066+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
+          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
+          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "cde3c7e1c586dc8f25c40f00c5c7f1b5e7520ac748c8d15049ec3a1d55ff51e9"
+          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "83692dca1a9bcf1027ff0553a8314e422e89ed37c8b64f85cf42758c4b2d7f1a"
+          "sha256": "d212718113ac11f92df7bf98d58ad2e90eff148c1635b249f2d595701f1621a4"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e1942acfbeba919a34c5764c9f89a67c76d91bbad28881a002e308339fceb5fe"
+          "sha256": "2443728551669073314c3c50f10651a0770f6144fcd5a9cccc05a49941bc89d6"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e1942acfbeba919a34c5764c9f89a67c76d91bbad28881a002e308339fceb5fe"
+          "sha256": "2443728551669073314c3c50f10651a0770f6144fcd5a9cccc05a49941bc89d6"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e1942acfbeba919a34c5764c9f89a67c76d91bbad28881a002e308339fceb5fe"
+          "sha256": "2443728551669073314c3c50f10651a0770f6144fcd5a9cccc05a49941bc89d6"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e1942acfbeba919a34c5764c9f89a67c76d91bbad28881a002e308339fceb5fe"
+          "sha256": "2443728551669073314c3c50f10651a0770f6144fcd5a9cccc05a49941bc89d6"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "e1942acfbeba919a34c5764c9f89a67c76d91bbad28881a002e308339fceb5fe"
+          "sha256": "2443728551669073314c3c50f10651a0770f6144fcd5a9cccc05a49941bc89d6"
         }
       }
     },
