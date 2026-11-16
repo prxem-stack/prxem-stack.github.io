@@ -1,7 +1,7 @@
 {
-  "checkedAt": "2026-11-16T07:17:50.875400+00:00",
+  "checkedAt": "2026-11-16T17:27:23.280032+00:00",
   "status": "ok",
-  "accepted": 4,
+  "accepted": 5,
   "receipts": {
     "e899b497-905a-4e02-ae70-426a9ca36ee1": {
       "state": "accepted",
@@ -26,6 +26,12 @@
       "at": "2026-11-13T22:53:00.695841+00:00",
       "title": "1 economic news update",
       "providerId": "projects/prop-firm-news-alert/messages/-3906683865819548381"
+    },
+    "auto-c071274dc3a8717ef2c9c2aa": {
+      "state": "accepted",
+      "at": "2026-11-16T17:27:23.280032+00:00",
+      "title": "2 economic news updates",
+      "providerId": "projects/prop-firm-news-alert/messages/-13625514483681808"
     }
   },
   "note": "Accepted by FCM does not confirm delivery to a phone"
