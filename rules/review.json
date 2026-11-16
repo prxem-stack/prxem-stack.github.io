@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-15T18:55:47.635661+00:00",
+  "checkedAt": "2026-11-16T06:42:48.583777+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "dbad4c53b49f79fee36cba9b3897cb0bf35240c58903d69437cd21107e567e71"
+          "sha256": "bfcade800db13d9f59e3cfa9805a8e1f524468396af3f73f6c2df896733f9891"
         }
       }
     },
