@@ -185,9 +185,10 @@
       "providerId": "projects/prop-firm-news-alert/messages/7398637845910922367"
     },
     "auto-3056ff5638307f12c2fb0965": {
-      "state": "sending",
+      "state": "accepted",
       "at": "2026-11-17T17:52:00.510880+00:00",
-      "title": "2 economic news updates"
+      "title": "2 economic news updates",
+      "providerId": "projects/prop-firm-news-alert/messages/2384053453325424770"
     }
   }
 }
