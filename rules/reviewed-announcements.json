@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-16T17:32:48Z",
+  "checkedAt": "2026-11-17T04:45:40Z",
   "announcements": [
     {
       "firm": "FTMO",
@@ -152,6 +152,16 @@
       "kind": "new",
       "text": "Effective 12 Oct 2026: across GOAT models and evaluation/funded accounts, copying between your own accounts is allowed only through the GOAT Trade Copier; copying external accounts, signals or using other copiers is prohibited. The source says the rule applies to GOAT accounts but does not expressly describe purchase-cohort grandfathering.",
       "source": "https://help.goatfundedtrader.com/en/articles/15945071-copy-trading-and-signals"
+    },
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "text": "Announced 12 Nov 2026: temporary Thanksgiving CFD trading-hour changes apply on 26–27 Nov 2026. Model: FTMO CFD; phase: session-hours schedule (no phase-specific exception stated); purchase cohort: not distinguished by the source. Times are MetaTrader GMT+2; specified symbols close early or are closed for the holiday.",
+      "source": "https://ftmo.com/en/blog/trading-updates/trading-update-12-nov-2026/",
+      "modelIds": [
+        "ftmo.one",
+        "ftmo.two"
+      ]
     }
   ]
 }
