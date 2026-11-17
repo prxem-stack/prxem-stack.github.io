@@ -162,6 +162,12 @@
         "ftmo.one",
         "ftmo.two"
       ]
+    },
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "text": "Announced 12 Nov 2026: FTMO Futures model, trading-session phase; purchase cohort not distinguished by the source. On 26 and 27 Nov 2026, sessions halt at 12:50 ET and reopen at 18:00 ET; open positions are automatically liquidated before the halt.",
+      "source": "https://ftmo.com/en/futures/trading-updates/"
     }
   ]
 }
