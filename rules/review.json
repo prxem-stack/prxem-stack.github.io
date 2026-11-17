@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T13:44:38.169119+00:00",
+  "checkedAt": "2026-11-17T21:01:09.244194+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
+          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
+          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
+          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "e397c842a98b3b1377ba18d1a63b80674959c5d79b29d60706fac638b59a1606"
+          "sha256": "016d1afca3a951c9ac93af26758c89922ae3ffd1b2580a30a3dd887ebf8bff13"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "e397c842a98b3b1377ba18d1a63b80674959c5d79b29d60706fac638b59a1606"
+          "sha256": "016d1afca3a951c9ac93af26758c89922ae3ffd1b2580a30a3dd887ebf8bff13"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4f0d34e2cb60d13fe1f555bb21df03d5c433ccfcd3e45159649789076d423f14"
+          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4f0d34e2cb60d13fe1f555bb21df03d5c433ccfcd3e45159649789076d423f14"
+          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4f0d34e2cb60d13fe1f555bb21df03d5c433ccfcd3e45159649789076d423f14"
+          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4f0d34e2cb60d13fe1f555bb21df03d5c433ccfcd3e45159649789076d423f14"
+          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4f0d34e2cb60d13fe1f555bb21df03d5c433ccfcd3e45159649789076d423f14"
+          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
         }
       }
     },
@@ -391,7 +391,7 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "32437a37e9a8c922c2e85c4dd8c079fc815e38baf2517e304fe77f25f8de1848"
+          "sha256": "8acdbc9d917eaa11fb9be24a48753e18d7e526a5b2940736ed653b47bdabd9e5"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
@@ -483,7 +483,7 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "f5b1e9527fe2a95a92c3068d1f5629976c381a48442fc461acf2bfa18be99196"
+          "sha256": "a5de294d9e2c9f6ceb5685e43c2a40c546e4b4e885005750ec14b9b5657fc143"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
@@ -491,7 +491,7 @@
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c1444dc1463479adfd93e665827e58fa43b713ec8f3303f16aca834efff8edce"
+          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c1444dc1463479adfd93e665827e58fa43b713ec8f3303f16aca834efff8edce"
+          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c1444dc1463479adfd93e665827e58fa43b713ec8f3303f16aca834efff8edce"
+          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c1444dc1463479adfd93e665827e58fa43b713ec8f3303f16aca834efff8edce"
+          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "c1444dc1463479adfd93e665827e58fa43b713ec8f3303f16aca834efff8edce"
+          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
         }
       }
     },
