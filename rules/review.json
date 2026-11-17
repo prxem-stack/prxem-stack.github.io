@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T13:01:03.605391+00:00",
+  "checkedAt": "2026-11-17T13:44:38.169119+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
+          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
+          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "76aebb89db60df3af8e2045d1282355e6988a56849b35094542aa59636295ebb"
+          "sha256": "7a1ad7a7231828f8e8bd554377dd0edff3750ad5d96307cecea2433040afe2d4"
         }
       }
     },
@@ -395,7 +395,7 @@
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "3af455dd64a0c1912613bf8bd5c16d46d7bcc6f2b76c65dd4b03a9a05a14adeb"
+          "sha256": "15f8fb458fadefac539b47e4b1e18897d15385fd7f2de6ff850842bc2954f65a"
         }
       }
     },
