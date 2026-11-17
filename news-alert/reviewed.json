@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-17T01:04:23Z",
-  "checkedAt": "2026-11-17T01:04:23Z",
-  "coverage": "Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.",
+  "publishedAt": "2026-11-17T04:37:08Z",
+  "checkedAt": "2026-11-17T04:37:08Z",
+  "coverage": "Partial official-source coverage: US BEA, Federal Reserve and selected BLS releases via BLS/FRED; ECB statistics; selected ONS UK releases; selected Statistics Canada and Bank of Canada releases; selected ABS releases; RBNZ policy schedule; selected Bank of Japan releases; and selected SNB releases. Coverage is incomplete for each currency. Impact is an app classification.",
   "sourceHealth": {
     "bea": {
       "status": "ok",
@@ -50,6 +50,42 @@
       "checkedAt": "2026-11-17T01:04:23Z",
       "lastSuccessAt": "2026-11-17T01:04:23Z",
       "records": 20
+    },
+    "statcan": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 1
+    },
+    "bank-of-canada": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 1
+    },
+    "abs": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 2
+    },
+    "rbnz": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 1
+    },
+    "boj": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 1
+    },
+    "snb": {
+      "status": "ok",
+      "checkedAt": "2026-11-17T04:37:08Z",
+      "lastSuccessAt": "2026-11-17T04:37:08Z",
+      "records": 1
     }
   },
   "events": [
@@ -1826,6 +1862,97 @@
       "reviewedAt": "2026-11-17T01:04:23Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
+    },
+    {
+      "id": "statcan-cpi-2026-11",
+      "title": "Consumer Price Index, Canada, November 2026 (08:30 America/Toronto)",
+      "date": "2026-12-14T13:30:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/261116/dq261116a-eng.htm",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "statcan",
+      "timezone": "America/Toronto",
+      "verification": "Statistics Canada’s 2026–27 release calendar and November CPI Daily notice; The Daily release time is 08:30 Eastern."
+    },
+    {
+      "id": "bankofcanada-policy-2026-12-09",
+      "title": "Bank of Canada Interest Rate Announcement (09:45 America/Toronto)",
+      "date": "2026-12-09T14:45:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www.bankofcanada.ca/2026/12/interest-rate-announcement-december-9-2026/",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "bank-of-canada",
+      "timezone": "America/Toronto",
+      "verification": "Bank of Canada official event page specifies December 9, 2026 at 09:45 ET."
+    },
+    {
+      "id": "abs-wpi-2026-09",
+      "title": "Wage Price Index, Australia, September 2026 (11:30 Australia/Sydney)",
+      "date": "2026-11-18T00:30:00Z",
+      "country": "AUD",
+      "impact": "medium",
+      "source": "https://www.abs.gov.au/release-calendar/future-releases/202611/rcc_economy",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "abs",
+      "timezone": "Australia/Sydney",
+      "verification": "ABS future-release calendar specifies 18 November 2026 at 11:30am AEDT."
+    },
+    {
+      "id": "abs-cpi-2026-10",
+      "title": "Consumer Price Index, Australia, October 2026 (11:30 Australia/Sydney)",
+      "date": "2026-11-25T00:30:00Z",
+      "country": "AUD",
+      "impact": "high",
+      "source": "https://www.abs.gov.au/release-calendar/future-releases/202611/rcc_economy",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "abs",
+      "timezone": "Australia/Sydney",
+      "verification": "ABS future-release calendar specifies 25 November 2026 at 11:30am AEDT."
+    },
+    {
+      "id": "rbnz-mps-ocr-2026-12",
+      "title": "Monetary Policy Statement and OCR, New Zealand (14:00 Pacific/Auckland)",
+      "date": "2026-12-09T01:00:00Z",
+      "country": "NZD",
+      "impact": "high",
+      "source": "https://www.rbnz.govt.nz/news-and-events/how-we-release-information/ocr-decision-dates-and-financial-stability-report-dates-to-feb-2028",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "rbnz",
+      "timezone": "Pacific/Auckland",
+      "verification": "RBNZ official decision schedule lists 9 December 2026 for MPS and OCR; RBNZ's event schedule specifies 14:00 NZDT."
+    },
+    {
+      "id": "boj-sppi-2026-10",
+      "title": "Services Producer Price Index, Japan, October 2026 (08:50 Asia/Tokyo)",
+      "date": "2026-11-24T23:50:00Z",
+      "country": "JPY",
+      "impact": "medium",
+      "source": "https://www.boj.or.jp/en/about/calendar/index.htm",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "boj",
+      "timezone": "Asia/Tokyo",
+      "verification": "Bank of Japan release schedule lists 25 November at 08:50 for the October Services Producer Price Index."
+    },
+    {
+      "id": "snb-policy-assessment-2026-12",
+      "title": "SNB Monetary Policy Assessment press release (09:30 Europe/Zurich)",
+      "date": "2026-12-10T08:30:00Z",
+      "country": "CHF",
+      "impact": "high",
+      "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+      "status": "published",
+      "reviewedAt": "2026-11-17T04:37:08Z",
+      "provider": "snb",
+      "timezone": "Europe/Zurich",
+      "verification": "SNB official event schedule lists 10 December 2026 at 09:30 for the monetary policy assessment press release."
     }
   ],
   "headlines": [
