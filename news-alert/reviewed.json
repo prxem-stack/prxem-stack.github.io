@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-18T18:13:35Z",
-  "checkedAt": "2026-11-18T18:13:35Z",
+  "publishedAt": "2026-11-18T18:18:10Z",
+  "checkedAt": "2026-11-18T18:18:10Z",
   "coverage": "Partial official-source coverage: individually reviewed upcoming releases from BEA, Federal Reserve, BLS, ECB, ONS, Statistics Canada, Bank of Canada, Australian Bureau of Statistics, Reserve Bank of New Zealand, Bank of Japan, and Swiss National Bank. Coverage is not exhaustive; absence from this feed does not mean no release or no trading restriction. Event times are shown in UTC with the source timezone recorded separately; impact is editorial.",
   "sourceHealth": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 56
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 28
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 263
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 33
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 10,
       "delivery": "FRED fallback",
       "coverage": [
@@ -47,14 +47,14 @@
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 20
     },
     "statcan": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 2,
       "coverage": [
         "GDP by industry",
@@ -64,8 +64,8 @@
     },
     "boc": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 1,
       "coverage": [
         "interest rate announcement"
@@ -74,8 +74,8 @@
     },
     "abs": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 2,
       "coverage": [
         "Labour Force",
@@ -85,8 +85,8 @@
     },
     "rbnz": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 1,
       "coverage": [
         "Monetary Policy Statement/OCR"
@@ -95,8 +95,8 @@
     },
     "boj": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 1,
       "coverage": [
         "Services Producer Price Index"
@@ -105,8 +105,8 @@
     },
     "snb": {
       "status": "ok",
-      "checkedAt": "2026-11-18T18:13:35Z",
-      "lastSuccessAt": "2026-11-18T18:13:35Z",
+      "checkedAt": "2026-11-18T18:18:10Z",
+      "lastSuccessAt": "2026-11-18T18:18:10Z",
       "records": 2,
       "coverage": [
         "monetary policy assessment",
@@ -124,7 +124,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -137,7 +137,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -150,7 +150,7 @@
       "impact": "high",
       "source": "https://www.abs.gov.au/release-calendar/future-releases/202611/all",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "abs",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Australia/Sydney"
@@ -163,7 +163,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -176,7 +176,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -189,7 +189,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -202,7 +202,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -215,7 +215,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -228,7 +228,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -241,7 +241,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -254,7 +254,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -267,7 +267,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=112&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -282,7 +282,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -295,7 +295,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -308,7 +308,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -321,7 +321,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -334,7 +334,7 @@
       "impact": "medium",
       "source": "https://www.boj.or.jp/en/about/calendar/",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "boj",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Asia/Tokyo"
@@ -347,7 +347,7 @@
       "impact": "high",
       "source": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "abs",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Australia/Sydney"
@@ -360,7 +360,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -373,7 +373,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -386,7 +386,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -399,7 +399,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -412,7 +412,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -425,7 +425,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -438,7 +438,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -451,7 +451,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -464,7 +464,7 @@
       "impact": "high",
       "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/261030/dq261030a-eng.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "statcan",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "America/Toronto"
@@ -477,7 +477,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -490,7 +490,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -503,7 +503,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=192&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -518,7 +518,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -531,7 +531,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -544,7 +544,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=113&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -559,7 +559,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -572,7 +572,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=50&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -587,7 +587,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -600,7 +600,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -613,7 +613,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=47&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -628,7 +628,7 @@
       "impact": "high",
       "source": "https://www.rbnz.govt.nz/news-and-events/news/2025/10/monetary-policy-and-financial-stability-report-dates-august-2026-to-february-2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "rbnz",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Pacific/Auckland"
@@ -641,7 +641,7 @@
       "impact": "high",
       "source": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "boc",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "America/Toronto"
@@ -654,7 +654,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -667,7 +667,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -680,7 +680,7 @@
       "impact": "high",
       "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "snb",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Europe/Zurich"
@@ -693,7 +693,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -706,7 +706,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -719,7 +719,7 @@
       "impact": "medium",
       "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "snb",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "Europe/Zurich"
@@ -732,7 +732,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -745,7 +745,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=10&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -760,7 +760,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -773,7 +773,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -786,7 +786,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -799,7 +799,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -812,7 +812,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradeoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -825,7 +825,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -838,7 +838,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -851,7 +851,7 @@
       "impact": "high",
       "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/261116/dq261116a-eng.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "statcan",
       "verification": "Individually verified against the linked official calendar.",
       "timezone": "America/Toronto"
@@ -864,7 +864,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -877,7 +877,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -890,7 +890,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=46&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -905,7 +905,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -918,7 +918,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -931,7 +931,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -944,7 +944,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -957,7 +957,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -970,7 +970,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=188&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -985,7 +985,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -998,7 +998,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritainnovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1011,7 +1011,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1024,7 +1024,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1037,7 +1037,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=112&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -1052,7 +1052,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1065,7 +1065,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1078,7 +1078,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/businessinvestmentintheukjulytoseptember2026revisedresults",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1091,7 +1091,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1104,7 +1104,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1117,7 +1117,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1130,7 +1130,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1143,7 +1143,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=113&vs=2026-11-18&ve=2027-02-26",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bls",
       "verification": "Reviewed against the linked official release calendar.",
       "calendarSource": "FRED",
@@ -1158,7 +1158,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "fed",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1171,7 +1171,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1184,7 +1184,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1197,7 +1197,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1210,7 +1210,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1223,7 +1223,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1236,7 +1236,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1249,7 +1249,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1262,7 +1262,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1275,7 +1275,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1288,7 +1288,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1301,7 +1301,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradenovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1314,7 +1314,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1327,7 +1327,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1340,7 +1340,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1353,7 +1353,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1366,7 +1366,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1379,7 +1379,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1392,7 +1392,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1405,7 +1405,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1418,7 +1418,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1431,7 +1431,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationukdecember2026includingservicesoctobertodecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1444,7 +1444,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritaindecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1457,7 +1457,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1470,7 +1470,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1483,7 +1483,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1496,7 +1496,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1509,7 +1509,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1522,7 +1522,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1535,7 +1535,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1548,7 +1548,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1561,7 +1561,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1574,7 +1574,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1587,7 +1587,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1600,7 +1600,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1613,7 +1613,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1626,7 +1626,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1639,7 +1639,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1652,7 +1652,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1665,7 +1665,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1678,7 +1678,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradedecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1691,7 +1691,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukoctobertodecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1704,7 +1704,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1717,7 +1717,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1730,7 +1730,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1743,7 +1743,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/businessinvestmentintheukoctobertodecember2026provisionalresults",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1756,7 +1756,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1769,7 +1769,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketfebruary2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1782,7 +1782,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1795,7 +1795,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1808,7 +1808,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1821,7 +1821,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1834,7 +1834,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1847,7 +1847,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ons",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/London"
@@ -1860,7 +1860,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1873,7 +1873,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1886,7 +1886,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1899,7 +1899,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1912,7 +1912,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
@@ -1925,7 +1925,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1938,7 +1938,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "bea",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "America/New_York"
@@ -1951,7 +1951,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-18T18:13:35Z",
+      "reviewedAt": "2026-11-18T18:18:10Z",
       "provider": "ecb",
       "verification": "Reviewed against the linked official release calendar.",
       "timezone": "Europe/Brussels"
