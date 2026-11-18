@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-17T21:01:09.244194+00:00",
+  "checkedAt": "2026-11-18T07:38:26.404221+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "016d1afca3a951c9ac93af26758c89922ae3ffd1b2580a30a3dd887ebf8bff13"
+          "sha256": "3735c0745840959a34bd6b8ad180af8518c2ecace48e89440c4301edeabef59a"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "016d1afca3a951c9ac93af26758c89922ae3ffd1b2580a30a3dd887ebf8bff13"
+          "sha256": "3735c0745840959a34bd6b8ad180af8518c2ecace48e89440c4301edeabef59a"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
+          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
+          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
+          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
+          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "a01dcc10edf60575ef760adb57d665ee8201c15c08427cdadda1f050b01e4b88"
+          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
         }
       }
     },
@@ -483,15 +483,15 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "a5de294d9e2c9f6ceb5685e43c2a40c546e4b4e885005750ec14b9b5657fc143"
+          "sha256": "e41607eea5ca356ac169a918fb866c0f2d413c4057cd59b24e258f5182b523b5"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
-          "sha256": "273f4b4c74880620a23510c3040a0fc8a60ec7b6c5724848f314b7ec1151a694"
+          "sha256": "1887408265201df471332ecbf4f9087289509640a40a228c42ce6eafb01fd641"
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
+          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
+          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
+          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
+          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "a9e052eb6d54ada4004ce6f60d2db27f2ab32b0bf5ab54ea1060d623064b3ac9"
+          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
         }
       }
     },
@@ -601,7 +601,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
@@ -612,7 +612,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
@@ -623,7 +623,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
@@ -634,7 +634,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
@@ -645,7 +645,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
@@ -656,7 +656,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "96f67799d6da509299cdacedf3bca3cc6a1e7bcc403b5ad0799fef260fd5f604"
+          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
         }
       }
     },
