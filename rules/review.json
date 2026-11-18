@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-18T07:38:26.404221+00:00",
+  "checkedAt": "2026-11-18T20:39:05.038615+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "3735c0745840959a34bd6b8ad180af8518c2ecace48e89440c4301edeabef59a"
+          "sha256": "677463a48d7c9a769aa4f1903828c84f9d46203adc8024bbe06123952dd9ab3a"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "3735c0745840959a34bd6b8ad180af8518c2ecace48e89440c4301edeabef59a"
+          "sha256": "677463a48d7c9a769aa4f1903828c84f9d46203adc8024bbe06123952dd9ab3a"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
+          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
+          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
+          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
+          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "babe52c559277dfa8bb8f40249ef51d9f51cc612a81d6358ced456309ec55e1d"
+          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "6039691bfbb0ab2884ac63489c0ea403d1b2bfc1efd8327dc7c8a32ca603b5f2"
         }
       }
     },
@@ -395,7 +395,7 @@
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "15f8fb458fadefac539b47e4b1e18897d15385fd7f2de6ff850842bc2954f65a"
+          "sha256": "776f2e92d6371d89ff5ee81c9697c89e1407f5cf89230ba649fec856783d29e3"
         }
       }
     },
@@ -483,15 +483,15 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "e41607eea5ca356ac169a918fb866c0f2d413c4057cd59b24e258f5182b523b5"
+          "sha256": "e76d8a81fc60118b546f06013bdc8ab5f4eb0dbe39f4b07588678ab6b7f4a356"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
-          "sha256": "1887408265201df471332ecbf4f9087289509640a40a228c42ce6eafb01fd641"
+          "sha256": "63e6ab1035c5c4e6a72b1ab25cc514e81e8dc97da1adcbb597b1c7813e707d02"
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
+          "sha256": "16ebc964969440fb51344a345126936ed3d45cfaf70a0d85cacd0d7b7d03fde0"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
+          "sha256": "16ebc964969440fb51344a345126936ed3d45cfaf70a0d85cacd0d7b7d03fde0"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
+          "sha256": "16ebc964969440fb51344a345126936ed3d45cfaf70a0d85cacd0d7b7d03fde0"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
+          "sha256": "16ebc964969440fb51344a345126936ed3d45cfaf70a0d85cacd0d7b7d03fde0"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "70e82d21aeb978f263311f999c79cd25b11044de1b6166ded875afb59bfe25d0"
+          "sha256": "16ebc964969440fb51344a345126936ed3d45cfaf70a0d85cacd0d7b7d03fde0"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "ccd1c6b0fa4c0e3578c2c5353536718fa8abb0dc05528ad26eb1ce9bb5703945"
+          "sha256": "6039691bfbb0ab2884ac63489c0ea403d1b2bfc1efd8327dc7c8a32ca603b5f2"
         }
       }
     },
