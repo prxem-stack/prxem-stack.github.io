@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-19T07:34:08.651585+00:00",
+  "checkedAt": "2026-11-19T20:44:39.984355+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
+          "sha256": "b9987a295f146bee5fc8c4b569a21a817fc2627ae3d3dd43a700a7bb434afa63"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
+          "sha256": "b9987a295f146bee5fc8c4b569a21a817fc2627ae3d3dd43a700a7bb434afa63"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "7bfc2d793f01c2fe8069e44f6451df2451013b8af1ce89bd2f2b690fba5e584b"
+          "sha256": "b9987a295f146bee5fc8c4b569a21a817fc2627ae3d3dd43a700a7bb434afa63"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
+          "sha256": "0c7c068e5cfbdd5687e63b51509c2bdb193d9588378e26084e015089a5d663cd"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
+          "sha256": "0c7c068e5cfbdd5687e63b51509c2bdb193d9588378e26084e015089a5d663cd"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
+          "sha256": "0c7c068e5cfbdd5687e63b51509c2bdb193d9588378e26084e015089a5d663cd"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
+          "sha256": "0c7c068e5cfbdd5687e63b51509c2bdb193d9588378e26084e015089a5d663cd"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "2d038b052c2efa3e27e79c4c21259edbfbae4c474645269c609508a7841e34e9"
+          "sha256": "0c7c068e5cfbdd5687e63b51509c2bdb193d9588378e26084e015089a5d663cd"
         }
       }
     },
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "6039691bfbb0ab2884ac63489c0ea403d1b2bfc1efd8327dc7c8a32ca603b5f2"
+          "sha256": "81b5d065158d30c7edb91ea893bd11fcfbdb538e84ca8d66e1dfc8aeeeed575c"
         }
       }
     },
@@ -395,7 +395,7 @@
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "776f2e92d6371d89ff5ee81c9697c89e1407f5cf89230ba649fec856783d29e3"
+          "sha256": "89cd3946369f725a417aa1d107932b39ab89106d5bd012584dcca01e10d9ee8b"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "6039691bfbb0ab2884ac63489c0ea403d1b2bfc1efd8327dc7c8a32ca603b5f2"
+          "sha256": "81b5d065158d30c7edb91ea893bd11fcfbdb538e84ca8d66e1dfc8aeeeed575c"
         }
       }
     },
