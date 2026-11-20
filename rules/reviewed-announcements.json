@@ -174,6 +174,32 @@
       "kind": "new",
       "text": "Announced 12 Nov 2026: FundedNext Labs model CFDs-FNL:005; phase: single-day challenge ending at server close on the trade-start day (EOD GMT+2), then KYC and reward request after a pass. Purchase cohort: limited-seat product announced on this date and currently listed for purchase; the source states no cutoff or grandfathering date. Model-specific targets, static loss limits and the 50% Best Trade condition are in the source.",
       "source": "https://fundednext.com/blog/cfds-fnl-005-single-day-challenge"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "new",
+      "title": "27 Jun 2026: Profit Concentration Policy cohort",
+      "text": "Effective 27 Jun 2026: 1-Step Flex Evaluation accounts of all sizes, and 2-Step Standard/Pro/Flex Evaluation accounts of $25K or more created on or after the cutoff, are subject to the Profit Concentration Policy. A trade idea exceeding 60% of an evaluation target adds four qualifying profitable days before each Master reward. Earlier existing evaluations and Phase 2 already active on 27 June are excluded; a new Phase 2 created after the cutoff is included. Zero is excluded.",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+    },
+    {
+      "firm": "FundingPips",
+      "kind": "new",
+      "title": "26 Aug 2026: 2-Step Flex and Pro minimum-day cohorts",
+      "text": "Effective 26 Aug 2026: 2-Step Flex Phase 1 and Phase 2 on the 85% split require one minimum trading day for new/reset accounts, versus zero for earlier existing cohorts. 2-Step Pro Phase 1 and Phase 2 require two minimum trading days for new/reset accounts, versus one for earlier existing cohorts. The rulebook states no change here to the 95% Flex profitable-day route.",
+      "source": "https://help.fundingpips.com/hc/en-us/articles/51307058233361-FundingPips-Legacy-Rules"
+    },
+    {
+      "firm": "FTMO",
+      "kind": "new",
+      "title": "19 Nov 2026: CFD platform maintenance",
+      "text": "Announced 19 Nov 2026: FTMO CFD platforms (MT4, MT5, TradingView and cTrader) schedule trading downtime on 21 Nov 2026, 03:00–18:00 and 22 Nov, 02:00–04:00 GMT+2; trading access may be restricted. Applies to platform users; no phase or purchase-cohort exception stated. Client Area services also have planned IT disruption on 21 Nov, 09:00–11:00 GMT+2.",
+      "source": "https://ftmo.com/en/blog/trading-updates/trading-update-19-nov-2026/",
+      "modelIds": [
+        "ftmo.one",
+        "ftmo.two"
+      ],
+      "appliesTo": "FTMO CFD platforms; phase and purchase cohort not distinguished in the announcement."
     }
   ]
 }
