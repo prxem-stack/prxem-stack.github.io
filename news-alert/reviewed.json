@@ -6,44 +6,44 @@
   "sourceHealth": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 55,
       "coverage": "US Bureau of Economic Analysis official schedule; retained upcoming releases reviewed"
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 28,
       "coverage": "Federal Reserve official releases schedule; retained upcoming releases reviewed"
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 263,
       "coverage": "ECB official statistics calendar; retained upcoming releases reviewed"
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 32,
       "coverage": "UK Office for National Statistics calendar; retained upcoming releases reviewed"
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 10,
       "delivery": "FRED fallback",
       "coverage": "Selected BLS releases; current records rely on FRED fallback and remain labeled"
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-20T21:06:20Z",
-      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "checkedAt": "2026-11-20T16:08:06Z",
+      "lastSuccessAt": "2026-11-20T16:08:06Z",
       "records": 20,
       "coverage": "Federal Reserve official news feed; headlines paraphrased with source publication dates"
     },
