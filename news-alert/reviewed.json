@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-20T21:06:20Z",
-  "checkedAt": "2026-11-20T21:06:20Z",
+  "publishedAt": "2026-11-20T21:07:30Z",
+  "checkedAt": "2026-11-20T21:07:30Z",
   "coverage": "Partial official-source coverage: selected USD releases from BEA, Federal Reserve and BLS (some BLS records use the labeled FRED fallback); ECB euro-area statistics; selected ONS UK releases; selected Statistics Canada and Bank of Canada releases; selected Australian Bureau of Statistics releases; RBNZ and Stats NZ releases; selected Bank of Japan releases; and selected SNB events. This is not an exhaustive calendar for any currency. Impact is an editorial app classification; all displayed event times include an IANA timezone.",
   "sourceHealth": {
     "bea": {
@@ -98,60 +98,6 @@
     }
   },
   "events": [
-    {
-      "id": "ecb-43c507a4e8f0163c47f7",
-      "title": "Euro Area Indicator of Negotiated Wage Rates (Dataset: INW)",
-      "date": "2026-11-20T10:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule",
-      "timezone": "Europe/Brussels"
-    },
-    {
-      "id": "fed-803a1ce4881c521d188d",
-      "title": "Speech - Governor Christopher J. Waller",
-      "date": "2026-11-20T13:25:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule",
-      "timezone": "America/New_York"
-    },
-    {
-      "id": "bls-1a916221f3bce60a51fa",
-      "title": "State Employment and Unemployment",
-      "date": "2026-11-20T15:00:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://fred.stlouisfed.org/releases/calendar?rid=112&vs=2026-11-20&ve=2027-02-28",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "bls",
-      "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
-      "calendarSource": "FRED",
-      "originAgency": "BLS",
-      "timezone": "America/New_York"
-    },
-    {
-      "id": "fed-bd4e4e26bc89ef7e31ba",
-      "title": "Speech - Governor Lisa D. Cook",
-      "date": "2026-11-20T17:15:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule",
-      "timezone": "America/New_York"
-    },
     {
       "id": "ecb-0e6b874f36da117bd487",
       "title": "Euro money market statistics (Dataset: MMSR)",
