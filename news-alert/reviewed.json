@@ -1,226 +1,103 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-20T16:08:06Z",
-  "checkedAt": "2026-11-20T16:08:06Z",
-  "coverage": "Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.",
+  "publishedAt": "2026-11-20T21:06:20Z",
+  "checkedAt": "2026-11-20T21:06:20Z",
+  "coverage": "Partial official-source coverage: selected USD releases from BEA, Federal Reserve and BLS (some BLS records use the labeled FRED fallback); ECB euro-area statistics; selected ONS UK releases; selected Statistics Canada and Bank of Canada releases; selected Australian Bureau of Statistics releases; RBNZ and Stats NZ releases; selected Bank of Japan releases; and selected SNB events. This is not an exhaustive calendar for any currency. Impact is an editorial app classification; all displayed event times include an IANA timezone.",
   "sourceHealth": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
-      "records": 55
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 55,
+      "coverage": "US Bureau of Economic Analysis official schedule; retained upcoming releases reviewed"
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
-      "records": 28
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 28,
+      "coverage": "Federal Reserve official releases schedule; retained upcoming releases reviewed"
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
-      "records": 263
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 263,
+      "coverage": "ECB official statistics calendar; retained upcoming releases reviewed"
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
-      "records": 32
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 32,
+      "coverage": "UK Office for National Statistics calendar; retained upcoming releases reviewed"
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
       "records": 10,
       "delivery": "FRED fallback",
-      "coverage": [
-        "Consumer Price Index",
-        "Employment Situation",
-        "Job Openings and Labor Turnover Survey",
-        "Producer Price Index",
-        "Productivity and Costs",
-        "U.S. Import and Export Price Indexes",
-        "State Employment and Unemployment",
-        "Metropolitan Area Employment and Unemployment"
-      ]
+      "coverage": "Selected BLS releases; current records rely on FRED fallback and remain labeled"
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-20T16:08:06Z",
-      "lastSuccessAt": "2026-11-20T16:08:06Z",
-      "records": 20
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 20,
+      "coverage": "Federal Reserve official news feed; headlines paraphrased with source publication dates"
+    },
+    "statcan": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 3,
+      "coverage": "Statistics Canada release calendar and 2026–27 dates; selected major releases only"
+    },
+    "bank-of-canada": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 1,
+      "coverage": "Bank of Canada official 2026 interest-rate schedule"
+    },
+    "abs": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 3,
+      "coverage": "Australian Bureau of Statistics official future release calendar"
+    },
+    "rbnz": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 2,
+      "coverage": "Reserve Bank of New Zealand official MPS event calendar"
+    },
+    "stats-nz": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 1,
+      "coverage": "Stats NZ official release calendar and GDP indicator"
+    },
+    "boj": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 1,
+      "coverage": "Bank of Japan official release schedule"
+    },
+    "snb": {
+      "status": "ok",
+      "checkedAt": "2026-11-20T21:06:20Z",
+      "lastSuccessAt": "2026-11-20T21:06:20Z",
+      "records": 2,
+      "coverage": "Swiss National Bank official event schedule"
     }
   },
   "events": [
-    {
-      "id": "fed-fed4c00e59acacb0e213",
-      "title": "Speech - Vice Chair Philip N. Jefferson",
-      "date": "2026-11-14T00:00:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-7c2ec63898c69dcb73b7",
-      "title": "Euro area investment fund statistics (Dataset: IVF)",
-      "date": "2026-11-16T09:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-a7bf752e772690cfbf30",
-      "title": "Euro area financial vehicle corporations statistics (Dataset: FVC)",
-      "date": "2026-11-16T09:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-e3434050f2c7ae0825aa",
-      "title": "Speech - Governor Michael S. Barr",
-      "date": "2026-11-16T10:00:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-0fa2fae35f83ba15fdcc",
-      "title": "ECB and Eurosystem templates on international reserves and foreign currency liquidity (Dataset: RAS)",
-      "date": "2026-11-16T11:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-f0258e9469c84a836dd6",
-      "title": "Speech - Chairman Kevin Warsh",
-      "date": "2026-11-16T17:00:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-da5a8d90340549adf4e6",
-      "title": "Speech - Governor Christopher J. Waller",
-      "date": "2026-11-17T14:10:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-c6788bf4995e2d590f4d",
-      "title": "G.17 - Industrial Production and Capacity Utilization",
-      "date": "2026-11-17T14:15:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-8a2c15b7518a39ba87cc",
-      "title": "Euro area seasonally adjusted HICP (Dataset: HICP)",
-      "date": "2026-11-18T11:00:00Z",
-      "country": "EUR",
-      "impact": "high",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-10b052fda18a52ab14c1",
-      "title": "Speech - Governor Michael S. Barr",
-      "date": "2026-11-18T18:35:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-0a141cbfeb252acaffaf",
-      "title": "FOMC Minutes",
-      "date": "2026-11-18T19:00:00Z",
-      "country": "USD",
-      "impact": "high",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-ca75b4decffee41a2cf5",
-      "title": "Euro area monthly balance of payments (Dataset: BPS)",
-      "date": "2026-11-19T09:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-c133a6484d7fb329aaca",
-      "title": "Discussion - Vice Chair Philip N. Jefferson",
-      "date": "2026-11-19T14:25:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "fed-aee2249aa840efcad1ba",
-      "title": "Discussion - Governor Michael S. Barr",
-      "date": "2026-11-19T19:15:00Z",
-      "country": "USD",
-      "impact": "medium",
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "status": "published",
-      "reviewedAt": "2026-11-20T16:08:06Z",
-      "provider": "fed",
-      "verification": "automatically parsed from official schedule"
-    },
     {
       "id": "ecb-43c507a4e8f0163c47f7",
       "title": "Euro Area Indicator of Negotiated Wage Rates (Dataset: INW)",
@@ -231,7 +108,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "fed-803a1ce4881c521d188d",
@@ -243,7 +121,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bls-1a916221f3bce60a51fa",
@@ -257,7 +136,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-bd4e4e26bc89ef7e31ba",
@@ -269,7 +149,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-0e6b874f36da117bd487",
@@ -281,7 +162,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-103c270cacf02bcaa60d",
@@ -293,7 +175,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-7d0dcf5c78e91007fb6b",
@@ -305,7 +188,34 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
+    },
+    {
+      "id": "boj-sppi-2026-10",
+      "title": "Services Producer Price Index, October 2026",
+      "date": "2026-11-24T23:50:00Z",
+      "country": "JPY",
+      "impact": "medium",
+      "source": "https://www.boj.or.jp/en/about/calendar/index.htm",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "boj",
+      "timezone": "Asia/Tokyo",
+      "verification": "Bank of Japan release schedule updated November 20 lists Services Producer Price Index (October) for November 25 at 8:50 a.m. JST."
+    },
+    {
+      "id": "abs-cpi-2026-10",
+      "title": "Consumer Price Index, Australia, October 2026",
+      "date": "2026-11-25T00:30:00Z",
+      "country": "AUD",
+      "impact": "high",
+      "source": "https://www.abs.gov.au/statistics/economy/price-indexes-and-inflation/consumer-price-index-australia/latest-release",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "abs",
+      "timezone": "Australia/Sydney",
+      "verification": "ABS future release for October 2026 CPI: November 25, 2026 at 11:30 a.m. AEDT."
     },
     {
       "id": "ecb-d2ac4fe924fef9390788",
@@ -317,7 +227,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-472933a1bc82bbd9df2e",
@@ -329,7 +240,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bea-e351ebfc3912db5d07bb",
@@ -341,7 +253,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-04fda1732c0402ca66c9",
@@ -353,7 +266,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-5e758797ccd813b7720c",
@@ -365,7 +279,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-7b3418e49bc918a5a1de",
@@ -377,7 +292,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-e71dac48d0b8c586e501",
@@ -389,7 +305,21 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
+    },
+    {
+      "id": "abs-bop-2026-09",
+      "title": "Balance of Payments and International Investment Position, Australia, September 2026",
+      "date": "2026-11-30T00:30:00Z",
+      "country": "AUD",
+      "impact": "medium",
+      "source": "https://www.abs.gov.au/release-calendar/future-releases/202612/all",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "abs",
+      "timezone": "Australia/Sydney",
+      "verification": "ABS December 2026 future release calendar lists Balance of Payments and International Investment Position for September 2026 on December 1 at 11:30 a.m. AEDT."
     },
     {
       "id": "ecb-c2e0d55fb11a2315bb30",
@@ -401,7 +331,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-79cd280a61ecdc27811a",
@@ -413,7 +344,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-bc46138e632816b5d3cc",
@@ -425,7 +357,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bls-885b02198b24a02cb1e2",
@@ -439,7 +372,21 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "abs-gdp-2026-q3",
+      "title": "Australian National Accounts: National Income, Expenditure and Product, September quarter 2026",
+      "date": "2026-12-01T23:30:00Z",
+      "country": "AUD",
+      "impact": "high",
+      "source": "https://www.abs.gov.au/statistics/economy/national-accounts/australian-national-accounts-national-income-expenditure-and-product",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "abs",
+      "timezone": "Australia/Sydney",
+      "verification": "ABS future release page lists September quarter 2026 national accounts for December 2, 2026 at 11:30 a.m. AEDT."
     },
     {
       "id": "ecb-9fe8279f75289765856d",
@@ -451,7 +398,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-75162de556b8972f6a4a",
@@ -463,7 +411,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bls-57bc3196471ec6b4e5fd",
@@ -477,7 +426,21 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "statcan-labour-productivity-2026-q3",
+      "title": "Labour productivity, hourly compensation and unit labour cost, third quarter 2026",
+      "date": "2026-12-03T13:30:00Z",
+      "country": "CAD",
+      "impact": "medium",
+      "source": "https://www150.statcan.gc.ca/n1/en/release-diffusion/2026-eng.pdf",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "statcan",
+      "timezone": "America/Toronto",
+      "verification": "Statistics Canada release calendar: December 3, 2026; The Daily publishes at 8:30 a.m. Eastern."
     },
     {
       "id": "ecb-417a25bb5c74348d1a6f",
@@ -489,7 +452,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bls-784978e146479c6c66ed",
@@ -503,7 +467,21 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "statcan-labour-force-2026-11",
+      "title": "Labour Force Survey, November 2026",
+      "date": "2026-12-04T13:30:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "statcan",
+      "timezone": "America/Toronto",
+      "verification": "Statistics Canada upcoming release schedule lists the November 2026 Labour Force Survey for December 4; The Daily publishes at 8:30 a.m. Eastern."
     },
     {
       "id": "fed-4108b3c530a8d9692209",
@@ -515,7 +493,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bea-e00f709f73810e1ee696",
@@ -527,7 +506,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bls-fa521467e1b8bf5a146f",
@@ -541,7 +521,47 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "rbnz-mps-2026-12-09",
+      "title": "RBNZ Monetary Policy Statement and Official Cash Rate decision",
+      "date": "2026-12-09T01:00:00Z",
+      "country": "NZD",
+      "impact": "high",
+      "source": "https://www.rbnz.govt.nz/news-and-events/events/2026/december/monetary-policy-statement-and-ocr-december-2026",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "rbnz",
+      "timezone": "Pacific/Auckland",
+      "verification": "RBNZ event page states the MPS/OCR is announced at 2:00 p.m. NZT on December 9, 2026."
+    },
+    {
+      "id": "rbnz-mps-press-2026-12-09",
+      "title": "RBNZ Monetary Policy Statement press conference",
+      "date": "2026-12-09T02:00:00Z",
+      "country": "NZD",
+      "impact": "medium",
+      "source": "https://www.rbnz.govt.nz/news-and-events/events/2026/december/monetary-policy-statement-and-ocr-december-2026",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "rbnz",
+      "timezone": "Pacific/Auckland",
+      "verification": "RBNZ event page states the Monetary Policy Statement media conference starts at 3:00 p.m. NZT on December 9, 2026."
+    },
+    {
+      "id": "boc-rate-2026-12-09",
+      "title": "Bank of Canada interest rate announcement",
+      "date": "2026-12-09T14:45:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www.bankofcanada.ca/2026/12/interest-rate-announcement-december-9-2026/",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "bank-of-canada",
+      "timezone": "America/Toronto",
+      "verification": "Bank of Canada schedule gives December 9, 2026 at 09:45 ET."
     },
     {
       "id": "fed-e6027c259c8da35c8d37",
@@ -553,7 +573,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-fc807d96db0bf4667233",
@@ -565,7 +586,21 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "snb-assessment-2026-12-10",
+      "title": "SNB monetary policy assessment (press release)",
+      "date": "2026-12-10T08:30:00Z",
+      "country": "CHF",
+      "impact": "high",
+      "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "snb",
+      "timezone": "Europe/Zurich",
+      "verification": "SNB schedule lists the December 10 monetary policy assessment press release at 09:30 local time."
     },
     {
       "id": "ecb-7301e1a70c7a7817c041",
@@ -577,7 +612,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-b5332cd3cebbad9ca3b1",
@@ -589,7 +625,21 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
+    },
+    {
+      "id": "snb-press-conference-2026-12-10",
+      "title": "SNB monetary policy assessment news conference",
+      "date": "2026-12-10T09:00:00Z",
+      "country": "CHF",
+      "impact": "medium",
+      "source": "https://www.snb.ch/en/services-events/digital-services/event-schedule",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "snb",
+      "timezone": "Europe/Zurich",
+      "verification": "SNB schedule lists introductory remarks and news conference at 10:00 local time on December 10."
     },
     {
       "id": "bea-961ebc6f1cb4080fbaa3",
@@ -601,7 +651,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bls-83d04ab92b53e944a5e6",
@@ -615,7 +666,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-04825befc6aef548d80c",
@@ -627,7 +679,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ons-6bde52b853c27d55b63f",
@@ -639,7 +692,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-8a810766a01386f792c9",
@@ -651,7 +705,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-a5037d24a665095313b9",
@@ -663,7 +718,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-faf646f4c5f1e7820667",
@@ -675,7 +731,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-08153465a67550a900da",
@@ -687,7 +744,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-572c9e27c5771a503c12",
@@ -699,7 +757,21 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
+    },
+    {
+      "id": "statcan-cpi-2026-11",
+      "title": "Consumer Price Index, November 2026",
+      "date": "2026-12-14T13:30:00Z",
+      "country": "CAD",
+      "impact": "high",
+      "source": "https://www150.statcan.gc.ca/n1/en/release-diffusion/2026-eng.pdf",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "statcan",
+      "timezone": "America/Toronto",
+      "verification": "Statistics Canada release dates lists CPI for November 2026 on December 14; The Daily publishes at 8:30 a.m. Eastern."
     },
     {
       "id": "ons-42902381ce3f0a785b9c",
@@ -711,7 +783,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-7eef4a9d961bf82b6b3a",
@@ -723,7 +796,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bls-ee225ae11eb02790a3b6",
@@ -737,7 +811,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "ons-33e5c3532bbe10946c56",
@@ -749,7 +824,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-dbbf98fe607fe6f7d615",
@@ -761,7 +837,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "fed-ae022ffa276cb362a1aa",
@@ -773,7 +850,21 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": "statsnz-gdp-2026-q3",
+      "title": "Gross domestic product: September 2026 quarter",
+      "date": "2026-12-16T21:45:00Z",
+      "country": "NZD",
+      "impact": "high",
+      "source": "https://www.stats.govt.nz/indicators/gross-domestic-product-gdp/",
+      "status": "published",
+      "reviewedAt": "2026-11-20T21:06:20Z",
+      "provider": "stats-nz",
+      "timezone": "Pacific/Auckland",
+      "verification": "Stats NZ identifies December 17, 2026 as the next update; its release calendar says most releases publish at 10:45 a.m. NZT."
     },
     {
       "id": "ecb-3e8ada501ef3d0614d9b",
@@ -785,7 +876,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-df365564e51096f6d2f3",
@@ -797,7 +889,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bls-967ada7907601b6c00b7",
@@ -811,7 +904,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-fac490c9f1b0cb0ec7b2",
@@ -823,7 +917,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ons-6bf2a4641ef2dc561239",
@@ -835,7 +930,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-b5e612962cafd265ab1d",
@@ -847,7 +943,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-28909dea2e422ee43f5e",
@@ -859,7 +956,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bls-e02fecd4633e5a95c3c2",
@@ -873,7 +971,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "ons-659635c99ad70c3e90c8",
@@ -885,7 +984,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-ed1cecb7586a6751f0d4",
@@ -897,7 +997,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-6babd1345fe4875e02ac",
@@ -909,7 +1010,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "bea-89aff30458332f896148",
@@ -921,7 +1023,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bea-cc8ebc45b1838a272607",
@@ -933,7 +1036,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-2f6f493bef92f8b6964a",
@@ -945,7 +1049,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-acf41d7f1b0e0f287b77",
@@ -957,7 +1062,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bls-edd03451667539e5633b",
@@ -971,7 +1077,8 @@
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
-      "originAgency": "BLS"
+      "originAgency": "BLS",
+      "timezone": "America/New_York"
     },
     {
       "id": "fed-2407b9b16ce522611681",
@@ -983,7 +1090,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "fed",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-e1209c00905cef3f034b",
@@ -995,7 +1103,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-31fae44ddcb62985e730",
@@ -1007,7 +1116,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-97772c6b8d39c852e108",
@@ -1019,7 +1129,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-a776a999f7eb03d2b910",
@@ -1031,7 +1142,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-3a806dd0b09cdbdd6643",
@@ -1043,7 +1155,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-d140bbdb68e83f85e92e",
@@ -1055,7 +1168,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-70ac44d463368be58e42",
@@ -1067,7 +1181,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-9c005e4c32504f6117ec",
@@ -1079,7 +1194,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-c08c80c6b37b2d02b871",
@@ -1091,7 +1207,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-8d632413b868285b79cc",
@@ -1103,7 +1220,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-90583e9dbd1f52144e7d",
@@ -1115,7 +1233,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-aeb7e567fd2433befc91",
@@ -1127,7 +1246,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-d54973cf131e7107b5f9",
@@ -1139,7 +1259,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-880ff9e56e3b9a3a4f43",
@@ -1151,7 +1272,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-45dfd16637e1fe2010c3",
@@ -1163,7 +1285,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-0144f7715506444f3b48",
@@ -1175,7 +1298,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-4d1a249223458fba7a16",
@@ -1187,7 +1311,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-7ec39ab6c9b3c8060ece",
@@ -1199,7 +1324,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-540c96478e1c6baa13ad",
@@ -1211,7 +1337,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-0264b4584819651282a0",
@@ -1223,7 +1350,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-5f04069a4fa3ec6ab6df",
@@ -1235,7 +1363,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-4d367b675674c859aaed",
@@ -1247,7 +1376,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-5b18acb8dbfff485730f",
@@ -1259,7 +1389,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-0ff32d6fc912d5d1b638",
@@ -1271,7 +1402,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-8125961b13f32f9991e3",
@@ -1283,7 +1415,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-70d256df919727758ffe",
@@ -1295,7 +1428,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-2f921d95d5e68632f09a",
@@ -1307,7 +1441,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-c10fb4807bdd25b32314",
@@ -1319,7 +1454,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bea-e75410eb308ca7f29d9c",
@@ -1331,7 +1467,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-61dc9497108e20611b52",
@@ -1343,7 +1480,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-682046e6877ced4ab7a2",
@@ -1355,7 +1493,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-4f37b8bfcb3ba0a45e89",
@@ -1367,7 +1506,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-90c7c3cfb683012b923f",
@@ -1379,7 +1519,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-4f1c064df3cdeb851af4",
@@ -1391,7 +1532,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-bb8e2faaf477c6002030",
@@ -1403,7 +1545,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-17b00580d2108bae799d",
@@ -1415,7 +1558,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-c77930e818715b72df7a",
@@ -1427,7 +1571,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-d28fc6f150867d6fd16c",
@@ -1439,7 +1584,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-960874c0c7e26e5d9c80",
@@ -1451,7 +1597,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-215421ed015d5e067c9b",
@@ -1463,7 +1610,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-2336cdb88c6afc74ac35",
@@ -1475,7 +1623,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-66ebda42c405c9a83201",
@@ -1487,7 +1636,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-a69142e20e2b73f84bc6",
@@ -1499,7 +1649,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-eae5281c3400dbf2fba0",
@@ -1511,7 +1662,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-3b796879135e5041deef",
@@ -1523,7 +1675,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-62bd720fd69a7255b2f9",
@@ -1535,7 +1688,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-99ffc4beaa9a8b7c284b",
@@ -1547,7 +1701,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-1cff89ee75ff7150bf1b",
@@ -1559,7 +1714,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-4b3a7f3d27646fb19c42",
@@ -1571,7 +1727,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ons-daa1c8a79f3cb502071a",
@@ -1583,7 +1740,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-45ac317f2716ecc55a92",
@@ -1595,7 +1753,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-6fcad9a969a87f3439bc",
@@ -1607,7 +1766,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-f6a3de7be3521cfe047e",
@@ -1619,7 +1779,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ons-3718b1ff30abc4aade30",
@@ -1631,7 +1792,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ons",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/London"
     },
     {
       "id": "ecb-ef3cd2724c9ab6e6090b",
@@ -1643,7 +1805,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-68bfc9ebb21bd5f6d329",
@@ -1655,7 +1818,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-ac5803cf46be341f3776",
@@ -1667,7 +1831,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-d719161ec4f9f6a9bf20",
@@ -1679,7 +1844,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "ecb-b32a6e96f4d3c7400b5e",
@@ -1691,7 +1857,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     },
     {
       "id": "bea-1cf5cb44b5cbb439ecae",
@@ -1703,7 +1870,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "bea-2f3d01679f9c69c1c99d",
@@ -1715,7 +1883,8 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "bea",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "America/New_York"
     },
     {
       "id": "ecb-f99eee993d065a1c1a6a",
@@ -1727,13 +1896,14 @@
       "status": "published",
       "reviewedAt": "2026-11-20T16:08:06Z",
       "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
+      "verification": "automatically parsed from official schedule",
+      "timezone": "Europe/Brussels"
     }
   ],
   "headlines": [
     {
       "id": "fed-news-4b9813abbbbcba462a28",
-      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "title": "Fed survey reports bank reserve-management practices",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm",
       "publishedAt": "2026-11-20T15:00:00Z",
       "status": "published",
@@ -1741,7 +1911,7 @@
     },
     {
       "id": "fed-news-325a2d06cee138cc11ca",
-      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "title": "Federal Reserve issues enforcement action involving a former First Security Bancorp employee",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261119a.htm",
       "publishedAt": "2026-11-19T16:00:00Z",
       "status": "published",
@@ -1749,7 +1919,7 @@
     },
     {
       "id": "fed-news-c0c4ef66e0d9307c0568",
-      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "title": "FOMC publishes minutes from its October 27–28 meeting",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm",
       "publishedAt": "2026-11-18T19:00:00Z",
       "status": "published",
@@ -1757,7 +1927,7 @@
     },
     {
       "id": "fed-news-537d1229e28dcb2912c5",
-      "title": "Agencies extend comment period for proposed third-party risk management guidance ",
+      "title": "Agencies extend comment period for proposed third-party risk guidance",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm",
       "publishedAt": "2026-11-13T21:15:00Z",
       "status": "published",
@@ -1765,7 +1935,7 @@
     },
     {
       "id": "fed-news-1ee6867cdbb6f3c3818c",
-      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "title": "Federal Reserve sets 2027 prices for payment services",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261112a.htm",
       "publishedAt": "2026-11-12T18:30:00Z",
       "status": "published",
@@ -1773,7 +1943,7 @@
     },
     {
       "id": "fed-news-87a784bdd6110f056713",
-      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "title": "Federal Reserve publishes revised tentative dates for 2027 FOMC meetings",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
       "publishedAt": "2026-11-12T17:45:00Z",
       "status": "published",
@@ -1781,7 +1951,7 @@
     },
     {
       "id": "fed-news-e589a1e1c99ea10e62c2",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "title": "Federal Reserve issues action involving a former United Community Bank employee",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261112a.htm",
       "publishedAt": "2026-11-12T16:00:00Z",
       "status": "published",
@@ -1789,7 +1959,7 @@
     },
     {
       "id": "fed-news-2bae0dc9f043ef959612",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "title": "Federal Reserve approves applications by Mutual Federal Bancorp and MFB Bancorp",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261109a.htm",
       "publishedAt": "2026-11-09T21:00:00Z",
       "status": "published",
@@ -1797,7 +1967,7 @@
     },
     {
       "id": "fed-news-2993c3bddd49024d0564",
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "title": "Federal Reserve ends enforcement actions involving Allegiant United and Nano Banc",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
       "publishedAt": "2026-11-05T16:00:00Z",
       "status": "published",
@@ -1805,7 +1975,7 @@
     },
     {
       "id": "fed-news-41690a4ebc45cddae668",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "title": "Federal Reserve approves Bank of Nova Scotia application",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
       "publishedAt": "2026-10-29T20:30:00Z",
       "status": "published",
@@ -1813,7 +1983,7 @@
     },
     {
       "id": "fed-news-a0c3e1be77e8b5a27f79",
-      "title": "Federal Reserve issues FOMC statement",
+      "title": "Fed issues monetary policy statement following October meeting",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
       "publishedAt": "2026-10-28T18:00:00Z",
       "status": "published",
@@ -1821,7 +1991,7 @@
     },
     {
       "id": "fed-news-e2834c74f4065e96c922",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "title": "Federal Reserve ends actions involving Gardner Bancshares and Small Business Bank",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
       "publishedAt": "2026-10-16T15:00:00Z",
       "status": "published",
@@ -1829,7 +1999,7 @@
     },
     {
       "id": "fed-news-ca688a27006cdc18bac0",
-      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
+      "title": "Federal Reserve releases minutes from three discount-rate meetings",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
       "publishedAt": "2026-10-13T18:00:00Z",
       "status": "published",
@@ -1837,7 +2007,7 @@
     },
     {
       "id": "fed-news-0d84bbab316fddb29a83",
-      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "title": "Fed publishes results of its 2025 Survey of Consumer Finances",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
       "publishedAt": "2026-10-09T14:00:00Z",
       "status": "published",
@@ -1845,7 +2015,7 @@
     },
     {
       "id": "fed-news-8fbb18afd13a46e5b4eb",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "title": "Federal Reserve announces AmEx enforcement action over suspicious-activity controls",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
       "publishedAt": "2026-10-08T20:30:00Z",
       "status": "published",
@@ -1853,7 +2023,7 @@
     },
     {
       "id": "fed-news-08dfdbdaa9ce20cc125a",
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "title": "FOMC publishes minutes from its September 15–16 meeting",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
       "publishedAt": "2026-10-07T18:00:00Z",
       "status": "published",
@@ -1861,7 +2031,7 @@
     },
     {
       "id": "fed-news-1bc4132b3f0326c5bc0e",
-      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
+      "title": "Federal Reserve approves Isabella Bank Corporation application",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
       "publishedAt": "2026-10-05T20:30:00Z",
       "status": "published",
@@ -1869,7 +2039,7 @@
     },
     {
       "id": "fed-news-5d4b355ec3292efce1cf",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "title": "Federal Reserve approves Fleur Capital Corporation application",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
       "publishedAt": "2026-10-02T20:45:00Z",
       "status": "published",
@@ -1877,7 +2047,7 @@
     },
     {
       "id": "fed-news-8f9bf8f9d80dc8af113f",
-      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "title": "Federal Reserve extends comment period on proposed Regulation O changes",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
       "publishedAt": "2026-10-02T20:00:00Z",
       "status": "published",
@@ -1885,7 +2055,7 @@
     },
     {
       "id": "fed-news-b441ff6c63c6936c873f",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "title": "Federal Reserve issues enforcement action involving Ontario Bancorporation",
       "source": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
       "publishedAt": "2026-10-02T15:00:00Z",
       "status": "published",
