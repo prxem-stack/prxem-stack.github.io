@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T07:49:40.034877+00:00",
+  "checkedAt": "2026-11-23T23:59:12.377525+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -21,7 +21,7 @@
       "evidence": {
         "https://ftmo.com/en/": {
           "status": "fetched",
-          "sha256": "392482e29c98c7e81351988cdf0bbb5f24d60aec031c60c25fbdc69480e471a0"
+          "sha256": "207f2d918b2cdf7b8773f616e8b553361d3aae1ba5a5212ee3753f16bd6cf0a0"
         }
       }
     },
@@ -78,7 +78,7 @@
       "evidence": {
         "https://www.goatfundedtrader.com/blog/prop-firm-deals-and-discount-codes": {
           "status": "fetched",
-          "sha256": "d212718113ac11f92df7bf98d58ad2e90eff148c1635b249f2d595701f1621a4"
+          "sha256": "710695faf9dc870de16c18471293f92dc6be94f298af3c9519e605aa3c86073c"
         }
       }
     },
@@ -89,7 +89,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "d85a1c6230e606ac29e73b8586784f8b7019770d8ce40d2118cea0fb3914810d"
+          "sha256": "b36f96418a752c4ef3e63a963b7e31aa5c3bddc7e401eceff46c512d7be5ddf8"
         }
       }
     },
@@ -100,7 +100,7 @@
       "evidence": {
         "https://maventrading.com/": {
           "status": "fetched",
-          "sha256": "d85a1c6230e606ac29e73b8586784f8b7019770d8ce40d2118cea0fb3914810d"
+          "sha256": "b36f96418a752c4ef3e63a963b7e31aa5c3bddc7e401eceff46c512d7be5ddf8"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1afba29be99c9d6165fef1e8ab1c8a3685a7d19b0ded36482b2a3a835022cefd"
+          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1afba29be99c9d6165fef1e8ab1c8a3685a7d19b0ded36482b2a3a835022cefd"
+          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1afba29be99c9d6165fef1e8ab1c8a3685a7d19b0ded36482b2a3a835022cefd"
+          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1afba29be99c9d6165fef1e8ab1c8a3685a7d19b0ded36482b2a3a835022cefd"
+          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "1afba29be99c9d6165fef1e8ab1c8a3685a7d19b0ded36482b2a3a835022cefd"
+          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
         }
       }
     },
@@ -268,11 +268,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
+          "sha256": "c009e0c5c2b43f8eb3b9c8375e657454c6cf947224713e2af91ff88de36d3d97"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "7c4e7b4a723f7453cfd74c03545f4e8f14b06d81c089b26276507d93abebc4e7"
+          "sha256": "d96b8810aff2936b097eb0b1f6ef286511250012cc853e019670533d0c971afc"
         }
       }
     },
@@ -283,11 +283,11 @@
       "evidence": {
         "https://ftmo.com/en/trading-objectives/": {
           "status": "fetched",
-          "sha256": "9ad0c0787738b5434cf3ffc150cc9f4d698d57c4d0ff5191ac1309b471072ae1"
+          "sha256": "c009e0c5c2b43f8eb3b9c8375e657454c6cf947224713e2af91ff88de36d3d97"
         },
         "https://ftmo.com/en/faq/how-do-i-withdraw-my-profits/": {
           "status": "fetched",
-          "sha256": "7c4e7b4a723f7453cfd74c03545f4e8f14b06d81c089b26276507d93abebc4e7"
+          "sha256": "d96b8810aff2936b097eb0b1f6ef286511250012cc853e019670533d0c971afc"
         }
       }
     },
@@ -298,7 +298,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e36c45f072fa3f4df8fd09a56b45156a090f31debf74b5a3ece6e92764c5c3e8"
+          "sha256": "caeee97ca53fd7b4a8fab8423cb3c14d0b6fe27ef8cffe1021d9027863eea1ed"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -313,7 +313,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e36c45f072fa3f4df8fd09a56b45156a090f31debf74b5a3ece6e92764c5c3e8"
+          "sha256": "caeee97ca53fd7b4a8fab8423cb3c14d0b6fe27ef8cffe1021d9027863eea1ed"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -328,7 +328,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/10701585-how-often-will-i-receive-my-performance-reward": {
           "status": "fetched",
-          "sha256": "e36c45f072fa3f4df8fd09a56b45156a090f31debf74b5a3ece6e92764c5c3e8"
+          "sha256": "caeee97ca53fd7b4a8fab8423cb3c14d0b6fe27ef8cffe1021d9027863eea1ed"
         },
         "https://fundednext.com/blog/fundednext-stellar-on-demand-rewards": {
           "status": "fetched",
@@ -343,7 +343,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "81b5d065158d30c7edb91ea893bd11fcfbdb538e84ca8d66e1dfc8aeeeed575c"
+          "sha256": "3a37654e7e6b64375ae5c8095e782282017060bf8de11bbbb5092669e708910c"
         }
       }
     },
@@ -483,15 +483,15 @@
       "evidence": {
         "https://maventrading.com/faqs": {
           "status": "fetched",
-          "sha256": "9902057810bc5669c25e68d00ec1694435eaa4a0cd1e93ecb4715b5566a3a0e9"
+          "sha256": "f6583b7e540640d6ee98e3facdfaed3fae9dc58252f30b266608abeabb510eae"
         },
         "https://maventrading.com/terms-and-conditions": {
           "status": "fetched",
-          "sha256": "4bba1205cc4c8b5d10525a251e393288fdfc6b2eae4dfc53758efc7c91f39b78"
+          "sha256": "8e193b2eb4200a9bd90cdd54530160b5dd56de49b8f0f2eba86d0e9314480a0a"
         },
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "e6c2e05131e69aa63e601476b192ed203949a25bc4f9edd0805e80eeb44a4707"
+          "sha256": "1df8bf5caf5f04567d89200a71c75689e0b14113adfb75b935dde64a6bf7e9e3"
         }
       }
     },
@@ -502,7 +502,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "e6c2e05131e69aa63e601476b192ed203949a25bc4f9edd0805e80eeb44a4707"
+          "sha256": "1df8bf5caf5f04567d89200a71c75689e0b14113adfb75b935dde64a6bf7e9e3"
         }
       }
     },
@@ -513,7 +513,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "e6c2e05131e69aa63e601476b192ed203949a25bc4f9edd0805e80eeb44a4707"
+          "sha256": "1df8bf5caf5f04567d89200a71c75689e0b14113adfb75b935dde64a6bf7e9e3"
         }
       }
     },
@@ -524,7 +524,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "e6c2e05131e69aa63e601476b192ed203949a25bc4f9edd0805e80eeb44a4707"
+          "sha256": "1df8bf5caf5f04567d89200a71c75689e0b14113adfb75b935dde64a6bf7e9e3"
         }
       }
     },
@@ -535,7 +535,7 @@
       "evidence": {
         "https://maventrading.com/pricing": {
           "status": "fetched",
-          "sha256": "e6c2e05131e69aa63e601476b192ed203949a25bc4f9edd0805e80eeb44a4707"
+          "sha256": "1df8bf5caf5f04567d89200a71c75689e0b14113adfb75b935dde64a6bf7e9e3"
         }
       }
     },
@@ -568,7 +568,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
+          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
         }
       }
     },
@@ -579,7 +579,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253243-stellar-instant-account": {
           "status": "fetched",
-          "sha256": "81b5d065158d30c7edb91ea893bd11fcfbdb538e84ca8d66e1dfc8aeeeed575c"
+          "sha256": "3a37654e7e6b64375ae5c8095e782282017060bf8de11bbbb5092669e708910c"
         }
       }
     },
@@ -667,7 +667,7 @@
       "evidence": {
         "https://ftmo.com/en/blog/introducing-the-1-step-ftmo-challenge/": {
           "status": "fetched",
-          "sha256": "34d61e580486a5345e13fe9347bea55dbc105a219546b4a308907ddafa8c2128"
+          "sha256": "1669a421b467425f7874e80545f18994d16d2533b453c87bdb8bee41276e4ab9"
         }
       }
     },
