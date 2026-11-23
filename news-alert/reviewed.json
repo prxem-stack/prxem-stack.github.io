@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
-  "publishedAt": "2026-11-23T01:40:29Z",
-  "checkedAt": "2026-11-23T01:40:29Z",
+  "publishedAt": "2026-11-23T09:47:55Z",
+  "checkedAt": "2026-11-23T09:47:55Z",
   "coverage": "Partial official-source coverage: US BEA, Federal Reserve, selected BLS releases via BLS or FRED, ECB statistics, and selected ONS UK releases. Other calendars are not yet covered. Impact is an app classification.",
   "sourceHealth": {
     "bea": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 55
     },
     "fed": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 28
     },
     "ecb": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 263
     },
     "ons": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 32
     },
     "bls": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 9,
       "delivery": "FRED fallback",
       "coverage": [
@@ -47,36 +47,12 @@
     },
     "fed-news": {
       "status": "ok",
-      "checkedAt": "2026-11-23T01:40:29Z",
-      "lastSuccessAt": "2026-11-23T01:40:29Z",
+      "checkedAt": "2026-11-23T09:47:55Z",
+      "lastSuccessAt": "2026-11-23T09:47:55Z",
       "records": 20
     }
   },
   "events": [
-    {
-      "id": "ecb-7c2ec63898c69dcb73b7",
-      "title": "Euro area investment fund statistics (Dataset: IVF)",
-      "date": "2026-11-16T09:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
-    {
-      "id": "ecb-a7bf752e772690cfbf30",
-      "title": "Euro area financial vehicle corporations statistics (Dataset: FVC)",
-      "date": "2026-11-16T09:00:00Z",
-      "country": "EUR",
-      "impact": "medium",
-      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
-      "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
-      "provider": "ecb",
-      "verification": "automatically parsed from official schedule"
-    },
     {
       "id": "fed-e3434050f2c7ae0825aa",
       "title": "Speech - Governor Michael S. Barr",
@@ -85,7 +61,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -97,7 +73,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -109,7 +85,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -121,7 +97,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -133,7 +109,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -145,7 +121,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -157,7 +133,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -169,7 +145,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -181,7 +157,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -193,7 +169,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -205,7 +181,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -217,7 +193,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -229,7 +205,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -241,7 +217,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -253,7 +229,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -265,7 +241,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -277,7 +253,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uk-trade-in-services-by-industry-country-and-service-type-2016-to-2024",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -289,7 +265,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -301,7 +277,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -313,7 +289,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -325,7 +301,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-november.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -337,7 +313,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -349,7 +325,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -361,7 +337,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -373,7 +349,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -385,7 +361,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -397,7 +373,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -409,7 +385,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=192&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -423,7 +399,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -435,7 +411,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -447,7 +423,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=113&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -461,7 +437,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -473,7 +449,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=50&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -487,7 +463,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -499,7 +475,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -511,7 +487,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=47&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -525,7 +501,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -537,7 +513,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -549,7 +525,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -561,7 +537,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -573,7 +549,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -585,7 +561,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=10&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -599,7 +575,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -611,7 +587,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -623,7 +599,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -635,7 +611,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionukoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -647,7 +623,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradeoctober2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -659,7 +635,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -671,7 +647,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -683,7 +659,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -695,7 +671,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -707,7 +683,7 @@
       "impact": "high",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=46&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -721,7 +697,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -733,7 +709,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -745,7 +721,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -757,7 +733,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -769,7 +745,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -781,7 +757,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=188&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -795,7 +771,7 @@
       "impact": "medium",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -807,7 +783,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritainnovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -819,7 +795,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -831,7 +807,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -843,7 +819,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=112&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -857,7 +833,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -869,7 +845,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -881,7 +857,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/businessinvestmentintheukjulytoseptember2026revisedresults",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -893,7 +869,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -905,7 +881,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -917,7 +893,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -929,7 +905,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -941,7 +917,7 @@
       "impact": "medium",
       "source": "https://fred.stlouisfed.org/releases/calendar?rid=113&vs=2026-11-23&ve=2027-03-03",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bls",
       "verification": "Automatically parsed from the St. Louis Fed FRED release calendar",
       "calendarSource": "FRED",
@@ -955,7 +931,7 @@
       "impact": "high",
       "source": "https://www.federalreserve.gov/newsevents/2026-december.htm",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "fed",
       "verification": "automatically parsed from official schedule"
     },
@@ -967,7 +943,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -979,7 +955,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -991,7 +967,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1003,7 +979,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1015,7 +991,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1027,7 +1003,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1039,7 +1015,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1051,7 +1027,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1063,7 +1039,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1075,7 +1051,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1087,7 +1063,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradenovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1099,7 +1075,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1111,7 +1087,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionuknovember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1123,7 +1099,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1135,7 +1111,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1147,7 +1123,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1159,7 +1135,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1171,7 +1147,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1183,7 +1159,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1195,7 +1171,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1207,7 +1183,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationukdecember2026includingservicesoctobertodecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1219,7 +1195,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/retailsalesgreatbritaindecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1231,7 +1207,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1243,7 +1219,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradequarterlygoodsandservicesjulytoseptember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1255,7 +1231,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1267,7 +1243,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1279,7 +1255,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1291,7 +1267,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1303,7 +1279,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1315,7 +1291,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1327,7 +1303,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1339,7 +1315,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1351,7 +1327,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1363,7 +1339,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1375,7 +1351,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1387,7 +1363,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1399,7 +1375,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1411,7 +1387,7 @@
       "impact": "medium",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1423,7 +1399,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1435,7 +1411,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofproductionukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1447,7 +1423,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uktradedecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1459,7 +1435,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukoctobertodecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1471,7 +1447,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/indexofservicesukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1483,7 +1459,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukdecember2026",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1495,7 +1471,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1507,7 +1483,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/businessinvestmentintheukoctobertodecember2026provisionalresults",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1519,7 +1495,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1531,7 +1507,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/uklabourmarketfebruary2027",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1543,7 +1519,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/consumerpriceinflationukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1555,7 +1531,7 @@
       "impact": "high",
       "source": "https://www.ons.gov.uk/releases/producerpriceinflationukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1567,7 +1543,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1579,7 +1555,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1591,7 +1567,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1603,7 +1579,7 @@
       "impact": "medium",
       "source": "https://www.ons.gov.uk/releases/publicsectorfinancesukjanuary2027",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ons",
       "verification": "automatically parsed from official schedule"
     },
@@ -1615,7 +1591,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1627,7 +1603,7 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1639,7 +1615,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1651,7 +1627,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1663,7 +1639,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1675,7 +1651,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1687,7 +1663,7 @@
       "impact": "high",
       "source": "https://www.bea.gov/news/schedule/next-year",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "bea",
       "verification": "automatically parsed from official schedule"
     },
@@ -1699,7 +1675,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1711,7 +1687,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1723,7 +1699,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1735,7 +1711,7 @@
       "impact": "medium",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     },
@@ -1747,7 +1723,19 @@
       "impact": "high",
       "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
       "status": "published",
-      "reviewedAt": "2026-11-23T01:40:29Z",
+      "reviewedAt": "2026-11-23T09:47:55Z",
+      "provider": "ecb",
+      "verification": "automatically parsed from official schedule"
+    },
+    {
+      "id": "ecb-527f9dc8ab1b41789ef0",
+      "title": "Euro area bank interest rate statistics (Dataset: MIR)",
+      "date": "2027-03-03T09:00:00Z",
+      "country": "EUR",
+      "impact": "medium",
+      "source": "https://www.ecb.europa.eu/press/calendars/statscal/html/index.en.html",
+      "status": "published",
+      "reviewedAt": "2026-11-23T09:47:55Z",
       "provider": "ecb",
       "verification": "automatically parsed from official schedule"
     }
