@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-23T23:59:12.377525+00:00",
+  "checkedAt": "2026-11-24T10:01:12.188237+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
+          "sha256": "b8d33d258ed1b06a3bc6ba9cbf59b94c6917dd4114b15b9fb95b7ef773352a9d"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
+          "sha256": "b8d33d258ed1b06a3bc6ba9cbf59b94c6917dd4114b15b9fb95b7ef773352a9d"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
+          "sha256": "b8d33d258ed1b06a3bc6ba9cbf59b94c6917dd4114b15b9fb95b7ef773352a9d"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
+          "sha256": "b8d33d258ed1b06a3bc6ba9cbf59b94c6917dd4114b15b9fb95b7ef773352a9d"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "4b194515ba9596d8c71cbfc6e5a3ad37a1044cc32a45d7453fa9f351c3cd70e4"
+          "sha256": "b8d33d258ed1b06a3bc6ba9cbf59b94c6917dd4114b15b9fb95b7ef773352a9d"
         }
       }
     },
@@ -391,7 +391,7 @@
         },
         "https://help.e8markets.com/en/articles/15274219-e8-pro": {
           "status": "fetched",
-          "sha256": "8acdbc9d917eaa11fb9be24a48753e18d7e526a5b2940736ed653b47bdabd9e5"
+          "sha256": "a903090130a8973218f77b232fbc3d615643de3978bb5d09810f7f00bb5bf516"
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
@@ -568,7 +568,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/10742118-what-are-prohibited-trading-practices": {
           "status": "fetched",
-          "sha256": "8fdf99426c2d8ab27dadf0a78fc06c46d1680abba2c3344e175b78e972d4ff73"
+          "sha256": "2408b2a49c2be5574be644a407b064ce1c5ddd61d5f955420bdba9ccc712dea1"
         }
       }
     },
