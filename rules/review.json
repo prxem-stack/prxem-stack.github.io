@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-24T22:32:43.847639+00:00",
+  "checkedAt": "2026-11-25T08:44:58.101259+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b307f89d0cbecddaed2b29340b9be06e54649a7c4b21f37360fd972b201ac4a3"
+          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b307f89d0cbecddaed2b29340b9be06e54649a7c4b21f37360fd972b201ac4a3"
+          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b307f89d0cbecddaed2b29340b9be06e54649a7c4b21f37360fd972b201ac4a3"
+          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b307f89d0cbecddaed2b29340b9be06e54649a7c4b21f37360fd972b201ac4a3"
+          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "b307f89d0cbecddaed2b29340b9be06e54649a7c4b21f37360fd972b201ac4a3"
+          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
         }
       }
     },
@@ -472,7 +472,7 @@
       "evidence": {
         "https://help.goatfundedtrader.com/en/articles/13574117-instant-funding-goat-model": {
           "status": "fetched",
-          "sha256": "0ba060811ec5bd845d1190d2103e2b027fa0d6844e5a46952beaa5e540cafbfb"
+          "sha256": "c219687684e2b5890ed424189a0abdd8d76c405e2dd10f3ac2e0b2c1c6c019e7"
         }
       }
     },
@@ -601,7 +601,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
@@ -612,7 +612,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
@@ -623,7 +623,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
@@ -634,7 +634,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
@@ -645,7 +645,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
@@ -656,7 +656,7 @@
       "evidence": {
         "https://help.alphacapitalgroup.uk/en/articles/15888623-what-is-the-max-risk-rule-and-how-does-it-work": {
           "status": "fetched",
-          "sha256": "283588a89e44b614f6a238831783c8e1bc7733c9dbc102e286fbb63da89e3a9c"
+          "sha256": "a30e5d01eee3caf70b2870cb4357fcd386c534c8b2916f8a6bec44b9aa91294e"
         }
       }
     },
