@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T08:44:58.101259+00:00",
+  "checkedAt": "2026-11-25T21:47:22.646604+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -45,7 +45,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "723a24d8adde195300c708a93dce3da791001eafdb94081b9f59d111380b5d3b"
+          "sha256": "147b50d88bda18e49d1363adf0d6930eda6e1fc65ef162c366bbe57c00ef8ee3"
         }
       }
     },
@@ -56,7 +56,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "723a24d8adde195300c708a93dce3da791001eafdb94081b9f59d111380b5d3b"
+          "sha256": "147b50d88bda18e49d1363adf0d6930eda6e1fc65ef162c366bbe57c00ef8ee3"
         }
       }
     },
@@ -67,7 +67,7 @@
       "evidence": {
         "https://alphacapitalgroup.uk/alpha-capital-discount-codes": {
           "status": "fetched",
-          "sha256": "723a24d8adde195300c708a93dce3da791001eafdb94081b9f59d111380b5d3b"
+          "sha256": "147b50d88bda18e49d1363adf0d6930eda6e1fc65ef162c366bbe57c00ef8ee3"
         }
       }
     },
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
+          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
+          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
+          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
+          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "07890747a5b680e040940fe308c559240d90fbcaa3c1bda1493eedcb03e7ba4f"
+          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
         }
       }
     },
@@ -354,7 +354,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "2632c9179bf2458d7fe1ea295c47d3bbca3a05f1cab67521f38f7afc5e1cef86"
+          "sha256": "1bc47efd8fdd43cf0fecbce47d176d9c8073ba018c36b32bc78603a5930c5aa2"
         }
       }
     },
@@ -365,7 +365,7 @@
       "evidence": {
         "https://www.the5ers.com/high-stakes/": {
           "status": "fetched",
-          "sha256": "2632c9179bf2458d7fe1ea295c47d3bbca3a05f1cab67521f38f7afc5e1cef86"
+          "sha256": "1bc47efd8fdd43cf0fecbce47d176d9c8073ba018c36b32bc78603a5930c5aa2"
         }
       }
     },
@@ -376,7 +376,7 @@
       "evidence": {
         "https://the5ers.com/faqs/how-does-the-hyper-growth-scaling-plan-work/": {
           "status": "fetched",
-          "sha256": "bc02268c065c8b4f028e231b8a06032b94c107066abf4b1b7fc1b2a0e6b752dd"
+          "sha256": "3702775931206a205ec3eeb229db0b38a4b35d780a9a8c949270d8c26dccfc57"
         }
       }
     },
@@ -395,7 +395,7 @@
         },
         "https://help.e8markets.com/en/articles/15272556-everything-about-payouts-when-how-how-fast": {
           "status": "fetched",
-          "sha256": "34ecc3474b8ab058c46924728cbb3c3f72557bc1771d103245d6349a46799478"
+          "sha256": "1c6ed82e998e09d7ac2069081e69970cbe00b2739816d8a5c192b698f0e223ca"
         }
       }
     },
