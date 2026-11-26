@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-25T21:47:22.646604+00:00",
+  "checkedAt": "2026-11-26T08:30:25.625732+00:00",
   "items": [
     {
       "id": "fundingpips-0",
@@ -124,7 +124,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
+          "sha256": "ad5fd1dc3c40df6f5d9d109df6c27907493c827bc13fb77cfd9ee9bfba55e3ce"
         }
       }
     },
@@ -135,7 +135,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
+          "sha256": "ad5fd1dc3c40df6f5d9d109df6c27907493c827bc13fb77cfd9ee9bfba55e3ce"
         }
       }
     },
@@ -146,7 +146,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
+          "sha256": "ad5fd1dc3c40df6f5d9d109df6c27907493c827bc13fb77cfd9ee9bfba55e3ce"
         }
       }
     },
@@ -157,7 +157,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
+          "sha256": "ad5fd1dc3c40df6f5d9d109df6c27907493c827bc13fb77cfd9ee9bfba55e3ce"
         }
       }
     },
@@ -168,7 +168,7 @@
       "evidence": {
         "https://e8markets.com/e8-markets-discount-code": {
           "status": "fetched",
-          "sha256": "00b5fc890a48f2f146dc262abb4c056f87dab3d8bd135004e92ed74060358471"
+          "sha256": "ad5fd1dc3c40df6f5d9d109df6c27907493c827bc13fb77cfd9ee9bfba55e3ce"
         }
       }
     },
@@ -590,7 +590,7 @@
       "evidence": {
         "https://help.fundednext.com/en/articles/17253939-stellar-lite-account": {
           "status": "fetched",
-          "sha256": "bc0fc8094ba23a2016b8f0111c6fee774d401fd119d0b38553c6c5192fecd3e0"
+          "sha256": "45554481420115770dbd4d213f7606081200cb4c1cc709ef93a110cbc913bee3"
         }
       }
     },
